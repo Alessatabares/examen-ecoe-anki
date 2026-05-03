@@ -1,0 +1,38 @@
+{
+  "models": {
+    "cloze_estandar": 1607392319,
+    "_comentario": "MODEL_ID reusable para todas las capas cloze. No cambiar."
+  },
+  "decks": [
+    {
+      "tema": "RCP",
+      "audiencia": "Adulto",
+      "capa": 1,
+      "deck_id": 1379129479,
+      "deck_name": "RCP Adulto::Capa 1 - Flujo Macro",
+      "guia": "AHA 2025",
+      "output": "output/RCP_Adulto_Capa1.apkg",
+      "notas": 22
+    },
+    {
+      "tema": "RCP",
+      "audiencia": "Adulto",
+      "capa": 2,
+      "deck_id": 1184050405,
+      "deck_name": "RCP Adulto::Capa 2 - Componentes",
+      "guia": "AHA 2025",
+      "output": "output/RCP_Adulto_Capa2.apkg",
+      "notas": 26
+    },
+    {
+      "tema": "RCP",
+      "audiencia": "Adulto",
+      "capa": 3,
+      "deck_id": 1824168378,
+      "deck_name": "RCP Adulto::Capa 3 - Ejes",
+      "guia": "AHA 2025",
+      "output": "output/RCP_Adulto_Capa3.apkg",
+      "notas": 26
+    }
+  ]
+}
