@@ -7,9 +7,10 @@ import os
 import json
 import genanki
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUTPUT = os.path.join(ROOT, "output", "RCP_Adulto_Capa2.apkg")
-IDS_PATH = os.path.join(ROOT, "ids.json")
+TEMA_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO_ROOT = os.path.dirname(TEMA_ROOT)
+OUTPUT = os.path.join(TEMA_ROOT, "output", "RCP_Adulto_Capa2.apkg")
+IDS_PATH = os.path.join(REPO_ROOT, "ids.json")
 
 DECK_ID = 1184050405
 DECK_NAME = "RCP Adulto::Capa 2 - Componentes"

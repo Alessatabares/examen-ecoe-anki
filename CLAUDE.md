@@ -65,7 +65,9 @@ model = genanki.Model(
 
 ## Output
 
-`output/<Tema>_<Audiencia>_Capa<N>.apkg`
+`<tema>/output/<Tema>_<Audiencia>_Capa<N>.apkg`
+
+Cada tema vive en su propio subdirectorio en raíz, con su propio `build/` y `output/`.
 
 ## Búsqueda web obligatoria
 
@@ -95,6 +97,13 @@ Reglas:
 .
 ├── CLAUDE.md
 ├── ids.json
-├── build/
-└── output/
+├── requirements.txt
+├── rcp/
+│   ├── build/
+│   └── output/
+└── otoscopia/
+    ├── build/
+    └── output/
 ```
+
+Cada nuevo tema se añade como subdirectorio `<tema>/` en raíz con su propio `build/` y `output/`. `ids.json` y `CLAUDE.md` permanecen únicos en raíz.
