@@ -1,0 +1,70 @@
+Dual license — examen-ecoe-anki
+================================
+
+Este repositorio contiene dos tipos de contenido con licencias distintas:
+
+────────────────────────────────────────────────────────────────────────
+1. CÓDIGO FUENTE (scripts Python en `*/build/*.py`, `ids.json`)
+   Licencia: MIT
+────────────────────────────────────────────────────────────────────────
+
+Copyright (c) 2026 Alessa Tabares
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+
+────────────────────────────────────────────────────────────────────────
+2. DECKS (.apkg) Y ARCHIVOS MULTIMEDIA (`*/output/*.apkg`, `*/media/*`)
+   Licencia: Creative Commons Attribution-ShareAlike 4.0 International
+             (CC BY-SA 4.0)
+────────────────────────────────────────────────────────────────────────
+
+Esta licencia aplica al contenido educativo de los decks y a los archivos
+de audio incluidos en el directorio `ruidos_cardiacos/media/`.
+
+Texto completo de la licencia:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.es
+
+Resumen:
+- BY: Debes dar crédito apropiado, proporcionar un enlace a la licencia
+  e indicar si se realizaron cambios.
+- SA: Si remezclas, transformas o creas a partir del material, debes
+  distribuir tu contribución bajo la misma licencia que el original.
+
+Atribuciones específicas para archivos de audio (CC BY-SA 3.0 y 4.0) en:
+`ruidos_cardiacos/media/CREDITS.md`
+
+Algunos archivos de audio originalmente bajo CC BY-SA 3.0 son
+redistribuidos aquí bajo CC BY-SA 4.0, permitido por la compatibilidad
+unidireccional 3.0 → 4.0 declarada por Creative Commons.
+
+
+────────────────────────────────────────────────────────────────────────
+3. CONTENIDO MÉDICO
+────────────────────────────────────────────────────────────────────────
+
+Las guías clínicas referenciadas (AHA, AHA/ACC, AAO-HNS, AAP, criterios
+de Jones, criterios de Duke, etc.) son citadas como fuente de hechos
+médicos. Los criterios diagnósticos, gradientes, dosis y umbrales son
+información médica estándar de carácter fáctico, no protegida por
+copyright. La redacción específica del texto de las tarjetas es obra
+original del autor.
+
+Este contenido es exclusivamente educativo y no constituye consejo
+médico profesional.
