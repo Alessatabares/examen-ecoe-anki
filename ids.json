@@ -35,6 +35,16 @@
       "notas": 26
     },
     {
+      "tema": "RCP",
+      "audiencia": "Adulto",
+      "capa": "verbalizacion",
+      "deck_id": 1502938476,
+      "deck_name": "RCP Adulto::Verbalización ECOE",
+      "guia": "AHA 2025",
+      "output": "rcp/output/RCP_Adulto_VerbalizacionECOE.apkg",
+      "notas": 30
+    },
+    {
       "tema": "Otoscopia",
       "audiencia": "Adulto",
       "capa": 1,
