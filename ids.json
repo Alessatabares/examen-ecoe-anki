@@ -143,6 +143,26 @@
       "guia": "AHA/ACC 2020 + AHA endocarditis",
       "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa3.apkg",
       "notas": 20
+    },
+    {
+      "tema": "Ruidos Cardiacos",
+      "audiencia": "Adulto",
+      "capa": "verbalizacion",
+      "deck_id": 1623891054,
+      "deck_name": "Ruidos Cardiacos Adulto::Verbalización ECOE",
+      "guia": "AHA/ACC 2020 + Duke modificados",
+      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_VerbalizacionECOE.apkg",
+      "notas": 30
+    },
+    {
+      "tema": "Ruidos Cardiacos",
+      "audiencia": "Pediátrico",
+      "capa": "verbalizacion",
+      "deck_id": 1746203185,
+      "deck_name": "Ruidos Cardiacos Pediátrico::Verbalización ECOE",
+      "guia": "AHA Jones 2015 + screening neonatal pulsioximetría + cardiopatías congénitas",
+      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_VerbalizacionECOE.apkg",
+      "notas": 30
     }
   ]
 }
