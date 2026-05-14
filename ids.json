@@ -75,6 +75,16 @@
       "notas": 25
     },
     {
+      "tema": "Otoscopia",
+      "audiencia": "Adulto",
+      "capa": "verbalizacion",
+      "deck_id": 1389254671,
+      "deck_name": "Otoscopia Adulto::Verbalización ECOE",
+      "guia": "AAO-HNS / AAP",
+      "output": "otoscopia/output/Otoscopia_Adulto_VerbalizacionECOE.apkg",
+      "notas": 30
+    },
+    {
       "tema": "Ruidos Cardiacos",
       "audiencia": "Pediátrico",
       "capa": 1,
