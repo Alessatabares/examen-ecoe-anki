@@ -1,0 +1,173 @@
+{
+  "id": "rcp_001_paro_calle",
+  "titulo": "Paro presenciado en vía pública",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Caminas por una avenida un sábado en la tarde. Un hombre de unos 60 años, traje, mochila, se desploma a 5 metros de ti. Está inmóvil. No hay sangre visible, no hay tráfico cerca.",
+  "pasos": [
+    {
+      "situacion": "Te acercas corriendo. El hombre está en el piso, inmóvil. ¿Qué es lo PRIMERO que haces?",
+      "opciones": [
+        {"texto": "Lo sacudo y le grito '¿señor, me escucha?'", "correcta": false, "puntos": -10, "feedback": "❌ Antes de tocarlo: ¿la escena es segura? Tráfico, cables caídos, gases tóxicos. Tu primer reflejo debe ser mirar, no tocar."},
+        {"texto": "Verbalizo 'La escena es segura, procedo a evaluar al paciente' tras mirar 360°", "correcta": true, "puntos": 15, "feedback": "✅ Seguridad primero, siempre VERBALIZADA. El sinodal lo busca en los primeros 3 segundos."},
+        {"texto": "Grito '¡llamen al 911!' antes de tocarlo", "correcta": false, "puntos": -5, "feedback": "⚠️ Aún no confirmaste inconsciencia. Y 'que alguien llame' es difusión de responsabilidad — nadie reacciona."},
+        {"texto": "Le pongo la mano en el pecho para sentir si respira", "correcta": false, "puntos": -15, "feedback": "❌ Saltarte AVDI y la seguridad de la escena = dos errores graves de protocolo en un solo gesto."}
+      ]
+    },
+    {
+      "situacion": "Escena segura confirmada. Te arrodillas junto al paciente. ¿Cómo evalúas el nivel de consciencia?",
+      "opciones": [
+        {"texto": "Frote esternal con nudillos", "correcta": false, "puntos": -10, "feedback": "❌ Estímulo lesivo cuando hay alternativas igual de efectivas. Y empezar por doloroso saltándote el verbal es protocolo incorrecto."},
+        {"texto": "Le grito '¿SEÑOR, ME ESCUCHA? ABRA LOS OJOS' y lo sacudo por los hombros", "correcta": true, "puntos": 15, "feedback": "✅ Estímulo verbal fuerte + sacudida de hombros. Es la 'V' del AVDI."},
+        {"texto": "Le levanto la mano y la dejo caer", "correcta": false, "puntos": -5, "feedback": "⚠️ No es estándar AVDI. El verbal+sacudida es lo que evalúa el sinodal."},
+        {"texto": "Le presiono el reborde supraorbitario", "correcta": false, "puntos": -5, "feedback": "⚠️ Saltas el estímulo verbal y vas directo al doloroso. Orden correcto: A → V → D → I."}
+      ]
+    },
+    {
+      "situacion": "No responde. Hay 5-6 transeúntes alrededor mirando. ¿Cómo activas el SEM?",
+      "opciones": [
+        {"texto": "Grito '¡que alguien llame al 911!'", "correcta": false, "puntos": -15, "feedback": "❌ DIFUSIÓN DE RESPONSABILIDAD — todos asumen que otro llamará y nadie reacciona. Activación FALLIDA en ECOE."},
+        {"texto": "Saco mi celular y llamo yo al 911", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes dos manos que necesitas para reanimar. Mejor delegar la llamada y mantenerte libre."},
+        {"texto": "Señalo a una persona específica: 'TÚ, el del suéter azul: llama al 911 y avisa que es un paro cardíaco. TÚ, la de la mochila: busca un DEA y tráelo'", "correcta": true, "puntos": 15, "feedback": "✅ DELEGACIÓN DIRIGIDA: persona específica + orden específica + información concreta ('paro cardíaco', no 'una emergencia')."},
+        {"texto": "Le digo al más cercano 'llama al 911 mientras yo empiezo'", "correcta": false, "puntos": 5, "feedback": "⚠️ Mejor que difusión pero falta especificidad: ¿qué le dice al operador? ¿Y el DEA quién lo trae?"}
+      ]
+    },
+    {
+      "situacion": "SEM activado. Antes de tocar al paciente, ¿qué ANUNCIAS?",
+      "opciones": [
+        {"texto": "'Voy a tomar pulso'", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto: faltan respiración y el límite de tiempo. El sinodal busca los tres elementos."},
+        {"texto": "'Reviso pulso carotídeo y respiración SIMULTÁNEAMENTE, no más de 10 segundos'", "correcta": true, "puntos": 15, "feedback": "✅ 'Simultáneo' + 'no más de 10 segundos' — criterios AHA explícitos. Verbalización pulcra."},
+        {"texto": "Le toco el cuello sin decir nada", "correcta": false, "puntos": -10, "feedback": "❌ El sinodal evalúa lo que VERBALIZAS. Silencio = no obtienes el punto aunque hagas la maniobra bien."},
+        {"texto": "'Reviso si respira poniéndome al lado de su boca'", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes el pulso (decisivo en AHA), pierdes la simultaneidad, pierdes el tiempo límite."}
+      ]
+    },
+    {
+      "situacion": "A los 9 segundos: no detectas pulso ni respiración. ¿Qué anuncias y haces?",
+      "opciones": [
+        {"texto": "'Está muerto', me retiro", "correcta": false, "puntos": -15, "feedback": "❌ Diagnóstico clínico INCORRECTO. Es paro cardiorrespiratorio (potencialmente reversible), no muerte. Y abandonar al paciente es falla ética grave."},
+        {"texto": "'Paciente en paro cardiorrespiratorio. Inicio RCP de alta calidad, secuencia CAB, comenzando con compresiones'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + secuencia + acción inmediata. Tres elementos verbales en una frase."},
+        {"texto": "Empiezo a comprimir sin decir nada", "correcta": false, "puntos": -10, "feedback": "❌ Sin verbalización el sinodal no puede evaluar tu razonamiento. Aunque la maniobra sea correcta, pierdes puntos."},
+        {"texto": "Le doy 2 ventilaciones primero", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE en adulto: la secuencia es CAB (compresiones primero), NO ABC. El cambio se hizo precisamente para no retrasar la perfusión."}
+      ]
+    },
+    {
+      "situacion": "Te posicionas para comprimir. ¿Cómo verbalizas la técnica?",
+      "opciones": [
+        {"texto": "'Comprimo el pecho'", "correcta": false, "puntos": -5, "feedback": "⚠️ Cero técnica, cero parámetros. El sinodal busca dominio explícito de los 5 elementos de RCP de alta calidad."},
+        {"texto": "'Mitad inferior del esternón, talón de mano, brazos rectos. 100-120 por minuto, 5-6 centímetros, recoil completo'", "correcta": true, "puntos": 15, "feedback": "✅ Posición + frecuencia + profundidad + recoil. Cuatro de los cinco elementos verbalizados."},
+        {"texto": "'30 compresiones a profundidad 5 cm'", "correcta": false, "puntos": -5, "feedback": "⚠️ Faltan: frecuencia, recoil, posición. La profundidad sola no basta."},
+        {"texto": "'Comprimo fuerte y rápido'", "correcta": false, "puntos": -5, "feedback": "⚠️ Frase de campaña pública, no técnica ECOE. El sinodal espera números y posición específicos."}
+      ]
+    },
+    {
+      "situacion": "Segundo ciclo de compresiones. Tu compañero del suéter azul llega con un DEA. ¿Qué haces?",
+      "opciones": [
+        {"texto": "Paro compresiones, leo el manual del DEA para configurarlo", "correcta": false, "puntos": -15, "feedback": "❌ NUNCA pares por el manual. Lo enciendes y te guía con voz. Cada segundo sin compresión cae la presión coronaria."},
+        {"texto": "Sigo comprimiendo mientras le indico a mi compañero que encienda el DEA y prepare los parches", "correcta": true, "puntos": 15, "feedback": "✅ Minimizar pausa en compresiones es prioridad. Solo paras cuando el DEA pide análisis de ritmo."},
+        {"texto": "Paro las compresiones y le digo que conecte todo", "correcta": false, "puntos": -10, "feedback": "❌ Pausa innecesaria. Las manos de tu compañero son suficientes para colocar parches; las tuyas siguen comprimiendo."},
+        {"texto": "Le digo que llame a un médico antes de usar el DEA", "correcta": false, "puntos": -15, "feedback": "❌ Pierdes la ventana de oro de desfibrilación (cada minuto sin descarga = -7 a -10% supervivencia en FV)."}
+      ]
+    },
+    {
+      "situacion": "Tu compañero coloca los parches. ¿Qué posición verificas?",
+      "opciones": [
+        {"texto": "Uno en cada hombro", "correcta": false, "puntos": -15, "feedback": "❌ Posición sin sentido eléctrico — el vector no atraviesa el corazón. Inútil para desfibrilar."},
+        {"texto": "Infraclavicular derecho + axilar media izquierda (anterolateral)", "correcta": true, "puntos": 15, "feedback": "✅ Posición anterolateral estándar. El vector cruza el ventrículo izquierdo eficazmente."},
+        {"texto": "Ambos parches en el lado izquierdo del pecho, sobre el corazón", "correcta": false, "puntos": -15, "feedback": "❌ El vector no cruza el corazón en dirección útil. Cero efectividad."},
+        {"texto": "No verifico, confío en el dibujo del DEA", "correcta": false, "puntos": -5, "feedback": "⚠️ El DEA tiene dibujo pero TÚ debes verificar. La posición errónea es la causa #1 de fallo de desfibrilación."}
+      ]
+    },
+    {
+      "situacion": "El DEA dice 'analizando ritmo, no toquen al paciente'. ¿Qué haces?",
+      "opciones": [
+        {"texto": "Sigo comprimiendo despacio", "correcta": false, "puntos": -15, "feedback": "❌ Cualquier movimiento interfiere con el análisis. Riesgo de que el DEA detecte el ritmo equivocado y descargue mal."},
+        {"texto": "Anuncio '¡no toquen al paciente, análisis en curso!' y me aparto completamente", "correcta": true, "puntos": 15, "feedback": "✅ Anuncio en voz alta + acción. Protege al equipo y permite análisis limpio del DEA."},
+        {"texto": "Me callo y me aparto", "correcta": false, "puntos": 5, "feedback": "⚠️ Te apartas bien pero falta el anuncio de seguridad para el equipo. El sinodal busca ambos: acción + comunicación."},
+        {"texto": "Le tomo el pulso para confirmar que está en paro", "correcta": false, "puntos": -15, "feedback": "❌ Tocar durante análisis = el DEA puede detectar tu pulso como ritmo del paciente y dar decisión errónea."}
+      ]
+    },
+    {
+      "situacion": "El DEA dice 'descarga recomendada, cargando'. ¿Qué haces antes de presionar el botón?",
+      "opciones": [
+        {"texto": "Presiono inmediatamente cuando se ilumina", "correcta": false, "puntos": -15, "feedback": "❌ Si alguien está tocando al paciente, lo electrocutas. La verificación SIEMPRE va antes de descargar."},
+        {"texto": "Verifico visualmente que NADIE toca al paciente, anuncio '¡me aparto! ¡descarga!' y presiono", "correcta": true, "puntos": 15, "feedback": "✅ Triple verificación: mirar + anunciar + descargar. Protocolo de seguridad estándar."},
+        {"texto": "Solo digo 'aléjense' sin mirar", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta verificación visual explícita. Alguien puede no haberte escuchado."},
+        {"texto": "Espero a que el DEA descargue solo", "correcta": false, "puntos": -10, "feedback": "❌ El DEA semi-automático requiere presión humana. Esperar = perder segundos críticos."}
+      ]
+    },
+    {
+      "situacion": "Aplicaste la descarga. ¿Qué haces de INMEDIATO?",
+      "opciones": [
+        {"texto": "Tomo pulso por 10 segundos para verificar RCE", "correcta": false, "puntos": -15, "feedback": "❌ Retraso fatal. AHA es taxativo: NO chequear pulso post-descarga. Compresiones inmediatas."},
+        {"texto": "Retomo RCP por 2 minutos sin chequear pulso", "correcta": true, "puntos": 15, "feedback": "✅ AHA 2025 explícito: compresiones inmediatas tras descarga. El DEA re-analiza a los 2 min."},
+        {"texto": "Espero a que el DEA me diga el siguiente paso", "correcta": false, "puntos": -10, "feedback": "❌ El DEA tarda en re-analizar. Mientras esperas, el corazón pierde perfusión."},
+        {"texto": "Le doy 2 ventilaciones primero", "correcta": false, "puntos": -10, "feedback": "❌ Sin vía aérea avanzada el ratio es 30:2 y compresiones siempre primero."}
+      ]
+    },
+    {
+      "situacion": "Llevan 4 minutos de RCP y 2 descargas. Llega ambulancia con paramédicos. Anuncian que intubarán al paciente. ¿Qué cambia en tu técnica?",
+      "opciones": [
+        {"texto": "Sigo con ratio 30:2 igual", "correcta": false, "puntos": -15, "feedback": "❌ Con vía aérea avanzada el patrón cambia: compresiones continuas + ventilación asincrónica cada 6 segundos."},
+        {"texto": "Paro las compresiones para que ventilen cómodamente", "correcta": false, "puntos": -15, "feedback": "❌ Pausa innecesaria. La ventaja de la vía aérea avanzada es precisamente NO parar."},
+        {"texto": "Anuncio 'vía aérea avanzada colocada: compresiones continuas, ventilación cada 6 segundos'", "correcta": true, "puntos": 15, "feedback": "✅ Cambio de patrón verbalizado. Compresiones nunca paran salvo análisis o RCE."},
+        {"texto": "Le paso las compresiones al paramédico nuevo sin más", "correcta": false, "puntos": 5, "feedback": "⚠️ Cambio razonable de operador pero te falta verbalizar el cambio de patrón ventilatorio."}
+      ]
+    },
+    {
+      "situacion": "Llevan 6 min de RCP sin RCE. Paramédicos te preguntan: '¿pista de la causa?'. Antes del paro el paciente caminaba normal con traje y mochila, sin trauma visible. ¿Qué sospechas?",
+      "opciones": [
+        {"texto": "Hipovolemia, pido bolo de cristaloides", "correcta": false, "puntos": -5, "feedback": "⚠️ Sin signos de pérdida. Pista débil que distrae del diagnóstico más probable."},
+        {"texto": "Sospecho trombosis coronaria (IAM) por edad >50, colapso súbito y ausencia de trauma", "correcta": true, "puntos": 15, "feedback": "✅ Causa #1 de paro extrahospitalario súbito en adulto >50. Tu razonamiento clínico debe apuntar ahí primero."},
+        {"texto": "Sospecho TEP", "correcta": false, "puntos": -5, "feedback": "⚠️ Posible pero menos probable: TEP suele dar disnea progresiva o factores de riesgo (postop, inmovilización) que aquí no aparecen."},
+        {"texto": "No tengo pistas, sigo RCP sin hipótesis", "correcta": false, "puntos": 0, "feedback": "⚠️ Aceptable como honestidad pero el sinodal espera que verbalices al menos UNA hipótesis razonable. Pensar en paralelo a la RCP es lo que diferencia."}
+      ]
+    },
+    {
+      "situacion": "Han colocado vía IV. Es momento de adrenalina. ¿Qué pides exactamente?",
+      "opciones": [
+        {"texto": "Adrenalina 0.1 mg IV", "correcta": false, "puntos": -15, "feedback": "❌ Dosis pediátrica. En adulto la dosis es 1 mg. Confundir dosis es error grave."},
+        {"texto": "1 mg de adrenalina IV en bolo, repetir cada 3 a 5 minutos", "correcta": true, "puntos": 15, "feedback": "✅ Dosis + vía + frecuencia + acción 'en bolo'. Pedido completo y exacto."},
+        {"texto": "Una ampolla de adrenalina", "correcta": false, "puntos": -5, "feedback": "⚠️ Las ampollas vienen en distintas concentraciones (1:1000 vs 1:10000). Sé específico con dosis."},
+        {"texto": "Esperamos a ver si revierte sin fármacos", "correcta": false, "puntos": -10, "feedback": "❌ ACLS estándar requiere adrenalina precoz en paro. Esperar no es opción protocolizada."}
+      ]
+    },
+    {
+      "situacion": "Llevan 3 descargas, sigue en FV refractaria tras la adrenalina. ¿Qué antiarrítmico pides?",
+      "opciones": [
+        {"texto": "Amiodarona 300 mg IV en bolo (primera dosis)", "correcta": true, "puntos": 15, "feedback": "✅ Antiarrítmico de primera línea en FV/TVsp refractaria. Segunda dosis sería 150 mg."},
+        {"texto": "Lidocaína 1 a 1.5 mg/kg IV", "correcta": false, "puntos": 10, "feedback": "✅ Alternativa válida pero amiodarona es primera línea en ACLS actual. Aceptable parcial."},
+        {"texto": "Más adrenalina, 5 mg de golpe", "correcta": false, "puntos": -15, "feedback": "❌ NUNCA aumentar dosis de adrenalina. Sigue siendo 1 mg cada 3-5 min. Dosis altas se asocian a peor outcome neurológico."},
+        {"texto": "Bicarbonato 1 amp IV", "correcta": false, "puntos": -10, "feedback": "❌ Bicarbonato no es estándar en FV refractaria. Solo en acidosis grave demostrada, hiperpotasemia o sobredosis de ATC."}
+      ]
+    },
+    {
+      "situacion": "Tras 4 minutos más, ETCO2 sube súbitamente de 16 a 42 mmHg. Chequeo de ritmo: muestra ritmo sinusal con QRS estrecho organizado. ¿Qué haces?",
+      "opciones": [
+        {"texto": "Sigo comprimiendo por las dudas", "correcta": false, "puntos": -15, "feedback": "❌ Comprimir un corazón que ya late genera fibrilación inducida. Cuando hay signos de RCE hay que CONFIRMAR antes de seguir."},
+        {"texto": "Anuncio 'Posible RCE: elevación súbita de ETCO2 y ritmo organizado. Verifico pulso carotídeo'", "correcta": true, "puntos": 15, "feedback": "✅ Dos datos para sospecha (ETCO2 + ritmo organizado), ahora verificar pulso. Verbalización pulcra."},
+        {"texto": "Paro y reviso pupilas como signo de vida", "correcta": false, "puntos": -5, "feedback": "⚠️ Las pupilas son signo tardío y poco fiable. El pulso carotídeo es lo decisivo."},
+        {"texto": "Doy otra descarga por si acaso", "correcta": false, "puntos": -15, "feedback": "❌ NUNCA descargar ritmo organizado con pulso. Iatrogenia grave: puedes inducir FV en un paciente que ya retornó."}
+      ]
+    },
+    {
+      "situacion": "Pulso carotídeo presente, TA palpada ~90/60. RCE confirmado. ¿Siguiente paso?",
+      "opciones": [
+        {"texto": "Lo siento y lo levanto para que respire mejor", "correcta": false, "puntos": -15, "feedback": "❌ Paciente inestable post-paro. Movilizar puede precipitar nuevo paro. Requiere ABCDE + cuidado intensivo."},
+        {"texto": "Anuncio 'RCE confirmado, paso a valoración ABCDE post-paro' y empiezo a evaluar", "correcta": true, "puntos": 15, "feedback": "✅ Marco metodológico verbalizado. ABCDE post-paro tiene objetivos específicos: TAM ≥65, SatO2 92-98%, glucemia, control de temperatura."},
+        {"texto": "Le doy un sorbo de agua para reanimarlo", "correcta": false, "puntos": -15, "feedback": "❌ Glasgow casi seguro alterado, no puede deglutir. Riesgo inmediato de broncoaspiración → nuevo paro."},
+        {"texto": "Pido ECG de 12 derivaciones inmediato para confirmar IAM", "correcta": false, "puntos": 10, "feedback": "✅ Útil y correcto (sospecha IAM) pero ABCDE primero. El ECG es parte de la evaluación post-paro, no su sustituto."}
+      ]
+    },
+    {
+      "situacion": "Llega equipo de UCI móvil para traslado. Te piden el resumen del caso. ¿Cómo lo estructuras?",
+      "opciones": [
+        {"texto": "Les doy un relato cronológico de todo lo que pasó", "correcta": false, "puntos": 5, "feedback": "⚠️ Información correcta pero sin marco — el equipo receptor pierde tiempo procesando lo importante."},
+        {"texto": "Uso SBAR: 'Varón ~60 años, paro presenciado por FV hace 18 min, 2 descargas + 1 mg adrenalina + 300 mg amiodarona, RCE hace 4 min. Glasgow alterado, intubado, TA 90/60, sospecha de IAM. Recomendación: traslado directo a hemodinamia.'", "correcta": true, "puntos": 15, "feedback": "✅ SBAR — Situación, Background, Assessment, Recomendación. Marco universal. Te diferencia del residente promedio."},
+        {"texto": "Le entrego el bote de fármacos usados y los registros del DEA", "correcta": false, "puntos": -5, "feedback": "⚠️ Información útil pero no sustituye al handover verbal estructurado."},
+        {"texto": "Le digo 'el paciente tuvo un paro pero ya está mejor'", "correcta": false, "puntos": -10, "feedback": "❌ Información insuficiente. El handover es la última oportunidad de cuidar al paciente. Sin contexto, el siguiente equipo decide a ciegas."}
+      ]
+    }
+  ]
+}

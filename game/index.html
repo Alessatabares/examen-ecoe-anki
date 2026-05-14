@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECOE Trainer · RCP Adulto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <section id="start-screen" class="screen active">
+      <div class="logo">🫀</div>
+      <h1>ECOE Trainer</h1>
+      <p class="subtitle">Simulación clínica · RCP Adulto AHA 2025</p>
+      <div class="scenario-card">
+        <h2 id="scenario-title">Cargando escenario...</h2>
+        <p id="scenario-context"></p>
+        <div class="meta">
+          <span id="scenario-difficulty"></span>
+          <span id="scenario-steps"></span>
+        </div>
+      </div>
+      <button id="start-btn" class="primary-btn">▶ Iniciar simulación</button>
+      <p class="hint">⏱ 20s por decisión · 🫀 La vida del paciente baja con errores graves · 🔥 Encadena aciertos para bonus</p>
+    </section>
+
+    <section id="game-screen" class="screen">
+      <header class="hud">
+        <div class="hud-item life">
+          <span class="label">Vida del paciente</span>
+          <div class="lifebar-container"><div id="lifebar" class="lifebar"></div></div>
+          <span id="life-value">100%</span>
+        </div>
+        <div class="hud-item">
+          <span class="label">Streak</span>
+          <span id="streak" class="streak-value">🔥 0</span>
+        </div>
+        <div class="hud-item">
+          <span class="label">Score</span>
+          <span id="score" class="score-value">0</span>
+        </div>
+        <div class="hud-item timer">
+          <span class="label">⏱ Tiempo</span>
+          <span id="timer" class="timer-value">20</span>
+        </div>
+      </header>
+      <main class="step-area">
+        <div class="step-progress">
+          <span id="step-counter">Paso 1 de N</span>
+          <div class="progress-bar-container"><div id="progress-bar" class="progress-bar"></div></div>
+        </div>
+        <div class="situation">
+          <p id="situation-text"></p>
+        </div>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <button id="next-btn" class="primary-btn hidden">Siguiente paso →</button>
+      </main>
+    </section>
+
+    <section id="end-screen" class="screen">
+      <div class="result-banner" id="result-banner"></div>
+      <h2 id="final-verdict"></h2>
+      <div class="final-stats">
+        <div class="stat"><span class="label">Puntaje</span><span id="final-score" class="big">0</span></div>
+        <div class="stat"><span class="label">Vida final</span><span id="final-life" class="big">100%</span></div>
+        <div class="stat"><span class="label">Mejor streak</span><span id="final-streak" class="big">0</span></div>
+        <div class="stat"><span class="label">Aciertos</span><span id="final-hits" class="big">0/0</span></div>
+      </div>
+      <details class="review">
+        <summary>📋 Revisar todas mis decisiones</summary>
+        <div id="review-list"></div>
+      </details>
+      <button id="restart-btn" class="primary-btn">↻ Reintentar simulación</button>
+    </section>
+
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
