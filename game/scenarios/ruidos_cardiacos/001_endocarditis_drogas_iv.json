@@ -1,0 +1,155 @@
+{
+  "id": "ruidos_001_endocarditis",
+  "titulo": "Fiebre y soplo nuevo en usuario de drogas IV",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "AHA/ACC 2020 + Duke modificados",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Acude un hombre de 32 años. Refiere fiebre de 38.7°C desde hace 5 días, sudoración nocturna, malestar general y dolor pleurítico. Su médico de cabecera le comentó hace 3 días que escuchó 'un soplo nuevo'. En la anamnesis abierta menciona que es usuario activo de drogas inyectables desde hace 2 años.",
+  "pasos": [
+    {
+      "situacion": "El paciente entra a tu consulta. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo profesional: 'Buenos días, soy Dr. [nombre]. ¿Es usted el señor [apellido]? Voy a hacerle una exploración cardiovascular por su consulta de fiebre y soplo.'", "correcta": true, "puntos": 15, "feedback": "✅ Saludo + presentación + identidad + anuncio de la maniobra. 4 elementos cubiertos."},
+        {"texto": "Saludo brevemente sin presentarme", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta presentación profesional. El sinodal espera 'soy Dr./estudiante de medicina'."},
+        {"texto": "Empiezo a auscultarlo directamente", "correcta": false, "puntos": -15, "feedback": "❌ Sin saludo ni consentimiento. Falla automática."},
+        {"texto": "Saludo formal pero sin confirmar identidad", "correcta": false, "puntos": 0, "feedback": "⚠️ Confirmar identidad es parte del protocolo de seguridad clínica básica."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida cardiovascular. ¿Qué preguntas primero?",
+      "opciones": [
+        {"texto": "'¿Tiene dolor torácico? ¿Disnea o falta de aire? ¿Palpitaciones? ¿Síncope o desmayos? ¿Edema en piernas?'", "correcta": true, "puntos": 15, "feedback": "✅ Los 5 síntomas centinela cardiovasculares en una pregunta dirigida."},
+        {"texto": "Solo pregunto por dolor torácico", "correcta": false, "puntos": -5, "feedback": "⚠️ Anamnesis incompleta. El sinodal espera el cribado de los 5 síntomas CV."},
+        {"texto": "'Cuénteme qué le pasa' (abierto)", "correcta": false, "puntos": 0, "feedback": "⚠️ Apertura válida pero pierdes especificidad. Después hay que dirigir."},
+        {"texto": "Empiezo la exploración sin más anamnesis", "correcta": false, "puntos": -15, "feedback": "❌ Sin anamnesis no puedes interpretar hallazgos."}
+      ]
+    },
+    {
+      "situacion": "El paciente menciona dolor pleurítico y fiebre. ¿Qué antecedentes preguntas (CLAVE en este caso)?",
+      "opciones": [
+        {"texto": "'¿Usa drogas inyectables? ¿Comparte agujas? ¿Procedimientos dentales o invasivos recientes? ¿Ha tenido endocarditis o fiebre reumática previa? ¿Prótesis valvular o cirugía cardíaca?'", "correcta": true, "puntos": 15, "feedback": "✅ TODOS los antecedentes que cambian conducta: drogas IV (S. aureus), procedimientos (bacteriemia), endocarditis previa (factor mayor), prótesis (factor mayor). Sin esto, falla el diagnóstico."},
+        {"texto": "Solo pregunto cirugías previas", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. Drogas IV es CRÍTICO en este caso (fiebre + soplo nuevo) y lo omites."},
+        {"texto": "No pregunto sobre drogas IV (tema delicado)", "correcta": false, "puntos": -15, "feedback": "❌ ERROR CRÍTICO. En un paciente joven con fiebre y soplo nuevo, omitir la pregunta sobre drogas IV pierde el diagnóstico más probable. Hay que preguntarlo sin juicio, profesionalmente."},
+        {"texto": "Solo '¿algún antecedente médico relevante?'", "correcta": false, "puntos": 0, "feedback": "⚠️ Demasiado abierto. Hay que dirigir la pregunta a factores específicos de endocarditis."}
+      ]
+    },
+    {
+      "situacion": "El paciente confirma uso activo de drogas IV. ¿Qué haces antes de la exploración?",
+      "opciones": [
+        {"texto": "Me lavo las manos, lo verbalizo, y limpio el estetoscopio (membrana y campana) con alcohol", "correcta": true, "puntos": 15, "feedback": "✅ Higiene + limpieza del estetoscopio. Esta última es específica de la estación cardiovascular."},
+        {"texto": "Solo me lavo las manos", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta limpiar el estetoscopio — específico de esta estación."},
+        {"texto": "Sin higiene", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Me pongo guantes y nada más", "correcta": false, "puntos": -5, "feedback": "⚠️ Los guantes no sustituyen la higiene + limpieza del instrumental."}
+      ]
+    },
+    {
+      "situacion": "Antes de auscultar, ¿qué le explicas al paciente?",
+      "opciones": [
+        {"texto": "'Le voy a auscultar el pecho. Le pediré que descubra el tórax y por momentos que se incline hacia adelante o se acueste de lado. Si algo le incomoda, dígame. ¿Está de acuerdo?'", "correcta": true, "puntos": 15, "feedback": "✅ Consentimiento + preparación + advertencia de cambios de posición + cuidar el pudor."},
+        {"texto": "'Descúbrase el pecho'", "correcta": false, "puntos": -10, "feedback": "❌ Sin explicación previa ni permiso. Falla ética."},
+        {"texto": "Auscultar sin avisar", "correcta": false, "puntos": -15, "feedback": "❌ Falla en consentimiento."},
+        {"texto": "Pido consentimiento pero no aviso de los cambios de posición", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto. Las maniobras dinámicas serán incómodas si no le avisas antes."}
+      ]
+    },
+    {
+      "situacion": "Tórax descubierto. ¿Qué inspeccionas? (Pista: este paciente tiene sospecha de endocarditis)",
+      "opciones": [
+        {"texto": "Inspecciono precordio (sin cicatrices ni deformidades) + busco lesiones cutáneas específicas de endocarditis: petequias, hemorragias en astilla en uñas, lesiones de Janeway (palmas/plantas), nódulos de Osler (pulpejos)", "correcta": true, "puntos": 15, "feedback": "✅ Inspección dirigida al diagnóstico sospechado. Encontrar Janeway/Osler = criterio menor de Duke."},
+        {"texto": "Solo precordio sin buscar lesiones cutáneas", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes hallazgos clave en endocarditis. La inspección dirigida es lo que diferencia un examen pulcro."},
+        {"texto": "No inspecciono, voy a palpar y auscultar", "correcta": false, "puntos": -15, "feedback": "❌ Saltar inspección = perdiendo signos cutáneos críticos."},
+        {"texto": "Inspecciono precordio y noto cicatriz de toracotomía (no la hay)", "correcta": false, "puntos": 5, "feedback": "⚠️ Estás inventando hallazgos. Describir lo que NO existe es error metodológico."}
+      ]
+    },
+    {
+      "situacion": "Inspección sin hallazgos cutáneos llamativos. ¿Qué palpas?",
+      "opciones": [
+        {"texto": "Palpo el choque de la punta: ubicado en 5.º EIC LMC, <2 cm, no sostenido (normal). Busco frémito en focos: sin frémito palpable.", "correcta": true, "puntos": 15, "feedback": "✅ Ubicación + características + frémito. Verbalización completa con negativos pertinentes."},
+        {"texto": "Solo ubico el choque sin describir características", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto. Ubicación + tamaño + duración te diferencian."},
+        {"texto": "No palpo, voy directo a auscultar", "correcta": false, "puntos": -10, "feedback": "❌ Saltar palpación = pierdes frémito (cuantifica intensidad de soplo)."},
+        {"texto": "Describo el choque como desplazado lateralmente sin haberlo medido", "correcta": false, "puntos": -5, "feedback": "❌ Inventar hallazgos es error grave."}
+      ]
+    },
+    {
+      "situacion": "Antes de colocar el estetoscopio, ¿qué anuncias?",
+      "opciones": [
+        {"texto": "'Auscultaré sistemáticamente los 5 focos: aórtico (2.º EIC derecho), pulmonar (2.º EIC izq), Erb o accesorio (3.er EIC izq), tricúspide (4.º-5.º EIC paraesternal izq) y mitral o ápex (5.º EIC LMC).'", "correcta": true, "puntos": 15, "feedback": "✅ 5 focos + ubicaciones anatómicas exactas + orden. El sinodal lo busca explícitamente."},
+        {"texto": "'Ausculto el pecho'", "correcta": false, "puntos": -5, "feedback": "⚠️ Genérico. Sin sistematicidad explícita."},
+        {"texto": "Solo ausculto el foco mitral", "correcta": false, "puntos": -10, "feedback": "❌ Sin sistemática completa, pierdes hallazgos en otros focos."},
+        {"texto": "Menciono 3 focos en lugar de 5", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto. La sistemática estándar es de 5 focos."}
+      ]
+    },
+    {
+      "situacion": "En el foco TRICÚSPIDE (4.º-5.º EIC paraesternal izq) auscultas un soplo HOLOSISTÓLICO de intensidad 3/6. Le pides al paciente que inspire profundamente y el soplo AUMENTA claramente. ¿Cómo lo interpretas?",
+      "opciones": [
+        {"texto": "Soplo holosistólico tricuspídeo con signo de CARVALLO POSITIVO (aumenta con inspiración) → origen DERECHO → sospecho insuficiencia tricuspídea", "correcta": true, "puntos": 15, "feedback": "✅ Carvallo + identifica origen derecho. IT en usuario de drogas IV = sospecha alta de endocarditis tricuspídea."},
+        {"texto": "Soplo sistólico (sin diferenciar lado)", "correcta": false, "puntos": 5, "feedback": "⚠️ Pierdes el dato clave: Carvallo positivo te dice que es derecho."},
+        {"texto": "Lo interpreto como insuficiencia mitral", "correcta": false, "puntos": -10, "feedback": "❌ La IM no aumenta con inspiración (Carvallo negativo). Confundir IT con IM es error frecuente que debes evitar."},
+        {"texto": "Lo describo como diastólico", "correcta": false, "puntos": -15, "feedback": "❌ Error de timing — diastólico es entre S2 y S1 siguiente, no en sístole."}
+      ]
+    },
+    {
+      "situacion": "¿Cómo describes el soplo con los 7 elementos?",
+      "opciones": [
+        {"texto": "'Soplo holosistólico (plano), intensidad 3/6 sin frémito, foco máximo en tricúspide (4.º-5.º EIC paraesternal izq), sin irradiación a axila, calidad rasposa, AUMENTA con inspiración (Carvallo positivo).'", "correcta": true, "puntos": 15, "feedback": "✅ Los 7 elementos completos: timing, forma, intensidad Levine, foco, irradiación, calidad, cambios con maniobras."},
+        {"texto": "'Soplo holosistólico fuerte'", "correcta": false, "puntos": 5, "feedback": "⚠️ Solo 2 de 7 elementos. Falta intensidad Levine, foco, irradiación, calidad, maniobras."},
+        {"texto": "'Soplo de moderada intensidad'", "correcta": false, "puntos": -5, "feedback": "❌ Sin elementos sistemáticos. Pierdes el análisis estructurado."},
+        {"texto": "5 de los 7 elementos (timing, intensidad, foco, irradiación, Carvallo)", "correcta": false, "puntos": 10, "feedback": "✅ Casi completo. Faltarían forma y calidad para perfecto."}
+      ]
+    },
+    {
+      "situacion": "Con fiebre 5 días + sudoración + dolor pleurítico + soplo nuevo tricuspídeo + drogas IV activas. ¿Cuál es tu sospecha diagnóstica?",
+      "opciones": [
+        {"texto": "Sospecho ENDOCARDITIS INFECCIOSA DERECHA (válvula tricúspide), probable etiología por Staphylococcus aureus, en relación con uso de drogas IV. El dolor pleurítico sugiere embolismos pulmonares sépticos.", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + lateralidad (derecha) + etiología más probable (S. aureus) + factor de riesgo + correlato clínico de embolismo pulmonar."},
+        {"texto": "Sospecho endocarditis (sin especificar)", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta lateralidad y etiología. El dolor pleurítico es la pista del compromiso derecho."},
+        {"texto": "Soplo funcional por fiebre", "correcta": false, "puntos": -15, "feedback": "❌ Falla diagnóstica grave. Soplo funcional NO es holosistólico ni con Carvallo positivo, y los antecedentes son banderas rojas."},
+        {"texto": "Fiebre reumática aguda", "correcta": false, "puntos": -5, "feedback": "❌ FR aguda es enfermedad pediátrica/adolescente tras faringitis. Edad y antecedentes no encajan."}
+      ]
+    },
+    {
+      "situacion": "¿Cómo enmarcas tu diagnóstico en criterios formales?",
+      "opciones": [
+        {"texto": "'Aplico criterios de DUKE MODIFICADOS. Mayores: hemocultivos positivos típicos + evidencia ecocardiográfica de afectación endocárdica (vegetación, absceso, dehiscencia). Menores: predisposición (drogas IV), fiebre ≥38, fenómenos vasculares, fenómenos inmunológicos, hallazgos microbiológicos que no cumplen mayor. Diagnóstico: 2 mayores, 1 mayor + 3 menores, o 5 menores.'", "correcta": true, "puntos": 15, "feedback": "✅ Nombras Duke modificados explícitamente + estructura de mayores/menores + umbral diagnóstico. Nivel pulcro."},
+        {"texto": "'Sospecha clínica fuerte' (sin nombrar Duke)", "correcta": false, "puntos": 0, "feedback": "⚠️ Sin marco formal pierdes puntos. El sinodal busca Duke explícito."},
+        {"texto": "'Es endocarditis clínicamente'", "correcta": false, "puntos": -5, "feedback": "❌ La endocarditis NO se diagnostica solo clínicamente — siempre se enmarca en Duke modificados."},
+        {"texto": "'Los criterios de Duke no aplican aquí'", "correcta": false, "puntos": -10, "feedback": "❌ Duke modificados aplican a TODA sospecha de endocarditis. Información incorrecta."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios solicitas (en qué orden)?",
+      "opciones": [
+        {"texto": "1) HEMOCULTIVOS x3 de sitios diferentes y momentos distintos (antes de antibiótico). 2) Ecocardiograma transtorácico (ETT); si negativo y alta sospecha → transesofágico (ETE). 3) Analítica completa, PCR/VSG, hemograma. 4) ECG. 5) Rx de tórax (embolismos sépticos).", "correcta": true, "puntos": 15, "feedback": "✅ Hemocultivos ANTES de antibiótico (no perder el cultivo) + eco + analítica + ECG + Rx. Estudios completos en orden lógico."},
+        {"texto": "Solo hemocultivos", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. Falta eco que es criterio mayor de Duke."},
+        {"texto": "Solo ecocardiograma sin hemocultivos", "correcta": false, "puntos": -5, "feedback": "⚠️ Sin hemocultivos pierdes uno de los dos criterios mayores."},
+        {"texto": "Inicio antibiótico antes de hemocultivos", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. Iniciar antibiótico antes de cultivar reduce mucho el rendimiento de los hemocultivos → pierdes el diagnóstico microbiológico."}
+      ]
+    },
+    {
+      "situacion": "Hemocultivos tomados. ¿Qué antibiótico empírico inicias mientras esperas resultados?",
+      "opciones": [
+        {"texto": "Vancomicina IV (cobre S. aureus MRSA) + Ceftriaxona o gentamicina IV (cobertura amplia hasta cultivos). Ajustar al confirmar germen.", "correcta": true, "puntos": 15, "feedback": "✅ Cobertura empírica adecuada para endocarditis en usuario de drogas IV (S. aureus, incluyendo MRSA). Ajuste tras cultivos."},
+        {"texto": "Amoxicilina oral", "correcta": false, "puntos": -15, "feedback": "❌ Completamente inadecuado: vía oral en endocarditis → falla terapéutica. Amoxicilina sola no cubre S. aureus MRSA."},
+        {"texto": "Solo vancomicina IV", "correcta": false, "puntos": 5, "feedback": "⚠️ Cubre MRSA pero falta cobertura para gram negativos hasta tener cultivo. La cobertura inicial suele ser combinada."},
+        {"texto": "Esperar resultados de hemocultivos antes de tratar", "correcta": false, "puntos": -10, "feedback": "❌ En endocarditis con paciente febril y soplo, NO se espera 48-72h. Tras tomar hemocultivos, se inicia ATB empírico de inmediato."}
+      ]
+    },
+    {
+      "situacion": "Antes de cerrar, ¿qué examen complementario adicional haces buscando complicaciones?",
+      "opciones": [
+        {"texto": "Examen completo: pulpejos y palmas (Janeway/Osler), uñas (hemorragias en astilla), fondo de ojo (manchas de Roth), neurológico (déficits embólicos), abdomen (esplenomegalia, dolor en hipocondrio izq por infarto esplénico)", "correcta": true, "puntos": 15, "feedback": "✅ Examen sistémico dirigido a buscar embolismos y fenómenos inmunológicos = criterios menores de Duke + alerta complicaciones."},
+        {"texto": "Solo 'ausculto pulmones' rápidamente", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Estás perdiendo signos clave."},
+        {"texto": "Solo miro las manos rápidamente", "correcta": false, "puntos": 5, "feedback": "⚠️ Mejor que nada pero faltan fondo de ojo, neuro, abdomen."},
+        {"texto": "No busco embolismos", "correcta": false, "puntos": -10, "feedback": "❌ En endocarditis, los embolismos cambian el manejo (anticoagulación, cirugía urgente)."}
+      ]
+    },
+    {
+      "situacion": "Cierre: plan + signos de alarma. ¿Cómo lo verbalizas?",
+      "opciones": [
+        {"texto": "'Lo voy a INGRESAR ahora mismo en un hospital con equipo de endocarditis (cardiología + infectología + cirugía cardíaca). El tratamiento es antibiótico intravenoso varias semanas. Signos de alarma a vigilar: déficit neurológico súbito, dolor torácico nuevo, disnea súbita, hematuria, o dolor abdominal — son posibles embolismos y requieren atención inmediata.'", "correcta": true, "puntos": 15, "feedback": "✅ INGRESO + equipo multidisciplinar + duración del tratamiento + signos de alarma específicos al riesgo embólico. Plan completo."},
+        {"texto": "'Le doy antibiótico oral, vuelva en una semana'", "correcta": false, "puntos": -15, "feedback": "❌ ERROR CRÍTICO. Endocarditis se trata INGRESADO con ATB IV — el manejo ambulatorio es para casos muy seleccionados y nunca de inicio."},
+        {"texto": "Ingreso pero sin mencionar equipo de endocarditis ni signos de alarma", "correcta": false, "puntos": 5, "feedback": "⚠️ Ingreso correcto pero falta el resto del plan."},
+        {"texto": "Sin plan claro, lo derivo a cardiología", "correcta": false, "puntos": -10, "feedback": "❌ La urgencia es INGRESO inmediato, no consulta diferida a cardiología."}
+      ]
+    }
+  ]
+}

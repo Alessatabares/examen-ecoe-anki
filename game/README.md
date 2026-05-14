@@ -14,11 +14,19 @@ python3 -m http.server 8000
 # luego abre http://localhost:8000 en tu navegador
 ```
 
+## Escenarios disponibles
+
+| Tema | Escenario | Pasos | Dificultad |
+|---|---|---|---|
+| 🫀 RCP | Paro presenciado en vía pública | 18 | Básico-Intermedio |
+| 👂 Otoscopia | Otalgia con fiebre en niño de 3 años | 17 | Básico |
+| 🎧 Ruidos cardíacos | Fiebre y soplo nuevo en usuario de drogas IV | 16 | Intermedio-Avanzado |
+
 ## Mecánicas
 
-- **Vida del paciente** (100 → 0): baja con errores graves. Si llega a 0 → game over con mensaje educativo.
+- **Vida del paciente** (100 → 0): baja con errores graves. Si llega a 0 → game over.
 - **Streak** de aciertos consecutivos: bonus al puntaje (+2 por nivel, máx +10 por acierto).
-- **Tiempo del sinodal**: 20 segundos por decisión. Aviso visual a 10s, alarma roja a 5s. No responder = -10 vida.
+- **Tiempo del sinodal**: 20 segundos por decisión. Aviso visual a 10s, alarma roja a 5s.
 
 ## Veredictos finales
 
@@ -33,19 +41,22 @@ python3 -m http.server 8000
 
 ```
 game/
-├── index.html              # UI single-page
+├── index.html              # UI single-page (menú + escenario + juego + final)
 ├── style.css               # tema oscuro clínico
-├── game.js                 # motor (~200 líneas, vanilla JS)
+├── game.js                 # motor (~280 líneas, vanilla JS)
 └── scenarios/
-    └── rcp/
-        └── 001_paro_calle.json
+    ├── manifest.json       # lista de escenarios disponibles
+    ├── rcp/
+    ├── otoscopia/
+    └── ruidos_cardiacos/
 ```
 
 ## Añadir escenarios
 
-1. Crea `scenarios/<tema>/<id>.json` siguiendo el formato del existente (campos: `id`, `titulo`, `contexto`, `pasos[]`).
+1. Crea `scenarios/<tema>/<id>.json` siguiendo el formato del existente (campos: `id`, `titulo`, `tema`, `contexto`, `pasos[]`).
 2. Cada paso tiene `situacion` y `opciones[]` con `texto`, `correcta` (bool), `puntos` (int), `feedback` (string).
-3. Cambia `SCENARIO_URL` en `game.js` o (futuro) usa el selector desde `manifest.json`.
+3. Añade el escenario al `scenarios/manifest.json` (id, tema, icon, titulo, dificultad, pasos, url).
+4. El motor lo carga automáticamente — no hay que tocar `game.js`.
 
 ## Stack
 

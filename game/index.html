@@ -3,18 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ECOE Trainer · RCP Adulto</title>
+  <title>ECOE Trainer · Simulaciones clínicas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
 
-    <section id="start-screen" class="screen active">
-      <div class="logo">🫀</div>
+    <section id="menu-screen" class="screen active">
+      <div class="logo">🩺</div>
       <h1>ECOE Trainer</h1>
-      <p class="subtitle">Simulación clínica · RCP Adulto AHA 2025</p>
+      <p class="subtitle">Simulaciones clínicas · Selecciona un escenario</p>
+      <div id="scenario-list" class="scenario-list">
+        <p style="color:var(--text-dim)">Cargando escenarios...</p>
+      </div>
+      <p class="hint">⏱ 20s por decisión · 🫀 La vida del paciente baja con errores graves · 🔥 Encadena aciertos para bonus</p>
+    </section>
+
+    <section id="start-screen" class="screen">
+      <button id="back-menu-btn" class="back-btn">← Menú</button>
+      <div class="logo">🩺</div>
+      <h1>Escenario seleccionado</h1>
       <div class="scenario-card">
-        <h2 id="scenario-title">Cargando escenario...</h2>
+        <h2 id="scenario-title">Cargando...</h2>
         <p id="scenario-context"></p>
         <div class="meta">
           <span id="scenario-difficulty"></span>
@@ -22,7 +32,6 @@
         </div>
       </div>
       <button id="start-btn" class="primary-btn">▶ Iniciar simulación</button>
-      <p class="hint">⏱ 20s por decisión · 🫀 La vida del paciente baja con errores graves · 🔥 Encadena aciertos para bonus</p>
     </section>
 
     <section id="game-screen" class="screen">
@@ -72,7 +81,10 @@
         <summary>📋 Revisar todas mis decisiones</summary>
         <div id="review-list"></div>
       </details>
-      <button id="restart-btn" class="primary-btn">↻ Reintentar simulación</button>
+      <div class="end-buttons">
+        <button id="restart-btn" class="primary-btn">↻ Reintentar</button>
+        <button id="menu-btn" class="secondary-btn">📚 Volver al menú</button>
+      </div>
     </section>
 
   </div>

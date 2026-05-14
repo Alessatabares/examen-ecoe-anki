@@ -1,7 +1,8 @@
 const TIMER_SECONDS = 20;
-const SCENARIO_URL = "scenarios/rcp/001_paro_calle.json";
+const MANIFEST_URL = "scenarios/manifest.json";
 
 const state = {
+  manifest: null,
   scenario: null,
   currentStep: 0,
   life: 100,
@@ -17,11 +18,14 @@ const state = {
 
 const el = {};
 const IDS = [
-  'start-screen','game-screen','end-screen','scenario-title','scenario-context',
-  'scenario-difficulty','scenario-steps','start-btn','lifebar','life-value',
-  'streak','score','timer','step-counter','progress-bar','situation-text',
-  'options','feedback','next-btn','result-banner','final-verdict','final-score',
-  'final-life','final-streak','final-hits','review-list','restart-btn'
+  'menu-screen','start-screen','game-screen','end-screen',
+  'scenario-list','scenario-title','scenario-context',
+  'scenario-difficulty','scenario-steps','start-btn',
+  'lifebar','life-value','streak','score','timer',
+  'step-counter','progress-bar','situation-text','options',
+  'feedback','next-btn','result-banner','final-verdict',
+  'final-score','final-life','final-streak','final-hits',
+  'review-list','restart-btn','menu-btn','back-menu-btn'
 ];
 IDS.forEach(id => {
   el[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id);
@@ -29,25 +33,63 @@ IDS.forEach(id => {
 el.timerWrap = document.querySelector('.hud-item.timer');
 
 function showScreen(name) {
-  ['start','game','end'].forEach(s => {
-    document.getElementById(s + '-screen').classList.toggle('active', s === name);
+  ['menu','start','game','end'].forEach(s => {
+    const screen = document.getElementById(s + '-screen');
+    if (screen) screen.classList.toggle('active', s === name);
   });
 }
 
-async function loadScenario() {
+async function loadManifest() {
   try {
-    const res = await fetch(SCENARIO_URL);
+    const res = await fetch(MANIFEST_URL);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    state.manifest = await res.json();
+    renderScenarioList();
+  } catch (err) {
+    el.scenarioList.innerHTML = '<p style="color:var(--danger)">Error cargando escenarios. Sirviendo localmente con <code>python3 -m http.server</code> desde /game.</p>';
+    console.error(err);
+  }
+}
+
+function renderScenarioList() {
+  el.scenarioList.innerHTML = '';
+  state.manifest.scenarios.forEach(s => {
+    const card = document.createElement('button');
+    card.className = 'scenario-card-button';
+    card.innerHTML =
+      '<div class="scenario-icon">' + s.icon + '</div>' +
+      '<div class="scenario-info">' +
+        '<div class="scenario-tema">' + s.tema + '</div>' +
+        '<h3>' + s.titulo + '</h3>' +
+        '<div class="scenario-meta">' +
+          '<span>📊 ' + s.dificultad + '</span>' +
+          '<span>🎯 ' + s.pasos + ' decisiones</span>' +
+        '</div>' +
+      '</div>' +
+      '<span class="scenario-arrow">▶</span>';
+    card.onclick = () => loadScenario(s.url);
+    el.scenarioList.appendChild(card);
+  });
+}
+
+async function loadScenario(url) {
+  try {
+    const res = await fetch(url);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     state.scenario = await res.json();
     el.scenarioTitle.textContent = state.scenario.titulo;
     el.scenarioContext.textContent = state.scenario.contexto;
     el.scenarioDifficulty.textContent = '📊 ' + state.scenario.dificultad;
     el.scenarioSteps.textContent = '🎯 ' + state.scenario.pasos.length + ' decisiones';
+    showScreen('start');
   } catch (err) {
-    el.scenarioTitle.textContent = 'Error cargando escenario';
-    el.scenarioContext.textContent = 'Verifica que el JSON esté en scenarios/rcp/. Sirviendo localmente con `python3 -m http.server` desde /game.';
+    alert('Error cargando el escenario: ' + err.message);
     console.error(err);
   }
+}
+
+function backToMenu() {
+  showScreen('menu');
 }
 
 function startGame() {
@@ -203,7 +245,7 @@ function endGame(patientDied) {
     const pct = state.hits / total;
     if (pct >= 0.85) { banner = '🏆'; verdict = '¡Excelente! Listo para sala de simulación ECOE.'; }
     else if (pct >= 0.7) { banner = '✅'; verdict = 'Aprobado. Pule los puntos donde fallaste.'; }
-    else if (pct >= 0.5) { banner = '⚠️'; verdict = 'En el límite. Vuelve a repasar las capas de RCP y reintenta.'; }
+    else if (pct >= 0.5) { banner = '⚠️'; verdict = 'En el límite. Vuelve a repasar las capas y reintenta.'; }
     else { banner = '❌'; verdict = 'Necesitas repaso profundo. Empieza por Capa 1 del flujo macro.'; }
   }
   el.resultBanner.textContent = banner;
@@ -228,5 +270,7 @@ function endGame(patientDied) {
 el.startBtn.onclick = startGame;
 el.nextBtn.onclick = nextStep;
 el.restartBtn.onclick = startGame;
+el.menuBtn.onclick = backToMenu;
+if (el.backMenuBtn) el.backMenuBtn.onclick = backToMenu;
 
-loadScenario();
+loadManifest();

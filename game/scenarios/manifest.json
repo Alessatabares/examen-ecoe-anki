@@ -1,0 +1,31 @@
+{
+  "scenarios": [
+    {
+      "id": "rcp_001_paro_calle",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Paro presenciado en vía pública",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 18,
+      "url": "scenarios/rcp/001_paro_calle.json"
+    },
+    {
+      "id": "otoscopia_001_oma_nino",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Otalgia con fiebre en niño de 3 años",
+      "dificultad": "Básico",
+      "pasos": 17,
+      "url": "scenarios/otoscopia/001_oma_nino_fiebre.json"
+    },
+    {
+      "id": "ruidos_001_endocarditis",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Fiebre y soplo nuevo en usuario de drogas IV",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 16,
+      "url": "scenarios/ruidos_cardiacos/001_endocarditis_drogas_iv.json"
+    }
+  ]
+}

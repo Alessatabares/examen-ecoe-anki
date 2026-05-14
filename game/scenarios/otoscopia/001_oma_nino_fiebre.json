@@ -1,0 +1,164 @@
+{
+  "id": "otoscopia_001_oma_nino",
+  "titulo": "Otalgia con fiebre en niño de 3 años",
+  "tema": "otoscopia",
+  "audiencia": "pediátrico",
+  "guia": "AAP/AAO-HNS OMA 2013",
+  "dificultad": "Básico",
+  "contexto": "Acude a tu consulta una madre con su hijo Mateo, de 3 años. Hace 2 días el niño se toca el oído derecho frecuentemente y llora. Anoche tuvo fiebre de 38.7°C y no quiso dormir bien.",
+  "pasos": [
+    {
+      "situacion": "Entras a la consulta. Madre sentada con el niño en brazos. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo profesional a ambos: 'Buenos días, soy Dr. [nombre]. Hola Mateo, vengo a ayudarte a sentirte mejor.'", "correcta": true, "puntos": 15, "feedback": "✅ Doble saludo: padre/madre y niño en su nivel. Lenguaje accesible al niño = parte de la calificación ECOE pediátrica."},
+        {"texto": "Saludo solo a la madre, formalmente", "correcta": false, "puntos": -5, "feedback": "⚠️ Ignorar al niño es falla común. En pediatría debes saludarlo a su nivel."},
+        {"texto": "Le digo 'pásenme al niño' y empiezo a explorar", "correcta": false, "puntos": -15, "feedback": "❌ Sin saludo, sin presentación, sin consentimiento. Tres fallas en un solo gesto."},
+        {"texto": "Solo me presento por nombre sin saludar al niño", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta inclusión del niño y saludo cordial a ambos."}
+      ]
+    },
+    {
+      "situacion": "Tras el saludo, te diriges a la madre para la anamnesis. ¿Qué preguntas primero?",
+      "opciones": [
+        {"texto": "'¿Es uno o ambos oídos? ¿Desde cuándo el dolor y la fiebre? ¿Ha estado en piscinas o baños recientes? ¿Tiene catarro o tos asociada?'", "correcta": true, "puntos": 15, "feedback": "✅ Anamnesis dirigida: lateralidad + cronología + factores precipitantes (agua → OE) + clínica asociada (catarro → OMA)."},
+        {"texto": "'¿Qué le pasa a Mateo?'", "correcta": false, "puntos": 0, "feedback": "⚠️ Pregunta abierta válida para empezar, pero pierdes especificidad clínica que debes verbalizar."},
+        {"texto": "'¿Es la primera vez que le pasa?'", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil pero no debería ser la primera pregunta. Falta la lateralidad y cronología del cuadro actual."},
+        {"texto": "Saltar anamnesis y mirar el oído directamente", "correcta": false, "puntos": -15, "feedback": "❌ Saltar la anamnesis es error grave. Sin contexto no puedes interpretar lo que veas."}
+      ]
+    },
+    {
+      "situacion": "La madre te cuenta que es solo el oído derecho, lleva 2 días, sin baños recientes, asociado a catarro previo. ¿Qué antecedentes preguntas?",
+      "opciones": [
+        {"texto": "'¿Está al día con las vacunas? ¿Ha tenido otitis previas? ¿Alergias conocidas (sobre todo a antibióticos)? ¿Hay fumadores en casa?'", "correcta": true, "puntos": 15, "feedback": "✅ Vacunas (neumococo, H. influenzae b) + otitis previas (recurrencia) + alergias (eligen AB) + tabaquismo pasivo (factor de riesgo). Los 4 cambian conducta."},
+        {"texto": "Solo '¿es alérgico a algo?'", "correcta": false, "puntos": -5, "feedback": "⚠️ La alergia es importante pero faltan vacunas y antecedente de otitis recurrente."},
+        {"texto": "'¿Comió algo distinto últimamente?'", "correcta": false, "puntos": -10, "feedback": "❌ Pregunta no dirigida. Pierdes tiempo y demuestras falta de orientación clínica."},
+        {"texto": "No pregunto antecedentes", "correcta": false, "puntos": -10, "feedback": "❌ Omitir antecedentes es error grave. Pueden cambiar el plan terapéutico."}
+      ]
+    },
+    {
+      "situacion": "Vacunas al día, sin otitis previas, sin alergias, no fumadores en casa. Antes de manipular el otoscopio, ¿qué haces?",
+      "opciones": [
+        {"texto": "Me lavo las manos y lo verbalizo: 'Procedo a lavarme las manos antes de explorar'", "correcta": true, "puntos": 10, "feedback": "✅ Higiene verbalizada. En muchas estaciones ECOE no verbalizarlo cuenta como no hacerlo."},
+        {"texto": "Me pongo guantes sin lavarme las manos", "correcta": false, "puntos": -5, "feedback": "⚠️ Los guantes no sustituyen el lavado de manos."},
+        {"texto": "Empiezo directamente con el otoscopio", "correcta": false, "puntos": -15, "feedback": "❌ Sin higiene → falla automática en muchas estaciones."},
+        {"texto": "Me lavo las manos pero en silencio", "correcta": false, "puntos": 5, "feedback": "⚠️ El acto es correcto pero verbalizarlo te da el punto explícito."}
+      ]
+    },
+    {
+      "situacion": "Antes de acercar el otoscopio al niño, ¿qué dices?",
+      "opciones": [
+        {"texto": "A la madre: 'Le voy a mirar los oídos a Mateo. ¿Está de acuerdo?'. Al niño: 'Mateo, mira, esto es una linternita especial. No duele, sólo te va a hacer cosquillas. ¿Quieres tocarla primero?'", "correcta": true, "puntos": 15, "feedback": "✅ Consentimiento a los padres + tranquilizar al niño con lenguaje adaptado. Si el niño coopera, la exploración es válida."},
+        {"texto": "Solo le pido permiso a la madre", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta tranquilizar al niño. Un niño asustado no coopera = exploración inválida."},
+        {"texto": "Sin avisar, agarro al niño y lo sujeto firmemente", "correcta": false, "puntos": -15, "feedback": "❌ Falla ética grave + estresa al niño + exploración inválida."},
+        {"texto": "Le prometo un dulce si se queda quieto", "correcta": false, "puntos": -5, "feedback": "⚠️ No apropiado. Mejor usar lenguaje tranquilizador."}
+      ]
+    },
+    {
+      "situacion": "Mateo coopera. Antes de meter el otoscopio, ¿qué inspeccionas?",
+      "opciones": [
+        {"texto": "Pabellones auriculares y regiones mastoideas bilateralmente, comparativo, buscando asimetrías, eritema, edema, lesiones, signo de Jacques", "correcta": true, "puntos": 15, "feedback": "✅ Inspección bilateral comparativa + buscar signos externos (Jacques = despegamiento pabellón en mastoiditis)."},
+        {"texto": "Solo el oído derecho que es el sintomático", "correcta": false, "puntos": -5, "feedback": "⚠️ Siempre comparativo. El sano es referencia normal."},
+        {"texto": "Voy directo al otoscopio sin inspección externa", "correcta": false, "puntos": -10, "feedback": "❌ Saltar la inspección externa pierde signos de mastoiditis y celulitis."},
+        {"texto": "Solo veo de lejos el pabellón", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto. Falta mastoides y comparación bilateral."}
+      ]
+    },
+    {
+      "situacion": "Inspección externa sin alteraciones. ¿Qué haces ahora?",
+      "opciones": [
+        {"texto": "Palpo trago, pabellón y mastoides bilateralmente. Aplico presión en el trago derecho — Mateo no refiere dolor (signo del trago NEGATIVO)", "correcta": true, "puntos": 15, "feedback": "✅ Palpación bilateral + signo del trago verbalizado y comentado. Signo negativo descarta otitis externa = orienta a media."},
+        {"texto": "Palpo solo el lado sintomático", "correcta": false, "puntos": -5, "feedback": "⚠️ Siempre bilateral para comparar."},
+        {"texto": "Salto al otoscopio sin palpar", "correcta": false, "puntos": -10, "feedback": "❌ El signo del trago es bifurcación clave OE vs OM."},
+        {"texto": "Palpo pero no comento el signo del trago", "correcta": false, "puntos": 5, "feedback": "⚠️ Verbalizarlo te da el punto explícito."}
+      ]
+    },
+    {
+      "situacion": "Antes de introducir el otoscopio, ¿qué espéculo eliges y por dónde empiezas?",
+      "opciones": [
+        {"texto": "Espéculo pediátrico (2-3 mm), empiezo por el oído IZQUIERDO (asintomático) para usarlo como referencia normal", "correcta": true, "puntos": 15, "feedback": "✅ Espéculo pediátrico apropiado + oído sano primero (regla ECOE básica)."},
+        {"texto": "Espéculo de adulto (4 mm), empiezo por el derecho que es donde duele", "correcta": false, "puntos": -15, "feedback": "❌ Dos errores: espéculo demasiado grande (dolor) y empezar por el sintomático (contamina, pierdes referencia)."},
+        {"texto": "Espéculo pediátrico pero empezando por el oído derecho", "correcta": false, "puntos": 0, "feedback": "⚠️ Espéculo correcto pero orden incorrecto. La regla es: sano primero."},
+        {"texto": "Espéculo enorme, no importa el tamaño", "correcta": false, "puntos": -15, "feedback": "❌ Causará dolor y posible laceración del CAE."}
+      ]
+    },
+    {
+      "situacion": "Vas a introducir el otoscopio en el oído izquierdo. ¿Cómo traccionas el pabellón?",
+      "opciones": [
+        {"texto": "Hacia ABAJO y atrás (técnica pediátrica para <3 años, el CAE es más horizontal)", "correcta": true, "puntos": 15, "feedback": "✅ Técnica pediátrica correcta. Nombrar la diferencia anatómica con el adulto te suma puntos."},
+        {"texto": "Hacia ARRIBA y atrás (técnica adulto)", "correcta": false, "puntos": -10, "feedback": "❌ En niño <3 años hay que ir abajo y atrás. Con arriba-atrás no rectificarás el CAE en este niño."},
+        {"texto": "Solo presiono el pabellón sin tracción", "correcta": false, "puntos": -5, "feedback": "⚠️ Sin tracción no rectificas el CAE y la visión será limitada."},
+        {"texto": "Forcejeo con el niño hasta meter el otoscopio", "correcta": false, "puntos": -15, "feedback": "❌ Lesivo y exploración inválida. Si el niño no coopera, debes parar y replantear."}
+      ]
+    },
+    {
+      "situacion": "Otoscopio dentro del oído izquierdo. ¿Cómo describes el CAE?",
+      "opciones": [
+        {"texto": "'Conducto auditivo externo izquierdo: permeable, sin cerumen abundante, sin eritema, sin edema, sin exudado, sin lesiones ni cuerpos extraños'", "correcta": true, "puntos": 15, "feedback": "✅ Descripción analítica con negativos pertinentes."},
+        {"texto": "'Veo bien el conducto'", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta especificidad. El sinodal no puede evaluar lo que no describes."},
+        {"texto": "No describo el CAE", "correcta": false, "puntos": -10, "feedback": "❌ Omitir el CAE → pierdes diagnóstico de cerumen, OE, cuerpo extraño."},
+        {"texto": "Salto directo al tímpano", "correcta": false, "puntos": -5, "feedback": "⚠️ Orden anatómico: CAE primero, tímpano después."}
+      ]
+    },
+    {
+      "situacion": "¿Cómo describes el tímpano izquierdo (sano)?",
+      "opciones": [
+        {"texto": "'Tímpano gris perlado, translúcido, con cono de luz íntegro en el cuadrante anteroinferior, mango del martillo y umbo visibles en posición central. Sin abombamiento, sin retracción, sin perforación.'", "correcta": true, "puntos": 15, "feedback": "✅ Anchor verbal completo del tímpano normal: 5 elementos descritos."},
+        {"texto": "'Tímpano normal'", "correcta": false, "puntos": -5, "feedback": "⚠️ El sinodal espera la descripción analítica, no la conclusión sin desglose."},
+        {"texto": "'No veo bien el tímpano'", "correcta": false, "puntos": -10, "feedback": "❌ Sin razón explícita ni acción correctiva. Es nivel de exploración mediocre."},
+        {"texto": "Paso directamente al oído derecho sin describir el izquierdo", "correcta": false, "puntos": 0, "feedback": "⚠️ Perdiste tu referencia. Vas a comparar contra... ¿nada?"}
+      ]
+    },
+    {
+      "situacion": "Cambias al oído derecho (sintomático). ¿Qué describes del CAE?",
+      "opciones": [
+        {"texto": "'Conducto auditivo externo derecho: permeable, sin cerumen, levemente eritematoso por extensión de la inflamación media. Sin exudado.'", "correcta": true, "puntos": 15, "feedback": "✅ CAE descrito con hallazgo (eritema leve por inflamación de vecindad). Descripción analítica."},
+        {"texto": "Salto al tímpano sin describir CAE", "correcta": false, "puntos": -5, "feedback": "⚠️ Orden anatómico es CAE primero."},
+        {"texto": "No describo nada", "correcta": false, "puntos": -10, "feedback": "❌ Sin descripción no hay evaluación posible."},
+        {"texto": "'Veo cerumen abundante que impide ver'", "correcta": false, "puntos": 5, "feedback": "⚠️ Sería un escenario distinto. Aquí no hay cerumen impactado. Describes algo que no está."}
+      ]
+    },
+    {
+      "situacion": "Tímpano derecho: visualizas una membrana ABOMBADA, eritematosa, sin cono de luz nítido. ¿Cómo lo describes?",
+      "opciones": [
+        {"texto": "'Tímpano derecho: ABOMBADO, eritematoso, con pérdida del cono de luz, mango del martillo poco identificable por el abombamiento. Sin perforación visible.'", "correcta": true, "puntos": 15, "feedback": "✅ Los 4 elementos clave de OMA: abombamiento + eritema + pérdida del cono de luz + alteración de referencia anatómica."},
+        {"texto": "'Tímpano eritematoso'", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto. El eritema solo no diagnostica OMA — un tímpano puede estar rojo por fiebre alta sin OMA."},
+        {"texto": "'Tímpano enrojecido y feo'", "correcta": false, "puntos": -5, "feedback": "❌ Terminología imprecisa, no profesional."},
+        {"texto": "'Tímpano normal'", "correcta": false, "puntos": -15, "feedback": "❌ Error de descripción → diagnóstico erróneo."}
+      ]
+    },
+    {
+      "situacion": "Con los hallazgos (tímpano derecho abombado, eritematoso, sin cono de luz + otalgia + fiebre 38.7°C), ¿cuál es tu diagnóstico verbalizado?",
+      "opciones": [
+        {"texto": "'Hallazgos compatibles con OTITIS MEDIA AGUDA (OMA) del oído derecho. El signo cardinal es el ABOMBAMIENTO según AAP 2013, además del eritema, pérdida del cono de luz, fiebre y otalgia.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + criterio cardinal nombrado (abombamiento) + asociación clínica. Nivel pulcro."},
+        {"texto": "'Otitis externa'", "correcta": false, "puntos": -15, "feedback": "❌ El signo del trago era negativo y el problema es del tímpano, no del conducto."},
+        {"texto": "'Resfriado común'", "correcta": false, "puntos": -15, "feedback": "❌ Los hallazgos otoscópicos son patognomónicos. Falla diagnóstica grave."},
+        {"texto": "'Eritema timpánico sin OMA'", "correcta": false, "puntos": -10, "feedback": "❌ El abombamiento es el criterio diagnóstico de OMA según AAP 2013, no solo el eritema."}
+      ]
+    },
+    {
+      "situacion": "Mateo: 3 años, otalgia derecha de 2 días, fiebre 38.7°C, sin alergias conocidas. ¿Cuál es el plan terapéutico?",
+      "opciones": [
+        {"texto": "Amoxicilina 80-90 mg/kg/día dividida cada 8 horas por 10 días + analgesia con paracetamol o ibuprofeno", "correcta": true, "puntos": 15, "feedback": "✅ Antibiótico de primera línea + dosis ECOE + duración + analgesia. Cumple criterios de tratamiento (edad 6-23m con OMA bilateral o cualquier OMA + otalgia >48h o T≥39 o supuración) — aquí entra por otalgia >48h y fiebre."},
+        {"texto": "Observación 48-72h sin antibiótico", "correcta": false, "puntos": -5, "feedback": "⚠️ La observación inicial es opción válida solo en niño >2a con otalgia leve y T<39. Aquí cumple criterios de tratamiento por otalgia >48h y fiebre 38.7°C, así que conviene tratar."},
+        {"texto": "Azitromicina 10 mg/kg/día por 5 días", "correcta": false, "puntos": -5, "feedback": "⚠️ Es alternativa de segunda línea (alergia a penicilina). De inicio: amoxicilina."},
+        {"texto": "Ciprofloxacino gotas tópicas", "correcta": false, "puntos": -15, "feedback": "❌ Error grave: las gotas tópicas son para otitis externa o perforación timpánica con supuración, NO para OMA con tímpano íntegro."}
+      ]
+    },
+    {
+      "situacion": "Le explicas a la madre el plan. ¿Cómo lo verbalizas?",
+      "opciones": [
+        {"texto": "'Le voy a recetar amoxicilina, un antibiótico, en jarabe. La dosis es [calculada por peso], cada 8 horas, durante 10 días. Es importante que complete todo el tratamiento aunque Mateo mejore antes. Le doy también paracetamol o ibuprofeno para el dolor y la fiebre, dosis según peso. Evite que se moje el oído.'", "correcta": true, "puntos": 15, "feedback": "✅ Nombre + dosis + frecuencia + duración + importancia de completar + analgesia + indicación negativa (no mojar). Explicación completa."},
+        {"texto": "'Le doy estas medicinas'", "correcta": false, "puntos": 0, "feedback": "⚠️ Información insuficiente. La madre no sabe cómo administrarlas."},
+        {"texto": "Solo nombra el antibiótico sin instrucciones de uso", "correcta": false, "puntos": -5, "feedback": "❌ Sin instrucciones, el cumplimiento será malo. Es fallo de la consulta."},
+        {"texto": "No explica el tratamiento, escribe la receta en silencio", "correcta": false, "puntos": -10, "feedback": "❌ La explicación al cuidador es parte central de la calificación ECOE pediátrica."}
+      ]
+    },
+    {
+      "situacion": "Cierre de la consulta. ¿Qué signos de alarma das y cuándo lo citas?",
+      "opciones": [
+        {"texto": "'Si persiste fiebre >48-72 horas tras iniciar antibiótico, aumenta el dolor, aparece supuración, parálisis facial, vómitos persistentes o el niño está muy decaído — acudan a urgencias inmediatamente. Si todo va bien, control en 1-2 semanas para reexplorar el tímpano.'", "correcta": true, "puntos": 15, "feedback": "✅ Signos de alarma específicos + tiempo concreto de control + qué reexplorar. Estructura completa."},
+        {"texto": "'Si no mejora vuelvan'", "correcta": false, "puntos": 0, "feedback": "⚠️ Genérico. Falta especificidad sobre QUÉ esperar y QUÉ es alarma."},
+        {"texto": "No da signos de alarma", "correcta": false, "puntos": -10, "feedback": "❌ Cierre incompleto. Las señales de alarma son responsabilidad médica obligatoria."},
+        {"texto": "'Vuelvan cuando quieran'", "correcta": false, "puntos": -5, "feedback": "⚠️ Sin estructura. Pierdes la oportunidad de educar y dar seguridad."}
+      ]
+    }
+  ]
+}
