@@ -203,6 +203,56 @@
       "guia": "GPC mexicanas + ACOG + Williams",
       "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa4.apkg",
       "notas": 46
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 1,
+      "deck_id": 1366039575,
+      "deck_name": "Medicina Familiar Adulto::Capa 1 - Imagen Viva",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa1.apkg",
+      "notas": 25
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 2,
+      "deck_id": 1990608935,
+      "deck_name": "Medicina Familiar Adulto::Capa 2 - Exploracion Dirigida",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa2.apkg",
+      "notas": 30
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 3,
+      "deck_id": 1185531197,
+      "deck_name": "Medicina Familiar Adulto::Capa 3 - Estudios e Interpretacion",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa3.apkg",
+      "notas": 30
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 4,
+      "deck_id": 1507672676,
+      "deck_name": "Medicina Familiar Adulto::Capa 4 - Diferenciales Rapidos",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa4.apkg",
+      "notas": 35
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 5,
+      "deck_id": 1095533052,
+      "deck_name": "Medicina Familiar Adulto::Capa 5 - Tratamiento Practico",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa5.apkg",
+      "notas": 39
     }
   ]
 }
