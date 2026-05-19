@@ -1,0 +1,101 @@
+{
+  "id": "otoscopia_006_otolicuorrea_tce",
+  "titulo": "Otolicuorrea (otorraquia) por fractura de peñasco",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "ATLS 11 + Brain Trauma Foundation",
+  "dificultad": "Avanzado",
+  "contexto": "Urgencias. Llega hombre de 42 años en moto sin casco, atropellado por auto. Golpe lateral derecho de la cabeza. Glasgow 13 (O3 V4 M6), confuso pero responde. Equimosis en región mastoidea derecha (en proceso de aparecer). De su oído derecho sale un líquido CLARO, sin sangre apreciable, que el paramédico ha estado limpiando con una gasa.",
+  "pasos": [
+    {
+      "situacion": "Ves la otorrea CLARA en un TCE temporal. ¿Cuál es tu primera sospecha y qué NO haces?",
+      "opciones": [
+        {"texto": "Otitis externa secundaria al trauma", "correcta": false, "puntos": -15, "feedback": "❌ Otorrea CLARA en TCE = OTOLICUORREA (LCR) hasta que se demuestre lo contrario. Pensar OE en este contexto es perderse una emergencia neuroquirúrgica."},
+        {"texto": "SOSPECHA DE OTOLICUORREA por FRACTURA DE PEÑASCO. NO tapono el oído (impediría drenaje, aumenta presión intracraneal y riesgo de meningitis ascendente), NO irrigo, NO meto gotas, NO bastoncillos. Posición semi-sentada (eleva cabecera 30°), gasa estéril SUELTA solo para recoger líquido (sin compresión), aviso a NRC y ORL", "correcta": true, "puntos": 15, "feedback": "✅ Las contraindicaciones son tan importantes como el diagnóstico. La 'higiene de no hacer' en otorraquia: ni tapón, ni gotas, ni irrigación. Posición elevada para reducir flujo de LCR y riesgo de meningitis."},
+        {"texto": "Limpio el oído con suero fisiológico", "correcta": false, "puntos": -15, "feedback": "❌ Introducir cualquier líquido en oído con comunicación con SNC = ascenso de gérmenes = meningitis."},
+        {"texto": "Tapono con gasa para que no salga más", "correcta": false, "puntos": -15, "feedback": "❌ Aumenta presión intracraneal (LCR queda dentro) + facilita meningitis ascendente. El LCR DEBE drenar libremente."}
+      ]
+    },
+    {
+      "situacion": "¿Cómo CONFIRMAS que el líquido es LCR y no agua/secreción banal?",
+      "opciones": [
+        {"texto": "Por el aspecto solamente", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Hay pruebas específicas."},
+        {"texto": "(1) SIGNO DEL HALO (halo sign / ring sign): pongo gota de la otorrea en gasa o papel filtro → si es LCR + sangre se ve MANCHA DOBLE: anillo claro periférico (LCR migrando) y centro sanguinolento. (2) GLUCOSA POSITIVA en líquido: LCR tiene glucosa (60% de la glucemia ~50 mg/dL), las secreciones mucosas casi nada. (3) Prueba definitiva: β2-TRANSFERRINA en líquido (solo presente en LCR y humor vítreo) — gold standard pero tarda 1-2 días. (4) En TC: imagen de fractura + comunicación. (5) Cisternografía con contraste si dudoso", "correcta": true, "puntos": 15, "feedback": "✅ Battery de confirmación: visual rápido (halo) + química rápida (glucosa) + química definitiva (β2-transferrina) + imagen. Halo y glucosa son al pie de cama. β2-transferrina confirma 100% pero requiere laboratorio especializado."},
+        {"texto": "Pruebo si sabe salado", "correcta": false, "puntos": -15, "feedback": "❌ NO. Por riesgo biológico + es agresión innecesaria. Glucosa + halo son las pruebas correctas."},
+        {"texto": "Solo TC", "correcta": false, "puntos": 5, "feedback": "⚠️ Útil pero el halo + glucosa son evaluación inicial."}
+      ]
+    },
+    {
+      "situacion": "Haces el HALO SIGN: gota sobre gasa → mancha doble (centro sangre, halo claro). Tira reactiva de orina: glucosa positiva. ¿Qué OTROS signos físicos refuerzan fractura de peñasco?",
+      "opciones": [
+        {"texto": "Solo la otorrea", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay signos físicos clásicos."},
+        {"texto": "(1) Signo de BATTLE: equimosis sobre la mastoides (suele tardar 24-48h en aparecer, signo TARDÍO). (2) Signo de RACOON / ojo de mapache: equimosis periorbitaria bilateral (más típico de fractura de base anterior con rinolicuorrea). (3) HEMOTÍMPANO (TM íntegra AZUL-VIOLÁCEA) si fractura sin comunicación con CAE. (4) PARÁLISIS FACIAL periférica (VII en su trayecto petroso). (5) HIPOACUSIA brusca + acúfeno + vértigo (afectación coclear/vestibular). (6) Rinolicuorrea (si fractura compromete también base anterior)", "correcta": true, "puntos": 15, "feedback": "✅ Pentapack de signos: Battle + raccoon + hemotímpano + parálisis facial + síntomas cocleovestibulares. La parálisis facial AGUDA (en horas) tiene mejor pronóstico que la tardía (días-semanas). Buscar activamente."},
+        {"texto": "Si hay vómito", "correcta": false, "puntos": -5, "feedback": "⚠️ Inespecífico (puede ser por HTI). Los signos clásicos son los anatómicos."},
+        {"texto": "Solo dolor cervical", "correcta": false, "puntos": -10, "feedback": "❌ Sugiere lesión cervical asociada pero no fractura de peñasco específicamente."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia derecha. ¿Qué esperas?",
+      "opciones": [
+        {"texto": "TM completamente normal", "correcta": false, "puntos": -10, "feedback": "❌ En fractura de peñasco con otolicuorrea suele haber afectación de TM o caja."},
+        {"texto": "CAE con LCR + sangre (líquido transparente con tintes hemáticos), POSIBLE PERFORACIÓN TIMPÁNICA (más frecuente en fracturas LONGITUDINALES del peñasco) por donde drena el LCR, ESCALÓN ÓSEO visible en CAE (fractura del marco timpánico), HEMOTÍMPANO si TM íntegra. Sangre en mango del martillo. Posible 'paso libre' del LCR hacia el CAE", "correcta": true, "puntos": 15, "feedback": "✅ Hallazgos esperables. Las fracturas LONGITUDINALES del peñasco (80%, en dirección AP) tienden a abrir TM/caja → otorraquia. Las TRANSVERSAS (20%, perpendiculares) afectan más cápsula ótica → vértigo + sordera neurosensorial + parálisis facial, con TM intacta (hemotímpano)."},
+        {"texto": "Colesteatoma", "correcta": false, "puntos": -10, "feedback": "❌ Colesteatoma es crónico, no aparece en agudo post-trauma."},
+        {"texto": "Otorrea purulenta verde", "correcta": false, "puntos": -10, "feedback": "❌ En agudo es LCR + sangre, no purulento."}
+      ]
+    },
+    {
+      "situacion": "¿Qué ESTUDIO DE IMAGEN pides URGENTE y por qué?",
+      "opciones": [
+        {"texto": "Radiografía simple de cráneo", "correcta": false, "puntos": -15, "feedback": "❌ Rx simple es INSUFICIENTE para fractura de peñasco. TC es el estándar."},
+        {"texto": "TC CRÁNEO + PEÑASCO SIN CONTRASTE de URGENCIA: identifica trazo de fractura, clasifica longitudinal/transversa/mixta, detecta sangre en celdas mastoideas/oído medio, neumoencéfalo (aire en cráneo = comunicación seguro con cavidad aérea), lesiones intracraneales asociadas (hematoma epidural, contusión, hemorragia subaracnoidea). Cortes finos 1 mm. ANGIO-TC si sospecha lesión vascular (arteria carótida interna en su trayecto petroso)", "correcta": true, "puntos": 15, "feedback": "✅ TC sin contraste primero (rápido, muestra hueso y sangre aguda), añadir angio si hay sospecha vascular. El NEUMOENCÉFALO es signo radiológico patognomónico de fractura abierta hacia cavidad aérea (oído medio, senos paranasales)."},
+        {"texto": "RM con contraste", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil para tejido nervioso pero lenta, no de primera línea en TCE agudo. Tras estabilización para evaluar nervio facial o cócleo-vestibular."},
+        {"texto": "Solo observación clínica", "correcta": false, "puntos": -15, "feedback": "❌ TCE con otolicuorrea + Glasgow 13 = imagen urgente OBLIGATORIA."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿ANTIBIÓTICO PROFILÁCTICO en otolicuorrea?",
+      "opciones": [
+        {"texto": "Sí, siempre vancomicina + ceftriaxona", "correcta": false, "puntos": -10, "feedback": "❌ La profilaxis antibiótica en fractura basilar con fístula de LCR es CONTROVERTIDA — Cochrane no demuestra beneficio claro."},
+        {"texto": "CONTROVERTIDO. Cochrane 2015 y guías actuales NO recomiendan profilaxis ATB rutinaria — no reduce meningitis y selecciona resistencias. Algunos centros aún la usan en casos seleccionados (fístula >7 días, otros factores). Lo más importante: VIGILANCIA estrecha de signos de meningitis (fiebre, rigidez de nuca, alteración mental, signos meníngeos), VACUNACIÓN antineumocócica + Hib + meningococo precoz (S. pneumoniae es el germen más frecuente en meningitis post-traumática), educación de signos de alarma al paciente/familia", "correcta": true, "puntos": 15, "feedback": "✅ Posición actualizada: vigilancia + vacunación > ATB profiláctica de rutina. La inmunización contra los tres encapsulados protege contra los patógenos más frecuentes."},
+        {"texto": "Solo penicilina G", "correcta": false, "puntos": -10, "feedback": "❌ Cobertura insuficiente para gérmenes nosocomiales/H. influenzae."},
+        {"texto": "Esperar a que se infecte", "correcta": false, "puntos": -10, "feedback": "❌ Es estrategia inadecuada. Vigilancia activa + vacunación = mejor balance."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿cómo se TRATA la fístula de LCR? ¿Cuánto tiempo se espera para cierre espontáneo?",
+      "opciones": [
+        {"texto": "Cirugía inmediata", "correcta": false, "puntos": -15, "feedback": "❌ Mayoría cierra sola. Cirugía es para casos seleccionados."},
+        {"texto": "MANEJO CONSERVADOR inicial: reposo en cama con cabecera elevada 30°, evitar maniobras de Valsalva (no sonarse fuerte, no esforzar, laxantes si necesario), monitorización. 70-90% CIERRA ESPONTÁNEAMENTE en 7-10 DÍAS. Si persiste >7-14 días o si vuelve tras cierre: considerar DRENAJE LUMBAR (descomprime y favorece cierre) y posteriormente CIRUGÍA (cierre del defecto dural por vía neuroquirúrgica o ORL). Indicación quirúrgica también si: fístula recurrente, meningitis recurrente, fístula gigante", "correcta": true, "puntos": 15, "feedback": "✅ Algoritmo escalonado: conservador → drenaje lumbar → cirugía. Tasa alta de cierre espontáneo justifica conservador inicial. Acostarse y reposo absoluto (no maniobras de Valsalva) son lo más importante."},
+        {"texto": "Antibiótico oral indefinido", "correcta": false, "puntos": -15, "feedback": "❌ No es la estrategia. Genera resistencias."},
+        {"texto": "Punción lumbar diagnóstica", "correcta": false, "puntos": -15, "feedback": "❌ Contraindicada en posibles lesiones expansivas/HTI (riesgo herniación). NO de rutina en TCE."}
+      ]
+    },
+    {
+      "situacion": "Familia pregunta '¿qué es lo más peligroso de tener LCR saliendo por el oído?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'Que pierda mucho líquido cerebral'", "correcta": false, "puntos": -10, "feedback": "❌ El volumen perdido no es lo crítico — el LCR se reproduce. El riesgo principal es la INFECCIÓN ASCENDENTE."},
+        {"texto": "'El líquido que rodea el cerebro está saliendo por una fisura en el hueso, por el oído. Tiene dos riesgos: (1) El más serio es que BACTERIAS suban POR ESA RUTA al cerebro y causen MENINGITIS — por eso vigilancia muy estricta de fiebre, dolor de cabeza intenso, rigidez de cuello, confusión. (2) La fisura puede tardar 1-2 semanas en cerrar sola, lo que requiere reposo y evitar esforzarse. Si no cierra sola, puede necesitar cirugía. Vamos a vacunar contra los gérmenes más probables como prevención adicional'", "correcta": true, "puntos": 15, "feedback": "✅ Educación clara: identifica el riesgo principal (meningitis ascendente) + plan + signos de alarma + tiempo de cierre + plan de respaldo + medida preventiva. Información accionable."},
+        {"texto": "'Es grave, no le puedo decir más'", "correcta": false, "puntos": -10, "feedback": "❌ Evasivo y aumenta ansiedad sin información útil."},
+        {"texto": "'No es grave, se cura solo'", "correcta": false, "puntos": -15, "feedback": "❌ Minimiza un riesgo real de meningitis."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿signos de alarma de MENINGITIS post-traumática a verbalizar a familia?",
+      "opciones": [
+        {"texto": "Solo fiebre", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente."},
+        {"texto": "Educar para CONSULTA INMEDIATA si: (1) FIEBRE nueva (>38°C), (2) cefalea INTENSA y persistente diferente al dolor habitual, (3) RIGIDEZ DE NUCA, (4) náusea/VÓMITOS sin causa, (5) ALTERACIÓN del estado mental (somnolencia, confusión, irritabilidad), (6) FOTOFOBIA o sonofobia, (7) CRISIS CONVULSIVAS, (8) cambio de la otorrea (vuelve a aparecer tras cesar, o se hace purulenta/fétida). Riesgo de meningitis persiste mientras la fístula esté abierta y hasta semanas-meses después", "correcta": true, "puntos": 15, "feedback": "✅ Lista accionable de banderas rojas. Cualquiera de estos = urgencias inmediatas. La meningitis post-traumática es típicamente neumocócica y agresiva — el diagnóstico precoz salva vidas."},
+        {"texto": "Solo cambio en el oído", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."},
+        {"texto": "Solo dolor de cabeza", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Handover a Neurocirugía + ORL. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'TCE con otorrea, vénganlo a ver'", "correcta": false, "puntos": -15, "feedback": "❌ Sin contexto ni datos. Equipo receptor empieza de cero."},
+        {"texto": "'Varón 42a, motociclista sin casco, atropellado en moto con TCE temporal derecho. Glasgow 13 al ingreso. Otorrea derecha CLARA confirmada LCR (halo sign + + glucosa +). Otoscopia: perforación timpánica derecha con drenaje LCR-hemático + escalón óseo en CAE. Signo de Battle incipiente. Hipoacusia derecha clínica. Sin parálisis facial, sin signos meníngeos, sin focalidad neurológica. TC: fractura longitudinal del peñasco derecho con afectación de pared posterior de CAE, hemotímpano, sin neumoencéfalo significativo, sin hematoma intracraneal. Plan en curso: reposo cabecera 30°, NO tapón ni gotas, vigilancia neurológica horaria, vacunación neumococo+Hib+meningococo iniciada, monitorización de signos meníngeos. Necesita evaluación NRC para manejo de fístula + ORL para audiometría y valoración VII'", "correcta": true, "puntos": 15, "feedback": "✅ Resumen estructurado completo. Mecanismo + Glasgow + diagnóstico + confirmación + otoscopia + neurológico + imagen + plan + lo que se pide al equipo receptor. Esto es handover de calidad neuroquirúrgico."},
+        {"texto": "Solo le doy el TAC y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Documento sin verbalización estructurada."},
+        {"texto": "'Es solo un traumatismo, déjenlo'", "correcta": false, "puntos": -15, "feedback": "❌ Subestima. Fractura de peñasco con LCR es manejo NRC + ORL multidisciplinar."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_007_disfuncion_trompa",
+  "titulo": "Disfunción de trompa de Eustaquio post-vuelo (barotrauma)",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "ENT UK + AAO-HNS",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Adulto de 35 años llega a consulta. Anoche aterrizó tras un vuelo de 7 horas. Durante el descenso sintió dolor INTENSO en ambos oídos, especialmente el derecho. Intentó tragar y bostezar pero no se le destaparon. Hoy se levanta con SENSACIÓN DE OÍDO TAPADO, hipoacusia bilateral más marcada en derecho, y autofonía (escucha su propia voz amplificada). Sin otorrea. Tenía un resfriado los últimos 3 días.",
+  "pasos": [
+    {
+      "situacion": "Anamnesis te da la pista: ¿diagnóstico sindromático antes de la otoscopia?",
+      "opciones": [
+        {"texto": "Otitis media aguda bilateral", "correcta": false, "puntos": -10, "feedback": "❌ Aunque puede haber OMA secundaria, el cuadro inicial es claro: descenso aéreo + resfriado previo + dolor durante descenso + plenitud = BAROTRAUMA por disfunción de trompa."},
+        {"texto": "BAROTRAUMA ÓTICO por DISFUNCIÓN DE TROMPA DE EUSTAQUIO durante el descenso. El resfriado previo (mucosa edematosa) impide que la trompa iguale presiones, la presión externa aumenta más rápido que la del oído medio, la TM se retrae hacia adentro, puede llegar a HEMOTÍMPANO o efusión secundaria", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático con mecanismo. La disfunción de trompa es la causa del barotrauma — sin la apertura activa de la trompa (deglución, bostezo), no se compensa el cambio de presión. El resfriado convierte a una persona normal en barotrauma-susceptible."},
+        {"texto": "Vértigo posicional benigno", "correcta": false, "puntos": -10, "feedback": "❌ VPPB es vértigo desencadenado por movimientos, no plenitud post-vuelo. Y no da hipoacusia."},
+        {"texto": "Otitis externa", "correcta": false, "puntos": -10, "feedback": "❌ OE da dolor con manipulación + otorrea. No es el cuadro."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia. ¿Qué hallazgos ESPERAS según severidad del barotrauma (clasificación de Wallace/Teed)?",
+      "opciones": [
+        {"texto": "TM completamente normal", "correcta": false, "puntos": -10, "feedback": "❌ Casi nunca normal en barotrauma sintomático. Hay grados."},
+        {"texto": "GRADOS (Teed): 0 = síntomas sin signos; 1 = eritema y RETRACCIÓN leve TM; 2 = retracción + INYECCIÓN VASCULAR a lo largo del mango del martillo y periferia; 3 = HEMORRAGIA INTRATIMPÁNICA (sangre debajo de TM intacta = HEMOTÍMPANO); 4 = HEMOTÍMPANO franco con TM oscura/azul; 5 = perforación. En este caso (síntomas moderados) probable grado 2-3: retracción + inyección vascular ± efusión seromucosa con nivel hidroaéreo", "correcta": true, "puntos": 15, "feedback": "✅ Clasificación clásica de Wallace/Teed útil para gradar severidad y tratamiento. La retracción es signo CLAVE: TM cóncava (no convexa como OMA), mango horizontalizado, triángulo luminoso disminuido o ausente."},
+        {"texto": "TM abombada y roja", "correcta": false, "puntos": -10, "feedback": "❌ Eso es OMA. En barotrauma la TM está RETRAÍDA, no abombada."},
+        {"texto": "Perforación con otorrea", "correcta": false, "puntos": -5, "feedback": "⚠️ Solo grado 5 (raro). La mayoría es retracción + cambios vasculares."}
+      ]
+    },
+    {
+      "situacion": "Visualizas TM derecha con RETRACCIÓN + inyección vascular sobre mango + nivel hidroaéreo (efusión seromucosa). Izquierda con retracción leve. ¿Cómo diferencias DISFUNCIÓN DE TROMPA de OMA?",
+      "opciones": [
+        {"texto": "No se pueden diferenciar", "correcta": false, "puntos": -10, "feedback": "❌ Diferencias claras en otoscopia y clínica."},
+        {"texto": "Disfunción trompa/barotrauma: TM RETRAÍDA (cóncava), mango HORIZONTALIZADO, triángulo luminoso desaparece, líquido SEROMUCOSO claro/ámbar (no purulento), SIN fiebre, dolor relacionado a cambio de presión. OMA: TM ABOMBADA (convexa), mango menos visible por opacidad, hiperemia INTENSA difusa, líquido PURULENTO, fiebre alta, dolor pulsátil sin relación a cambio de presión, contexto post-IRA reciente", "correcta": true, "puntos": 15, "feedback": "✅ Diferencial completo por exploración + clínica. La RETRACCIÓN vs ABOMBAMIENTO es el discriminante más útil (recordar: en disfunción la TM está aspirada hacia adentro por presión negativa en oído medio)."},
+        {"texto": "Solo por la edad", "correcta": false, "puntos": -10, "feedback": "❌ No es discriminante."},
+        {"texto": "Solo por audiometría", "correcta": false, "puntos": -5, "feedback": "⚠️ Audiometría muestra hipoacusia conductiva en ambos. La diferenciación es clínica + otoscópica."}
+      ]
+    },
+    {
+      "situacion": "Diagnóstico: disfunción de trompa post-barotrauma con efusión seromucosa. ¿Tratamiento de PRIMERA LÍNEA?",
+      "opciones": [
+        {"texto": "Antibiótico oral 10 días", "correcta": false, "puntos": -15, "feedback": "❌ No hay infección activa. Antibiótico = innecesario + efectos adversos + resistencias."},
+        {"texto": "Manejo conservador: (1) MANIOBRAS DE APERTURA DE TROMPA: VALSALVA (espirar con boca y nariz cerradas — suavemente, no fuerte), TOYNBEE (deglutir con nariz tapada), Frenzel, bostezo forzado, masticar chicle. Frecuencia: cada 1-2 horas despierto. (2) DESCONGESTIONANTE intranasal (oximetazolina) MÁXIMO 3-5 DÍAS para reducir edema mucoso de la trompa. (3) Antihistamínico oral si rinitis alérgica concurrente. (4) Analgesia (ibuprofeno) si dolor. (5) Evitar nuevos vuelos hasta resolución", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: maniobras + descongestionante tópico breve + analgesia. NO antibiótico (no es infección) y NO descongestionante oral (más efectos sistémicos sin mejor eficacia)."},
+        {"texto": "Tubos de timpanostomía urgente", "correcta": false, "puntos": -15, "feedback": "❌ Premaduro. Solo si efusión persiste >3 meses o barotraumas recurrentes severos."},
+        {"texto": "Corticoide oral 1 mes", "correcta": false, "puntos": -10, "feedback": "❌ No es estándar. Corticoide intranasal sí tiene rol si hay rinitis alérgica subyacente."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿cómo hago bien la Valsalva?'. ¿Le explicas?",
+      "opciones": [
+        {"texto": "'Solo sople muy fuerte por la nariz cerrada'", "correcta": false, "puntos": -15, "feedback": "❌ Valsalva DEMASIADO fuerte puede ROMPER TM o causar barotrauma del oído interno (fístula perilinfática → sordera neurosensorial + vértigo)."},
+        {"texto": "'Cierre la nariz pinzándola, cierre los labios, sople SUAVEMENTE como si quisiera hinchar las mejillas, hasta sentir el clic de los oídos. NUNCA fuerte ni prolongado (riesgo de rotura). Si no funciona en 2-3 intentos suaves, intente OTRA maniobra (Toynbee: tragar con nariz tapada, suele ser más fisiológica). También sirve masticar chicle, bostezar, soplar globos. Hacer cada hora despierto'", "correcta": true, "puntos": 15, "feedback": "✅ Educación técnica + advertencia clave (no fuerte) + alternativa fisiológica (Toynbee) + frecuencia. La Toynbee es más segura porque la deglución abre la trompa fisiológicamente."},
+        {"texto": "'Inflar un globo con la nariz'", "correcta": false, "puntos": 5, "feedback": "⚠️ El método Otovent (inflar globo especial con la nariz) tiene evidencia en niños con OME. En adultos puede ayudar pero no es la primera maniobra."},
+        {"texto": "'No haga maniobras, espere'", "correcta": false, "puntos": -10, "feedback": "❌ Las maniobras de apertura son la PRIMERA LÍNEA del tratamiento."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿puedo volar pronto?'. ¿Recomendaciones?",
+      "opciones": [
+        {"texto": "'Sí, vuele cuando quiera'", "correcta": false, "puntos": -15, "feedback": "❌ Volar con disfunción activa = recurrencia o empeoramiento (puede causar perforación)."},
+        {"texto": "'No volar hasta que la trompa funcione correctamente (típicamente 1-2 semanas tras resolución). Si tiene que volar antes: (1) tratar agresivamente cualquier resfriado/rinitis previo, (2) descongestionante intranasal 30 min antes del despegue y antes del descenso, (3) maniobras de apertura ACTIVA durante todo el descenso (no esperar), (4) tapones especiales para vuelo (EarPlanes) ralentizan el cambio de presión, (5) en niños pequeños: chupar tetina/biberón durante despegue y descenso. Si tiene OMA actual: NO volar'", "correcta": true, "puntos": 15, "feedback": "✅ Recomendaciones específicas + estrategia preventiva por niveles. EarPlanes (filtro cerámico) tiene evidencia para reducir barotrauma. Pre-medicación con descongestionante es estándar antes de vuelos en personas susceptibles."},
+        {"texto": "'Nunca más vuele'", "correcta": false, "puntos": -10, "feedback": "❌ Sobrerestricción. Con manejo adecuado puede volar."},
+        {"texto": "Solo paracetamol antes de volar", "correcta": false, "puntos": -10, "feedback": "❌ Paracetamol no abre trompa ni reduce edema. Solo analgesia."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué OTRAS situaciones causan barotrauma similar al vuelo?",
+      "opciones": [
+        {"texto": "Solo el avión", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay varias situaciones."},
+        {"texto": "(1) BUCEO (descenso submarino): cambios de presión 1 atm cada 10 m. (2) CÁMARA HIPERBÁRICA. (3) RESCATE EN AVALANCHA / lugares con cambios súbitos. (4) MOTERO en montaña (cambios rápidos de altitud). (5) TÚNELES con presurización (Eurotunnel, metro a gran profundidad). El BUCEO es el que causa los barotraumas más severos: puede haber barotrauma del oído INTERNO (fístula perilinfática → sordera neurosensorial súbita + vértigo) además del medio", "correcta": true, "puntos": 15, "feedback": "✅ Conocimiento amplio + matiz crítico: el buceo puede dañar oído INTERNO (no solo medio) por mecanismo de fístula → emergencia ORL. Buzo con disfunción de trompa nunca debe bucear hasta resolución."},
+        {"texto": "Solo subir cerros", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. Buceo es el más severo."},
+        {"texto": "Solo gritar fuerte", "correcta": false, "puntos": -10, "feedback": "❌ Gritar no causa barotrauma."}
+      ]
+    },
+    {
+      "situacion": "Le explicas la fisiopatología de la trompa de Eustaquio en términos accesibles. ¿Mensaje?",
+      "opciones": [
+        {"texto": "Le explico anatomía técnica del tensor del velo del paladar", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico. Adapta al lego."},
+        {"texto": "'La trompa de Eustaquio es como una válvula entre la nariz y el oído. Normalmente está cerrada, pero cuando traga o bosteza se abre un momento y deja que las presiones se igualen entre el oído y el ambiente. Por eso al subir o bajar en avión TRAGAR DESTAPA los oídos. Cuando tiene resfriado, las mucosas hinchadas tapan esa válvula → la trompa no abre bien → el oído queda con menos presión que el ambiente → la membrana del tímpano se hunde hacia adentro → dolor + sensación de tapón. Con maniobras y descongestionante volveremos a abrir la válvula y todo se normaliza'", "correcta": true, "puntos": 15, "feedback": "✅ Analogía de válvula + mecanismo + por qué se altera con resfriado + lógica del tratamiento. Educación efectiva que permite al paciente entender qué hace y por qué."},
+        {"texto": "'No se preocupe por entender, solo siga las indicaciones'", "correcta": false, "puntos": -10, "feedback": "❌ Pacientes informados adhieren mejor y reconocen recurrencias. Educar siempre vale la pena."},
+        {"texto": "'Es complicado'", "correcta": false, "puntos": -10, "feedback": "❌ Evasivo."}
+      ]
+    },
+    {
+      "situacion": "A las 2 semanas vuelve a control: oye mejor pero persiste leve plenitud en derecho. Otoscopia: leve retracción residual, sin efusión. ¿Conducta?",
+      "opciones": [
+        {"texto": "Tubos de timpanostomía ya", "correcta": false, "puntos": -10, "feedback": "❌ Premaduro. Hay mejoría progresiva. Esperar."},
+        {"texto": "Continuar maniobras de Otovent (inflar globo) varias veces al día por 4-6 semanas más, control a las 4 semanas. Si persiste plenitud o aparece efusión a los 3 meses → DERIVACIÓN a ORL para considerar TUBO/dilatación con balón de la trompa. La 'tuboplastia con balón' es opción moderna para disfunción crónica de trompa", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado conservador. La tuboplastia con balón (Eustachian tube balloon dilation) es procedimiento moderno con buenos resultados en disfunción crónica de trompa que no responde a conservador."},
+        {"texto": "Alta sin más controles", "correcta": false, "puntos": -10, "feedback": "❌ Plenitud persistente requiere seguimiento."},
+        {"texto": "Cirugía mayor inmediata", "correcta": false, "puntos": -15, "feedback": "❌ Sobre-tratamiento."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿en QUÉ adultos sospecharías disfunción crónica de trompa que oculta otra cosa?",
+      "opciones": [
+        {"texto": "Solo en mayores", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay grupo MUY importante a investigar."},
+        {"texto": "🚩 BANDERA ROJA: adulto >40 años con OME/disfunción trompa UNILATERAL persistente, especialmente con: rinorrea unilateral, epistaxis, adenopatía cervical, parálisis VI, hipoacusia neurosensorial asociada → debe descartarse CARCINOMA DE NASOFARINGE (más frecuente en hombres asiáticos, fumadores, EBV+). NECESITA endoscopia nasofaríngea + biopsia. NO presumir 'disfunción benigna' sin descartar este cáncer en adultos", "correcta": true, "puntos": 15, "feedback": "✅ Bandera roja crítica que NO se puede perder. El carcinoma de nasofaringe obstruye la trompa por crecimiento local. Diagnóstico tardío empeora pronóstico drásticamente. En adulto con OME unilateral persistente, la endoscopia ORL es OBLIGATORIA."},
+        {"texto": "En cualquier adulto", "correcta": false, "puntos": -5, "feedback": "⚠️ Las claves son: UNILATERAL + PERSISTENTE + >40 años + síntomas asociados."},
+        {"texto": "Solo si tiene dolor", "correcta": false, "puntos": -10, "feedback": "❌ Carcinoma nasofaringe suele ser INDOLORO inicialmente. Por eso la sospecha clínica debe ser proactiva."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta:",
+      "opciones": [
+        {"texto": "'Le di descongestionante'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Varón 35a, disfunción de trompa de Eustaquio bilateral post-barotrauma de vuelo (descenso) con efusión seromucosa OD (grado 3 de Teed) y retracción simple OI. IRA reciente como factor predisponente. Plan: maniobras de Toynbee/Valsalva suave cada hora, oximetazolina intranasal 3 días, ibuprofeno 400 mg c/8h prn dolor, NO volar 1-2 sem, control en 2 sem. Si requiere volar antes: pretratar con descongestionante 30 min antes despegue/descenso + EarPlanes + maniobras activas durante descenso. Si plenitud persistente >3 meses o efusión recurrente → derivación ORL para audiometría + considerar tuboplastia con balón. Educar sobre técnica de maniobras (suaves, no fuertes — riesgo de fístula perilinfática) y signos de alarma (sordera súbita, vértigo intenso, secreción → urgencias)'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + grado + factor predisponente + tratamiento detallado + plan de vuelos + plan de seguimiento + criterio de derivación + educación. Atención completa."},
+        {"texto": "Solo receta y alta", "correcta": false, "puntos": -10, "feedback": "❌ Sin plan ni educación."},
+        {"texto": "'Probablemente le tengan que operar'", "correcta": false, "puntos": -15, "feedback": "❌ Alarmista. La mayoría resuelven con conservador."}
+      ]
+    }
+  ]
+}

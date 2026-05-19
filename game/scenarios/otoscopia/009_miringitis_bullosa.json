@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_009_miringitis_bullosa",
+  "titulo": "Miringitis bullosa con otorrea serosanguinolenta",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "AAO-HNS + IDSA",
+  "dificultad": "Intermedio",
+  "contexto": "Mujer de 24 años en consulta. Lleva 5 días con cuadro gripal (fiebre baja, tos seca, malestar). Anoche apareció DOLOR ÓTICO IZQUIERDO de instalación rápida, MUY INTENSO y desproporcionado, que la mantuvo despierta. Esta mañana se levantó con MENOS dolor pero ahora hay un líquido SEROSANGUINOLENTO (líquido amarillento con manchas rojizas) saliendo del oído. NO fiebre alta. Compañero de trabajo con cuadro respiratorio similar.",
+  "pasos": [
+    {
+      "situacion": "Anamnesis: ¿qué te dice 'cuadro gripal + dolor ótico INTENSO de inicio rápido + alivio parcial con drenaje SEROSANGUINOLENTO + contexto epidémico'?",
+      "opciones": [
+        {"texto": "OMA bacteriana clásica", "correcta": false, "puntos": -5, "feedback": "⚠️ Diferencial razonable pero algunos detalles no encajan: el dolor es DESPROPORCIONADAMENTE intenso para la apariencia, y el líquido es SEROSANGUINOLENTO (no purulento). Eso apunta a miringitis bullosa."},
+        {"texto": "MIRINGITIS BULLOSA: inflamación de la TM con formación de AMPOLLAS (bullas) hemorrágicas en su superficie. Asociada a infecciones virales (gripe, influenza, parainfluenza) o atípicas (Mycoplasma pneumoniae, Chlamydia pneumoniae). Dolor INTENSO desproporcionado al cuadro general. Cuando las bullas se rompen → otorrea SEROSANGUINOLENTA + alivio del dolor. Contexto epidémico apoya etiología infecciosa", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático. La miringitis bullosa es clásicamente asociada a Mycoplasma pneumoniae (relación histórica importante) pero también muchos virus. El dolor intenso 'no proporcional' es la pista clínica clave."},
+        {"texto": "Otitis externa", "correcta": false, "puntos": -10, "feedback": "❌ OE da dolor con manipulación + otorrea de pared del CAE + sin contexto gripal."},
+        {"texto": "Perforación timpánica traumática", "correcta": false, "puntos": -10, "feedback": "❌ Sin antecedente traumático."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia izquierda. ¿Qué esperas ver característicamente?",
+      "opciones": [
+        {"texto": "TM normal", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con el cuadro."},
+        {"texto": "MIRINGITIS BULLOSA: TM con AMPOLLAS (vesículas / bullas) en su superficie — pueden ser CLARAS (serosas) o HEMORRÁGICAS (azuladas-violáceas), únicas o múltiples, en general PEQUEÑAS, sobre TM eritematosa. Si ya rompieron: TM eritematosa con áreas erosionadas + restos de bullas colapsadas + líquido serosanguinolento en CAE. La perforación franca es POCO frecuente; la otorrea viene de las bullas rotas, no de perforación", "correcta": true, "puntos": 15, "feedback": "✅ Imagen patognomónica. Las bullas pueden estar en la TM o en el CAE adyacente (miringitis bullosa hemorrágica también llamada 'otitis hemorrágica'). Si encuentras ampollas visibles en TM = diagnóstico casi seguro."},
+        {"texto": "Pus verde abundante", "correcta": false, "puntos": -10, "feedback": "❌ En miringitis bullosa el líquido es SEROSO o SEROSANGUINOLENTO, no purulento."},
+        {"texto": "Colesteatoma", "correcta": false, "puntos": -10, "feedback": "❌ Crónico, no agudo."}
+      ]
+    },
+    {
+      "situacion": "Visualizas: TM eritematosa con 2 bullas rotas + líquido serosanguinolento. ¿Cómo diferencias el LÍQUIDO de la miringitis bullosa de otros tipos de otorrea?",
+      "opciones": [
+        {"texto": "Solo por el color", "correcta": false, "puntos": -10, "feedback": "❌ Hay características múltiples."},
+        {"texto": "Otorrea de MIRINGITIS BULLOSA: SEROSANGUINOLENTA (líquido amarillento o pajizo con tinte rojizo o vetas de sangre), CANTIDAD ESCASA-MODERADA, NO purulenta (sin pus franco amarillo-verdoso espeso), NO fétida, viene de las bullas rotas (no de perforación franca generalmente), se acompaña de mejoría del dolor. Diferencial: OMA perforada da purulento espeso amarillo-verdoso; perforación traumática da sangre roja más franca; otolicuorrea da LCR claro con glucosa+", "correcta": true, "puntos": 15, "feedback": "✅ Caracterización completa: color + cantidad + consistencia + olor + mecanismo + comparación. Esto permite identificar el tipo de proceso sin TC ni cultivos solo por la otorrea."},
+        {"texto": "Es igual a la de la OMA", "correcta": false, "puntos": -15, "feedback": "❌ Distinto: OMA da pus, miringitis bullosa da seroso o serosanguinolento."},
+        {"texto": "Si tiene mal olor", "correcta": false, "puntos": -10, "feedback": "❌ No es fétido. El fétido apunta a colesteatoma."}
+      ]
+    },
+    {
+      "situacion": "¿Cuál es el tratamiento INICIAL de miringitis bullosa?",
+      "opciones": [
+        {"texto": "Antibiótico de amplio espectro inmediato", "correcta": false, "puntos": -10, "feedback": "❌ La etiología más frecuente es VIRAL. Empezar con antibiótico es sobre-tratamiento."},
+        {"texto": "(1) ANALGESIA POTENTE — el dolor es lo más invalidante (ibuprofeno 400 mg c/8h + paracetamol 1 g c/8h alternados; opioide débil tipo tramadol si dolor extremo). (2) Calor LOCAL SUAVE (bolsa de agua tibia envuelta) puede aliviar. (3) NO drenar las bullas (alivian solas y drenar puede infectar). (4) Antibiótico: la guía clásica es MACRÓLIDO (azitromicina o claritromicina) por la asociación con Mycoplasma. Sin embargo, evidencia actual es controvertida — muchos casos son virales puros y no requieren ATB. Tratar con macrólido si: bullas extensas o múltiples, paciente sintomático, sospecha Mycoplasma (cuadro respiratorio bajo asociado, contactos)", "correcta": true, "puntos": 15, "feedback": "✅ Analgesia primero + antibiótico macrólido selectivo. La aproximación clásica de tratar siempre con macrólido por Mycoplasma se ha matizado: muchos casos son virales. Macrólido si hay sospecha real de atípica o cuadro extenso."},
+        {"texto": "Gotas óticas con aminoglucósidos", "correcta": false, "puntos": -15, "feedback": "❌ Aminoglucósidos OTOTÓXICOS con TM lesionada/abierta."},
+        {"texto": "Drenar las bullas con aguja", "correcta": false, "puntos": -15, "feedback": "❌ NO indicado. Las bullas se resuelven solas. Puncionarlas puede causar infección secundaria o perforación."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿por qué duele tanto si las bullas son pequeñas?'. ¿Explicación?",
+      "opciones": [
+        {"texto": "'No sabemos por qué duele'", "correcta": false, "puntos": -10, "feedback": "❌ Hay explicación clara."},
+        {"texto": "'La TM tiene mucha inervación sensitiva. Cuando se forman ampollas en su superficie, la tensión de la membrana aumenta enormemente — es como una pequeña pústula que tira de la membrana muy estirada. Por eso el dolor es desproporcionado al tamaño de la lesión que se ve. Cuando las ampollas se rompen y se vacían, la tensión cae bruscamente y el dolor mejora rápido — es el patrón típico que usted ha tenido. La inflamación residual se cura en 7-10 días generalmente'", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo del dolor + explicación del patrón clínico + horizonte temporal. Pacientes entienden mejor con la analogía de 'pequeña ampolla en membrana muy inervada'."},
+        {"texto": "'Es psicológico'", "correcta": false, "puntos": -15, "feedback": "❌ Falso e invalidante. Dolor real con base fisiológica."},
+        {"texto": "Le explico con jerga técnica detallada", "correcta": false, "puntos": -5, "feedback": "⚠️ Adaptar lenguaje al lego."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿COMPLICACIONES posibles de la miringitis bullosa?",
+      "opciones": [
+        {"texto": "Solo dolor", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay complicaciones más específicas."},
+        {"texto": "(1) HIPOACUSIA NEUROSENSORIAL SÚBITA — complicación temida (especialmente por Mycoplasma): si aparece hipoacusia profunda nueva → corticoide sistémico precoz (idealmente <72h) + derivación urgente ORL. (2) OME secundaria (efusión seromucosa residual) — frecuente, se resuelve en semanas. (3) Perforación timpánica residual (poco común, suele cerrar sola). (4) En Mycoplasma asociado a respiratorio bajo: NEUMONÍA y rara vez complicaciones extrapulmonares (anemia hemolítica, encefalitis, eritema multiforme/Stevens-Johnson)", "correcta": true, "puntos": 15, "feedback": "✅ Pentapack de complicaciones. La HIPOACUSIA NEUROSENSORIAL SÚBITA es la más temida — emergencia ORL con ventana de 72h para corticoide. Pregunta siempre sobre cambio en la audición durante el cuadro."},
+        {"texto": "Mastoiditis siempre", "correcta": false, "puntos": -10, "feedback": "❌ Mastoiditis es complicación de OMA bacteriana, no típica de miringitis bullosa."},
+        {"texto": "Solo cosmética", "correcta": false, "puntos": -10, "feedback": "❌ Hay complicaciones reales."}
+      ]
+    },
+    {
+      "situacion": "Le preguntas '¿oye igual que antes?'. Responde 'me parece que oigo un poco menos pero quizás es porque tengo el líquido'. ¿Conducta?",
+      "opciones": [
+        {"texto": "Confiar en su impresión, no investigar más", "correcta": false, "puntos": -10, "feedback": "❌ La hipoacusia neurosensorial súbita puede confundirse con 'oído tapado'. Necesitas confirmar objetivamente el tipo de hipoacusia."},
+        {"texto": "EVALUACIÓN OBJETIVA: acumetría con diapasón (Weber/Rinne). Si Weber lateraliza al SANO y Rinne POSITIVO en el lado enfermo (CA > CO) = HIPOACUSIA NEUROSENSORIAL → URGENCIA ORL para audiometría y CORTICOIDE SISTÉMICO PRECOZ (prednisolona 1 mg/kg/día 5-7 días, ventana óptima <72h). Si Weber lateraliza al ENFERMO y Rinne NEGATIVO = conductiva por efusión, manejo conservador esperado", "correcta": true, "puntos": 15, "feedback": "✅ Acumetría DIFERENCIA hipoacusia neurosensorial (URGENCIA) de conductiva (esperada). La sordera súbita neurosensorial es una emergencia ORL con ventana de 72h — el factor pronóstico más importante es la rapidez del tratamiento."},
+        {"texto": "Audiometría programada para 2 semanas", "correcta": false, "puntos": -5, "feedback": "⚠️ Tardar 2 sem es perder la ventana de 72h si fuera neurosensorial."},
+        {"texto": "Solo otoscopia repetida", "correcta": false, "puntos": -10, "feedback": "❌ Otoscopia no evalúa función auditiva."}
+      ]
+    },
+    {
+      "situacion": "Acumetría: Weber lateraliza al lado IZQUIERDO (enfermo), Rinne NEGATIVO izquierdo. Conclusión:",
+      "opciones": [
+        {"texto": "Hipoacusia neurosensorial súbita", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo opuesto: Weber al enfermo + Rinne negativo = CONDUCTIVA, no neurosensorial."},
+        {"texto": "HIPOACUSIA CONDUCTIVA por efusión seromucosa secundaria a la miringitis bullosa. Esperable, se resolverá con la inflamación. Manejo conservador, control en 2-4 semanas con audiometría si persiste plenitud", "correcta": true, "puntos": 15, "feedback": "✅ Conductiva esperable por el componente exudativo. Recordar: Weber LATERALIZA AL OÍDO ENFERMO en CONDUCTIVA (porque al oído enfermo le llega mejor el sonido por hueso y peor por aire) y al SANO en NEUROSENSORIAL."},
+        {"texto": "No se puede determinar", "correcta": false, "puntos": -10, "feedback": "❌ Sí se puede con acumetría básica."},
+        {"texto": "Sordera total", "correcta": false, "puntos": -15, "feedback": "❌ Hipoacusia leve-moderada conductiva, no total."}
+      ]
+    },
+    {
+      "situacion": "Indicaciones específicas para los próximos días. ¿Qué le dices?",
+      "opciones": [
+        {"texto": "'Vida normal'", "correcta": false, "puntos": -10, "feedback": "❌ Hay restricciones por el componente lesional."},
+        {"texto": "(1) ANALGESIA pautada (no solo a demanda) primeras 48-72h por dolor intenso. (2) HIGIENE SECA mientras haya otorrea o lesión visible (tapón vaselinado al ducharse, no piscina/mar). (3) NO sonarse FUERTE (riesgo aumentar presión sobre TM). (4) Reposo de actividades de presión (no bucear, no vuelos en próximos 7-10 días si posible). (5) Si síntomas respiratorios bajos: investigar neumonía atípica (Rx tórax si tos productiva, disnea, fiebre persistente). (6) Vigilar signos de alarma: hipoacusia importante, vértigo, fiebre alta nueva, otorrea purulenta-fétida, signos sistémicos (rash, palidez = anemia hemolítica)", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo con base en mecanismo (lesión inflamatoria de TM) + atención a etiología (atípicos) + alarmas. La anemia hemolítica por Mycoplasma con crioaglutininas es complicación rara pero conocida."},
+        {"texto": "Solo tomar paracetamol", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Plan integral necesario."},
+        {"texto": "'Quédese en cama una semana'", "correcta": false, "puntos": -5, "feedback": "⚠️ Excesivo. Reposo según síntomas, no obligado por miringitis bullosa."}
+      ]
+    },
+    {
+      "situacion": "Tras 7 días vuelve: dolor cedió, otorrea cesó, oye casi normal. Otoscopia: TM con leve eritema residual, bullas desaparecidas, sin perforación, sin efusión. ¿Conducta?",
+      "opciones": [
+        {"texto": "Otro ciclo de antibiótico", "correcta": false, "puntos": -15, "feedback": "❌ Está resolviendo bien. Antibiótico innecesario."},
+        {"texto": "Curación esperada. Alta con indicaciones generales: en próximas semanas evitar humedad excesiva en oído, sonarse suave. Si persiste cualquier síntoma residual >3 sem (plenitud, hipoacusia) → audiometría de control. Vacunación antigripal anual para prevenir recurrencias (gripe es factor desencadenante frecuente)", "correcta": true, "puntos": 15, "feedback": "✅ Alta con plan de seguimiento condicional + medida preventiva (vacuna influenza). Curación esperada en 7-14 días."},
+        {"texto": "Audiometría inmediata sin estar indicada", "correcta": false, "puntos": -5, "feedback": "⚠️ Si todo resolvió, no es necesaria. Solo si síntomas residuales."},
+        {"texto": "Cirugía preventiva", "correcta": false, "puntos": -15, "feedback": "❌ Sin indicación."}
+      ]
+    },
+    {
+      "situacion": "Resumen + alta:",
+      "opciones": [
+        {"texto": "'Otitis viral, ya está bien'", "correcta": false, "puntos": -10, "feedback": "❌ Vago e impreciso."},
+        {"texto": "'Mujer 24a, miringitis bullosa OI en contexto de cuadro gripal con bullas hemorrágicas + otorrea serosanguinolenta resuelta + efusión transitoria con hipoacusia conductiva leve (confirmada por acumetría). Tratada con analgesia pautada + macrólido (azitromicina 500 mg/día × 5 días por sospecha Mycoplasma dado contexto epidémico) + higiene seca. Resolución completa a los 7 días sin perforación ni hipoacusia residual. Recomendación: vacuna antigripal anual, consulta si recurrencia o si síntomas residuales persistentes. Educación sobre signos de complicación (sordera súbita = URGENCIA por ventana terapéutica 72h)'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + tratamiento + evolución + prevención + educación clave (alarma de sordera súbita). Atención completa."},
+        {"texto": "Solo prescripción", "correcta": false, "puntos": -10, "feedback": "❌ Sin contexto ni plan."},
+        {"texto": "Le pongo alarmista para que vuelva", "correcta": false, "puntos": -10, "feedback": "❌ Causa ansiedad innecesaria. Mensaje equilibrado, basado en evidencia."}
+      ]
+    }
+  ]
+}

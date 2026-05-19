@@ -29,10 +29,27 @@ python3 -m http.server 8000
 | 🫀 RCP | Neumotórax a tensión en paciente ventilado | 11 | Intermedio-Avanzado |
 | 🫀 RCP | TEP masivo postoperatorio | 11 | Avanzado |
 | 🫀 RCP | Anafilaxia por picadura con paro inminente | 11 | Intermedio-Avanzado |
-| 👂 Otoscopia | Otalgia con fiebre en niño de 3 años | 17 | Básico |
+| 👂 Otoscopia | Otalgia con fiebre en niño de 3 años (OMA pediátrica) | 17 | Básico |
+| 👂 Otoscopia | OMA perforada con otorrea purulenta súbita | 11 | Básico-Intermedio |
+| 👂 Otoscopia | OMC simple con perforación central permanente | 11 | Intermedio |
+| 👂 Otoscopia | Mastoiditis aguda como complicación de OMA | 11 | Intermedio-Avanzado |
+| 👂 Otoscopia | OME (otitis serosa) en niño post-IRA | 11 | Intermedio |
+| 👂 Otoscopia | Otolicuorrea (LCR) por fractura de peñasco | 11 | Avanzado |
+| 👂 Otoscopia | Disfunción trompa Eustaquio post-vuelo | 11 | Básico-Intermedio |
+| 👂 Otoscopia | Perforación timpánica traumática por bofetada | 11 | Intermedio |
+| 👂 Otoscopia | Miringitis bullosa con otorrea serosanguinolenta | 11 | Intermedio |
+| 👂 Otoscopia | Hemotímpano post-TCE (TM íntegra azul) | 11 | Avanzado |
+| 👂 Otoscopia | Colesteatoma con otorrea fétida crónica | 11 | Avanzado |
+| 👂 Otoscopia | Otomicosis con detritos algodonosos | 11 | Intermedio |
 | 🎧 Ruidos cardíacos | Fiebre y soplo nuevo en usuario de drogas IV | 16 | Intermedio-Avanzado |
 
-> Los 11 escenarios de RCP cubren las **5H/5T** (hipovolemia, hipoxia, hidrogeniones, hiperpotasemia, hipotermia, tóxicos, taponamiento, neumotórax a tensión, trombosis coronaria/IAM, TEP) más **anafilaxia** como circunstancia especial (AHA 2020).
+> **RCP (11 escenarios)** — 5H/5T canónicas (hipovolemia, hipoxia, hidrogeniones, hiperpotasemia, hipotermia, tóxicos, taponamiento, neumotórax a tensión, trombosis coronaria/IAM, TEP) + **anafilaxia** (AHA 2020).
+>
+> **Otoscopia (12 escenarios)** — patología de oído medio con foco en **caracterización del líquido por oído**:
+> - 🟡 **Purulento** (OMA perforada, OMC simple, mastoiditis)
+> - 💧 **Transparente/claro** (OME color miel, otolicuorrea por LCR con halo sign, disfunción trompa)
+> - 🔴 **Hemorrágico** (perforación traumática, miringitis bullosa serosanguinolenta, hemotímpano azul-violáceo)
+> - ⚪ **Blanquecino/fétido** (colesteatoma, otomicosis)
 
 ## Mecánicas
 

@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_012_otomicosis",
+  "titulo": "Otomicosis con detritos algodonosos en CAE",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "AAO-HNS + Cochrane otomicosis",
+  "dificultad": "Intermedio",
+  "contexto": "Verano. Mujer de 35 años, nadadora aficionada, llega con prurito INTENSO en oído derecho desde hace 2 semanas. Lo siente 'lleno', oye menos, pero NO le duele mucho. Su médico le indicó hace 10 días gotas con NEOMICINA+CORTICOIDE 'porque pensó que era otitis externa bacteriana'. NO mejoró, incluso empeoró: ahora hay sensación de plenitud + secreción blanquecina con motas oscuras + acúfeno leve.",
+  "pasos": [
+    {
+      "situacion": "¿Qué te dice 'prurito intenso + nadadora + NO mejoría con antibiótico tópico (incluso empeoró)' antes de la otoscopia?",
+      "opciones": [
+        {"texto": "OE bacteriana resistente", "correcta": false, "puntos": -10, "feedback": "❌ El uso prolongado de gotas con antibiótico+corticoide tópico es factor predisponente CLAVE para OTOMICOSIS — selecciona hongos al suprimir flora bacteriana y la inmunidad local. El cuadro no es resistencia bacteriana; es sobreinfección fúngica."},
+        {"texto": "OTOMICOSIS — infección fúngica del CAE. Factores predisponentes claves: HUMEDAD persistente (nadador, climas tropicales), USO PROLONGADO de gotas con antibiótico ± corticoide (suprime flora + inmunidad local), DIABETES, inmunodepresión, audífonos/tapones, manipulación con bastoncillos. Síntomas distintivos: PRURITO INTENSO (más que el dolor) — es el síntoma cardinal", "correcta": true, "puntos": 15, "feedback": "✅ Reconocimiento del patrón típico. El PRURITO desproporcionado al dolor + factor predisponente + falla de antibiótico es la tríada que orienta a otomicosis. Cuidado: tras antibiótico tópico prolongado siempre considerar superinfección por hongos."},
+        {"texto": "OMC reagudizada", "correcta": false, "puntos": -10, "feedback": "❌ Sin perforación crónica ni otorreas previas. Y prurito intenso no es típico."},
+        {"texto": "Colesteatoma", "correcta": false, "puntos": -10, "feedback": "❌ Crónico de años, fétido, sin relación con humedad/antibiótico."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia derecha. ¿Qué hallazgos PATOGNOMÓNICOS de otomicosis?",
+      "opciones": [
+        {"texto": "TM perlada normal con CAE limpio", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con cuadro de 2 semanas."},
+        {"texto": "CAE con DETRITOS ABUNDANTES de aspecto algodonoso/'papel mojado'/'queso fresco', en distintos colores según el agente causal: BLANCOS-CREMOSOS (Candida), NEGROS (Aspergillus NIGER, el más típico — puntos negros sobre fondo blanco, aspecto 'pimienta'), AMARILLO-VERDOSO (Aspergillus flavus), grisáceo. PIEL del CAE EDEMATOSA y ERITEMATOSA. TM puede no verse por los detritos; tras limpieza, TM íntegra hiperémica. NO suele haber perforación. NO pus franco bacteriano espeso, sí secreción serosa/húmeda", "correcta": true, "puntos": 15, "feedback": "✅ Imagen característica. Los DETRITOS NEGROS sobre fondo blanco (Aspergillus niger) son patognomónicos visualmente — aspecto 'sal y pimienta' o 'papel mojado con tinta'. Limpiar exhaustivamente es prerrequisito para tratamiento efectivo."},
+        {"texto": "Otorrea purulenta verde abundante", "correcta": false, "puntos": -10, "feedback": "❌ Patrón bacteriano (Pseudomonas en OE). En otomicosis es seco-húmedo con detritos."},
+        {"texto": "Sangre en CAE", "correcta": false, "puntos": -10, "feedback": "❌ No es típico salvo si rascado intenso por prurito."}
+      ]
+    },
+    {
+      "situacion": "Visualizas: CAE con detritos algodonosos blanco-cremosos con puntos negros, edema moderado, TM no visible por los detritos. ¿Caracterización del 'líquido/material'?",
+      "opciones": [
+        {"texto": "Líquido transparente", "correcta": false, "puntos": -15, "feedback": "❌ No es líquido transparente. Es material seco-húmedo algodonoso/granular."},
+        {"texto": "MATERIAL FÚNGICO: aspecto SECO o HÚMEDO (no líquido franco), CONSISTENCIA ALGODONOSA o 'papel mojado', adherente a la piel del CAE, fácilmente DESPRENDIBLE en bloques con microsucción o irrigación delicada. Color según hongo: blanco-cremoso (Candida) o blanco con puntitos NEGROS = Aspergillus niger (las cabezas conidiales son los puntos negros visibles a simple vista, sin microscopio). NO es fétido (diferencia con colesteatoma). NO es purulento (diferencia con OE bacteriana)", "correcta": true, "puntos": 15, "feedback": "✅ Caracterización completa: consistencia + adherencia + color + diferencias con otros materiales óticos. Los puntos negros visibles a OJO DESNUDO en un fondo algodonoso = Aspergillus niger casi seguro, sin necesidad de microscopía adicional."},
+        {"texto": "Sangre coagulada", "correcta": false, "puntos": -10, "feedback": "❌ No es típico."},
+        {"texto": "Pus espeso", "correcta": false, "puntos": -10, "feedback": "❌ No es pus, es micetoma."}
+      ]
+    },
+    {
+      "situacion": "Diagnóstico clínico claro. ¿Necesitas cultivo?",
+      "opciones": [
+        {"texto": "Siempre, antes de tratar", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil pero no obligatorio en presentación clásica. Los antifúngicos tópicos son de amplio espectro."},
+        {"texto": "EN PRESENTACIÓN CLÁSICA (factor de riesgo + detritos algodonosos típicos): tratamiento empírico con antifúngico tópico de amplio espectro suele bastar. CULTIVO/MICROSCOPÍA indicado en: (a) presentación atípica o dudosa, (b) FRACASO terapéutico tras 2 sem de tratamiento adecuado, (c) inmunodeprimido (riesgo de invasión), (d) sospecha de otitis externa MALIGNA. Cultivo se hace con torunda de los detritos. Microscopía directa con KOH muestra hifas tabicadas (Aspergillus) o levaduras con seudohifas (Candida)", "correcta": true, "puntos": 15, "feedback": "✅ Indicaciones selectivas. Pragmatismo: tratar empíricamente si cuadro clásico, cultivo si dudoso/refractario/inmunodeprimido. La microscopía directa rápida puede confirmar al pie del cama."},
+        {"texto": "Nunca, solo clínico", "correcta": false, "puntos": -5, "feedback": "⚠️ En casos dudosos sí ayuda."},
+        {"texto": "Solo serología", "correcta": false, "puntos": -15, "feedback": "❌ No tiene utilidad en otomicosis local."}
+      ]
+    },
+    {
+      "situacion": "¿TRATAMIENTO de primera línea?",
+      "opciones": [
+        {"texto": "Antibiótico oral", "correcta": false, "puntos": -15, "feedback": "❌ NO es bacteriano. Antibiótico empeora (perpetúa el desequilibrio que originó la otomicosis)."},
+        {"texto": "(1) PASO 1 CRÍTICO: LIMPIEZA AURAL exhaustiva por microsucción (mejor) o irrigación delicada con suero tibio — RETIRAR TODO EL MICETOMA. Sin limpieza, las gotas no penetran y el tratamiento falla. PUEDE REQUERIR VARIAS SESIONES. (2) ANTIFÚNGICO TÓPICO: CLOTRIMAZOL 1% solución o crema (cobertura amplia, eficaz contra Candida y Aspergillus), 3-4 gotas c/12h × 14-21 días. Alternativas: nistatina (mejor Candida), miconazol, fluconazol tópico, ciclopirox. (3) SUSPENDER GOTAS BACTERIANAS previas. (4) HIGIENE SECA estricta (no nadar, no entrar agua). (5) Antihistamínico oral si prurito muy invalidante", "correcta": true, "puntos": 15, "feedback": "✅ Limpieza + antifúngico tópico + retirar el factor de riesgo (antibiótico previo, humedad). Clotrimazol es de amplio espectro y económico. La limpieza es probablemente más importante que el antifúngico mismo."},
+        {"texto": "Solo antifúngico oral", "correcta": false, "puntos": -10, "feedback": "❌ Oral no es estándar para otomicosis local (es proceso de superficie). Reservado para invasión tisular (otomicosis invasiva)."},
+        {"texto": "Continuar las gotas con antibiótico", "correcta": false, "puntos": -15, "feedback": "❌ ERROR: empeora el cuadro. Suspender."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿por qué pica tanto?'. ¿Mensaje educativo?",
+      "opciones": [
+        {"texto": "'No sabemos por qué'", "correcta": false, "puntos": -10, "feedback": "❌ Hay explicación."},
+        {"texto": "'El prurito intenso es la respuesta inflamatoria de la piel del oído ante los hongos y sus toxinas/enzimas. Es el síntoma más característico de las infecciones por hongos — a diferencia de las bacterianas que duelen más. Es muy molesto pero NO debe rascarse con bastoncillos ni dedos: aumenta la lesión, empuja material más profundo y puede perforar la membrana. La sensación cede en 3-7 días con el tratamiento. Si es muy invalidante puedo darle un antihistamínico oral para que duerma mejor'", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo + reconocimiento del síntoma como característico + restricción concreta (no rascar) + horizonte temporal + opción de alivio sintomático. Educación accionable."},
+        {"texto": "'Acostúmbrese al picor'", "correcta": false, "puntos": -15, "feedback": "❌ Falta de empatía + impide soluciones reales."},
+        {"texto": "Le explico la inmunología completa de las micosis", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué hacer si hay perforación timpánica concomitante?",
+      "opciones": [
+        {"texto": "Igual tratamiento", "correcta": false, "puntos": -10, "feedback": "❌ Hay precauciones específicas si hay perforación."},
+        {"texto": "Con PERFORACIÓN TIMPÁNICA: el antifúngico tópico puede llegar al oído medio, y AGENTES POTENCIALMENTE OTOTÓXICOS deben EVITARSE. Evitar: alcohol (en muchas formulaciones), ácido bórico concentrado, gentian violet, algunas formulaciones de clotrimazol con propilenglicol. Preferir: CLOTRIMAZOL EN CREMA aplicada con compresa delgada o instilada por gotero, mejor con guía del ORL. O alternativas como ciclopirox sin excipientes ototóxicos. En perforación + otomicosis = derivación ORL para manejo bajo microscopio + decisión farmacológica específica", "correcta": true, "puntos": 15, "feedback": "✅ Conocimiento de los excipientes ototóxicos. Algunos vehículos (alcohol, propilenglicol) son ototóxicos si pasan al oído medio. Crema clotrimazol o ciclopirox son alternativas más seguras."},
+        {"texto": "Solo sistémico", "correcta": false, "puntos": -5, "feedback": "⚠️ No es la opción más eficaz para infección superficial; mejor tópico cuidadoso."},
+        {"texto": "Suspender todo tratamiento", "correcta": false, "puntos": -15, "feedback": "❌ Sin tratar la otomicosis progresa."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué grupo de pacientes tiene riesgo de OTOMICOSIS INVASIVA y por qué es grave?",
+      "opciones": [
+        {"texto": "Solo niños", "correcta": false, "puntos": -10, "feedback": "❌ Es justo lo contrario en términos de inmunidad."},
+        {"texto": "INMUNODEPRIMIDOS (DM mal controlada, neutropénicos, postrasplantados, VIH, quimioterapia, ancianos): riesgo de OTOMICOSIS INVASIVA por Aspergillus — infección que NO se queda en superficie sino que INVADE hueso temporal, oído medio, base de cráneo, vasos, nervios. Análogo a la otitis externa MALIGNA bacteriana pero con HONGO. Mortalidad alta. CONSULTA: dolor desproporcionado, granulación en CAE, parálisis facial, déficits de pares craneales, mala respuesta a tratamiento tópico. Requiere: ANTIFÚNGICO SISTÉMICO (voriconazol, anfotericina B liposomal), DESBRIDAMIENTO quirúrgico, control de la inmunosupresión. Es URGENCIA otológica + infectológica", "correcta": true, "puntos": 15, "feedback": "✅ Bandera roja importante: en inmunodeprimido, la otomicosis puede no ser banal. Sospechar invasión = derivar urgente. El voriconazol IV es el de elección para Aspergillus invasivo del temporal."},
+        {"texto": "Solo nadadores", "correcta": false, "puntos": -10, "feedback": "❌ Tienen otomicosis superficial, no invasiva típicamente."},
+        {"texto": "No hay grupo de riesgo especial", "correcta": false, "puntos": -15, "feedback": "❌ Falso."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿PREVENCIÓN para evitar recurrencias en esta nadadora?",
+      "opciones": [
+        {"texto": "Que deje de nadar", "correcta": false, "puntos": -5, "feedback": "⚠️ Sobre-restricción. Hay medidas preventivas que permiten seguir."},
+        {"texto": "(1) SECAR el CAE tras cada inmersión: con secador en aire FRÍO a 30 cm, varios minutos por oído. NO bastoncillos. (2) Tapones para nadar (silicona moldeada por audioprotésico, ideal a medida). (3) Gotas PREVENTIVAS post-natación: alcohol BORICADO al 2-4% diluido o solución de ácido acético al 2% (acidifica el CAE, hostil a hongos) — 2-3 gotas tras cada inmersión. (4) NO ABUSAR de antibiótico tópico (uso solo si infección bacteriana confirmada y máximo 7 días). (5) Evitar bastoncillos (lesionan la piel y favorecen sobreinfección). (6) Si tiene predisposición conocida: revisión otológica cada 6-12 meses", "correcta": true, "puntos": 15, "feedback": "✅ Plan de prevención específico para nadadora con tendencia. El ácido acético/alcohol boricado acidifica el CAE y previene crecimiento fúngico. Tapones a medida + secado tras nadar es la base."},
+        {"texto": "Que use antibiótico siempre", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario — el abuso causó la otomicosis."},
+        {"texto": "Solo agua de mar, no de piscina", "correcta": false, "puntos": -10, "feedback": "❌ Ambas pueden predisponer. Las medidas son las mismas."}
+      ]
+    },
+    {
+      "situacion": "Tras 2 semanas de tratamiento vuelve: prurito casi resuelto, oye mejor. Otoscopia: CAE con escasos restos algodonosos residuales, mucho menos edema, TM ahora visible. ¿Conducta?",
+      "opciones": [
+        {"texto": "Suspender tratamiento", "correcta": false, "puntos": -10, "feedback": "❌ Premaduro. Aún hay restos. Suspender ahora = recurrencia."},
+        {"texto": "Limpieza adicional + completar 7 días más de antifúngico tópico hasta TOTAL desaparición de detritos. Reforzar medidas preventivas. Control en 3 sem. Si todo limpio → alta con consejos de prevención permanentes. Si persisten detritos: cultivo + valorar cambio de antifúngico (resistencia poco común pero posible) + descartar factor desencadenante no resuelto (DM oculta, uso continuado de bastoncillos)", "correcta": true, "puntos": 15, "feedback": "✅ Continuar hasta resolución total + plan de seguimiento condicional. La otomicosis recurre fácil si se suspende precoz o no se corrige el factor predisponente."},
+        {"texto": "Cambiar a antibiótico", "correcta": false, "puntos": -15, "feedback": "❌ Repetir el error inicial."},
+        {"texto": "Cirugía", "correcta": false, "puntos": -15, "feedback": "❌ Sin indicación. Otomicosis es médica."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta:",
+      "opciones": [
+        {"texto": "'Hongos en el oído, le di gotas'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Mujer 35a, nadadora, otomicosis OD por probable Aspergillus niger (detritos algodonosos blancos con puntos negros típicos), facilitada por uso previo prolongado de neomicina+corticoide tópico. Sin perforación, sin invasión, sin inmunodepresión. Tratada con limpieza por microsucción + clotrimazol 1% gotas 3 c/12h × 21 días + suspensión de gotas bacterianas + higiene seca. Resolución a las 3 sem. Plan al alta: PREVENCIÓN: secado activo con secador frío post-natación, tapones de baño moldeados, gotas de alcohol boricado 2% o ácido acético 2% post-inmersión, NO bastoncillos, NO abuso de antibiótico tópico salvo infección bacteriana confirmada. Cita si recurrencia o síntomas nuevos. Educación sobre signos de alarma (dolor desproporcionado, granulación, parálisis facial, no respuesta = sospechar invasión → urgencias)'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + factor predisponente identificado + tratamiento + prevención específica + educación. Atención completa."},
+        {"texto": "Solo receta", "correcta": false, "puntos": -10, "feedback": "❌ Sin plan ni prevención."},
+        {"texto": "'No use NUNCA gotas'", "correcta": false, "puntos": -10, "feedback": "❌ Sobre-restricción. Las gotas se usan adecuadamente cuando indicadas."}
+      ]
+    }
+  ]
+}

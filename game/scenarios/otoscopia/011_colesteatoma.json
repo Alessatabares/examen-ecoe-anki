@@ -1,0 +1,101 @@
+{
+  "id": "otoscopia_011_colesteatoma",
+  "titulo": "Colesteatoma con otorrea fétida crónica y perforación marginal",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "AAO-HNS + EAONO",
+  "dificultad": "Avanzado",
+  "contexto": "Consulta ORL. Hombre de 45 años referido por su médico de cabecera. Refiere otorrea izquierda intermitente desde la adolescencia, en los últimos 12 meses MÁS FRECUENTE y con OLOR DESAGRADABLE FÉTIDO que él mismo nota. Hipoacusia izquierda progresiva. Últimamente algunos episodios de inestabilidad/mareo leve. SIN dolor importante. SIN fiebre.",
+  "pasos": [
+    {
+      "situacion": "Anamnesis: 'otorrea CRÓNICA + FÉTIDA + hipoacusia progresiva + inestabilidad'. ¿Diagnóstico de sospecha?",
+      "opciones": [
+        {"texto": "OMC simple", "correcta": false, "puntos": -10, "feedback": "❌ La FETIDEZ no es de OMC simple — es signo de tejido necrótico + sobreinfección anaerobia. Y la inestabilidad progresiva sugiere erosión hacia el laberinto. Apunta a colesteatoma."},
+        {"texto": "COLESTEATOMA hasta que se demuestre lo contrario. La TRÍADA de SOSPECHA: (1) otorrea CRÓNICA FÉTIDA (epitelio necrótico + Pseudomonas/anaerobios), (2) HIPOACUSIA progresiva (erosión de cadena osicular), (3) síntomas de COMPLICACIÓN inminente (vértigo/inestabilidad = erosión hacia laberinto, parálisis facial = erosión hacia VII, cefalea/fiebre = complicación intracraneal). El colesteatoma es PIEL en el lugar incorrecto (queratina invasiva en oído medio), erosiona hueso por presión y enzimas líticas", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático + fisiopatología. El colesteatoma NO es un tumor sino una migración/atrapamiento de epitelio escamoso queratinizado en oído medio. Erosiona hueso silenciosamente. Es BANDERA ROJA que requiere derivación ORL para CIRUGÍA, no manejo médico."},
+        {"texto": "OE recurrente", "correcta": false, "puntos": -10, "feedback": "❌ OE no causa hipoacusia progresiva ni vértigo."},
+        {"texto": "Tumor maligno", "correcta": false, "puntos": -5, "feedback": "⚠️ Diferencial razonable pero el cuadro típico (otorrea fétida + cronicidad larga) apunta más a colesteatoma. Sin embargo, descartar malignidad es OBLIGATORIO ante toda otorrea sanguinolenta o granulación atípica."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia izquierda. ¿Qué hallazgos PATOGNOMÓNICOS esperas?",
+      "opciones": [
+        {"texto": "TM normal", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con cuadro de años."},
+        {"texto": "(1) PERFORACIÓN MARGINAL o ÁTICA (en pars FLACCIDA — cuadrante póstero-superior) — DIFERENCIA CRÍTICA con OMC simple (que es central). (2) MATERIAL BLANCO PERLADO o AMARILLENTO visible en la perforación o detrás de la TM (queratina acumulada) — 'perla del colesteatoma'. (3) GRANULACIONES (tejido carnoso rojo) en bordes. (4) OTORREA escasa, ESPESA, ALTAMENTE FÉTIDA. (5) Bolsillo de retracción en pars flaccida (forma precoz). (6) Puede haber pólipo aural o erosión visible del marco timpánico", "correcta": true, "puntos": 15, "feedback": "✅ Imagen característica. Las PERFORACIONES MARGINAL/ÁTICA son las únicas que predisponen a colesteatoma — la central simple NO. La PERLA BLANCA es signo casi patognomónico cuando se ve. Buscar con limpieza minuciosa."},
+        {"texto": "Pus verde abundante", "correcta": false, "puntos": -10, "feedback": "❌ La otorrea de colesteatoma es ESCASA y FÉTIDA, no abundante purulenta verde."},
+        {"texto": "Cuerpo extraño", "correcta": false, "puntos": -10, "feedback": "❌ Sin antecedente. Aunque la perla puede confundirse, el contexto es claro."}
+      ]
+    },
+    {
+      "situacion": "Visualizas perforación atical con MATERIAL BLANCO PERLADO + granulación + otorrea fétida escasa + erosión del muro de la logia. ¿Examen físico complementario?",
+      "opciones": [
+        {"texto": "Solo otoscopia", "correcta": false, "puntos": -10, "feedback": "❌ Hay que evaluar complicaciones potenciales."},
+        {"texto": "Battery COMPLETO para descartar COMPLICACIONES: (1) NERVIO FACIAL (VII) — exploración de las 5 ramas (parálisis = erosión del canal de Falopio). (2) EQUILIBRIO/VESTIBULAR — signo de la FÍSTULA (presión positiva con pera de Politzer → vértigo + nistagmus = erosión de canal semicircular lateral), Romberg, marcha, Frenzel. (3) ACUMETRÍA (Weber/Rinne) — hipoacusia conductiva por erosión osicular. (4) SIGNOS MENÍNGEOS, fondo de ojo (papiledema → hipertensión intracraneal por trombosis seno o absceso). (5) Pares craneales completos (VI, V, VII). (6) Adenopatías cervicales. (7) Palpación retroauricular (mastoiditis crónica con absceso)", "correcta": true, "puntos": 15, "feedback": "✅ El SIGNO DE LA FÍSTULA es diagnóstico de erosión del canal semicircular lateral por colesteatoma — manifiesta vértigo y nistagmus al insuflar aire en CAE. Buscar siempre."},
+        {"texto": "Solo audiometría", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Evaluación de complicaciones es prioritaria."},
+        {"texto": "Solo facial", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Sin parálisis facial, signo de la fístula NEGATIVO, hipoacusia conductiva moderada confirmada. ¿Estudios complementarios?",
+      "opciones": [
+        {"texto": "Solo audiometría", "correcta": false, "puntos": -10, "feedback": "❌ Necesitas imagen para planificar cirugía y valorar extensión."},
+        {"texto": "(1) AUDIOMETRÍA TONAL + impedanciometría: cuantificar hipoacusia conductiva, gap aire-óseo (osicular). (2) TC DE PEÑASCO sin contraste con cortes finos 1 mm: visualiza extensión del colesteatoma (masa de tejido blando en oído medio/mastoides), erosión osicular (yunque > martillo > estribo), erosión del tegmen tympani (techo) y del canal facial, presencia de fístula laberíntica, ocupación de mastoides, planificación quirúrgica. (3) RM con DIFUSIÓN (DWI no-EPI / HASTE): el colesteatoma BRILLA EN DWI (alto valor diagnóstico para diferenciar colesteatoma de otros tejidos blandos, especialmente útil en RECIDIVAS post-quirúrgicas y para diagnóstico inicial dudoso). (4) Cultivo de otorrea: típico Pseudomonas aeruginosa + anaerobios + Staphylococcus", "correcta": true, "puntos": 15, "feedback": "✅ TC + RM con difusión son los pilares. La RM con DWI no-EPI revolucionó el seguimiento post-quirúrgico — el colesteatoma residual/recurrente brilla intensamente."},
+        {"texto": "Solo TC", "correcta": false, "puntos": 10, "feedback": "✅ Es el estándar mínimo pre-quirúrgico. RM con DWI añade información valiosa para casos complejos o seguimiento."},
+        {"texto": "Solo RM", "correcta": false, "puntos": -5, "feedback": "⚠️ RM sin TC pierde información ósea. TC es la base."}
+      ]
+    },
+    {
+      "situacion": "TC confirma colesteatoma ático con erosión del yunque y del muro de la logia, sin compromiso del facial ni laberinto. ¿MANEJO?",
+      "opciones": [
+        {"texto": "Antibiótico oral indefinido", "correcta": false, "puntos": -15, "feedback": "❌ Colesteatoma NO se trata con antibióticos. Es lesión MECÁNICA/EROSIVA. Tratamiento es QUIRÚRGICO."},
+        {"texto": "(1) Limpieza aural meticulosa + ciprofloxacino+dexa tópico para controlar reagudización infecciosa y secar el oído PRE-quirúrgico. (2) DERIVACIÓN A ORL para CIRUGÍA programada — colesteatoma SIEMPRE requiere extirpación quirúrgica (no responde a manejo médico). Opciones: TIMPANOPLASTIA + MASTOIDECTOMÍA en sus variantes (cerrada/abierta según extensión), reconstrucción de cadena osicular. Objetivos: eliminar enfermedad, preservar/restaurar audición, evitar recidiva. (3) CONTROL POST-QUIRÚRGICO de por vida (recidivas son posibles 10-20%, especialmente en técnica cerrada)", "correcta": true, "puntos": 15, "feedback": "✅ Plan correcto: secar pre-cirugía + cirugía obligatoria + seguimiento crónico. La elección entre técnica cerrada (mantiene anatomía CAE) y abierta (radicaliza) depende de extensión, neumatización mastoidea, función eustaquiana, capacidad de seguimiento."},
+        {"texto": "Limpieza con bastoncillos en casa periódica", "correcta": false, "puntos": -15, "feedback": "❌ Bastoncillos pueden empujar material y empeorar. NO en casa."},
+        {"texto": "Solo observación, es benigno", "correcta": false, "puntos": -15, "feedback": "❌ Benigno histológicamente pero AGRESIVO CLÍNICAMENTE — erosiona hueso y causa complicaciones letales. NO observar."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿qué pasa si NO me opero?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'No pasa nada, vive con eso'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Las complicaciones son potencialmente letales."},
+        {"texto": "'Sin cirugía el colesteatoma sigue creciendo y erosionando estructuras. Las COMPLICACIONES POSIBLES son: (1) Sordera progresiva por destrucción de la cadena de huesecillos. (2) Parálisis facial si erosiona el canal del nervio. (3) Vértigo severo permanente o sordera neurosensorial si erosiona el laberinto. (4) MENINGITIS por extensión hacia el cerebro. (5) ABSCESO CEREBRAL — supone riesgo de muerte. (6) Trombosis de senos venosos cerebrales. La cirugía resuelve el problema con riesgos quirúrgicos manejables. No operar es esperar la complicación, que puede ser irreversible o mortal'", "correcta": true, "puntos": 15, "feedback": "✅ Información honesta + lista de complicaciones reales + balance riesgo/beneficio favorable a cirugía. Decisión informada genuina."},
+        {"texto": "'Tiene que operarse mañana o se muere'", "correcta": false, "puntos": -10, "feedback": "❌ Sobreapremio. No es emergencia inmediata, es cirugía electiva preferente, programada en semanas-meses."},
+        {"texto": "'Mejor no le digo los riesgos para que se opere'", "correcta": false, "puntos": -15, "feedback": "❌ Falta de consentimiento informado. Decisión debe ser autónoma con información completa."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿diferencia ENTRE COLESTEATOMA CONGÉNITO Y ADQUIRIDO?",
+      "opciones": [
+        {"texto": "Son lo mismo", "correcta": false, "puntos": -10, "feedback": "❌ Diferentes orígenes."},
+        {"texto": "CONGÉNITO: presente desde nacimiento, restos epiteliales embrionarios atrapados en oído medio detrás de TM ÍNTEGRA, sin antecedente de otitis. Otoscopia: masa blanca redondeada DETRÁS de TM intacta, típicamente niños. ADQUIRIDO: el más frecuente, dos mecanismos. (a) PRIMARIO por retracción atical (bolsillo de retracción de pars flaccida → atrapa queratina → expande). (b) SECUNDARIO a perforación marginal/atical previa (epitelio del CAE migra al oído medio por la perforación). Antecedente de OMA recurrente o OME crónica con disfunción de trompa. Ambos requieren cirugía", "correcta": true, "puntos": 15, "feedback": "✅ Distinción etiológica clara. Los CONGÉNITOS son raros pero importantes en pediatría — pueden detectarse en otoscopia de rutina como masa blanca detrás de TM íntegra. Los ADQUIRIDOS son la inmensa mayoría en adultos."},
+        {"texto": "Solo se diferencian en edad", "correcta": false, "puntos": -10, "feedback": "❌ Mecanismos distintos, no solo edad."},
+        {"texto": "Solo el congénito es grave", "correcta": false, "puntos": -10, "feedback": "❌ Ambos son potencialmente graves."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan en el oral: ¿cómo se DIFERENCIA OMC SIMPLE de COLESTEATOMA en otoscopia?",
+      "opciones": [
+        {"texto": "No se pueden diferenciar", "correcta": false, "puntos": -15, "feedback": "❌ Diferencias claras."},
+        {"texto": "OMC SIMPLE: perforación CENTRAL (en pars tensa, no toca el ánulo timpánico), mucosa rosada visible, otorrea MUCOPURULENTA NO FÉTIDA, sin masa blanca, sin granulaciones, audición conductiva leve-moderada. COLESTEATOMA: perforación MARGINAL o ÁTICA (en pars flaccida o en pars tensa pero tocando el ánulo), MATERIAL BLANCO PERLADO visible, GRANULACIONES en bordes, otorrea FÉTIDA escasa, hipoacusia progresiva por erosión osicular, posibles complicaciones (vértigo, parálisis facial). REGLA: 'CENTRAL es seguro, MARGINAL es peligroso'", "correcta": true, "puntos": 15, "feedback": "✅ Discriminadores otoscópicos claros + regla mnemotécnica útil. La LOCALIZACIÓN de la perforación + FETIDEZ + MATERIAL BLANCO + GRANULACIÓN son las 4 claves. Si dudas: derivación ORL para evaluación con microscopio + imagen."},
+        {"texto": "OMC siempre tiene pus", "correcta": false, "puntos": -10, "feedback": "❌ Simplificación incorrecta."},
+        {"texto": "Solo por TC", "correcta": false, "puntos": -10, "feedback": "❌ Diferenciación es CLÍNICA primero, TC confirma."}
+      ]
+    },
+    {
+      "situacion": "Tras 6 meses, post-mastoidectomía abierta + timpanoplastia. Vuelve a revisión. ¿Vigilancia y signos de RECIDIVA?",
+      "opciones": [
+        {"texto": "Solo control anual", "correcta": false, "puntos": -5, "feedback": "⚠️ Inicialmente más frecuente."},
+        {"texto": "CONTROLES POST-QUIRÚRGICOS de POR VIDA: (1) Inicialmente cada 3-6 meses con microscopía + limpieza, luego anuales si todo bien. (2) Audiometría a los 3-6 meses post-cirugía y luego anual. (3) RM CON DIFUSIÓN no-EPI a 1 año post-cirugía y luego cada 1-2 años (detecta recidivas como brillos altos en DWI). (4) Educación al paciente sobre SIGNOS DE RECIDIVA: nueva otorrea fétida, hipoacusia que empeora, vértigo, parálisis facial → consulta inmediata. (5) En cavidades abiertas (post-mastoidectomía radical): limpieza periódica de la cavidad cada 6-12 meses, evitar agua, considerar tapones de baño moldeados", "correcta": true, "puntos": 15, "feedback": "✅ Seguimiento crónico estándar. Las recidivas pueden ser tardías (años) y detectarse precozmente por DWI mucho antes de signos clínicos. Cavidad abierta requiere mantenimiento de por vida."},
+        {"texto": "Una sola revisión", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente. Recidivas son posibles."},
+        {"texto": "Solo si tiene síntomas", "correcta": false, "puntos": -10, "feedback": "❌ Vigilancia activa detecta recidivas asintomáticas tempranas."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta de la consulta inicial:",
+      "opciones": [
+        {"texto": "'Colesteatoma, derivado a ORL'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Varón 45a con colesteatoma adquirido OI por probable retracción atical crónica (antecedente de otorreas recurrentes desde adolescencia). Otoscopia: perforación atical con material blanco perlado + granulación + otorrea fétida escasa + erosión del muro de la logia. Audiometría: hipoacusia conductiva moderada (gap aire-óseo 35 dB). TC: colesteatoma ático izquierdo con erosión del yunque y del muro de la logia, sin compromiso del facial ni laberinto, mastoides bien neumatizada. Sin parálisis facial, sin fístula laberíntica, sin signos meníngeos. Plan: (1) Manejo médico previo a cirugía: ciprofloxacino+dexa tópico 7 días + cultivo enviado + higiene seca. (2) Cirugía programada: mastoidectomía + timpanoplastia (técnica a definir intraoperatoriamente según hallazgos). (3) Audiometría pre y post quirúrgica. (4) Vacunación influenza + neumococo. (5) Educación: signos de alarma para consulta urgente (parálisis facial, vértigo intenso, fiebre alta, cefalea retroauricular intensa, alteración estado mental → urgencias). (6) Consentimiento informado quirúrgico con riesgos discutidos. (7) Programa de seguimiento post-quirúrgico crónico planeado'", "correcta": true, "puntos": 15, "feedback": "✅ Plan integral pre-quirúrgico. Atención completa con preparación + cirugía + post-operatorio + educación + seguimiento. Esto es ORL de calidad."},
+        {"texto": "Solo derivación sin más", "correcta": false, "puntos": -10, "feedback": "❌ Sin manejo intermedio ni educación al paciente."},
+        {"texto": "'No es grave, ya verá el ORL'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Subestima el problema."}
+      ]
+    }
+  ]
+}

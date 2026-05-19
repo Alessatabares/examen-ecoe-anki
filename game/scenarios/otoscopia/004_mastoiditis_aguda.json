@@ -1,0 +1,101 @@
+{
+  "id": "otoscopia_004_mastoiditis_aguda",
+  "titulo": "Mastoiditis aguda como complicación de OMA",
+  "tema": "otoscopia",
+  "audiencia": "pediátrico",
+  "guia": "AAP + CENETEC + IDSA",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Urgencias pediátricas. Niño de 3 años traído por su padre. Hace 10 días diagnosticaron OMA derecha y le indicaron amoxicilina, pero el padre solo se la dio 3 días 'porque ya parecía bien'. Hace 2 días le volvió la fiebre alta (39.5°C) y dolor de oído. HOY: dolor intenso, irritabilidad, NO quiere comer, y el padre nota que 'la oreja le está como despegada hacia afuera' y hay zona enrojecida y fluctuante detrás del oído.",
+  "pasos": [
+    {
+      "situacion": "Antes de la otoscopia, ¿qué te dice 'pabellón despegado + fluctuación retroauricular + fiebre + OMA reciente mal tratada'?",
+      "opciones": [
+        {"texto": "Es una reagudización de la otitis", "correcta": false, "puntos": -15, "feedback": "❌ Esto es MÁS QUE eso. La salida del pabellón hacia afuera + masa retroauricular indica que la infección ha pasado al hueso mastoideo (osteítis) — MASTOIDITIS AGUDA."},
+        {"texto": "MASTOIDITIS AGUDA: complicación supurada de OMA por extensión al sistema neumático mastoideo. Tríada clásica: (1) signos de OMA activa o reciente, (2) protrusión del pabellón con despegamiento del surco retroauricular, (3) edema/fluctuación/eritema retroauricular. Urgencia ORL con riesgo de complicaciones intracraneales", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático antes de la otoscopia. Mastoiditis es la complicación más frecuente de OMA inadecuadamente tratada. Tratamiento parcial (< 7-10 días) es factor de riesgo claro — aquí solo dio 3 días de amoxicilina."},
+        {"texto": "Parotiditis (paperas)", "correcta": false, "puntos": -10, "feedback": "❌ Parotiditis abomba la mejilla y el surco posterior del pabellón se eleva (signo de Cushing). Pero no da otoscopia patológica ni fiebre tan focal."},
+        {"texto": "Adenitis cervical posterior", "correcta": false, "puntos": -10, "feedback": "❌ Adenitis no protruye el pabellón. Y el contexto otológico apunta directamente a mastoiditis."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia derecha. ¿Qué esperas ver?",
+      "opciones": [
+        {"texto": "TM normal", "correcta": false, "puntos": -15, "feedback": "❌ Casi imposible en mastoiditis aguda. Suele haber signos de OMA activa o secuela."},
+        {"texto": "TM ABOMBADA, hiperémica, con o sin OTORREA purulenta si hay perforación o tubo permeable. CAÍDA DE LA PARED POSTERO-SUPERIOR del CAE — signo otoscópico CASI patognomónico de mastoiditis (la mucosa mastoidea inflamada presiona la pared posterior del CAE). Puede haber drenaje activo desde el ático", "correcta": true, "puntos": 15, "feedback": "✅ Signo patognomónico: la caída/descolgamiento de la pared póstero-superior del CAE indica que el proceso ha invadido la mastoides y empuja desde atrás. Buscarlo activamente — diferencia mastoiditis de OMA simple."},
+        {"texto": "Perla blanca de colesteatoma", "correcta": false, "puntos": -5, "feedback": "⚠️ Puede haber colesteatoma como CAUSA crónica de mastoiditis, pero en agudo el patrón es de OMA + caída de pared."},
+        {"texto": "TM perfectamente lateral", "correcta": false, "puntos": -10, "feedback": "❌ En mastoiditis la TM es anormal."}
+      ]
+    },
+    {
+      "situacion": "Confirmas signos otoscópicos + retroauriculares. ¿Qué EXAMEN FÍSICO COMPLEMENTARIO obligatorio buscas para EVALUAR COMPLICACIONES?",
+      "opciones": [
+        {"texto": "Solo signos vitales", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Hay que descartar complicaciones intracraneales y de pares craneales."},
+        {"texto": "Battery neurológico completo: (1) PARES CRANEALES — facial (VII, frecuente afectado), abducens (VI, signo de Gradenigo — petrositis), trigémino (V). (2) Signos meníngeos (Kernig, Brudzinski) por meningitis. (3) Fundoscopia por papiledema (HTI por trombosis seno lateral). (4) Estado mental + conciencia. (5) Signos de absceso cerebral. (6) Cervicales (signo de Griesinger: edema sobre mastoides por trombosis del seno lateral)", "correcta": true, "puntos": 15, "feedback": "✅ Examen completo de complicaciones que cambian el plan. Cualquier hallazgo positivo escala el manejo a urgencia neuroquirúrgica + ORL. El facial es el más frecuentemente afectado."},
+        {"texto": "Solo auscultación pulmonar", "correcta": false, "puntos": -10, "feedback": "❌ Útil pero no clave aquí. La búsqueda principal es de complicaciones de mastoiditis."},
+        {"texto": "Solo palpar el oído", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. La preocupación es lo que está dentro del cráneo."}
+      ]
+    },
+    {
+      "situacion": "Examen neurológico normal. ¿Qué ESTUDIOS DE IMAGEN pides y qué orden?",
+      "opciones": [
+        {"texto": "Solo radiografía de Schüller", "correcta": false, "puntos": -10, "feedback": "❌ Rx mastoides ha sido superada por TC. Solo si TC no disponible (rural)."},
+        {"texto": "TC de PEÑASCO CON CONTRASTE: muestra opacificación de celdas mastoideas, erosión de tabiques (coalescencia mastoidea — signo clave de mastoiditis aguda con osteítis), absceso subperióstico, signos de extensión intracraneal. Si signos neurológicos o sospecha de absceso intracraneal/trombosis seno → AÑADIR RM con angio-venosa (mejor para tejidos blandos y trombosis seno lateral)", "correcta": true, "puntos": 15, "feedback": "✅ TC peñasco como primera línea: rápida, accesible, muestra hueso. RM si sospecha de complicación intracraneal. El signo de COALESCENCIA (erosión de tabiques entre celdas mastoideas) distingue mastoiditis aguda con osteítis de simple opacificación inflamatoria — guía la cirugía."},
+        {"texto": "RM cerebral sin contraste", "correcta": false, "puntos": -5, "feedback": "⚠️ Buena para tejidos blandos pero más lenta y sin contraste no muestra trombosis ni abscesos óptimamente."},
+        {"texto": "Ecografía", "correcta": false, "puntos": -10, "feedback": "❌ Ecografía no atraviesa hueso. Inútil para mastoides."}
+      ]
+    },
+    {
+      "situacion": "TC confirma mastoiditis aguda con coalescencia + pequeño absceso subperióstico, sin complicación intracraneal. ¿Manejo inmediato?",
+      "opciones": [
+        {"texto": "Antibiótico oral en casa", "correcta": false, "puntos": -15, "feedback": "❌ Mastoiditis = HOSPITALIZACIÓN + IV. Manejo ambulatorio = riesgo de progresión a meningitis/absceso cerebral."},
+        {"texto": "HOSPITALIZACIÓN + Antibiótico IV de amplio espectro empírico: ceftriaxona 50-80 mg/kg/día + vancomicina (S. pneumoniae resistente, S. aureus MRSA). Algunos centros añaden metronidazol si hay sospecha de anaerobios (colesteatoma sobreinfectado). Consulta urgente ORL para considerar: miringotomía + tubo de timpanostomía (drenaje y cultivo) + posible MASTOIDECTOMÍA (si absceso subperióstico, fracaso de IV en 24-48h, complicación intracraneal)", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: hospitalización + IV empírico + drenaje quirúrgico cuando indicado. Miringotomía siempre que se pueda — alivia presión + permite cultivo. Mastoidectomía si no responde a IV o complicaciones."},
+        {"texto": "Solo paracetamol y observación", "correcta": false, "puntos": -15, "feedback": "❌ Diferir tratamiento = progresión a meningitis."},
+        {"texto": "Drenaje percutáneo guiado por TC sin ORL", "correcta": false, "puntos": -15, "feedback": "❌ Mastoides debe drenarse por mastoidectomía si necesario, NO percutáneo (lesión facial, dura)."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿COMPLICACIONES de mastoiditis que debes saber identificar?",
+      "opciones": [
+        {"texto": "Solo absceso retroauricular", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. Hay complicaciones intracraneales mayores."},
+        {"texto": "INTRATEMPORALES: parálisis facial (VII), laberintitis (vértigo + sordera neurosensorial), petrositis (síndrome de GRADENIGO: dolor retro-orbitario por afectación V + parálisis VI + otorrea = afectación apex petroso). EXTRACRANEALES: absceso subperióstico, absceso de Bezold (en músculo ECM por trayecto medial). INTRACRANEALES: meningitis, absceso epidural/subdural/cerebral, TROMBOSIS DEL SENO LATERAL (signo de Griesinger), hidrocefalia otógena", "correcta": true, "puntos": 15, "feedback": "✅ Mapa completo de complicaciones por nivel anatómico. Cualquiera de las intracraneales requiere ingreso UCI + cirugía urgente. Síndrome de Gradenigo es signo CLÁSICO de petrositis (compromiso del ápex petroso por extensión)."},
+        {"texto": "Solo perforación timpánica", "correcta": false, "puntos": -10, "feedback": "❌ La perforación es manejo o consecuencia, no complicación grave per se."},
+        {"texto": "Conjuntivitis", "correcta": false, "puntos": -10, "feedback": "❌ No es complicación de mastoiditis."}
+      ]
+    },
+    {
+      "situacion": "Padre pregunta '¿esto pasó porque suspendí el antibiótico antes?'. ¿Mensaje educativo honesto?",
+      "opciones": [
+        {"texto": "'No, esto pasa solo'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. La administración incompleta de ATB es factor de riesgo CONOCIDO de mastoiditis."},
+        {"texto": "'Sí, el tratamiento incompleto es un factor de riesgo. Cuando se siente mejor a los 2-3 días NO significa que las bacterias estén eliminadas — quedan vivas y al suspender, recuperan fuerza y pueden invadir hueso (mastoides). Por eso siempre hay que completar los 10 días, aunque parezca bien. Esta información es para el futuro, sin culparle — fue un error común. Ahora lo importante es tratarlo correctamente y vamos a hacerlo'", "correcta": true, "puntos": 15, "feedback": "✅ Información honesta + explicación del mecanismo + educación sin culpabilizar + foco en el plan actual. Esta conversación previene la próxima mastoiditis."},
+        {"texto": "'No le diga eso a nadie, es su culpa'", "correcta": false, "puntos": -15, "feedback": "❌ Culpabilización contraproducente. Educar > juzgar."},
+        {"texto": "Le doy un sermón de 10 minutos", "correcta": false, "puntos": -5, "feedback": "⚠️ Excesivo. Mensaje claro y breve es más efectivo."}
+      ]
+    },
+    {
+      "situacion": "Tras 48h IV con ceftriaxona+vanco, el niño está mejor pero persiste fluctuación retroauricular y eritema. ¿Conducta?",
+      "opciones": [
+        {"texto": "Continuar IV otra semana sin más", "correcta": false, "puntos": -10, "feedback": "❌ Si hay absceso subperióstico que no drena, no responderá solo a IV. Hay que drenarlo."},
+        {"texto": "Indicación de DRENAJE QUIRÚRGICO: MASTOIDECTOMÍA simple (cortical) con drenaje del absceso subperióstico + miringotomía con tubo + cultivo intraoperatorio. Continuar IV ajustado a cultivo. Otras indicaciones de cirugía: complicación intracraneal, parálisis facial nueva, persistencia >48-72h con IV, coalescencia avanzada en TC", "correcta": true, "puntos": 15, "feedback": "✅ Indicación clara de cirugía con criterios precisos. Mastoidectomía cortical conserva la audición y solo drena el sistema neumático infectado. No hace falta mastoidectomía radical para mastoiditis aguda no complicada."},
+        {"texto": "Cambiar a antibiótico oral", "correcta": false, "puntos": -15, "feedback": "❌ Step-down precoz en mastoiditis que no responde = empeoramiento."},
+        {"texto": "Esperar 7 días más a ver", "correcta": false, "puntos": -15, "feedback": "❌ Demora aumenta riesgo de complicación intracraneal."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿Cuánto tiempo de antibiótico total en mastoiditis aguda?",
+      "opciones": [
+        {"texto": "5 días", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente. Mastoiditis es osteomielitis del hueso temporal."},
+        {"texto": "IV mínimo 7-10 días en hospital + step-down a oral guiado por sensibilidad de cultivo, completar 3-4 SEMANAS totales (osteítis ósea requiere duración prolongada similar a osteomielitis). Si hay complicación intracraneal: 4-6 semanas IV completas", "correcta": true, "puntos": 15, "feedback": "✅ Duración prolongada por el componente óseo. Tratar OE/OMA con 7-10 días no aplica aquí — esto es osteítis del temporal."},
+        {"texto": "10 días total", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente para osteítis."},
+        {"texto": "Indefinido", "correcta": false, "puntos": -10, "feedback": "❌ Hay duración estándar basada en respuesta clínica + imagen."}
+      ]
+    },
+    {
+      "situacion": "Resumen al alta + recomendaciones al padre.",
+      "opciones": [
+        {"texto": "'Tomó antibiótico, ya está bien'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente y minimiza la gravedad del cuadro."},
+        {"texto": "'Niño 3a con mastoiditis aguda derecha tras OMA tratada parcialmente. TC: coalescencia mastoidea + absceso subperióstico → manejado con miringotomía + drenaje quirúrgico + ceftriaxona+vancomicina IV 8 días → step-down a amoxicilina-clavulánico oral para completar 4 semanas totales (según cultivo: S. pneumoniae sensible). Auditometría al alta normal, facial íntegro. Plan: control ORL en 2 semanas, audiometría de control a las 6 sem, vacunación neumocócica + influenza al día. Educación crítica a familia: COMPLETAR todos los días de ATB en próximas otitis, vigilar signos de alarma (fiebre que no cede 48-72h, dolor que vuelve, oreja despegada, parálisis facial, vómitos/cefalea → urgencias). Cita en consulta general en 1 sem'", "correcta": true, "puntos": 15, "feedback": "✅ Historia + manejo + duración + estudios de control + educación específica + plan de seguimiento + banderas rojas. Prevención secundaria genuina."},
+        {"texto": "Solo prescripción y alta", "correcta": false, "puntos": -10, "feedback": "❌ Sin educación al familiar que es la PREVENCIÓN principal de recurrencia."},
+        {"texto": "'Está curado del todo'", "correcta": false, "puntos": -10, "feedback": "❌ Mastoiditis requiere seguimiento estricto por riesgo de secuelas y recidiva."}
+      ]
+    }
+  ]
+}

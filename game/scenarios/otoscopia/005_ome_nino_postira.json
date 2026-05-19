@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_005_ome_postira",
+  "titulo": "Otitis media con efusión (OME) en niño post-IRA",
+  "tema": "otoscopia",
+  "audiencia": "pediátrico",
+  "guia": "AAO-HNS 2016 OME + AAP",
+  "dificultad": "Intermedio",
+  "contexto": "Consulta pediátrica programada. Niña de 5 años llevada por su madre. Hace 6 semanas tuvo un resfriado fuerte con OMA tratada con amoxicilina, cedió la fiebre y el dolor. Pero desde entonces 'sigue oyendo mal' — sube mucho el volumen de la tele, no responde a la primera cuando la llaman, y la maestra reporta que está distraída. NO dolor, NO fiebre, NO otorrea.",
+  "pasos": [
+    {
+      "situacion": "Antes de la otoscopia, ¿qué te sugiere 'post-OMA + hipoacusia persistente SIN dolor ni fiebre ni otorrea'?",
+      "opciones": [
+        {"texto": "Otitis recurrente activa", "correcta": false, "puntos": -10, "feedback": "❌ Sin dolor, fiebre ni otorrea no es activa. Es un cuadro RESIDUAL — el líquido seromucoso que quedó en el oído medio tras la OMA aguda. Esto es OME."},
+        {"texto": "OTITIS MEDIA CON EFUSIÓN (OME) — también llamada otitis serosa o seromucosa. Es la persistencia de LÍQUIDO en oído medio SIN signos agudos. Causa principal de hipoacusia conductiva en niños. Frecuente tras OMA (50% persiste a las 4 sem, 10-20% a las 3 meses)", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático. OME es un 'estado' del oído medio (líquido residual), no una infección activa. Importa porque causa hipoacusia que afecta lenguaje, escuela y conducta."},
+        {"texto": "Pérdida auditiva neurosensorial", "correcta": false, "puntos": -5, "feedback": "⚠️ Posible pero menos probable post-OMA reciente. La etiología más común sería OME (conductiva)."},
+        {"texto": "Trastorno del comportamiento sin causa orgánica", "correcta": false, "puntos": -15, "feedback": "❌ Saltar a explicaciones psicológicas sin descartar causa orgánica auditiva = mala práctica. Hipoacusia infantil puede confundirse con TDAH o autismo."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia. ¿Qué hallazgos esperas en OME?",
+      "opciones": [
+        {"texto": "TM hiperémica y abombada", "correcta": false, "puntos": -10, "feedback": "❌ Eso es OMA aguda. En OME la TM no está roja ni abombada."},
+        {"texto": "TM ÍNTEGRA pero con cambio de color: AMARILLENTA, ÁMBAR o 'COLOR MIEL' por el líquido seromucoso retenido. Puede haber NIVEL HIDROAÉREO visible (línea horizontal con burbujas/aire arriba y líquido abajo) o BURBUJAS. Movilidad de TM REDUCIDA en otoscopia neumática. Mango del martillo más horizontalizado por retracción. Sin dolor con la presión", "correcta": true, "puntos": 15, "feedback": "✅ Hallazgos clásicos. La OTOSCOPIA NEUMÁTICA (insuflando aire) muestra movilidad disminuida — signo más sensible. Nivel hidroaéreo y burbujas son patognomónicos cuando se ven."},
+        {"texto": "Perforación con material blanco", "correcta": false, "puntos": -10, "feedback": "❌ TM debe estar íntegra en OME."},
+        {"texto": "TM perfectamente normal", "correcta": false, "puntos": -10, "feedback": "❌ Si fuera normal, no habría OME. Aunque sutil, hay cambios."}
+      ]
+    },
+    {
+      "situacion": "Confirmas TM con color miel + nivel hidroaéreo + movilidad reducida. ¿Qué estudios de FUNCIÓN AUDITIVA pides para confirmar y cuantificar?",
+      "opciones": [
+        {"texto": "Solo otoscopia, no necesito más", "correcta": false, "puntos": -10, "feedback": "❌ Hipoacusia confirmada subjetivamente + objetiva por otoscopia merece cuantificación. Cambia la decisión de tratar."},
+        {"texto": "(1) AUDIOMETRÍA TONAL (en >4 años colaboradora): cuantifica gap aire-óseo, típicamente HIPOACUSIA CONDUCTIVA leve-moderada 20-40 dB. (2) IMPEDANCIOMETRÍA / TIMPANOMETRÍA: curva TIPO B PLANA (sin pico, oído medio lleno) = patognomónica de OME; curva tipo C (pico desplazado a presiones negativas) = disfunción trompa. (3) En niños no colaboradores: AUDIOMETRÍA POR JUEGO o potenciales evocados auditivos", "correcta": true, "puntos": 15, "feedback": "✅ Battery objetivo: audiometría cuantifica + timpanometría confirma. La CURVA B en timpanometría es el signo objetivo más útil de OME. Distingue de tapón de cerumen (curva normal con audiometría baja) y de disfunción trompa (curva C)."},
+        {"texto": "RM de oído medio", "correcta": false, "puntos": -15, "feedback": "❌ Innecesaria. Diagnóstico es clínico + funcional."},
+        {"texto": "Solo preguntar a la madre", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Necesita medición objetiva."}
+      ]
+    },
+    {
+      "situacion": "Audiometría: hipoacusia conductiva bilateral 30 dB. Timpanometría: curva B bilateral. ¿Conducta inicial?",
+      "opciones": [
+        {"texto": "Tubos de timpanostomía inmediatamente", "correcta": false, "puntos": -10, "feedback": "❌ OME debe OBSERVARSE 3 MESES antes de considerar tubos en niño sin factores de riesgo. La mayoría se resuelve espontáneamente."},
+        {"texto": "OBSERVACIÓN ACTIVA por 3 MESES con reevaluación (otoscopia + audiometría + timpanometría). Razón: 75-90% de las OME resuelven espontáneamente en 3 meses. NO antibiótico ni descongestionante ni antihistamínico ni corticoides — NINGUNO ha demostrado eficacia mantenida. Medidas: tratar factores predisponentes (rinitis alérgica, RGE), evitar humo de tabaco, lactancia materna, vacunación", "correcta": true, "puntos": 15, "feedback": "✅ AAO-HNS 2016 estándar: 'wait and see' 3 meses. Tratamientos farmacológicos NO funcionan en OME (importante NO usar antibiótico ni corticoides). Las medidas ambientales son lo único con evidencia preventiva."},
+        {"texto": "Antibiótico amoxicilina 30 días", "correcta": false, "puntos": -15, "feedback": "❌ Antibiótico NO indicado en OME (no es infección activa). Genera resistencia + efectos adversos sin beneficio."},
+        {"texto": "Corticoides orales prednisolona", "correcta": false, "puntos": -15, "feedback": "❌ Beneficio nulo a largo plazo y efectos adversos. NO recomendados."}
+      ]
+    },
+    {
+      "situacion": "Madre pregunta '¿no le doy nada en estos 3 meses?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'No, solo esperar'", "correcta": false, "puntos": -5, "feedback": "⚠️ Correcto pero seco. Mejor explicar el porqué y medidas activas que SÍ ayudan."},
+        {"texto": "'En estos 3 meses la mayoría de los oídos drenan solos. Lo que SÍ ayuda mientras tanto: (1) evitar humo de tabaco en casa (factor de riesgo claro), (2) tratar rinitis alérgica si la tiene, (3) elevar cabecera de cama para favorecer drenaje por trompa, (4) chicle/chupar dulces masticables (en >3 años, no muy a menudo) para activar trompa al deglutir, (5) maniobras como soplar globos. Los antibióticos, jarabes para mocos y descongestionantes NO ayudan en este cuadro y tienen efectos adversos. Volvemos en 3 meses y reevaluamos'", "correcta": true, "puntos": 15, "feedback": "✅ Manejo activo de factores predisponentes + maniobras de activación de trompa + advertencia explícita de qué NO usar. La 'inflación de oído con globo' (Otovent) tiene evidencia modesta pero positiva."},
+        {"texto": "Le doy jarabe para mocos y antihistamínico", "correcta": false, "puntos": -15, "feedback": "❌ Ninguno tiene evidencia en OME. Y antihistamínicos espesan secreciones — pueden empeorar."},
+        {"texto": "'Pídale al ORL que opere ya'", "correcta": false, "puntos": -10, "feedback": "❌ Premaduro sin observación de 3 meses."}
+      ]
+    },
+    {
+      "situacion": "A los 3 meses: persiste líquido bilateral, audiometría sigue con 30 dB de pérdida, niña sigue con problemas en escuela. ¿Conducta?",
+      "opciones": [
+        {"texto": "Otros 3 meses de observación", "correcta": false, "puntos": -10, "feedback": "❌ OME persistente >3 meses con hipoacusia significativa y/o impacto en desarrollo = indicación de derivación quirúrgica."},
+        {"texto": "Derivación a ORL para colocación de TUBOS DE TIMPANOSTOMÍA bilaterales (también llamados 'diábolos'): indicado en OME bilateral >3 meses con hipoacusia ≥25 dB y/o impacto en lenguaje/escuela/equilibrio/conducta. Procedimiento ambulatorio bajo anestesia. Mejora audición INMEDIATA, dura 6-18 meses (se cae solo), riesgo bajo de complicaciones (otorrea ocasional, perforación residual <2%)", "correcta": true, "puntos": 15, "feedback": "✅ Indicación + criterios + procedimiento + duración + riesgos. Es la cirugía más frecuente en niños en países desarrollados. La AAO-HNS especifica criterios objetivos para indicar."},
+        {"texto": "Adenoidectomía sola sin tubos", "correcta": false, "puntos": 5, "feedback": "⚠️ La adenoidectomía se asocia a tubos en niños >4 años (los adenoides obstruyen la trompa). Pero el procedimiento más eficaz directo en OME persistente son los tubos. Adenoidectomía asociada según hipertrofia adenoidea."},
+        {"texto": "Esperar a que ella decida", "correcta": false, "puntos": -10, "feedback": "❌ Niña de 5 años no decide tratamiento médico. Decisión médica con familia informada."}
+      ]
+    },
+    {
+      "situacion": "Madre pregunta '¿qué sale por el tubo? ¿Es peligroso?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'No sabemos qué sale'", "correcta": false, "puntos": -10, "feedback": "❌ Sí sabemos. Información importante para la madre."},
+        {"texto": "'Al colocar el tubo sale el líquido acumulado del oído medio: típicamente SEROMUCOSO ESPESO color ámbar o miel, a veces más claro o más amarillo. No es purulento — si fuera purulento ya tendríamos OMA activa. Es indoloro. Después del tubo, oirá mejor en horas. Vigilancia: si sale líquido por el tubo (otorrea por tubo) — generalmente claro o ligeramente amarillento — significa que tiene OMA con drenaje a través del tubo. Manejo: gotas de ciprofloxacino, NO sistémico inicialmente. Si fétido o sangrado: consulta urgente'", "correcta": true, "puntos": 15, "feedback": "✅ Caracterización del líquido + qué esperar después del tubo + qué vigilar + diferenciar normal vs alarma. Excelente educación."},
+        {"texto": "'No le va a salir nada'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Sale líquido del oído medio al colocar tubo y puede salir más después por otorrea con tubo."},
+        {"texto": "Solo le explico el procedimiento técnico", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. Lo que verá la madre importa más que la técnica."}
+      ]
+    },
+    {
+      "situacion": "Tras tubos, audición normal. Madre pregunta '¿puede nadar?' ¿Recomendaciones con tubos colocados?",
+      "opciones": [
+        {"texto": "'No al agua nunca'", "correcta": false, "puntos": -10, "feedback": "❌ Sobre-restricción. La evidencia actual es más flexible."},
+        {"texto": "'Con tubos: ducha y bañera SIN sumergir cabeza son seguras. Para piscina/mar la evidencia es controvertida — la mayoría de protocolos modernos permiten nadar SIN tapones excepto si: bucear >1 m de profundidad, agua de río/lago dudosa, jacuzzi caliente, jabón directo en oído. Algunos ORLs prefieren tapones moldeados para piscina como precaución. Acordamos con el ORL operador la pauta exacta. Si entra agua: secar suavemente, NO bastoncillos'", "correcta": true, "puntos": 15, "feedback": "✅ Evidencia actual + decisión compartida con ORL operador. El estudio randomizado de 2003 (Goldstein) y meta-análisis posteriores mostraron que el agua de piscina/baño no aumenta otorrea con tubos. Mantener restricción para aguas sucias, profundidad y jabón."},
+        {"texto": "Solo agua de mar permitida", "correcta": false, "puntos": -10, "feedback": "❌ Justo contraintuitivo. Agua de mar es razonable; agua de río/lago tiene más contaminación bacteriana."},
+        {"texto": "Cualquier agua sin restricción", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay matices (profundidad, jabón). Recomendación sin matices es subóptima."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿factores de RIESGO de OME persistente o recurrente?",
+      "opciones": [
+        {"texto": "Solo edad pequeña", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. Hay varios factores."},
+        {"texto": "(1) Edad <2 años (trompa más horizontal y corta). (2) GUARDERÍA (exposición a IRA). (3) HUMO DE TABACO ambiental. (4) AUSENCIA DE LACTANCIA materna. (5) HIPERTROFIA ADENOIDEA. (6) ALERGIAS / rinitis alérgica. (7) PALADAR HENDIDO o malformaciones craneofaciales (mucha mayor incidencia). (8) SÍNDROME DE DOWN (trompa disfuncional). (9) RGE. (10) Posición horizontal al alimentar (biberón acostado)", "correcta": true, "puntos": 15, "feedback": "✅ Mapa completo de factores. Algunos modificables (humo, posición de alimentación, lactancia), otros estructurales (paladar hendido, Down — vigilancia más estricta y temprana)."},
+        {"texto": "Solo genética", "correcta": false, "puntos": -10, "feedback": "❌ Hay factores ambientales claros y modificables."},
+        {"texto": "Solo varones", "correcta": false, "puntos": -10, "feedback": "❌ Hay leve predominio masculino pero no es factor principal."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué pasa si NO se trata OME persistente?",
+      "opciones": [
+        {"texto": "Nada, los niños lo superan", "correcta": false, "puntos": -15, "feedback": "❌ Falso. La hipoacusia mantenida tiene consecuencias en desarrollo."},
+        {"texto": "Riesgos de OME no tratada >3 meses: (1) RETRASO DEL LENGUAJE (no oye bien los fonemas finos), (2) bajo rendimiento ESCOLAR, (3) problemas de equilibrio/coordinación, (4) cambios de CONDUCTA (irritabilidad, aislamiento, parece TDAH), (5) progresión a OMA recurrente, (6) cambios anatómicos crónicos: ATELECTASIA o RETRACCIÓN timpánica, BOLSILLOS DE RETRACCIÓN que pueden evolucionar a COLESTEATOMA secundario, EROSIÓN OSICULAR, hipoacusia conductiva permanente", "correcta": true, "puntos": 15, "feedback": "✅ Consecuencias inmediatas (lenguaje, escuela, conducta) + tardías (bolsillos de retracción → colesteatoma). El diagnóstico tardío de OME persistente es una causa frecuente de problemas escolares mal atribuidos a otras causas."},
+        {"texto": "Solo molestia leve", "correcta": false, "puntos": -15, "feedback": "❌ Subestima riesgos."},
+        {"texto": "Sordera permanente segura", "correcta": false, "puntos": -10, "feedback": "❌ Sobreexpresión. Riesgo existe pero no es universal."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta tras tubos:",
+      "opciones": [
+        {"texto": "'Tiene los tubos, ya está'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Niña 5a con OME bilateral persistente >3 meses post-OMA tratada, con hipoacusia conductiva 30 dB y afectación escolar. Tubos timpanostomía bilaterales colocados sin complicaciones, líquido seromucoso espeso color miel drenado en quirófano. Audición normalizada inmediatamente. Plan: control ORL 4 sem post-cirugía, audiometría a las 6 sem, control anual con timpanometría hasta caída espontánea de tubos (típicamente 6-18 meses). Indicaciones a familia: ducha sin sumergir, piscina con o sin tapones según preferencia ORL operador, evitar humo de tabaco, vacunación neumocócica + influenza, signos de alarma: otorrea fétida, dolor, fiebre alta sostenida, parálisis facial → consulta. Evaluar lenguaje en 3-6 meses (logopeda si retraso residual). Coordinar con escuela para apoyo si necesario'", "correcta": true, "puntos": 15, "feedback": "✅ Historia + procedimiento + caracterización líquido + plan de seguimiento + cuidados + signos alarma + evaluación de impacto del problema (lenguaje, escuela). Atención integral."},
+        {"texto": "Solo prescripción y alta", "correcta": false, "puntos": -10, "feedback": "❌ Sin plan ni educación."},
+        {"texto": "'Curada definitivamente'", "correcta": false, "puntos": -10, "feedback": "❌ Falso, requiere seguimiento por riesgo de recurrencia y caída de tubos."}
+      ]
+    }
+  ]
+}

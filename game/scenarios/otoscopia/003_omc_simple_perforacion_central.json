@@ -1,0 +1,101 @@
+{
+  "id": "otoscopia_003_omc_simple",
+  "titulo": "OMC simple con perforación central permanente y otorrea recurrente",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "ENT UK + AAO-HNS",
+  "dificultad": "Intermedio",
+  "contexto": "Adulto de 38 años acude a consulta. Refiere otorreas intermitentes en oído derecho desde la infancia, 3-4 episodios al año, especialmente cuando le entra agua al ducharse o nadar. Ahora lleva 5 días con drenaje mucopurulento, NO doloroso, NO fétido, e hipoacusia que él describe como 'tengo el oído tapado siempre, ahora un poco peor'. Sin fiebre.",
+  "pasos": [
+    {
+      "situacion": "Anamnesis. Antes de la otoscopia, ¿qué te dice el patrón 'otorreas intermitentes desde infancia + sin dolor + sin fiebre'?",
+      "opciones": [
+        {"texto": "OMA recurrente de adulto", "correcta": false, "puntos": -10, "feedback": "❌ OMA recurrente es DOLOROSA y FEBRIL en cada episodio. Aquí no hay ni dolor ni fiebre — patrón crónico, no agudo."},
+        {"texto": "Patrón típico de OTITIS MEDIA CRÓNICA SUPURADA (OMC) SIMPLE: perforación central permanente con reagudizaciones cuando entra agua/IRA. Sin dolor (sin presión, hay perforación que drena), sin fiebre (proceso crónico mucoso, no agudo invasivo). Hipoacusia conductiva permanente por perforación", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático sin haber hecho otoscopia. El patrón 'otorrea sin dolor, hipoacusia permanente, recurrente desde niñez' = OMC simple hasta que se demuestre lo contrario."},
+        {"texto": "Otitis externa", "correcta": false, "puntos": -10, "feedback": "❌ OE da dolor con manipulación + descamación + contexto agudo. Aquí es indoloro y crónico."},
+        {"texto": "Colesteatoma", "correcta": false, "puntos": 5, "feedback": "⚠️ Diferencial CRÍTICO de OMC. La clave diferencial: colesteatoma da otorrea FÉTIDA + perforación MARGINAL/ática + erosión ósea. OMC simple = no fétida + perforación CENTRAL. Hay que excluir colesteatoma activamente."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia derecha. ¿Qué esperas ver en OMC SIMPLE?",
+      "opciones": [
+        {"texto": "TM intacta, gris perlada", "correcta": false, "puntos": -15, "feedback": "❌ Si tuviera TM intacta no habría otorrea. La OMC define por perforación crónica."},
+        {"texto": "PERFORACIÓN CENTRAL (en cuadrante póstero-inferior o anterior, NO marginal/ática), de tamaño variable (puntiforme a subtotal). La mucosa del oído medio visible a través de la perforación es ROSADA y húmeda (no granulomatosa). Mango del martillo visible. Otorrea mucoide/mucopurulenta SIN olor fétido. NO se ven masas blancas perladas (eso sería colesteatoma)", "correcta": true, "puntos": 15, "feedback": "✅ Hallazgos completos: localización (central — clave), tamaño, características de la mucosa subyacente, ausencia de colesteatoma. La perforación CENTRAL preserva el ánulo y NO erosiona hueso → riesgo bajo de complicaciones."},
+        {"texto": "Perforación marginal en ática con material blanco perlado", "correcta": false, "puntos": -10, "feedback": "❌ Eso es COLESTEATOMA, no OMC simple. Conducta y pronóstico muy diferentes."},
+        {"texto": "TM abombada y enrojecida", "correcta": false, "puntos": -10, "feedback": "❌ Eso es OMA aguda no perforada."}
+      ]
+    },
+    {
+      "situacion": "Visualizas perforación central con mucosa rosada visible, otorrea mucopurulenta sin olor. Sin masas. ¿Qué OTRO examen físico es OBLIGATORIO antes de cerrar la nota?",
+      "opciones": [
+        {"texto": "Solo descripción otoscópica", "correcta": false, "puntos": -10, "feedback": "❌ Falta evaluar la audición y descartar complicaciones."},
+        {"texto": "Acumetría con DIAPASÓN (Weber y Rinne) para confirmar hipoacusia CONDUCTIVA: Weber lateraliza al oído ENFERMO, Rinne NEGATIVO en oído enfermo (CO > CA). Y EXPLORAR pares craneales — especialmente FACIAL (VII) — para descartar complicación intratemporal. Maniobras vestibulares (Romberg, marcha) si sospecha de laberintitis", "correcta": true, "puntos": 15, "feedback": "✅ Battery completo: confirmar tipo de hipoacusia + descartar parálisis facial (complicación) + descartar afectación vestibular. La exploración del facial es OBLIGATORIA siempre en otopatía con drenaje crónico."},
+        {"texto": "Solo le pregunto si oye bien", "correcta": false, "puntos": -10, "feedback": "❌ Anamnesis subjetiva insuficiente. Diapasón es examen objetivo simple y rápido."},
+        {"texto": "Solo audiometría tonal", "correcta": false, "puntos": 5, "feedback": "⚠️ Más completa pero se hace en cabina aparte. En consulta, diapasón da información inmediata."}
+      ]
+    },
+    {
+      "situacion": "Weber lateraliza a derecho, Rinne negativo derecho, facial íntegro. ¿Qué pides como ESTUDIOS COMPLEMENTARIOS?",
+      "opciones": [
+        {"texto": "Nada, manejo directo", "correcta": false, "puntos": -10, "feedback": "❌ Hay que cuantificar la pérdida auditiva (audiometría) y descartar imagenológicamente colesteatoma oculto."},
+        {"texto": "(1) AUDIOMETRÍA TONAL: cuantifica grado de hipoacusia conductiva y gap aire-óseo. (2) CULTIVO de otorrea: identifica germen + sensibilidad (frecuente Pseudomonas, Staphylococcus, anaerobios). (3) CONSIDERAR TC peñasco SIN contraste: si sospecha de colesteatoma (otorrea fétida, perforación marginal, granulación), erosión ósea, falla de tratamiento, planificación quirúrgica", "correcta": true, "puntos": 15, "feedback": "✅ Tres pilares: cuantificar pérdida + identificar germen + descartar colesteatoma con imagen si indicado. La TC no es de rutina pero sí pre-quirúrgica o cuando hay sospecha."},
+        {"texto": "RM con contraste de oído", "correcta": false, "puntos": -5, "feedback": "⚠️ RM con difusión es útil para colesteatoma residual/recurrente post-quirúrgico. En diagnóstico inicial, TC es la modalidad de elección."},
+        {"texto": "Solo cultivo", "correcta": false, "puntos": -5, "feedback": "⚠️ Cultivo es útil pero hay que cuantificar la pérdida auditiva también."}
+      ]
+    },
+    {
+      "situacion": "Manejo de la REAGUDIZACIÓN actual (otorrea activa). ¿Qué tratamiento?",
+      "opciones": [
+        {"texto": "Amoxicilina oral 10 días", "correcta": false, "puntos": -10, "feedback": "❌ En OMC reagudizada el germen más frecuente es Pseudomonas (no S. pneumoniae). Amoxicilina NO cubre Pseudomonas. Antibiótico TÓPICO es la primera línea."},
+        {"texto": "(1) LIMPIEZA AURAL minuciosa (microsucción) — sin limpieza, las gotas no llegan a la mucosa. (2) CIPROFLOXACINO ótico ± dexametasona, 3-4 gotas c/12h × 7-14 días. (3) HIGIENE SECA estricta (tapón al ducharse, no nadar). (4) Antibiótico SISTÉMICO solo si: fiebre/celulitis perianricular, otorrea masiva no controlada por tópico, inmunodeprimido, falla de tópico", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: limpieza + tópico + higiene seca como base. Sistémico solo en escenarios específicos. La ciprofloxacino tópica logra concentraciones locales >100× superiores a sistémica, sin ototoxicidad."},
+        {"texto": "Aminoglucósidos tópicos", "correcta": false, "puntos": -15, "feedback": "❌ Con perforación los aminoglucósidos tópicos son OTOTÓXICOS (riesgo de sordera neurosensorial irreversible). Error clásico que mata el examen."},
+        {"texto": "Solo agua oxigenada", "correcta": false, "puntos": -10, "feedback": "❌ Agua oxigenada como limpieza es controvertida (puede irritar). El tratamiento es antibiótico tópico."}
+      ]
+    },
+    {
+      "situacion": "Tras 7 días de tratamiento la otorrea cesa, oído seco. ¿Manejo DEFINITIVO de la OMC simple?",
+      "opciones": [
+        {"texto": "Solo evitar el agua de por vida", "correcta": false, "puntos": -10, "feedback": "❌ La higiene seca es complementaria pero NO definitiva. Para cierre permanente se necesita timpanoplastia."},
+        {"texto": "Derivación a ORL para considerar TIMPANOPLASTIA (reparación quirúrgica de la perforación): indicada cuando hay perforación seca >3-6 meses, episodios recurrentes que afectan calidad de vida, hipoacusia conductiva significativa, deseo del paciente de nadar/bucear, o complicaciones. Éxito 80-90% en perforación pequeña-mediana, mucosa sana", "correcta": true, "puntos": 15, "feedback": "✅ Manejo definitivo: cirugía cuando se cumplen criterios. La timpanoplastia tipo I (miringoplastia) cierra la perforación y restaura audición. Idealmente con oído seco al menos 6 sem para mejor toma del injerto."},
+        {"texto": "Mastoidectomía urgente", "correcta": false, "puntos": -10, "feedback": "❌ Mastoidectomía es para colesteatoma o complicaciones (mastoiditis). OMC simple no la requiere de inicio."},
+        {"texto": "Continuar antibiótico tópico indefinidamente", "correcta": false, "puntos": -15, "feedback": "❌ Genera resistencias y no resuelve el problema anatómico subyacente."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿qué pasaría si NO me opero?'. ¿Riesgos?",
+      "opciones": [
+        {"texto": "'No pasa nada, se puede vivir así'", "correcta": false, "puntos": -10, "feedback": "❌ Minimiza riesgos reales. La OMC tiene complicaciones potenciales que ameritan información honesta."},
+        {"texto": "'Puede seguir teniendo episodios recurrentes con afectación de calidad de vida, progresión de la hipoacusia conductiva, riesgo bajo pero real de COMPLICACIONES: mastoiditis crónica, colesteatoma adquirido secundario (especialmente si la perforación se hace marginal), erosión de la cadena osicular, raramente meningitis o absceso intracraneal. No es urgencia operarse, pero el balance suele favorecer la cirugía si los episodios son frecuentes o la audición se afecta'", "correcta": true, "puntos": 15, "feedback": "✅ Información completa + balance honesto + decisión informada. El paciente decide con datos reales, no minimizados ni exagerados."},
+        {"texto": "'Se quedará sordo seguro'", "correcta": false, "puntos": -15, "feedback": "❌ Sobreexpresión. La pérdida progresa pero raramente a sordera completa con OMC simple sin colesteatoma."},
+        {"texto": "'Es peligrosísimo, opérese ya'", "correcta": false, "puntos": -10, "feedback": "❌ Alarmista. No es urgente. Decisión electiva con balance riesgo/beneficio."}
+      ]
+    },
+    {
+      "situacion": "Le explicas higiene seca para SIEMPRE mientras tenga la perforación. ¿Indicaciones específicas?",
+      "opciones": [
+        {"texto": "'Solo no se moje el oído'", "correcta": false, "puntos": -5, "feedback": "⚠️ Vago. Hay medidas específicas."},
+        {"texto": "(1) Al DUCHARSE: tapón de algodón con VASELINA o tapón comercial de silicona. (2) NO sumergir cabeza en bañera. (3) NO piscina ni mar sin tapones moldeados a medida (audífonista) + opcional banda de neopreno. (4) Si entra agua: secar con secador en aire frío a distancia, NO meter bastoncillos. (5) Evitar sonarse muy fuerte (presión retroactiva hacia oído medio). (6) Vacunación antineumocócica + influenza anual", "correcta": true, "puntos": 15, "feedback": "✅ Sistema completo de cuidado: barrera + qué hacer si se moja + qué evitar + prevención. Las medidas higiénicas estrictas reducen reagudizaciones hasta 70%."},
+        {"texto": "Solo no nadar", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. La ducha también tiene riesgo."},
+        {"texto": "Cerrar el oído con cera", "correcta": false, "puntos": -15, "feedback": "❌ Cera no es estéril ni práctica. Y bloquea evaluación posterior."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: '¿qué signos te DESPERTARÍAN sospecha de colesteatoma (diferencial clave de OMC)?'",
+      "opciones": [
+        {"texto": "Otorrea de cualquier color", "correcta": false, "puntos": -5, "feedback": "⚠️ La clave no es solo el color sino las características."},
+        {"texto": "(1) Otorrea FÉTIDA persistente (olor pútrido característico). (2) Perforación MARGINAL o ÁTICA (en el cuadrante póstero-superior o en pars flaccida) — la perforación central NO genera colesteatoma. (3) MATERIAL BLANCO PERLADO visible. (4) GRANULACIONES en el borde de la perforación. (5) HIPOACUSIA RÁPIDAMENTE PROGRESIVA. (6) Complicaciones: VÉRTIGO, PARÁLISIS FACIAL, fiebre alta, cefalea retroauricular — todas señales de erosión ósea/invasión. → derivación urgente ORL + TC", "correcta": true, "puntos": 15, "feedback": "✅ Six pillars de sospecha de colesteatoma. Cualquiera = derivación urgente, no esperar el cuadro completo. El colesteatoma erosiona hueso silenciosamente."},
+        {"texto": "Si tiene fiebre", "correcta": false, "puntos": -5, "feedback": "⚠️ Fiebre es complicación tardía. Hay signos antes."},
+        {"texto": "Solo si hay dolor severo", "correcta": false, "puntos": -5, "feedback": "⚠️ Colesteatoma suele ser INDOLORO hasta complicación. Dolor es tarde."}
+      ]
+    },
+    {
+      "situacion": "Resumen para historia clínica + plan al alta:",
+      "opciones": [
+        {"texto": "'OMC, le di gotas'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Varón 38a, OMC simple OD reagudizada (perforación central PI ~30%, mucosa sana, sin colesteatoma, sin granulaciones), Weber lat OD + Rinne neg OD (hipoacusia conductiva). Plan: microaspiración hoy + ciprofloxacino+dexa ótico 3 gotas c/12h × 10 días + cultivo enviado + audiometría programada + higiene seca estricta + cita en 3 sem para reevaluar oído seco. Si perforación seca persistente → derivación ORL para timpanoplastia electiva. Educar sobre signos de alarma (otorrea fétida, vértigo, parálisis facial, cefalea retroauricular, hipoacusia rápidamente progresiva → urgencias). Vacunación neumococo + influenza al día'", "correcta": true, "puntos": 15, "feedback": "✅ Historia completa + tratamiento + estudios + plan de seguimiento + criterio de derivación + educación + prevención. Atención integral."},
+        {"texto": "Le doy receta y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Sin contexto ni plan."},
+        {"texto": "'Está crónico, ya no hay nada que hacer'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Cirugía resuelve y prevención de reagudizaciones es posible."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_008_perforacion_traumatica",
+  "titulo": "Perforación timpánica traumática por bofetada",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "ENT UK + AAO-HNS",
+  "dificultad": "Intermedio",
+  "contexto": "Mujer de 28 años llega a urgencias acompañada por una vecina. Hace 2 horas su pareja le dio una bofetada en el lado derecho de la cara. Refiere DOLOR INTENSO inmediato en oído derecho, ACÚFENO agudo persistente, hipoacusia y un POCO DE SANGRE saliendo del oído (no abundante). NO mareo intenso, NO náusea. Vino sola porque 'no quiere problemas'.",
+  "pasos": [
+    {
+      "situacion": "Antes de empezar la exploración, ¿qué dos cosas DEBES abordar en paralelo?",
+      "opciones": [
+        {"texto": "Solo el oído", "correcta": false, "puntos": -15, "feedback": "❌ Estás ante un caso de VIOLENCIA DE PAREJA. Atender solo lo somático es perder la oportunidad de proteger a la paciente y omitir tu deber legal."},
+        {"texto": "(1) MANEJO MÉDICO del trauma ótico. (2) DETECCIÓN Y MANEJO DE VIOLENCIA DE GÉNERO: entrevista en privado (sin acompañante), preguntar directamente, validar, EVALUACIÓN DE RIESGO, plan de seguridad, informar de recursos (líneas de ayuda, centros de acogida), documentar exhaustivamente en historia, considerar parte de lesiones al juzgado (en muchos países es OBLIGACIÓN legal del médico). NO presionar para denunciar pero SÍ informar de derechos", "correcta": true, "puntos": 15, "feedback": "✅ Atención integral: dimensión médica + social/legal. La consulta de urgencias es a menudo el único contacto institucional de la víctima — no aprovechar es perderla. Parte de lesiones es obligación en muchas jurisdicciones (verificar local)."},
+        {"texto": "Llamar a la policía sin avisar a la paciente", "correcta": false, "puntos": -10, "feedback": "❌ Romper confianza sin consentimiento puede ponerla en mayor riesgo. Hablar PRIMERO con ella, explicar opciones, y SI hay obligación legal (parte de lesiones), informarle que vas a hacerlo."},
+        {"texto": "Solo derivar a psicología", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente y desresponsabiliza al médico de urgencias."}
+      ]
+    },
+    {
+      "situacion": "Tras conversación privada y plan acordado con la paciente, vas a la exploración. ¿MECANISMO de perforación traumática por bofetada?",
+      "opciones": [
+        {"texto": "Por impacto directo sobre el CAE", "correcta": false, "puntos": -10, "feedback": "❌ El mecanismo es indirecto. La bofetada no llega directamente al CAE."},
+        {"texto": "BAROTRAUMA INDIRECTO: la palma sella el CAE como pistón, comprimiendo súbitamente el aire del conducto contra la TM, generando una onda de presión súbita que rompe la membrana. También por contragolpe (si rompe oído opuesto). Otros mecanismos similares: explosión, salto al agua, cuerpo extraño introducido, fractura temporal", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo de pistón. La bofetada perforante típicamente da perforación IRREGULAR en cuadrante póstero-inferior (zona más débil de la pars tensa), de bordes evertidos hacia afuera (signo de la fuerza de salida). Otoscópicamente diferenciable de perforación infecciosa (que va de adentro hacia afuera)."},
+        {"texto": "Por descarga eléctrica", "correcta": false, "puntos": -10, "feedback": "❌ Sin contexto."},
+        {"texto": "Por trauma vibratorio", "correcta": false, "puntos": -5, "feedback": "⚠️ El término preciso es barotrauma por compresión súbita."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia derecha. ¿Qué hallazgos ESPERAS?",
+      "opciones": [
+        {"texto": "TM normal", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con el cuadro clínico. Hay perforación."},
+        {"texto": "Sangre escasa en CAE (no abundante, no purulenta), PERFORACIÓN IRREGULAR con bordes evertidos (hacia afuera) en cuadrante póstero-inferior (sitio más débil), tamaño variable (típicamente <50% de la TM), mucosa de oído medio rosada visible a través de la perforación, SIN PUS (es trauma agudo, no infección). En CAE puede haber pequeño coágulo, sin edema (no es OE). Test del audífono o frote del trago: NEGATIVO (no es OE)", "correcta": true, "puntos": 15, "feedback": "✅ Hallazgos típicos. Los BORDES EVERTIDOS son característicos de perforación traumática (la fuerza fue de adentro hacia afuera). Comparar con perforación infecciosa: bordes invertidos hacia adentro."},
+        {"texto": "Pus verde abundante", "correcta": false, "puntos": -15, "feedback": "❌ Es trauma agudo de 2h, no infección. Cero pus."},
+        {"texto": "Cuerpo extraño visible", "correcta": false, "puntos": -10, "feedback": "❌ Sin antecedente. Mecanismo es bofetada."}
+      ]
+    },
+    {
+      "situacion": "Confirmas perforación de ~30% irregular cuadrante PI, bordes evertidos, sin pus, sin coágulos grandes. ¿Qué EXAMEN AUDITIVO complementario haces?",
+      "opciones": [
+        {"texto": "Solo le pregunto si oye", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Necesitas confirmar el TIPO de hipoacusia."},
+        {"texto": "ACUMETRÍA con DIAPASÓN (Weber/Rinne) para confirmar hipoacusia CONDUCTIVA pura (esperable en perforación simple): Weber lateraliza al oído enfermo (derecho), Rinne negativo derecho. Y SOSPECHAR LESIÓN DEL OÍDO INTERNO si: vértigo intenso, nistagmus, sordera neurosensorial (Rinne positivo con baja audición), náusea — puede indicar luxación de estribo en ventana oval o fístula perilinfática → derivación URGENTE ORL. Audiometría programada en 1-2 sem", "correcta": true, "puntos": 15, "feedback": "✅ Acumetría diferencia conductiva (perforación simple) vs neurosensorial (lesión oído interno, EMERGENCIA ORL). Hallazgo CRÍTICO: vértigo + nistagmus + sordera neurosensorial post-trauma = fístula perilinfática → ORL urgente."},
+        {"texto": "TC inmediato", "correcta": false, "puntos": -5, "feedback": "⚠️ Solo si trauma severo (alta energía), sospecha fractura, hallazgos neurológicos. Bofetada aislada con hallazgos limpios no requiere TC de rutina."},
+        {"texto": "Audiometría en cabina ahora", "correcta": false, "puntos": 5, "feedback": "✅ Ideal pero suele no estar disponible en urgencias. Acumetría como inicial + audiometría programada."}
+      ]
+    },
+    {
+      "situacion": "Weber lateraliza a derecho, Rinne negativo, sin vértigo ni nistagmus. ¿MANEJO de la perforación?",
+      "opciones": [
+        {"texto": "Tapón ótico y antibiótico oral", "correcta": false, "puntos": -10, "feedback": "❌ Sobre-tratamiento. Y tapón puede irritar."},
+        {"texto": "MANEJO CONSERVADOR: (1) NO GOTAS ÓTICAS (especialmente NO aminoglucósidos por riesgo ototóxico con perforación). (2) HIGIENE SECA ESTRICTA (tapón vaselinado al ducharse, NO sumergir, NO piscina, NO mar). (3) Analgesia: ibuprofeno o paracetamol. (4) Antibiótico SISTÉMICO PROFILÁCTICO no rutinario — solo si: agua contaminada en oído al momento del trauma (lago, río), trabajador en agua, inmunodeprimido, signos infecciosos. (5) NO antibiótico tópico de rutina si oído estaba limpio y la perforación es aguda no contaminada. (6) Control en 2-4 semanas", "correcta": true, "puntos": 15, "feedback": "✅ Conservador es estándar. NO sobre-tratar perforación traumática limpia. NO aminoglucósidos NUNCA en perforación. La mayoría (80-90%) cierra espontáneamente en 2-3 meses."},
+        {"texto": "Cirugía inmediata", "correcta": false, "puntos": -15, "feedback": "❌ Premaduro. La mayoría cierra solo."},
+        {"texto": "Gotas con neomicina", "correcta": false, "puntos": -15, "feedback": "❌ AMINOGLUCÓSIDOS CONTRAINDICADOS con perforación (ototóxicos). Error clásico de ECOE."}
+      ]
+    },
+    {
+      "situacion": "Paciente pregunta '¿se cura solo?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'Necesita cirugía'", "correcta": false, "puntos": -10, "feedback": "❌ Falso. Mayoría cierra sola."},
+        {"texto": "'La mayoría (80-90%) de las perforaciones por trauma cierran SOLAS en 1-3 meses. Lo que ayuda: mantener el oído MUY SECO (no entre agua nunca durante este tiempo), no meter nada (bastoncillos, dedos, gotas no recetadas). Lo que perjudica: agua, infección, sonarse muy fuerte, presión negativa (no bucear, no volar si posible). Control en 2-4 semanas para ver el progreso. Si a las 6-12 semanas no cierra, se valora cirugía pequeña (timpanoplastia) que tiene éxito >85%. La audición vuelve a la normalidad cuando cierra'", "correcta": true, "puntos": 15, "feedback": "✅ Pronóstico realista + qué ayuda + qué perjudica + plan B (cirugía si no cierra) + horizonte temporal + expectativa auditiva. Educación completa."},
+        {"texto": "'Quédese sin oír de ese oído'", "correcta": false, "puntos": -15, "feedback": "❌ Falso e infundadamente alarmista."},
+        {"texto": "'No le puedo decir nada hasta ver más adelante'", "correcta": false, "puntos": -10, "feedback": "❌ Evasiva. Hay información útil que dar ahora."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿signos de ALARMA para volver de urgencia?",
+      "opciones": [
+        {"texto": "Solo dolor", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."},
+        {"texto": "Volver urgente si: (1) VÉRTIGO INTENSO o nuevo (puede indicar fístula perilinfática), (2) HIPOACUSIA EMPEORA o sordera súbita (lesión oído interno), (3) FIEBRE alta (infección secundaria), (4) OTORREA PURULENTA o fétida (infección activa), (5) PARÁLISIS FACIAL (compromiso del VII en su trayecto), (6) DOLOR INTENSO que no cede con analgesia, (7) NÁUSEA/VÓMITOS PERSISTENTES (sugerente lesión vestibular)", "correcta": true, "puntos": 15, "feedback": "✅ Lista accionable. Cada signo apunta a una complicación específica: vértigo→fístula, parálisis facial→trayecto del VII, otorrea fétida→infección/colesteatoma. Educar la lista permite detección precoz."},
+        {"texto": "Solo otorrea", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."},
+        {"texto": "Si no oye mejor en 2 días", "correcta": false, "puntos": -10, "feedback": "❌ La perforación tarda semanas en cerrar. La hipoacusia mejorará progresivamente."}
+      ]
+    },
+    {
+      "situacion": "Vuelves a la VG. ¿Cómo DOCUMENTAS las lesiones en historia clínica?",
+      "opciones": [
+        {"texto": "Solo escribo 'trauma ótico'", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente legal y médicamente. La documentación es PRUEBA ante juzgado."},
+        {"texto": "Documentación exhaustiva: (1) CRONOLOGÍA: 'paciente refiere haber recibido bofetada en hemicara derecha por su pareja hace ~2h'. (2) DESCRIPCIÓN OBJETIVA: equimosis si las hay (con foto consentida, regla de medida), hallazgos otoscópicos detallados (perforación 30% PI bordes evertidos), acumetría, signos asociados. (3) MECANISMO presumido (barotrauma indirecto consistente con bofetada). (4) PRONÓSTICO: días de curación esperados (no laborales, valorables: hasta 8-12 sem para cierre). (5) Mención de OFERTA DE INFORMACIÓN sobre recursos de protección y decisión de la paciente. (6) PARTE DE LESIONES al juzgado (en jurisdicciones donde es obligatorio)", "correcta": true, "puntos": 15, "feedback": "✅ Documentación de calidad médico-legal. La historia clínica en caso de VG es PRUEBA en proceso judicial — claridad y objetividad son esenciales. Las fotos requieren consentimiento informado."},
+        {"texto": "Solo descripción de la lesión, sin mencionar VG", "correcta": false, "puntos": -10, "feedback": "❌ Omitir el mecanismo declarado por la paciente es falla profesional + legal. El mecanismo dicho por la paciente debe constar."},
+        {"texto": "Solo lo verbal sin escribir", "correcta": false, "puntos": -15, "feedback": "❌ Falla legal grave."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué OTRAS lesiones DEBES BUSCAR en mujer con sospecha de violencia de pareja?",
+      "opciones": [
+        {"texto": "Solo el oído", "correcta": false, "puntos": -15, "feedback": "❌ La VG suele dejar múltiples lesiones, algunas ocultas."},
+        {"texto": "Exploración completa con CONSENTIMIENTO: (1) Cabeza/cuello: hematomas en cuero cabelludo (ocultos por pelo), petequias en conjuntiva/cara (sospecha estrangulamiento), marcas en cuello (estrangulación = ALTO riesgo de letalidad), ruptura de timpánica. (2) Tórax/abdomen: hematomas (a menudo en zonas cubiertas), marcas de objetos. (3) Extremidades: hematomas en distintos estadios evolutivos (sugiere violencia REPETIDA), mordeduras, marcas de defensa. (4) Pelviano/sexual: ofrecer evaluación si hay agresión sexual asociada. (5) Patrón de lesiones: localización en zonas no traumáticas habituales, múltiples planos, distintas evoluciones temporales son altamente sugestivos de VG", "correcta": true, "puntos": 15, "feedback": "✅ Exploración sistemática + atención a patrones. Las MARCAS DE ESTRANGULACIÓN son MUY graves (alto riesgo de letalidad posterior); requieren evaluación especializada. Hematomas en distintos estadios sugieren patrón crónico."},
+        {"texto": "Solo lo que ella diga", "correcta": false, "puntos": -10, "feedback": "❌ Las víctimas a menudo minimizan o no recuerdan todas las agresiones. Exploración estructurada saca a luz lesiones no mencionadas."},
+        {"texto": "Solo psicológico", "correcta": false, "puntos": -10, "feedback": "❌ El físico es CRÍTICO en VG aguda."}
+      ]
+    },
+    {
+      "situacion": "Antes del alta, plan de seguridad. ¿Componentes mínimos?",
+      "opciones": [
+        {"texto": "Le dices que se vaya de la casa hoy", "correcta": false, "puntos": -10, "feedback": "❌ Decisión que debe tomar ELLA con apoyo. Imponer puede aumentar riesgo (el momento de salir es el más peligroso). Apoyar su decisión."},
+        {"texto": "(1) EVALUAR RIESGO INMEDIATO (¿hay amenazas de muerte? ¿armas en casa? ¿episodios previos en aumento?). (2) Si decide volver a casa: PLAN DE SEGURIDAD (lugar seguro al que ir, número de emergencia memorizado, bolsa con documentos/llaves/dinero escondida, palabra clave con vecinos). (3) RECURSOS: número de línea 24h específica de VG, centros de acogida, ayuda jurídica gratuita. (4) DERIVACIÓN a UNIDAD ESPECIALIZADA si existe (servicios sociales, hospital de referencia). (5) CITA DE SEGUIMIENTO en pocos días para revaluar (mantener contacto). (6) PARTE DE LESIONES al juzgado según legislación local", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo: evaluar riesgo + opciones según decisión + recursos + seguimiento + obligación legal. La VG es enfermedad CRÓNICA — la primera consulta abre puerta, no resuelve."},
+        {"texto": "Solo le doy un folleto", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. El folleto está bien pero el plan necesita conversación + decisiones."},
+        {"texto": "Esperar a que ella vuelva si quiere", "correcta": false, "puntos": -15, "feedback": "❌ Sin seguimiento activo, la mayoría no vuelve y el ciclo continúa."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta:",
+      "opciones": [
+        {"texto": "'Perforación timpánica, sin gotas'", "correcta": false, "puntos": -15, "feedback": "❌ Falla TOTAL en lo médico (no menciona controles) Y en lo social (ignora la VG)."},
+        {"texto": "'Mujer 28a, perforación timpánica derecha traumática 30% PI bordes evertidos por bofetada (barotrauma indirecto), hipoacusia conductiva confirmada (Weber lat D, Rinne neg D), sin lesión oído interno (sin vértigo ni nistagmus ni Rinne+). Sin pus, sin signos infecciosos, sin parálisis facial. Plan médico: higiene seca estricta (tapón vaselinado al ducharse, NO sumergir, NO piscina ×8-12 sem), analgesia con ibuprofeno, NO gotas óticas, control en 3 sem (otoscopia + acumetría) → si no cierra en 3 meses → derivación ORL para timpanoplastia. Signos de alarma educados. Plan social: VG confirmada por relato, evaluación de riesgo realizada (riesgo MODERADO, sin armas ni amenazas previas, decide volver a casa con plan de seguridad acordado). Información sobre línea 016 (España) / 911 / recursos locales entregada. Parte de lesiones al juzgado emitido. Derivación a unidad de VG / trabajo social. Cita en consulta de seguimiento en 5 días'", "correcta": true, "puntos": 15, "feedback": "✅ Atención INTEGRAL: médico-otológico + social + legal + seguimiento. Esta es la consulta ideal en caso de VG. Cada componente protege a la paciente."},
+        {"texto": "Solo lo médico", "correcta": false, "puntos": -15, "feedback": "❌ La VG no atendida = falla profesional + riesgo de letalidad."},
+        {"texto": "Llamo a la policía sin avisarle", "correcta": false, "puntos": -15, "feedback": "❌ Romper confianza la pondrá en mayor riesgo. Informar SI hay obligación legal, no actuar a sus espaldas."}
+      ]
+    }
+  ]
+}

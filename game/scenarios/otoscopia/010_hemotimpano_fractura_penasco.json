@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_010_hemotimpano",
+  "titulo": "Hemotímpano post-TCE con membrana íntegra azul",
+  "tema": "otoscopia",
+  "audiencia": "adulto",
+  "guia": "ATLS 11 + Brain Trauma Foundation",
+  "dificultad": "Avanzado",
+  "contexto": "Urgencias. Llega ciclista de 38 años atropellado. Golpe lateral izquierdo en la cabeza, sin pérdida de consciencia, Glasgow 15. Refiere cefalea, acúfeno izquierdo intenso, hipoacusia 'profunda' del oído izquierdo, vértigo cuando gira la cabeza. NO sangra por el oído. NO líquido claro. Sin lesiones cutáneas visibles en el pabellón. Equimosis incipiente sobre la mastoides izquierda.",
+  "pasos": [
+    {
+      "situacion": "Aún sin otoscopia, ¿qué SOSPECHAS dado: TCE temporal + acúfeno + hipoacusia 'profunda' + vértigo + equimosis mastoidea, SIN otorrea?",
+      "opciones": [
+        {"texto": "Conmoción cerebral simple, sin afectación del oído", "correcta": false, "puntos": -15, "feedback": "❌ El cuadro auditivo + vértigo + signo de Battle apuntan a fractura de peñasco. No minimizar."},
+        {"texto": "Sospecha de FRACTURA DE PEÑASCO con HEMOTÍMPANO (sangre en oído medio detrás de TM ÍNTEGRA, sin salida por CAE). Posiblemente fractura TRANSVERSA (perpendicular al eje del peñasco) — porque: TM íntegra (sin perforación) + hipoacusia que puede ser NEUROSENSORIAL profunda + vértigo (afectación de cápsula ótica/cóclea/laberinto). La fractura LONGITUDINAL daría más perforación/otorrea", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico sindromático sofisticado. Los DOS PATRONES de fractura del peñasco: LONGITUDINAL (80%, dirección antero-posterior, afecta caja del tímpano → otorrea, perforación, hipoacusia conductiva, parálisis facial 20%) vs TRANSVERSA (20%, perpendicular, afecta cápsula ótica/laberinto → hemotímpano sin otorrea, sordera neurosensorial profunda, vértigo intenso, parálisis facial 50%, más severa)."},
+        {"texto": "Otitis media aguda traumática", "correcta": false, "puntos": -10, "feedback": "❌ No es una infección. Es hemorragia post-trauma."},
+        {"texto": "Vértigo posicional simple", "correcta": false, "puntos": -10, "feedback": "❌ VPPB no se relaciona con TCE agudo + signo de Battle + hipoacusia."}
+      ]
+    },
+    {
+      "situacion": "Otoscopia izquierda. ¿Qué hallazgo PATOGNOMÓNICO esperas?",
+      "opciones": [
+        {"texto": "Perforación con sangre", "correcta": false, "puntos": -10, "feedback": "❌ Si fuera fractura longitudinal sí, pero el cuadro apunta a transversa con TM íntegra."},
+        {"texto": "TM ÍNTEGRA pero con coloración AZUL-VIOLÁCEA o ROJO OSCURO (a veces casi NEGRA) — esa es la APARIENCIA DEL HEMOTÍMPANO: sangre en cavidad timpánica detrás de membrana intacta. Mango del martillo puede estar borrado por la opacidad. NIVEL HIDROAÉREO posible si hay sangre + aire. CAE limpio, sin otorrea externa. Buscar también: escalón óseo en pared del CAE (fractura), erosión cutánea", "correcta": true, "puntos": 15, "feedback": "✅ Hemotímpano = signo otoscópico característico de fractura de peñasco SIN comunicación al CAE. Color azul-violáceo es por la sangre. Diferenciar de OME (color miel/ámbar) y de OMA (rojo abombado pero con triángulo luminoso). En hemotímpano la TM está OSCURA y abombada por la sangre."},
+        {"texto": "TM perlada normal", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con el cuadro."},
+        {"texto": "Pus verde", "correcta": false, "puntos": -10, "feedback": "❌ Trauma agudo, no infección."}
+      ]
+    },
+    {
+      "situacion": "Confirmas TM íntegra AZUL-VIOLÁCEA. ¿Qué CARACTERIZACIÓN del líquido haces, sabiendo que está detrás de TM íntegra?",
+      "opciones": [
+        {"texto": "Hago miringotomía para sacarlo y ver", "correcta": false, "puntos": -15, "feedback": "❌ NO drenar en agudo. Si hay fractura, drenar el hemotímpano puede generar comunicación → vía para meningitis. Y muchas veces se reabsorbe solo."},
+        {"texto": "DESCRIPCIÓN OTOSCÓPICA: 'TM íntegra, color azul-violáceo, abombamiento leve por hemotímpano. Sin perforación, sin otorrea externa. Sin signos de osteítis ni granulación.' Es SANGRE FRESCA en cavidad timpánica. Si fractura no comunica con CAE, se REABSORBE espontáneamente en semanas-meses (lentamente, color azul → verdoso → amarillento → resolución)", "correcta": true, "puntos": 15, "feedback": "✅ Descripción objetiva + plan conservador. La evolución del color recuerda a la evolución del cardenal (azul → verdoso → amarillento). Reabsorción lenta. No drenar de rutina."},
+        {"texto": "Pongo gotas con corticoide", "correcta": false, "puntos": -10, "feedback": "❌ Sin indicación. Con TM íntegra las gotas no llegan al líquido."},
+        {"texto": "Aspiro con jeringa", "correcta": false, "puntos": -15, "feedback": "❌ Imposible con TM íntegra, y si fuera con perforación, no se hace en agudo."}
+      ]
+    },
+    {
+      "situacion": "Pides estudio de imagen. ¿Cuál y por qué?",
+      "opciones": [
+        {"texto": "Solo Rx cráneo", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente para peñasco."},
+        {"texto": "TC CRÁNEO + PEÑASCO SIN CONTRASTE de URGENCIA con cortes finos 1 mm: identifica trazo de fractura (longitudinal/transversa/mixta), opacificación de oído medio/mastoides (sangre), neumoencéfalo, lesiones intracraneales, integridad de cadena osicular. Si signos vestibulares/parálisis facial: añadir RM para evaluación de cápsula ótica y nervio facial. ANGIO si sospecha de lesión vascular", "correcta": true, "puntos": 15, "feedback": "✅ TC peñasco es estándar. Cortes finos esenciales (la fractura puede ser sutil). La FRACTURA TRANSVERSA pasa por la cápsula ótica → frecuentemente daña cóclea/laberinto irreversiblemente."},
+        {"texto": "Ecografía", "correcta": false, "puntos": -15, "feedback": "❌ No atraviesa hueso. Inútil para peñasco."},
+        {"texto": "RM sola sin TC", "correcta": false, "puntos": -5, "feedback": "⚠️ RM no muestra hueso óptimamente. TC primero."}
+      ]
+    },
+    {
+      "situacion": "TC: fractura transversa del peñasco izquierdo con hemotímpano + opacificación de celdas mastoideas + sin neumoencéfalo + sin hematoma intracraneal. ¿Conducta?",
+      "opciones": [
+        {"texto": "Cirugía inmediata", "correcta": false, "puntos": -15, "feedback": "❌ Sin lesión intracraneal expansiva ni necesidad de descompresión inmediata, manejo es conservador en lo neuroquirúrgico. Otológicamente también conservador."},
+        {"texto": "(1) MANEJO NEUROLÓGICO: observación neurológica estrecha (Glasgow horario, signos de HTI, signos meníngeos), reposo cabecera 30°. (2) MANEJO OTOLÓGICO: NO drenar hemotímpano, NO gotas, NO maniobras de presión (no sonarse, no Valsalva), reposo absoluto. (3) EVALUACIÓN ESPECIALIZADA: ORL para audiometría tonal + ENG/VNG vestibular en 24-72h + evaluación del nervio facial (electromiografía si parálisis), NRC para seguimiento del trauma. (4) Antibiótico profiláctico CONTROVERTIDO (no demostrado beneficio claro). (5) Vacunación neumococo + Hib + meningococo. (6) Vigilancia de signos de fístula tardía de LCR (rinolicuorrea posterior, infección)", "correcta": true, "puntos": 15, "feedback": "✅ Manejo multidisciplinar. La hipoacusia neurosensorial por fractura transversa con lesión coclear es generalmente IRREVERSIBLE (la cápsula ótica humana no se regenera). El vértigo agudo cede en semanas por compensación central."},
+        {"texto": "Drenar hemotímpano por miringotomía", "correcta": false, "puntos": -15, "feedback": "❌ NO en agudo, puede generar comunicación con SNC."},
+        {"texto": "Solo observación en casa", "correcta": false, "puntos": -15, "feedback": "❌ TCE con fractura de peñasco requiere observación hospitalaria."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿diferencia clave entre fractura LONGITUDINAL y TRANSVERSA del peñasco?",
+      "opciones": [
+        {"texto": "Son lo mismo", "correcta": false, "puntos": -15, "feedback": "❌ Diferentes en pronóstico y manejo."},
+        {"texto": "LONGITUDINAL (80%): trazo en sentido AP, paralelo al eje del peñasco. Afecta CAJA del tímpano y oído medio → PERFORACIÓN, OTORREA hemática, OTOLICUORREA si comunica con dura, HIPOACUSIA CONDUCTIVA, parálisis facial en 10-20% (típicamente diferida y reversible). TRANSVERSA (20%): trazo perpendicular al eje del peñasco. Afecta CÁPSULA ÓTICA / laberinto / cóclea → HEMOTÍMPANO con TM íntegra, HIPOACUSIA NEUROSENSORIAL PROFUNDA (cofosis = sordera total) IRREVERSIBLE, VÉRTIGO intenso, parálisis facial en 40-50% (más severa, peor pronóstico). MIXTAS también existen", "correcta": true, "puntos": 15, "feedback": "✅ Las diferencias son clínicamente cruciales: longitudinal = más frecuente y mejor pronóstico audiovestibular; transversa = menos frecuente pero peor pronóstico (cofosis frecuente, parálisis facial). El nervio facial atraviesa el peñasco — ambas pueden dañarlo."},
+        {"texto": "Solo la dirección importa", "correcta": false, "puntos": -10, "feedback": "❌ Implicaciones clínicas son totalmente distintas."},
+        {"texto": "Las transversas son leves", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario: son más severas."}
+      ]
+    },
+    {
+      "situacion": "Pides exploración del NERVIO FACIAL. ¿Cuáles son los puntos clave?",
+      "opciones": [
+        {"texto": "Solo simetría facial general", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente. Hay una exploración sistemática."},
+        {"texto": "Exploración SISTEMÁTICA del VII en sus 5 ramas: (1) FRENTE — pedirle que ARRUGUE la frente y eleve cejas (frontal/temporal). (2) OJOS — apretar los ojos fuerte (orbicular ocular), evaluar signo de Bell (en parálisis periférica, al cerrar el ojo, el globo se va hacia arriba). (3) NARIZ — arrugar la nariz (nasal). (4) BOCA — sonreír mostrando dientes (zigomático/bucal), inflar mejillas, silbar (bucal). (5) MENTÓN — bajar labio inferior (mandibular). En PARÁLISIS PERIFÉRICA TODA la hemicara está afectada (incluida la frente); en CENTRAL, la frente se preserva (inervación bilateral del frontal). GRADUAR severidad con HOUSE-BRACKMANN (I-VI). Evaluar también: GUSTO 2/3 anteriores de la lengua (cuerda del tímpano), HIPERACUSIA (estapedio), lagrimeo (geniculado)", "correcta": true, "puntos": 15, "feedback": "✅ Exploración completa del VII en sus 5 ramas + clasificación House-Brackmann + componentes asociados según nivel de lesión (si afecta cuerda del tímpano = más proximal, si afecta lagrimeo = aún más proximal en geniculado). Esto guía el manejo."},
+        {"texto": "Solo le digo 'sonríe'", "correcta": false, "puntos": -10, "feedback": "❌ Exploración insuficiente."},
+        {"texto": "RM directa sin clínica", "correcta": false, "puntos": -5, "feedback": "⚠️ Exploración clínica primero, RM si hay déficit o duda."}
+      ]
+    },
+    {
+      "situacion": "Exploras: VII íntegro bilateralmente, sin parálisis. Audiometría confirma cofosis (sordera total) izquierda neurosensorial. Vértigo persiste. ¿Qué le explicas al paciente?",
+      "opciones": [
+        {"texto": "'Probablemente recuperarás la audición'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Cofosis por fractura transversa con daño coclear es generalmente IRREVERSIBLE. Falso optimismo daña confianza."},
+        {"texto": "'Hay una fractura en el hueso que contiene tu oído. La parte interna del oído (donde se transforma el sonido en señal nerviosa) ha quedado dañada y NO se regenera — la audición de ese oído NO va a volver. La buena noticia: el oído derecho está intacto y vas a oír bien con un solo oído. El vértigo va a mejorar en semanas a meses por compensación cerebral. Te derivaremos a ORL para evaluar opciones a futuro: audífonos CROS (que pasan el sonido del lado sordo al lado sano), o más adelante implantes osteointegrados o cocleares. La rehabilitación vestibular acelera la recuperación del equilibrio'", "correcta": true, "puntos": 15, "feedback": "✅ Información honesta sobre el daño irreversible + foco en lo que SÍ se puede hacer + opciones de rehabilitación auditiva y vestibular + plan de derivación. Honestidad esperanzadora."},
+        {"texto": "'No te preocupes, no es grave'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. La cofosis unilateral es discapacidad permanente."},
+        {"texto": "'Vas a estar sordo y mareado para siempre'", "correcta": false, "puntos": -15, "feedback": "❌ Sordera unilateral sí; vértigo NO (compensación central en meses). Comunicación equilibrada importante."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿VIGILANCIA del paciente en próximas semanas?",
+      "opciones": [
+        {"texto": "Solo una cita en 1 mes", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente. Hay vigilancias específicas."},
+        {"texto": "VIGILANCIA: (1) PARÁLISIS FACIAL DIFERIDA — puede aparecer días/semanas después por edema o hematoma sobre el VII en el canal de Falopio. Si aparece: corticoide IV + evaluación quirúrgica de descompresión. (2) FÍSTULA DE LCR TARDÍA — puede aparecer rinolicuorrea o nueva otorrea clara semanas después. (3) MENINGITIS — riesgo persistente mientras la fractura no esté completamente cicatrizada, mayor con neumoencéfalo. (4) Compensación vestibular — rehabilitación con ejercicios específicos (Cawthorne-Cooksey o protocolos modernos). (5) Adaptación a hipoacusia unilateral — derivación audioprotésico. (6) SECUELAS CRÓNICAS: vértigo posicional secundario (otoconias desplazadas), acúfeno persistente", "correcta": true, "puntos": 15, "feedback": "✅ Vigilancia integral por sistemas. La PARÁLISIS FACIAL DIFERIDA tiene mejor pronóstico que la inmediata (sugiere edema reversible, no transección)."},
+        {"texto": "Solo audiometría anual", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. Hay complicaciones agudas y a corto plazo."},
+        {"texto": "Esperar a que vuelva si pasa algo", "correcta": false, "puntos": -15, "feedback": "❌ Vigilancia activa necesaria."}
+      ]
+    },
+    {
+      "situacion": "Comparas para clarificar: ¿en qué se diferencian HEMOTÍMPANO vs OTOLICUORREA vs OME con sangre?",
+      "opciones": [
+        {"texto": "Son lo mismo con distinto nombre", "correcta": false, "puntos": -15, "feedback": "❌ Diferentes mecanismos y manejos."},
+        {"texto": "HEMOTÍMPANO: sangre en oído medio detrás de TM ÍNTEGRA, color AZUL-VIOLÁCEO, suele ser POST-TRAUMÁTICO (fractura peñasco, barotrauma severo). OTOLICUORREA: LCR claro DRENANDO POR EL CAE (a través de perforación o fractura comunicante), HALO SIGN +, glucosa+, riesgo de meningitis. OME CON SANGRE: efusión SEROMUCOSA crónica con SANGRE OCASIONAL (raro), color más AMARILLENTO con tinte rojo, no post-trauma sino post-barotrauma o crónica. EXTRA: glomus timpánico → masa rojo-azul pulsátil detrás de TM (no es trauma, es tumor benigno vascular)", "correcta": true, "puntos": 15, "feedback": "✅ Diferencial otoscópico claro por COLOR + ESTADO DE LA TM + MECANISMO. El glomus timpánico es un diferencial importante de TM 'roja-azul' que NO es trauma — confunde si no se piensa."},
+        {"texto": "Solo se ven distintos colores", "correcta": false, "puntos": -10, "feedback": "❌ Demasiado superficial."},
+        {"texto": "Todas tienen el mismo manejo", "correcta": false, "puntos": -15, "feedback": "❌ Falso."}
+      ]
+    },
+    {
+      "situacion": "Resumen + plan al alta:",
+      "opciones": [
+        {"texto": "'Trauma de oído, está bien'", "correcta": false, "puntos": -15, "feedback": "❌ Trivializa una lesión grave con secuela permanente."},
+        {"texto": "'Varón 38a, ciclista atropellado con TCE temporal izquierdo. TC confirma FRACTURA TRANSVERSA del peñasco izquierdo con hemotímpano + opacificación mastoides. Otoscopia: TM íntegra azul-violácea. Audiometría: COFOSIS izquierda neurosensorial profunda (lesión coclear por daño en cápsula ótica). VII bilateral íntegro. Vértigo agudo en evolución. Plan: ingreso 48-72h para observación neurológica + reposo cabecera 30° + NO maniobras de presión + vacunación neumococo+Hib+meningococo iniciada + analgesia. ORL: rehabilitación vestibular precoz, audiometría seriada (descartar fluctuación), opciones a futuro (audífono CROS, implante osteointegrado, implante coclear si bilateral). NRC: control TC en 1 sem. Educación al paciente y familia sobre signos de alarma (parálisis facial nueva, rinolicuorrea, signos meníngeos), pérdida auditiva permanente del lado izquierdo, expectativa de mejoría del vértigo en semanas a meses por compensación. Coordinar con asistente social para adaptación si requiere'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico preciso + tipo de fractura + pronóstico realista + plan multidisciplinar + adaptación funcional. Atención integral de fractura de peñasco compleja."},
+        {"texto": "Solo le doy el TC y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Probablemente recupera la audición'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Comunicar falsamente daña la relación posterior."}
+      ]
+    }
+  ]
+}

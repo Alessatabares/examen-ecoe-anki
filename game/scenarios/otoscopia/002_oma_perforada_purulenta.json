@@ -1,0 +1,110 @@
+{
+  "id": "otoscopia_002_oma_perforada",
+  "titulo": "OMA perforada con otorrea purulenta súbita",
+  "tema": "otoscopia",
+  "audiencia": "pediátrico",
+  "guia": "AAP 2013 + CENETEC",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Consulta de urgencias pediátricas. Niño de 4 años llevado por su madre. Lleva 3 días con resfriado y desde anoche dolor intenso en oído izquierdo con fiebre 39.2°C. La madre dice: 'Esta mañana lloró mucho una hora y de repente paró — y le vi líquido amarillo saliendo del oído'. El niño ya no llora, está más tranquilo.",
+  "pasos": [
+    {
+      "situacion": "Madre te describe el cuadro. ¿Qué te dice la SECUENCIA 'dolor intenso → alivio brusco → otorrea'?",
+      "opciones": [
+        {"texto": "El niño se está recuperando, ya no le duele", "correcta": false, "puntos": -10, "feedback": "❌ No es 'recuperación' espontánea. Es perforación timpánica: la presión de la otitis se libera al romper la membrana, lo que ALIVIA el dolor inmediatamente. Diagnóstico, no curación."},
+        {"texto": "Patrón clásico de PERFORACIÓN TIMPÁNICA por OMA: la presión purulenta hace que la TM se rompa → alivio inmediato del dolor + salida de pus al CAE. El cuadro de OMA sigue activo, solo cambió la dinámica", "correcta": true, "puntos": 15, "feedback": "✅ Reconocimiento del patrón clásico. La perforación es 'la solución natural' del oído: una vez liberada la presión, el dolor cede pero la infección persiste y hay que tratarla."},
+        {"texto": "Probablemente otitis externa", "correcta": false, "puntos": -10, "feedback": "❌ OE no da dolor que se alivia bruscamente con otorrea. Y el contexto (post-IRA, fiebre alta, niño pequeño) es típico de OMA."},
+        {"texto": "Es un cuerpo extraño que salió", "correcta": false, "puntos": -15, "feedback": "❌ Sin antecedente de introducción. Y un cuerpo extraño no se acompaña de fiebre."}
+      ]
+    },
+    {
+      "situacion": "Al hacer otoscopia, ¿qué esperas ver?",
+      "opciones": [
+        {"texto": "TM normal, gris perlada con triángulo luminoso", "correcta": false, "puntos": -15, "feedback": "❌ Hay perforación con drenaje activo — TM NO puede verse normal."},
+        {"texto": "CAE con material purulento amarillento/verdoso que probablemente OCULTA la TM. Tras limpieza cuidadosa con microsucción o gasita: PERFORACIÓN visible en cuadrante póstero-inferior (sitio más frecuente), con bordes hiperémicos y drenaje pulsátil sincrónico con el latido", "correcta": true, "puntos": 15, "feedback": "✅ Patrón esperado. Limpiar antes de ver es crítico (no introducir agua a presión, riesgo de empeorar). El drenaje pulsátil ('light reflex pulsátil') es signo clásico de perforación con infección activa."},
+        {"texto": "TM completamente roja y abombada", "correcta": false, "puntos": -5, "feedback": "⚠️ Eso es OMA NO perforada (pre-perforación). Después de perforar, la TM ya no abomba — se libera la presión."},
+        {"texto": "Colesteatoma blanco perlado", "correcta": false, "puntos": -10, "feedback": "❌ Colesteatoma es crónico, fétido, perforación marginal. Aquí es agudo, no fétido, perforación central."}
+      ]
+    },
+    {
+      "situacion": "Para confirmar OMA (en lugar de OE u otra causa), ¿qué CARACTERÍSTICAS del líquido buscas?",
+      "opciones": [
+        {"texto": "Solo el color basta", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Color, olor, viscosidad, y trayectoria importan."},
+        {"texto": "PURULENTO (amarillo-verdoso), ESPESO, NO fétido (si fétido → sospecha colesteatoma), SALE DEL FONDO del CAE (no de la pared como en OE), abundante, frecuentemente con burbujas. La SANGRE escasa puede acompañar (mucosa inflamada)", "correcta": true, "puntos": 15, "feedback": "✅ Caracterización completa: color + olor + origen anatómico + cantidad. Diferencia clave con OE: en OE el pus sale de la pared del CAE (forúnculo, descamación) no del fondo. Y NO debe ser fétido (eso es colesteatoma)."},
+        {"texto": "Si es transparente es OMA", "correcta": false, "puntos": -15, "feedback": "❌ Transparente = OME o LCR (otolicuorrea). En OMA es PURULENTO."},
+        {"texto": "Si tiene sangre abundante es OMA", "correcta": false, "puntos": -10, "feedback": "❌ Sangre abundante apunta más a perforación traumática o miringitis bullosa, no a OMA típica."}
+      ]
+    },
+    {
+      "situacion": "Confirmas perforación con otorrea purulenta. ¿Qué ANTIBIÓTICO sistémico de primera línea pides?",
+      "opciones": [
+        {"texto": "Ciprofloxacino oral", "correcta": false, "puntos": -15, "feedback": "❌ Fluoroquinolonas NO en niños como primera línea (efecto sobre cartílago en crecimiento). Solo tópico o segunda línea."},
+        {"texto": "AMOXICILINA 80-90 mg/kg/día dividido cada 8-12h por 10 días (Streptococcus pneumoniae, Haemophilus influenzae no productor de β-lactamasa, Moraxella). Si fracasa o uso ATB <30d → AMOXICILINA-CLAVULÁNICO mismo dosaje", "correcta": true, "puntos": 15, "feedback": "✅ Dosis ALTA de amoxicilina (80-90 mg/kg/día) — diferencia clave con infecciones banales, por la cobertura ante S. pneumoniae resistente. Duración 10 días en <2 años o severa; 5-7 días en >2 años no severa."},
+        {"texto": "Penicilina G IM 1 dosis", "correcta": false, "puntos": -5, "feedback": "⚠️ Cobertura insuficiente: no cubre H. influenzae ni Moraxella. Se usa solo en faringoamigdalitis estreptocócica."},
+        {"texto": "Azitromicina si es alérgico a penicilina", "correcta": false, "puntos": 10, "feedback": "✅ Solo en alérgico verdadero. Pero como primera línea sin alergia, amoxicilina es el estándar. Macrólidos tienen mayor resistencia local frente a S. pneumoniae."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento TÓPICO: ¿qué gotas eliges con la PERFORACIÓN activa?",
+      "opciones": [
+        {"texto": "Gotas con AMINOGLUCÓSIDOS (neomicina, gentamicina, tobramicina)", "correcta": false, "puntos": -15, "feedback": "❌ CONTRAINDICADAS con perforación: OTOTÓXICAS — pueden causar sordera neurosensorial irreversible al pasar al oído medio. Error clásico de ECOE."},
+        {"texto": "CIPROFLOXACINO ótico (puede tener corticoide asociado: ciprofloxacino + dexametasona). Las fluoroquinolonas tópicas SÍ son seguras con perforación. 3-4 gotas cada 12h × 7-10 días", "correcta": true, "puntos": 15, "feedback": "✅ Fluoroquinolonas (cipro, ofloxacino) son las ÚNICAS gotas seguras con perforación. La adición de dexametasona reduce inflamación y dolor. Verbalizar 'evito aminoglucósidos por ototoxicidad' demuestra dominio."},
+        {"texto": "Sin gotas, solo sistémico", "correcta": false, "puntos": -5, "feedback": "⚠️ Aceptable mínimo pero subóptimo. Las gotas tópicas mejoran síntomas y reducen duración de otorrea."},
+        {"texto": "Alcohol boricado tópico", "correcta": false, "puntos": -10, "feedback": "❌ No es estándar y puede ser ototóxico/cáustico con perforación."}
+      ]
+    },
+    {
+      "situacion": "Madre pregunta '¿se va a quedar sordo?' ¿Qué le explicas?",
+      "opciones": [
+        {"texto": "'Sí, probablemente tendrá hipoacusia permanente'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. La mayoría (90%) de perforaciones por OMA cierran espontáneamente en 2-4 semanas sin secuela auditiva."},
+        {"texto": "'En este momento sí oye menos por dos razones: el líquido tapona el oído y la membrana está rota. La mayoría de las perforaciones por otitis cierran SOLAS en 2-4 semanas y la audición vuelve a la normalidad. Vamos a controlarlo. Si tras 6-8 semanas la perforación sigue abierta, lo derivamos al ORL para evaluar (a veces necesitan cirugía pequeña, llamada timpanoplastia, pero es minoría)'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación con tres componentes: situación actual (oye menos temporalmente), pronóstico realista (mayoría cierra sola), plan de seguimiento (control + derivación si no cierra). Tranquiliza sin minimizar."},
+        {"texto": "'No se preocupe, está bien'", "correcta": false, "puntos": -10, "feedback": "❌ Minimizar elimina la oportunidad educativa y el plan de seguimiento. Las madres bien informadas adhieren mejor al control."},
+        {"texto": "'Necesita cirugía urgente'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. La mayoría cierra sola. Sería sobre-tratamiento alarmista."}
+      ]
+    },
+    {
+      "situacion": "Madre pregunta '¿puede bañarse normal? ¿Y nadar?'. ¿Qué le indicas mientras esté la perforación?",
+      "opciones": [
+        {"texto": "'Puede hacer vida normal'", "correcta": false, "puntos": -15, "feedback": "❌ Con perforación, el agua del oído entra al oído medio → riesgo de infección sobreagregada y retraso del cierre."},
+        {"texto": "'Ducha normal SÍ, pero hay que MANTENER EL OÍDO SECO: tapón de algodón con vaselina al ducharse, NO sumergir cabeza en bañera, NO piscina ni mar mientras la perforación esté abierta. Vuelven a control en 2-4 semanas para reevaluar'", "correcta": true, "puntos": 15, "feedback": "✅ Restricción específica + alternativa práctica (tapón vaselinado) + horizonte temporal de la restricción. La 'higiene seca del oído' acelera el cierre y previene sobreinfección."},
+        {"texto": "'Nada de agua nunca más'", "correcta": false, "puntos": -10, "feedback": "❌ Exagerado y permanente. La restricción es temporal hasta cierre."},
+        {"texto": "'Solo evite jabón en el oído'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente — el agua es el problema, no el jabón."}
+      ]
+    },
+    {
+      "situacion": "Madre dice 'mi otro hijo es alérgico a penicilina y este no sabemos. ¿Le doy igual?'. ¿Cómo respondes?",
+      "opciones": [
+        {"texto": "'No se la dé, mejor azitromicina'", "correcta": false, "puntos": -10, "feedback": "❌ Cambiar sin evaluar es excesivo. La alergia no es hereditaria estricta y la mayoría 'alergias' reportadas son intolerancias o rash viral atribuido."},
+        {"texto": "'La alergia a penicilina no se hereda como tal. Pregunto: ¿alguna vez tomó penicilina/amoxicilina sin problema? Si nunca la ha tomado: empezamos con dosis baja vigilada. Si la reacción del hermano fue grave (anafilaxia, Stevens-Johnson): consideramos azitromicina o cefuroxima (riesgo cruzado bajo con anafilaxia previa). Documento alergia familiar como precaución'", "correcta": true, "puntos": 15, "feedback": "✅ Educación + evaluación previa + plan según tipo de alergia familiar + documentación. Riesgo cruzado cefalosporinas-penicilinas en alergia VERDADERA tipo I es <1-3%, contrario a creencia popular."},
+        {"texto": "'Le doy amoxi y a ver qué pasa'", "correcta": false, "puntos": -15, "feedback": "❌ Sin evaluación de antecedentes. Si reacciona en casa puede ser grave sin asistencia."},
+        {"texto": "'Lo derivo al alergólogo antes de tratar'", "correcta": false, "puntos": -10, "feedback": "❌ Demora innecesaria de tratamiento por consulta no urgente. En agudo, valoración clínica directa con plan razonado es suficiente."}
+      ]
+    },
+    {
+      "situacion": "Vuelve a control a las 2 semanas: sin dolor, sin fiebre, sin otorrea. Otoscopia: perforación de 2 mm en cuadrante póstero-inferior, bordes limpios sin hiperemia. ¿Conducta?",
+      "opciones": [
+        {"texto": "Antibiótico otra ronda 'por si acaso'", "correcta": false, "puntos": -15, "feedback": "❌ No hay datos de infección activa. Antibiótico innecesario = resistencias + efectos adversos."},
+        {"texto": "Sin antibiótico, mantener higiene seca, control a las 4-6 semanas. La mayoría cierra en este plazo. Si a las 6-8 sem sigue abierta → AUDIOMETRÍA + derivación ORL para valorar timpanoplastia (típicamente diferida a edad escolar si es pequeña y no sintomática)", "correcta": true, "puntos": 15, "feedback": "✅ Conservador + plan de derivación con criterio temporal. La timpanoplastia se difiere generalmente a >7 años (mejor pronóstico técnico) si la perforación persiste pero el niño está asintomático."},
+        {"texto": "Cirugía inmediata", "correcta": false, "puntos": -15, "feedback": "❌ Premaduro. Conservador es el estándar mientras la perforación esté pequeña y limpia."},
+        {"texto": "Alta sin más controles", "correcta": false, "puntos": -10, "feedback": "❌ Hay que confirmar cierre + audición preservada antes de alta."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué diferencias TIENES con OTRAS otorreas? Compara con OE.",
+      "opciones": [
+        {"texto": "Son lo mismo, otra forma de presentación", "correcta": false, "puntos": -15, "feedback": "❌ Distintos manejos por mecanismo distinto."},
+        {"texto": "OMA perforada: dolor súbito → alivio + otorrea purulenta del FONDO, fiebre alta, contexto post-IRA, niño pequeño. OE: dolor con TRACCIÓN del trago y MASTICACIÓN, otorrea de la PARED del CAE, contexto piscinas/calor, sin fiebre alta. Otoscopia: OE tiene CAE edematoso y rojo, TM puede no verse; OMA perforada tiene CAE relativamente normal con pus saliendo del fondo y perforación visible", "correcta": true, "puntos": 15, "feedback": "✅ Diferencial completo por anamnesis + exploración + otoscopia. La tracción del trago es el signo discriminante más sensible (positivo en OE, negativo en OMA)."},
+        {"texto": "OE es siempre con fiebre alta", "correcta": false, "puntos": -10, "feedback": "❌ Invertido. OE NO suele dar fiebre alta; OMA SÍ."},
+        {"texto": "Solo se diferencian por edad", "correcta": false, "puntos": -10, "feedback": "❌ Aunque hay tendencias (OMA más en niños, OE más en adultos/adolescentes), no es discriminante diagnóstico."}
+      ]
+    },
+    {
+      "situacion": "Resumen para historia clínica + plan al alta. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'Otitis con perforación, le di amoxi'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente para historia y para el padre."},
+        {"texto": "'Niño 4 años, OMA izquierda con perforación timpánica espontánea de 2-3 mm cuadrante PI, otorrea purulenta no fétida activa. Plan: Amoxicilina 80 mg/kg/día c/8h × 10 días + ciprofloxacino+dexametasona ótico 3 gotas c/12h × 7 días + higiene seca (tapón vaselinado al ducharse, NO sumergir cabeza, NO piscina). Control 2 sem para reevaluar perforación. Si persiste >8 sem → audiometría + derivación ORL. Educar familia sobre signos de alarma (fiebre que vuelve, dolor que vuelve, secreción fétida, parálisis facial, mareo intenso → urgencias)'", "correcta": true, "puntos": 15, "feedback": "✅ Historia completa + tratamiento detallado + restricciones específicas + plan de seguimiento + banderas rojas verbalizadas para el familiar. Esto es alta de calidad."},
+        {"texto": "Le doy receta y me voy", "correcta": false, "puntos": -15, "feedback": "❌ Sin educación al familiar ni plan de control. Falla en atención integral."},
+        {"texto": "'Está curado, no más controles'", "correcta": false, "puntos": -15, "feedback": "❌ Falso, sigue infectado y con perforación abierta."}
+      ]
+    }
+  ]
+}

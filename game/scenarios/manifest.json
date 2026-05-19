@@ -109,6 +109,105 @@
       "url": "scenarios/otoscopia/001_oma_nino_fiebre.json"
     },
     {
+      "id": "otoscopia_002_oma_perforada",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "OMA perforada con otorrea purulenta súbita",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/002_oma_perforada_purulenta.json"
+    },
+    {
+      "id": "otoscopia_003_omc_simple",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "OMC simple con perforación central permanente y otorrea recurrente",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/003_omc_simple_perforacion_central.json"
+    },
+    {
+      "id": "otoscopia_004_mastoiditis_aguda",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Mastoiditis aguda como complicación de OMA",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/004_mastoiditis_aguda.json"
+    },
+    {
+      "id": "otoscopia_005_ome_postira",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Otitis media con efusión (OME) en niño post-IRA",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/005_ome_nino_postira.json"
+    },
+    {
+      "id": "otoscopia_006_otolicuorrea_tce",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Otolicuorrea (otorraquia) por fractura de peñasco",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/006_otolicuorrea_tce.json"
+    },
+    {
+      "id": "otoscopia_007_disfuncion_trompa",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Disfunción de trompa de Eustaquio post-vuelo (barotrauma)",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/007_disfuncion_trompa_vuelo.json"
+    },
+    {
+      "id": "otoscopia_008_perforacion_traumatica",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Perforación timpánica traumática por bofetada",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/008_perforacion_traumatica_bofetada.json"
+    },
+    {
+      "id": "otoscopia_009_miringitis_bullosa",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Miringitis bullosa con otorrea serosanguinolenta",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/009_miringitis_bullosa.json"
+    },
+    {
+      "id": "otoscopia_010_hemotimpano",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Hemotímpano post-TCE con membrana íntegra azul",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/010_hemotimpano_fractura_penasco.json"
+    },
+    {
+      "id": "otoscopia_011_colesteatoma",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Colesteatoma con otorrea fétida crónica y perforación marginal",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/011_colesteatoma.json"
+    },
+    {
+      "id": "otoscopia_012_otomicosis",
+      "tema": "Otoscopia",
+      "icon": "👂",
+      "titulo": "Otomicosis con detritos algodonosos en CAE",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/otoscopia/012_otomicosis.json"
+    },
+    {
       "id": "ruidos_001_endocarditis",
       "tema": "Ruidos Cardíacos",
       "icon": "🎧",
