@@ -10,6 +10,96 @@
       "url": "scenarios/rcp/001_paro_calle.json"
     },
     {
+      "id": "rcp_002_hipovolemia_trauma",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Politraumatizado en shock hipovolémico",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/rcp/002_hipovolemia_trauma.json"
+    },
+    {
+      "id": "rcp_003_hipoxia_ovace",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Atragantamiento en restaurante con pérdida de consciencia",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 12,
+      "url": "scenarios/rcp/003_hipoxia_ovace.json"
+    },
+    {
+      "id": "rcp_004_acidosis_cad",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Paro por acidosis severa en cetoacidosis diabética",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/004_acidosis_cad.json"
+    },
+    {
+      "id": "rcp_005_hiperkalemia_dialisis",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Paro durante diálisis por hiperpotasemia severa",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/005_hiperkalemia_dialisis.json"
+    },
+    {
+      "id": "rcp_006_hipotermia_inmersion",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Paro por hipotermia severa tras inmersión en agua helada",
+      "dificultad": "Avanzado",
+      "pasos": 12,
+      "url": "scenarios/rcp/006_hipotermia_inmersion.json"
+    },
+    {
+      "id": "rcp_007_toxicos_opioides",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Sobredosis de opioides con paro respiratorio",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 11,
+      "url": "scenarios/rcp/007_toxicos_opioides.json"
+    },
+    {
+      "id": "rcp_008_taponamiento_trauma_penetrante",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Taponamiento cardíaco por herida precordial",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/008_taponamiento_trauma_penetrante.json"
+    },
+    {
+      "id": "rcp_009_neumotorax_tension_ventilado",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Neumotórax a tensión en paciente ventilado",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/009_neumotorax_tension_ventilado.json"
+    },
+    {
+      "id": "rcp_010_tep_postoperatorio",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Paro AESP por tromboembolia pulmonar masiva postoperatoria",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/010_tep_postoperatorio.json"
+    },
+    {
+      "id": "rcp_011_anafilaxia_picadura",
+      "tema": "RCP",
+      "icon": "🫀",
+      "titulo": "Anafilaxia por picadura de abeja con paro inminente",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/rcp/011_anafilaxia_picadura.json"
+    },
+    {
       "id": "otoscopia_001_oma_nino",
       "tema": "Otoscopia",
       "icon": "👂",

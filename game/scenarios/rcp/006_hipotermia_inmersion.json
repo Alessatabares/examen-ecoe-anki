@@ -1,0 +1,119 @@
+{
+  "id": "rcp_006_hipotermia_inmersion",
+  "titulo": "Paro por hipotermia severa tras inmersión en agua helada",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ERC 2021",
+  "dificultad": "Avanzado",
+  "contexto": "Excursionistas rescatan a un hombre de 35 años de un río helado tras caer del puente hace ~25 min. Llega a urgencias rural, traído por Cruz Roja. Está rígido, palidez azulada, sin respiración detectable. T° timpánica 26.3°C. Monitor: bradicardia extrema → asistolia. Ambiente nevado, ambulancia disponible para traslado a centro con ECMO a 90 min.",
+  "pasos": [
+    {
+      "situacion": "Al recibirlo confirmas asistolia en monitor. Está rígido y frío. ¿Qué verbalizas como principio rector del manejo?",
+      "opciones": [
+        {"texto": "'Llegada muerto, no resucitamos'", "correcta": false, "puntos": -15, "feedback": "❌ AXIOMA en hipotermia severa: 'Nadie está muerto hasta que esté CALIENTE y muerto'. Pacientes con T° <30°C tienen supervivencia neurológicamente intacta documentada tras horas de RCP."},
+        {"texto": "'Paciente en paro hipotérmico severo (T 26.3°C). Principio: nadie está muerto hasta estar caliente y muerto. Inicio RCP de alta calidad con plan de recalentamiento activo y traslado urgente a centro con ECMO'", "correcta": true, "puntos": 15, "feedback": "✅ Verbalización del axioma clave + plan de recalentamiento + ruta a terapia definitiva. La hipotermia severa es la única causa donde RCP de varias horas tiene sentido."},
+        {"texto": "'Lo declaramos en 10 minutos si no responde'", "correcta": false, "puntos": -15, "feedback": "❌ Tiempo de RCP en hipotermia no aplica los criterios habituales. Hay sobrevivientes tras 3-6h de RCP continua."},
+        {"texto": "'Inicio RCP estándar 30 min y suspendo'", "correcta": false, "puntos": -15, "feedback": "❌ La hipotermia es PROTECTORA neurológicamente. Suspender por tiempo es matar a un paciente recuperable."}
+      ]
+    },
+    {
+      "situacion": "Verificas pulso. ¿Cuánto tiempo le dedicas a esta verificación en hipotermia?",
+      "opciones": [
+        {"texto": "10 segundos como siempre", "correcta": false, "puntos": -5, "feedback": "⚠️ En hipotermia el pulso puede ser MUY débil y MUY lento. Diez segundos pueden no ser suficientes para detectarlo."},
+        {"texto": "Hasta 60 segundos — en hipotermia el pulso puede ser muy lento e imperceptible; iniciar compresiones sobre un pulso real (aunque débil) puede inducir FV", "correcta": true, "puntos": 15, "feedback": "✅ ERC: en hipotermia se permite chequear pulso hasta 1 minuto. El miocardio hipotérmico es IRRITABLE: comprimir un corazón que late lento puede precipitar FV refractaria."},
+        {"texto": "30 segundos por encima de la femoral", "correcta": false, "puntos": 5, "feedback": "⚠️ Aceptable pero ERC recomienda hasta 60 s y también recomienda intentar otros lugares (carotídeo es preferido)."},
+        {"texto": "No verifico, voy directo a compresiones", "correcta": false, "puntos": -10, "feedback": "❌ En hipotermia, comprimir cuando hay actividad mecánica débil puede empeorar el ritmo. Verificar es importante."}
+      ]
+    },
+    {
+      "situacion": "Confirmas asistolia tras 60 segundos. Inicias compresiones. ¿Frecuencia y técnica especiales en hipotermia?",
+      "opciones": [
+        {"texto": "Comprimo más despacio porque el corazón está lento", "correcta": false, "puntos": -10, "feedback": "❌ La frecuencia de compresiones NO cambia por hipotermia. Sigue siendo 100-120/min, profundidad estándar."},
+        {"texto": "Compresiones a frecuencia y profundidad ESTÁNDAR (100-120/min, 5-6 cm), pero manejo del miocardio rígido puede requerir más esfuerzo físico. Sin embargo, ESPACIAR adrenalina (cada 6-10 min en vez de 3-5) y MAX 3 descargas hasta T >30°C", "correcta": true, "puntos": 15, "feedback": "✅ Diferencias clave en hipotermia: fármacos espaciados (metabolismo lento → acumulación tóxica), descargas limitadas a 3 hasta calentar (miocardio frío no responde). Frecuencia/profundidad de compresiones SIN cambios."},
+        {"texto": "No doy fármacos hasta que esté caliente", "correcta": false, "puntos": 5, "feedback": "⚠️ Aceptable — algunas guías (ERC) recomiendan diferir fármacos hasta T >30°C por absorción errática. Otras (AHA) aceptan dar pero espaciados."},
+        {"texto": "Doy fármacos cada 1 minuto para 'compensar' la hipotermia", "correcta": false, "puntos": -15, "feedback": "❌ ERROR FATAL: fármacos se acumulan en hipotermia. Dar más frecuente = toxicidad cardíaca al recalentar."}
+      ]
+    },
+    {
+      "situacion": "El monitor pasa a FV. ¿Descargas? ¿Cuántas?",
+      "opciones": [
+        {"texto": "Descarga ilimitada cada 2 min hasta RCE", "correcta": false, "puntos": -15, "feedback": "❌ Miocardio <30°C no responde a desfibrilación. Cada descarga lesiona y agota. Hay límite hasta calentar."},
+        {"texto": "Hasta 3 descargas máximo, luego diferir más descargas hasta T° >30°C", "correcta": true, "puntos": 15, "feedback": "✅ ERC 2021: máximo 3 descargas en T° <30°C; si no convierte, seguir RCP + recalentamiento, y reintentar cuando T° suba. Razón: miocardio hipotérmico es refractario a desfibrilación."},
+        {"texto": "Ninguna descarga, solo compresiones", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado restrictivo. Hasta 3 descargas siguen siendo razonables."},
+        {"texto": "Cardioversión sincronizada", "correcta": false, "puntos": -15, "feedback": "❌ FV se desfibrila (no sincronizada). Sincronizada es para taquicardias con pulso."}
+      ]
+    },
+    {
+      "situacion": "Vía aérea. ¿Hay precaución especial al intubar en hipotermia?",
+      "opciones": [
+        {"texto": "No, intubar igual y rápido", "correcta": false, "puntos": -10, "feedback": "❌ Manipulación brusca de vía aérea o cualquier movimiento brusco puede precipitar FV en miocardio irritable hipotérmico."},
+        {"texto": "Intubar con suavidad (cualquier estímulo brusco puede precipitar FV en miocardio irritable). Preferir secuencia rápida ATENUADA, evitar tos/laringoscopia traumática", "correcta": true, "puntos": 15, "feedback": "✅ Concepto clave: 'rough handling' del paciente hipotérmico desencadena FV. Aplica al movimiento del paciente al pasarlo, a la intubación, a la colocación de sondas. Manipular con cuidado."},
+        {"texto": "Intubación con propofol en dosis altas", "correcta": false, "puntos": -10, "feedback": "❌ Propofol en hipotermia se acumula (metabolismo lento). Y produce hipotensión añadida al shock por hipotermia."},
+        {"texto": "Vía aérea no se necesita en hipotermia", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Necesita protección de vía aérea como cualquier paro. Ventilación tibia (40-42°C) es parte del recalentamiento."}
+      ]
+    },
+    {
+      "situacion": "Comienzas recalentamiento. ¿Qué medidas son apropiadas en este paciente con paro?",
+      "opciones": [
+        {"texto": "Solo manta caliente y agua tibia oral", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente en hipotermia severa con paro. Y oral imposible (intubado/paro). Necesita recalentamiento ACTIVO interno."},
+        {"texto": "Recalentamiento activo externo (mantas térmicas, Bair Hugger) + interno (sueros calientes 40-42°C IV, lavado gástrico/vesical con SF tibio, ventilación con O2 tibio humedificado, lavado pleural/peritoneal si disponible) + traslado urgente a ECMO/CEC", "correcta": true, "puntos": 15, "feedback": "✅ Recalentamiento por CAPAS: externo + interno + objetivo de ECMO. ECMO es el GOLD STANDARD para hipotermia severa con paro: calienta 8-12°C/h vs 1-2°C/h de medidas convencionales."},
+        {"texto": "Sumergirlo en agua a 40°C", "correcta": false, "puntos": -15, "feedback": "❌ Inmersión en agua caliente está PROHIBIDA: vasodilatación periférica brusca → caída TA → 'rewarming shock'. Y arritmia por sangre fría/ácida que retorna al corazón."},
+        {"texto": "Esperar a que se caliente solo con la temperatura ambiente", "correcta": false, "puntos": -15, "feedback": "❌ Pasivo en paro = muerte. Necesita activo agresivo."}
+      ]
+    },
+    {
+      "situacion": "Los compañeros activan traslado a centro con ECMO. ¿Cuáles son las MEJORES indicaciones para ECMO/CEC en hipotermia?",
+      "opciones": [
+        {"texto": "Solo si T° <20°C", "correcta": false, "puntos": -5, "feedback": "⚠️ T° muy baja es indicación, pero la regla práctica es más amplia."},
+        {"texto": "Paro hipotérmico con K+ <12 mEq/L (predictor de hipoxia previa al enfriamiento) y T° <30°C — supervivencia neurológicamente intacta hasta 5-10% con ECMO", "correcta": true, "puntos": 15, "feedback": "✅ Criterios ERC/HACA: K es el discriminador clave — K >12 sugiere paro hipóxico ANTES del enfriamiento (lisis celular masiva) → pronóstico nulo. K <12 indica hipotermia primaria → ECMO indicado. Verbalizarlo demuestra dominio."},
+        {"texto": "Solo niños", "correcta": false, "puntos": -10, "feedback": "❌ Falso. ECMO en hipotermia adulta tiene supervivencia documentada."},
+        {"texto": "Cuando la familia lo pida", "correcta": false, "puntos": -10, "feedback": "❌ Indicación es médica, no decisión familiar (que sí se consulta pero no es el criterio)."}
+      ]
+    },
+    {
+      "situacion": "Llega K+ del paciente: 8.5 mEq/L. ¿Qué te dice sobre el pronóstico?",
+      "opciones": [
+        {"texto": "K alto es buen pronóstico", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario. K alto en hipotermia indica lisis celular previa al enfriamiento (hipoxia previa) — peor pronóstico."},
+        {"texto": "K 8.5 está dentro del rango ECMO-aceptable (<12). Aunque alto, sigue siendo candidato. La hipotermia siempre primero, pero el equipo receptor toma la decisión final con K, edad, comorbilidades, tiempo de paro estimado, y mecanismo (testigos del momento del enfriamiento vs paro hipóxico previo)", "correcta": true, "puntos": 15, "feedback": "✅ Matiz importante: el corte K>12 es un PREDICTOR fuerte pero no absoluto. K 8.5 sigue dentro de candidatura. La decisión final integra varias variables."},
+        {"texto": "K 8.5 = futilidad, suspender RCP", "correcta": false, "puntos": -15, "feedback": "❌ K>12 sería argumento de futilidad. 8.5 no lo es. Continuar RCP y trasladar."},
+        {"texto": "K no importa en hipotermia", "correcta": false, "puntos": -10, "feedback": "❌ Importa mucho: es el discriminador más útil para decidir intensidad de la terapia."}
+      ]
+    },
+    {
+      "situacion": "En traslado, llevas 90 min de RCP continua, T° subió a 31°C. Monitor pasa a FV. ¿Ahora desfibrilas?",
+      "opciones": [
+        {"texto": "No, ya pasó la ventana de descargas", "correcta": false, "puntos": -15, "feedback": "❌ AL CONTRARIO. Ahora que T° >30°C el miocardio responde mejor — es el momento de reintentar las descargas que antes no funcionaron."},
+        {"texto": "Sí, descarga máxima ahora que T° >30°C. Reanudar protocolo ACLS convencional gradualmente: descargas según ritmo y fármacos a intervalos estándar (3-5 min) cuando T° >35°C", "correcta": true, "puntos": 15, "feedback": "✅ La 'desinhibición' del algoritmo es gradual: T >30°C reintenta descargas; T >35°C usa fármacos a intervalos normales. Hasta entonces, espacia."},
+        {"texto": "Solo 1 descarga, no más", "correcta": false, "puntos": -5, "feedback": "⚠️ Tan restrictivo como innecesario. >30°C ya puedes seguir protocolo casi normal."},
+        {"texto": "Cardioversión sincronizada", "correcta": false, "puntos": -15, "feedback": "❌ FV se desfibrila, no se sincroniza."}
+      ]
+    },
+    {
+      "situacion": "Llegan a centro ECMO. T° 32°C, sigue en paro con FV refractaria. ¿Mensaje al equipo receptor?",
+      "opciones": [
+        {"texto": "'Llegó muerto'", "correcta": false, "puntos": -15, "feedback": "❌ No está muerto hasta caliente y muerto. Mensaje incorrecto + actitud derrotista."},
+        {"texto": "'Varón 35a, inmersión río helado 25 min, llegada T 26.3°C en asistolia, 90 min RCP continua, K inicial 8.5, recalentamiento activo externo + interno, T actual 32°C en FV refractaria post 3 descargas. Necesita ECMO de emergencia para recalentar y desfibrilar definitivamente. Sigue siendo candidato salvable según protocolo ERC'", "correcta": true, "puntos": 15, "feedback": "✅ Resumen estructurado + estado actual + tratamiento necesario + justificación de salvabilidad. Equipo receptor activa quirófano con argumentos sólidos."},
+        {"texto": "Le entrego la hoja y me retiro", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Handover verbal en caso complejo es obligatorio."},
+        {"texto": "'Hipotermia, no funciona la RCP, decidan ustedes'", "correcta": false, "puntos": -15, "feedback": "❌ Delegación inapropiada. Tú aportas datos clínicos, el equipo receptor decide con tu información."}
+      ]
+    },
+    {
+      "situacion": "Conectan ECMO. ¿Tres cosas a vigilar específicamente del 'recalentamiento'?",
+      "opciones": [
+        {"texto": "Solo la temperatura", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. Hay 3 complicaciones clave del recalentamiento."},
+        {"texto": "(1) Caída post-rescate ('afterdrop'): T° core puede SEGUIR bajando minutos tras recalentamiento periférico (sangre fría de extremidades vuelve al core). (2) 'Rewarming shock': vasodilatación periférica + hipovolemia → hipotensión severa. (3) Hiperkalemia/acidosis por reperfusión de tejido isquémico", "correcta": true, "puntos": 15, "feedback": "✅ Las 3 complicaciones clásicas del recalentamiento. Las tres se previenen recalentando CORE primero, manteniendo volumen y monitorizando K continuo."},
+        {"texto": "Solo la diuresis", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. Diuresis fría (poliuria por hipotermia) ocurre pero no es la complicación principal."},
+        {"texto": "Solo el ritmo cardíaco", "correcta": false, "puntos": -5, "feedback": "⚠️ Importante pero incompleto."}
+      ]
+    },
+    {
+      "situacion": "Familiares llegan. ¿Cómo comunicas estado en hipotermia severa con paro?",
+      "opciones": [
+        {"texto": "'Está muerto'", "correcta": false, "puntos": -15, "feedback": "❌ Falso técnicamente y comunicación errónea. Continúa siendo candidato salvable."},
+        {"texto": "'Su familiar tuvo un paro cardíaco por hipotermia severa. Estamos haciendo reanimación prolongada porque la temperatura baja PROTEGE al cerebro — hay sobrevivientes tras horas de reanimación. Lo conectamos a una máquina (ECMO) que está calentando su sangre y haciendo el trabajo del corazón. Las próximas horas son críticas, los mantendré informados'", "correcta": true, "puntos": 15, "feedback": "✅ Realidad sin falso optimismo + explicación del concepto protector + plan + horizonte temporal + compromiso de comunicación. Comunicación clínica madura."},
+        {"texto": "'Probablemente quede en estado vegetativo si sobrevive'", "correcta": false, "puntos": -15, "feedback": "❌ Pronóstico prematuro y derrotista. En hipotermia el outcome neurológico suele ser BUENO si sobreviven (la hipotermia protege)."},
+        {"texto": "'Tiene 1% de probabilidad'", "correcta": false, "puntos": -10, "feedback": "❌ Números arbitrarios sin base. La supervivencia en hipotermia severa con ECMO es 10-50% según series, con buen estado neurológico mayoritariamente."}
+      ]
+    }
+  ]
+}

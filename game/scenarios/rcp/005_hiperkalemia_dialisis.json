@@ -1,0 +1,110 @@
+{
+  "id": "rcp_005_hiperkalemia_dialisis",
+  "titulo": "Paro durante diálisis por hiperpotasemia severa",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + KDIGO",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Estás haciendo guardia en hemodiálisis. Un hombre de 62 años con IRC terminal en diálisis trisemanal acude tras saltarse 2 sesiones por viaje. Refiere debilidad muscular y palpitaciones. ECG previo a conectar: T picudas simétricas en precordiales, QRS 140 ms, PR alargado. Mientras la enfermera prepara la conexión, el paciente entra en bradicardia extrema y se desploma.",
+  "pasos": [
+    {
+      "situacion": "Bradicardia FC 25 → ritmo idioventricular ancho → asistolia. ¿Cuál es tu sospecha causal verbalizada?",
+      "opciones": [
+        {"texto": "'Paro de causa desconocida'", "correcta": false, "puntos": -10, "feedback": "❌ Toda la escena grita HIPERKALEMIA: IRC en diálisis + saltó sesiones + ECG con T picudas + QRS ancho + bradicardia → asistolia. No verbalizarla es desperdiciar la pista."},
+        {"texto": "'Paro por hiperpotasemia severa: IRC sin diálisis 5 días + ECG previo con T picudas + QRS ancho + bradiarritmia → asistolia. Inicio RCP y manejo de hiperK simultáneo'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico causal específico verbalizado. En hiperK letal la causa Y el tratamiento se ejecutan en paralelo a la RCP — no en secuencia."},
+        {"texto": "'Probable IAM por dolor torácico'", "correcta": false, "puntos": -10, "feedback": "❌ No tiene dolor torácico. Y el ECG previo es clásico de hiperK, no de IAM."},
+        {"texto": "'Hipovolemia por diálisis previa'", "correcta": false, "puntos": -5, "feedback": "⚠️ No hubo diálisis aún. La pista es justo la inversa: NO se dializó y por eso retuvo K."}
+      ]
+    },
+    {
+      "situacion": "Inicias RCP. ¿Cuál es el PRIMER fármaco que pides y por qué?",
+      "opciones": [
+        {"texto": "Adrenalina 1 mg IV, según ACLS estándar", "correcta": false, "puntos": 5, "feedback": "⚠️ Forma parte del algoritmo de paro, sí. Pero en hiperK con paro hay una intervención MÁS específica que estabiliza la membrana en segundos y debe ir paralela/antes."},
+        {"texto": "Gluconato de calcio 1-3 g IV (10-30 mL al 10%) o cloruro de calcio 1 g IV — antagoniza el efecto de membrana del K en segundos, sin tocar el nivel de K", "correcta": true, "puntos": 15, "feedback": "✅ En paro/peri-paro por hiperK, el calcio es la PRIMERA intervención específica. Estabiliza el potencial de membrana en <3 minutos. No baja el K, lo neutraliza eléctricamente. Verbalizar 'estabiliza membrana, no baja K' demuestra dominio."},
+        {"texto": "Insulina rápida 10 U IV en bolo", "correcta": false, "puntos": -5, "feedback": "⚠️ Insulina entra después PERO con glucosa (25 g) acompañando para evitar hipoglucemia. Y no es la primera medida — el calcio es lo que protege el corazón ahora."},
+        {"texto": "Bicarbonato 1 amp", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil como adyuvante (especialmente con acidosis), pero no es el primer paso. Calcio primero."}
+      ]
+    },
+    {
+      "situacion": "¿Cuándo prefieres CLORURO de calcio sobre GLUCONATO?",
+      "opciones": [
+        {"texto": "Son iguales, da lo mismo", "correcta": false, "puntos": -5, "feedback": "⚠️ Inexacto. Difieren en concentración de Ca elemental y en vía de administración."},
+        {"texto": "Cloruro de calcio (1 g = 13.6 mEq Ca elemental) → vía CENTRAL preferentemente, en paro o shock severo (más concentrado, efecto más rápido). Gluconato (1 g = 4.5 mEq) → vía periférica segura, más usado por menor riesgo de necrosis si extravasa", "correcta": true, "puntos": 15, "feedback": "✅ Diferencia clave: cloruro es 3x más concentrado en Ca elemental pero CÁUSTICO en periférica. En paro con central disponible, cloruro es preferido."},
+        {"texto": "Cloruro solo en alérgicos al gluconato", "correcta": false, "puntos": -10, "feedback": "❌ No es cuestión de alergia. Es cuestión de potencia y vía."},
+        {"texto": "Gluconato es solo IM", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Ambos son IV. IM/SC de Ca está contraindicado."}
+      ]
+    },
+    {
+      "situacion": "Tras calcio + adrenalina, ritmo sigue siendo asistolia. ¿Siguiente paso para sacar el K de la circulación?",
+      "opciones": [
+        {"texto": "Furosemida 80 mg IV", "correcta": false, "puntos": -15, "feedback": "❌ Paciente ANÚRICO (IRC terminal). Furosemida no produce diuresis. Inútil."},
+        {"texto": "Insulina rápida 10 U IV + glucosa 25 g IV (50 mL DW50%) — empuja K al intracelular en 15-30 min, efecto 4-6h", "correcta": true, "puntos": 15, "feedback": "✅ Insulina + glucosa: medida química más rápida (efecto en 15-30 min). La glucosa SIEMPRE acompaña aunque glucemia normal, para prevenir hipoglucemia diferida (la insulina dura más que la glucosa endógena disponible)."},
+        {"texto": "Solo insulina sin glucosa porque no quiero subir glucosa", "correcta": false, "puntos": -15, "feedback": "❌ Insulina sola → hipoglucemia severa diferida (a las 1-2h). La hipoglucemia post-tratamiento de hiperK es la complicación iatrogénica más común y prevenible."},
+        {"texto": "Resinas de intercambio iónico (Kayexalate) PO", "correcta": false, "puntos": -10, "feedback": "❌ Paciente en paro inconsciente — no puede tragar. Y las resinas tardan horas y tienen evidencia débil en agudo."}
+      ]
+    },
+    {
+      "situacion": "Pides simultáneamente otro adyuvante respiratorio para bajar K. ¿Cuál?",
+      "opciones": [
+        {"texto": "Salbutamol 10-20 mg nebulizado (o 0.5 mg IV en bomba si disponible) — baja K 0.5-1 mEq/L en 30 min al activar Na/K ATPasa", "correcta": true, "puntos": 15, "feedback": "✅ Beta2-agonista a dosis ALTAS (10-20 mg, 5-10x dosis broncodilatadora) suma efecto a insulina+glucosa. Mecanismo distinto, sinérgico. En paciente intubado: nebulizar en el circuito."},
+        {"texto": "Salbutamol 2.5 mg, dosis broncodilatadora", "correcta": false, "puntos": -5, "feedback": "⚠️ Dosis insuficiente para efecto sobre K. Para tratar hiperK hace falta dosis MUCHO mayor (10-20 mg)."},
+        {"texto": "Adrenalina nebulizada", "correcta": false, "puntos": -10, "feedback": "❌ No es la indicación. Adrenalina nebulizada se usa en obstrucción de vía aérea (crup), no en hiperK."},
+        {"texto": "Atropina IV", "correcta": false, "puntos": -15, "feedback": "❌ No tiene efecto sobre K. Y la bradicardia por hiperK NO responde a atropina (no es mediada vagalmente)."}
+      ]
+    },
+    {
+      "situacion": "Bicarbonato sódico: ¿en este paciente sí o no?",
+      "opciones": [
+        {"texto": "Sí, 1 mEq/kg IV — paciente con acidosis metabólica de IRC + hiperK severa + paro, escenario de indicación más fuerte para bicarbonato", "correcta": true, "puntos": 15, "feedback": "✅ Esta es una de las pocas indicaciones SÓLIDAS de bicarbonato: hiperK severa con acidosis metabólica concomitante en paciente con paro. El bicarbonato corrige el pH → desplaza K al intracelular y al mismo tiempo trata la acidosis subyacente."},
+        {"texto": "No, está contraindicado", "correcta": false, "puntos": -10, "feedback": "❌ En este escenario específico (hiperK + acidosis + IRC + paro) tiene rol. Categórico-NO es equivocado."},
+        {"texto": "Solo si gasometría muestra pH <7.0", "correcta": false, "puntos": 5, "feedback": "⚠️ Aceptable como criterio conservador, pero en paro por hiperK severa no esperas gasometría — la acidosis es presumida."},
+        {"texto": "Sí, 5 ampollas en bolo rápido", "correcta": false, "puntos": -15, "feedback": "❌ Sobrecarga de Na, alcalosis post, hipernatremia. 1 mEq/kg lento es la dosis razonada."}
+      ]
+    },
+    {
+      "situacion": "Has dado calcio + insulina/glucosa + salbutamol + bicarbonato. Sigue en paro. ¿Cuál es la terapia DEFINITIVA que necesita ahora?",
+      "opciones": [
+        {"texto": "Seguir solo con medidas químicas, que tarden más", "correcta": false, "puntos": -15, "feedback": "❌ Las medidas químicas REDISTRIBUYEN el K (lo meten al intracelular), no lo SACAN del cuerpo. En paciente anúrico, el K vuelve a salir al extracelular. Sin diálisis no hay solución definitiva."},
+        {"texto": "HEMODIÁLISIS DE EMERGENCIA — única terapia que EXTRAE el K del cuerpo. Activar protocolo urgente, considerar SLED o CRRT si inestable hemodinámicamente", "correcta": true, "puntos": 15, "feedback": "✅ En IRC anúrica + hiperK refractaria + paro, diálisis es el tratamiento definitivo. Las medidas químicas son puente hacia diálisis. Ya que el paciente ESTÁ en sala de diálisis, la fístula está accesible — activar la máquina YA."},
+        {"texto": "Trasplante renal urgente", "correcta": false, "puntos": -15, "feedback": "❌ No es respuesta aguda. Horas-días, no minutos."},
+        {"texto": "Más adrenalina cada 1 minuto", "correcta": false, "puntos": -15, "feedback": "❌ NUNCA acortar el intervalo de adrenalina. Sigue siendo 3-5 min. Repetir más frecuente NO mejora supervivencia y empeora outcome."}
+      ]
+    },
+    {
+      "situacion": "Conectan al paciente a hemodiálisis durante RCP. Tras 5 min, ETCO2 sube de 18 a 35, monitor muestra ritmo sinusal con QRS que se estrecha (140 → 100 ms). Pulso carotídeo +. RCE. Primer chequeo de K post-diálisis 30 min: 5.4. ¿Manejo inmediato?",
+      "opciones": [
+        {"texto": "Suspender diálisis, ya bajó suficiente el K", "correcta": false, "puntos": -10, "feedback": "❌ K 5.4 sigue alto y el paciente acaba de tener paro por hiperK. La diálisis debe completar el ciclo programado y considerar prolongación."},
+        {"texto": "Continuar diálisis hasta K 4.0-5.0, monitorizar K cada hora primeras 6h (K puede REBOTAR al salir del intracelular cuando termine efecto de insulina/salbutamol/bicarbonato), continuar manejo ABCDE post-paro estándar", "correcta": true, "puntos": 15, "feedback": "✅ Rebote de hiperK post-tratamiento es REAL: cuando se acaba el efecto de insulina (~4-6h), salbutamol y bicarbonato, el K vuelve al extracelular. Monitorización seriada obligatoria."},
+        {"texto": "Bolo de KCl porque ya bajó demasiado", "correcta": false, "puntos": -15, "feedback": "❌ K 5.4 sigue siendo HIPERkalemia. Dar KCl es absurdo. Y nunca se da KCl en bolo (riesgo de paro)."},
+        {"texto": "Suspender bicarbonato y todo lo demás", "correcta": false, "puntos": -10, "feedback": "❌ Manejo post-paro estándar continúa: vía aérea, hemodinamia, temperatura, neuroprotección."}
+      ]
+    },
+    {
+      "situacion": "Familiares preguntan '¿podemos haber hecho algo para evitar esto?'. ¿Mensaje educativo?",
+      "opciones": [
+        {"texto": "'Las dos sesiones de diálisis perdidas son la causa directa: en IRC el riñón ya no elimina potasio, y la diálisis es el único filtro que queda. Saltarse sesiones puede ser mortal incluso si se siente bien. Además, en próximos viajes debe coordinarse diálisis en destino — los centros se pueden conectar entre sí'", "correcta": true, "puntos": 15, "feedback": "✅ Educación específica + plan accionable. La prevención secundaria requiere que entiendan la cadena causal y tengan plan operativo (transferencia de diálisis en viajes)."},
+        {"texto": "'No, esto pasa solo'", "correcta": false, "puntos": -15, "feedback": "❌ Falso y desperdicia oportunidad educativa para prevenir recaída letal."},
+        {"texto": "'Era cuestión de tiempo en pacientes así'", "correcta": false, "puntos": -15, "feedback": "❌ Fatalismo equivocado. Adherencia a diálisis cambia el pronóstico totalmente."},
+        {"texto": "Les explico el mecanismo de la Na/K-ATPasa", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico para familiares sin formación. Adapta el lenguaje."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan en oral: '¿qué dieta evita esta complicación?'. Resumen práctico para el paciente.",
+      "opciones": [
+        {"texto": "'Dieta libre, solo evita sal'", "correcta": false, "puntos": -15, "feedback": "❌ En IRC se restringe potasio activamente. Sal es solo una parte."},
+        {"texto": "'Restricción de potasio: evitar plátano, naranja/zumo, tomate y derivados, papa (si la usa, doble hervido), aguacate, frutos secos, chocolate, sustitutos de sal con KCl. Y nunca saltarse diálisis sin reprogramar'", "correcta": true, "puntos": 15, "feedback": "✅ Lista concreta + maniobra culinaria (doble hervido baja K en papa) + advertencia sobre sustitutos de sal (contienen KCl, error común). Educación útil."},
+        {"texto": "'Solo verduras y frutas'", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario — son la principal fuente de K dietético."},
+        {"texto": "'Mucha agua para diluir el potasio'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Líquidos están RESTRINGIDOS en diálisis (oligoanúrico). Sobrecarga de volumen → edema agudo de pulmón."}
+      ]
+    },
+    {
+      "situacion": "Handover post-RCE a UCI. ¿Versión más completa?",
+      "opciones": [
+        {"texto": "'Era IRC, tuvo paro por potasio alto, ya lo dializamos'", "correcta": false, "puntos": -10, "feedback": "❌ Vago. Faltan datos hemodinámicos, fármacos, plan."},
+        {"texto": "'Varón 62a IRC terminal HD trisemanal, saltó 2 sesiones por viaje. Llegó con K 7.2 (presumido, sin gasometría inicial) → asistolia 8 min, RCE tras: gluconato Ca 2g, insulina 10U+Glu 25g IV, salbutamol 20 mg neb, bicarbonato 75 mEq, 1 mg adrenalina, hemodiálisis de emergencia 90 min. K actual 5.4. Plan: dializar a meta K 4.0, control K horario × 6h, ABCDE post-paro, hipotermia 32-36°C si Glasgow ≤8 sostenido'", "correcta": true, "puntos": 15, "feedback": "✅ Contexto + ECG previo (clave) + tiempo paro + fármacos con dosis + terapia definitiva + estado + plan. UCI recibe paquete completo."},
+        {"texto": "Le doy el ECG impreso y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Documento sin handover verbal estructurado es insuficiente."},
+        {"texto": "'Está estable, manéjenlo'", "correcta": false, "puntos": -15, "feedback": "❌ Cero transferencia de información clave."}
+      ]
+    }
+  ]
+}

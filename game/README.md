@@ -19,8 +19,20 @@ python3 -m http.server 8000
 | Tema | Escenario | Pasos | Dificultad |
 |---|---|---|---|
 | 🫀 RCP | Paro presenciado en vía pública | 18 | Básico-Intermedio |
+| 🫀 RCP | Politraumatizado en shock hipovolémico | 11 | Intermedio |
+| 🫀 RCP | Atragantamiento en restaurante (OVACE) | 12 | Básico-Intermedio |
+| 🫀 RCP | Paro por acidosis severa en CAD | 11 | Intermedio-Avanzado |
+| 🫀 RCP | Paro durante diálisis por hiperpotasemia | 11 | Intermedio-Avanzado |
+| 🫀 RCP | Hipotermia severa tras inmersión | 12 | Avanzado |
+| 🫀 RCP | Sobredosis de opioides con paro respiratorio | 11 | Básico-Intermedio |
+| 🫀 RCP | Taponamiento por herida precordial | 11 | Avanzado |
+| 🫀 RCP | Neumotórax a tensión en paciente ventilado | 11 | Intermedio-Avanzado |
+| 🫀 RCP | TEP masivo postoperatorio | 11 | Avanzado |
+| 🫀 RCP | Anafilaxia por picadura con paro inminente | 11 | Intermedio-Avanzado |
 | 👂 Otoscopia | Otalgia con fiebre en niño de 3 años | 17 | Básico |
 | 🎧 Ruidos cardíacos | Fiebre y soplo nuevo en usuario de drogas IV | 16 | Intermedio-Avanzado |
+
+> Los 11 escenarios de RCP cubren las **5H/5T** (hipovolemia, hipoxia, hidrogeniones, hiperpotasemia, hipotermia, tóxicos, taponamiento, neumotórax a tensión, trombosis coronaria/IAM, TEP) más **anafilaxia** como circunstancia especial (AHA 2020).
 
 ## Mecánicas
 

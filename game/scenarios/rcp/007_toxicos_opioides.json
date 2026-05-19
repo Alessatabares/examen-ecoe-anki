@@ -1,0 +1,110 @@
+{
+  "id": "rcp_007_toxicos_opioides",
+  "titulo": "Sobredosis de opioides con paro respiratorio",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + Opioid Overdose Guidelines",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Te llaman a un baño público de una estación. Encuentras a un hombre de unos 30 años en el suelo, jeringa al lado, torniquete en brazo izquierdo. Piel azulada, sin respuesta. Pupilas puntiformes (mióticas) bilaterales. Respiración 2/min y superficial. Bradicárdico. Hay otros viajeros mirando.",
+  "pasos": [
+    {
+      "situacion": "Te acercas. ¿Qué evalúas PRIMERO antes de tocar?",
+      "opciones": [
+        {"texto": "Le saco la jeringa enseguida", "correcta": false, "puntos": -15, "feedback": "❌ Riesgo de pinchazo accidental → exposición a VHB/VHC/VIH. Seguridad del rescatador primero — y la jeringa NO se mueve hasta tener guantes y dispositivo seguro."},
+        {"texto": "Seguridad de la escena (otras jeringas, otros tóxicos, riesgo de aerosoles si fentanilo), pongo guantes, evalúo respuesta y respiración. Pupilas puntiformes + bradipnea + entorno = patrón clásico de sobredosis opioide", "correcta": true, "puntos": 15, "feedback": "✅ Seguridad escena + EPI + reconocimiento del patrón tóxico clásico (tríada de opioides: depresión SNC + miosis + depresión respiratoria). En fentanilo además precaución por exposición cutánea/aerosol."},
+        {"texto": "Le hago RCP enseguida porque no respira", "correcta": false, "puntos": 0, "feedback": "⚠️ Respira 2/min — tiene actividad respiratoria mínima. Antes de iniciar RCP de paro, evalúa pulso y considera que está PRE-paro hipóxico, no en paro completo aún."},
+        {"texto": "Le grito y lo sacudo fuerte", "correcta": false, "puntos": -5, "feedback": "⚠️ Estímulo verbal + sacudida está bien, pero antes mira la escena por tu seguridad."}
+      ]
+    },
+    {
+      "situacion": "Pulso carotídeo presente, débil, ~50/min. Respiración 2/min, agónica. ¿Diagnóstico y prioridad inmediata?",
+      "opciones": [
+        {"texto": "Paro cardiorrespiratorio, inicio RCP completo", "correcta": false, "puntos": -5, "feedback": "⚠️ Tiene pulso aún. Esto es paro RESPIRATORIO inminente con bradipnea severa, no paro completo. Prioridad: ventilar antes de que el corazón siga al pulmón."},
+        {"texto": "Paro respiratorio por opioides. Ventilación inmediata con BVM (rescue breaths cada 5-6 segundos = 10-12/min), delegar 911 + DEA + naloxona si disponible", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico preciso: paro respiratorio (no cardíaco). Manejo: ventilar primero — la hipoxia es la cadena que llevará a paro cardíaco. Ventilar puede prevenir el paro completo."},
+        {"texto": "Solo le doy naloxona y espero", "correcta": false, "puntos": -10, "feedback": "❌ Mientras la naloxona actúa (2-5 min IM/IN), si no ventilas el paciente sigue desaturando y entra en paro completo. Ventilación primero."},
+        {"texto": "Le pongo en posición lateral de seguridad y llamo", "correcta": false, "puntos": -15, "feedback": "❌ PLS es para conscientes con respiración adecuada. Este paciente está en peri-paro respiratorio: necesita ventilación activa."}
+      ]
+    },
+    {
+      "situacion": "Inicias ventilación con BVM. Pides naloxona. ¿Dosis, vía y ritmo?",
+      "opciones": [
+        {"texto": "Naloxona 0.4-2 mg IM o IN (intranasal 4 mg dispositivo Narcan); IV 0.4 mg si acceso disponible. Repetir cada 2-3 minutos. Si no responde tras 10 mg total → reconsiderar diagnóstico", "correcta": true, "puntos": 15, "feedback": "✅ Dosis + vías + escalada + dosis techo. La IN es la más usada en extrahospitalario (no necesita acceso). Si no responde a 10 mg, la causa no es opioide puro — pensar en cotóxicos, traumatismo craneal, otra etiología."},
+        {"texto": "Naloxona 10 mg IV de entrada", "correcta": false, "puntos": -15, "feedback": "❌ Bolo masivo precipita síndrome de abstinencia agudo violento: agitación, vómito (riesgo aspiración), edema pulmonar no cardiogénico, convulsiones. Empezar BAJO y titular."},
+        {"texto": "Solo 0.04 mg SC", "correcta": false, "puntos": -5, "feedback": "⚠️ SC tarda mucho en absorberse. Y dosis tan baja útil en paciente que NO está en paro respiratorio (intoxicación leve), no en sobredosis grave."},
+        {"texto": "Naloxona no se usa en paro, solo si despierta", "correcta": false, "puntos": -15, "feedback": "❌ Naloxona ESTÁ indicada en paro/peri-paro por opioides, paralelo a ventilación y RCP."}
+      ]
+    },
+    {
+      "situacion": "Tras 2 mg IN no responde y se deteriora a apnea + bradicardia 30. ¿Manejo?",
+      "opciones": [
+        {"texto": "Continúo ventilando con BVM, segunda dosis de naloxona (2 mg adicionales, total 4 mg) y monitorizo pulso continuamente. Si pulso <60 inestable o ausente, escalo a RCP", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: ventilar mantiene oxigenación, naloxona repetida hasta efecto o 10 mg, RCP si paro completo. Bradicardia <60 con compromiso = peri-paro, comprimir o RCP están justificadas."},
+        {"texto": "Suspendo naloxona porque 'no funciona'", "correcta": false, "puntos": -15, "feedback": "❌ Puede ser tema de dosis insuficiente o de potencia del opioide. Subir dosis antes de descartar."},
+        {"texto": "Atropina 1 mg IV para la bradicardia", "correcta": false, "puntos": -10, "feedback": "❌ La bradicardia opioide es por hipoxia y depresión del centro respiratorio, no vagal. Atropina no resuelve. Lo que la resuelve es ventilar y naloxona."},
+        {"texto": "Adrenalina 1 mg IV antes que naloxona", "correcta": false, "puntos": -10, "feedback": "❌ Adrenalina si entra en paro completo. Mientras hay pulso aunque bradicárdico → ventilación + naloxona."}
+      ]
+    },
+    {
+      "situacion": "Tras 4 mg naloxona y ventilación efectiva, FR sube a 14/min, FC 80, despierta agitado, vómito. ¿Siguiente paso?",
+      "opciones": [
+        {"texto": "Sedarlo con benzodiacepinas", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE: benzo añade depresión del SNC y respiratoria, justo cuando la naloxona se está acabando (vida media 30-60 min, opioide >>>). Recae en sobredosis."},
+        {"texto": "Posición lateral de seguridad por el vómito, vigilancia continua de FR, monitor, planear traslado y advertirle que la naloxona se va a acabar (riesgo de RE-sedación a las 1-2h)", "correcta": true, "puntos": 15, "feedback": "✅ PLS por aspiración + vigilancia + plan de re-sedación. Vida media de naloxona (~60 min) es MENOR que la de la mayoría de opioides (heroína 2-4h, metadona 24h) → re-sedación garantizada si no hay vigilancia o infusión continua."},
+        {"texto": "Lo dejo solo, ya se recuperó", "correcta": false, "puntos": -15, "feedback": "❌ Re-sedación a las 1-2h cuando la naloxona se acabe = nuevo paro respiratorio. Vigilancia obligatoria mínimo 4-6h, más si opioide de larga duración."},
+        {"texto": "Le doy más naloxona aunque esté respirando bien", "correcta": false, "puntos": -5, "feedback": "⚠️ Sobre-naloxonar despierto = abstinencia violenta. Objetivo: respiración adecuada, no euforia/abstinencia."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: '¿qué opioide podría requerir dosis mucho mayor o infusión de naloxona?'",
+      "opciones": [
+        {"texto": "Codeína", "correcta": false, "puntos": -5, "feedback": "⚠️ Codeína es opioide débil, no requiere dosis altas."},
+        {"texto": "Fentanilo y derivados sintéticos (carfentanilo, alfentanilo) — potencia 50-100x morfina, y opioides de vida media larga (metadona, buprenorfina parcial). Suele requerir múltiples dosis o INFUSIÓN de naloxona (2/3 de la dosis efectiva total cada hora)", "correcta": true, "puntos": 15, "feedback": "✅ Fentanilo callejero es la causa actual #1 de muerte por sobredosis en EE.UU. y creciente en Europa. Requiere dosis mucho mayores, vigilancia >12-24h y/o infusión continua de naloxona."},
+        {"texto": "Tramadol", "correcta": false, "puntos": -5, "feedback": "⚠️ Tramadol da convulsiones y serotoninérgico, no es el opioide-paradigma de dosis alta."},
+        {"texto": "Morfina", "correcta": false, "puntos": -5, "feedback": "⚠️ Morfina responde bien a dosis estándar."}
+      ]
+    },
+    {
+      "situacion": "Vómito masivo + desaturación 86%. ¿Diagnóstico complicación más probable?",
+      "opciones": [
+        {"texto": "Sepsis pulmonar", "correcta": false, "puntos": -5, "feedback": "⚠️ No hay tiempo ni datos para sepsis aguda. Hay una complicación clásica post-naloxona."},
+        {"texto": "Edema pulmonar agudo post-naloxona (no cardiogénico) o broncoaspiración del vómito — ambas son complicaciones reconocidas. Manejo: oxígeno alto flujo o VMNI/IOT según severidad", "correcta": true, "puntos": 15, "feedback": "✅ Edema pulmonar no cardiogénico post-naloxona es bien descrito (mecanismo: descarga adrenérgica brusca + aumento permeabilidad). Y aspiración por vómito en paciente sin protección de vía aérea. Ambas requieren O2 y a veces intubación."},
+        {"texto": "Insuficiencia cardíaca aguda", "correcta": false, "puntos": -5, "feedback": "⚠️ Improbable en joven sin cardiopatía conocida. Pista clínica débil."},
+        {"texto": "Asma", "correcta": false, "puntos": -10, "feedback": "❌ Sin antecedente. Pista ausente."}
+      ]
+    },
+    {
+      "situacion": "Trasladado a urgencias. ¿Qué estudios pides?",
+      "opciones": [
+        {"texto": "Solo monitorización", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente. La sobredosis IV de opioides tiene riesgos sistémicos."},
+        {"texto": "Glucemia capilar, EKG (intervalo QT por metadona, riesgo torsade), gasometría, hemograma, electrolitos, CK (rabdomiólisis por inmovilización), Rx tórax (aspiración/edema), serologías VIH/VHC/VHB, screening tóxico amplio (cotóxicos comunes: BZD, cocaína, anfetaminas)", "correcta": true, "puntos": 15, "feedback": "✅ Battery completo de sobredosis IV: descartar complicaciones (rabdo, aspiración), cotóxicos (cambian manejo), comorbilidades infecciosas (drogas IV). Esto es atención integral."},
+        {"texto": "Solo niveles de naloxona", "correcta": false, "puntos": -15, "feedback": "❌ No se miden en clínica. Y no aportan."},
+        {"texto": "TAC craneal urgente", "correcta": false, "puntos": -5, "feedback": "⚠️ Solo si signos focales, trauma asociado o coma persistente tras revertir. No de rutina."}
+      ]
+    },
+    {
+      "situacion": "Paciente despierto, en observación. Quiere irse 'estoy bien'. ¿Cómo manejas?",
+      "opciones": [
+        {"texto": "Lo dejo ir, es su derecho", "correcta": false, "puntos": -15, "feedback": "❌ Alta contra criterio médico en paciente con riesgo de re-sedación = riesgo de muerte fuera del hospital. Y a veces no es competente de decidir (intoxicación residual)."},
+        {"texto": "Evalúo capacidad de decisión (sin intoxicación residual), explico el riesgo de re-sedación (especialmente si fue heroína/metadona/fentanilo) y ofrezco: vigilancia mínima 4-6h, programa de naloxona take-home, derivación a programa de tratamiento, kit de prevención de sobredosis. Documento conversación si insiste en irse", "correcta": true, "puntos": 15, "feedback": "✅ Respeto a autonomía + reducción de daños + plan de continuidad. La 'salida con naloxona' (take-home naloxone) reduce mortalidad hasta 40% en programas estudiados."},
+        {"texto": "Lo retengo a la fuerza", "correcta": false, "puntos": -15, "feedback": "❌ Sin criterios legales (peligro inminente para sí o terceros + incapacidad), retener es agresión."},
+        {"texto": "Lo amenazo con avisar a la policía", "correcta": false, "puntos": -15, "feedback": "❌ Coerción inapropiada. Tu rol es clínico, no judicial. Y aumenta el estigma → menor probabilidad de volver a buscar ayuda en futuras sobredosis."}
+      ]
+    },
+    {
+      "situacion": "Pareja del paciente llega y pregunta '¿esto se le va a quitar?'. ¿Mensaje sobre adicción y prevención?",
+      "opciones": [
+        {"texto": "'Es cuestión de fuerza de voluntad'", "correcta": false, "puntos": -15, "feedback": "❌ Estigmatizante y científicamente falso. La adicción a opioides es enfermedad crónica con base neurobiológica, no debilidad moral."},
+        {"texto": "'La adicción a opioides es una enfermedad crónica tratable. Hay tratamientos efectivos (metadona, buprenorfina, naltrexona) que reducen mortalidad 50-70%. Ahora es momento de ofrecer ayuda sin juzgar. Pueden tener naloxona en casa para emergencias. Les voy a poner en contacto con el programa de adicciones'", "correcta": true, "puntos": 15, "feedback": "✅ Educación sin estigma + datos sobre eficacia de tratamiento + naloxona take-home + derivación. Este encuentro postsobredosis es una ventana terapéutica clave."},
+        {"texto": "'No tiene cura'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Hay tratamiento efectivo. Y mensaje desesperanzador."},
+        {"texto": "'Encierrarlo un mes y listo'", "correcta": false, "puntos": -15, "feedback": "❌ Detox aislado tiene 90% recaída. Y SIN tratamiento de mantenimiento, paradójicamente AUMENTA mortalidad post-detox por pérdida de tolerancia."}
+      ]
+    },
+    {
+      "situacion": "Handover a observación. ¿Versión más completa?",
+      "opciones": [
+        {"texto": "'Sobredosis de heroína, ya despertó'", "correcta": false, "puntos": -10, "feedback": "❌ Vago. Falta plan de vigilancia."},
+        {"texto": "'Varón ~30a, sobredosis IV de probable opioide (descartar fentanilo en screening), encontrado en peri-paro respiratorio (FR 2, miosis, pulso bradicárdico), respondió a 4 mg naloxona total + ventilación BVM 5 min. Ahora Glasgow 15, FR 14, SatO2 96% aire ambiente. Plan: monitorización mínimo 6h por riesgo re-sedación, screening tóxico, serologías virus IV, Rx tórax por vómito presenciado, ofrecer derivación a adicciones + naloxona take-home al alta'", "correcta": true, "puntos": 15, "feedback": "✅ Identificación + tratamiento + estado + plan de vigilancia + medidas preventivas. Equipo de observación tiene todo lo necesario."},
+        {"texto": "Solo le digo 'vigílenlo'", "correcta": false, "puntos": -15, "feedback": "❌ Sin contexto, sin tiempo, sin plan. Equipo receptor empieza de cero."},
+        {"texto": "'Lo dejé porque quería irse, problema suyo'", "correcta": false, "puntos": -15, "feedback": "❌ Abandono + actitud impropia. Falla ética grave."}
+      ]
+    }
+  ]
+}

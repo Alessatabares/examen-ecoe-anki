@@ -1,0 +1,110 @@
+{
+  "id": "rcp_004_acidosis_cad",
+  "titulo": "Paro por acidosis severa en cetoacidosis diabética",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ADA 2024",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Llega a urgencias una mujer de 24 años con diabetes tipo 1, traída por su pareja. Lleva 3 días con poliuria, polidipsia, vómitos y dolor abdominal, no se ha puesto insulina (perdió la pluma). En la ambulancia: respiración profunda y rápida, somnolencia. Glucemia capilar 'HI' (>600). Al pasarla a la cama: respira con bocanadas (gasping), inmediatamente bradicardia → asistolia.",
+  "pasos": [
+    {
+      "situacion": "Asistolia confirmada en monitor. ¿Qué verbalizas como sospecha inmediata de causa reversible?",
+      "opciones": [
+        {"texto": "'Paro de causa desconocida, inicio RCP estándar'", "correcta": false, "puntos": -5, "feedback": "⚠️ Toda la historia apunta a CAD severa con acidosis profunda. Verbalizar 'desconocida' cuando tienes 5 pistas evidentes es perder la oportunidad clínica."},
+        {"texto": "'Paro en asistolia, causa más probable: acidosis severa por CAD con probable hiperkalemia asociada. Inicio RCP de alta calidad y solicito gasometría + potasio urgentes'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico contextualizado + 2 causas reversibles ligadas + plan paralelo. En CAD severa la acidosis Y la hiperK son simultáneas y mortales."},
+        {"texto": "'Probable hipovolemia por vómitos, bolo de cristaloides'", "correcta": false, "puntos": 5, "feedback": "⚠️ Hipovolemia coexiste, pero NO es la causa dominante del paro súbito. La acidosis con pH probable <6.9 y posible hiperK son lo letal aquí."},
+        {"texto": "'Hipoxia por sepsis abdominal, intubo'", "correcta": false, "puntos": -10, "feedback": "❌ Saltar a sepsis sin datos sólidos distrae del cuadro evidente: CAD con Kussmaul y deshidratación masiva."}
+      ]
+    },
+    {
+      "situacion": "Tu compañero inicia compresiones. Pides gasometría arterial. Llega: pH 6.85, PaCO2 12, HCO3 4, K 7.2, glucosa 720, lactato 8. ¿Qué es lo MÁS urgente de corregir mientras sigue RCP?",
+      "opciones": [
+        {"texto": "Bajar la glucosa con insulina en bolo IV 20U", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE: insulina en bolo durante paro precipita la hipokalemia al meter el K que queda al intracelular → asistolia refractaria + edema cerebral. La insulina va DESPUÉS de iniciar K+ y volumen."},
+        {"texto": "Estabilizar membrana miocárdica con gluconato de calcio 1-3 g IV — la hiperK 7.2 con paro es la causa eléctrica inmediata", "correcta": true, "puntos": 15, "feedback": "✅ Hiperkalemia >6.5 con paro = calcio PRIMERO (estabiliza el potencial de membrana en segundos, sin tocar el K). Después estrategias para BAJAR el K. Esto sigue el orden 'proteger primero, mover después'."},
+        {"texto": "Bicarbonato 1 amp en bolo para corregir pH", "correcta": false, "puntos": 5, "feedback": "⚠️ Bicarbonato en CAD es controvertido (puede empeorar acidosis intracelular y hipokalemia). Solo se considera con pH <6.9 y siempre DESPUÉS de calcio + ventilación efectiva. No es el PRIMER paso."},
+        {"texto": "Bolo de glucosado 50% por la hiperglucemia paradójica", "correcta": false, "puntos": -15, "feedback": "❌ Sin sentido fisiopatológico. La glucosa ya es 720; añadir más es absurdo."}
+      ]
+    },
+    {
+      "situacion": "Tras gluconato de Ca, ¿siguiente intervención para bajar el K rápidamente?",
+      "opciones": [
+        {"texto": "Diálisis emergente", "correcta": false, "puntos": 5, "feedback": "⚠️ Es definitivo pero TARDA en montarse. Mientras se prepara, hay que usar medidas químicas rápidas."},
+        {"texto": "Insulina rápida 10 U IV + glucosa 25 g IV (50 mL DW50%) — empuja K al intracelular en 15-30 min", "correcta": true, "puntos": 15, "feedback": "✅ Insulina + glucosa: efecto en 15-30 min, dura 4-6h. La glucosa va SIEMPRE con la insulina (incluso si glucemia alta inicialmente) para evitar hipoglucemia diferida. Es la medida química más rápida."},
+        {"texto": "Salbutamol nebulizado 10-20 mg", "correcta": false, "puntos": 10, "feedback": "✅ Acepta beta2 agonista como adyuvante (baja 0.5-1 mEq/L). Pero la primera línea química es insulina+glucosa. Combinas ambas en hiperK severa."},
+        {"texto": "Furosemida 80 mg IV", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil solo si volumen normal/sobrecarga y diuresis conservada. En CAD con shock y posible falla renal, furosemida no es efectiva ni segura."}
+      ]
+    },
+    {
+      "situacion": "Mientras corrige el K, sigues RCP. Tu compañero pregunta '¿Hay que ventilar más rápido por la acidosis?' ¿Qué respondes?",
+      "opciones": [
+        {"texto": "'Sí, 30 rpm para lavar más CO2'", "correcta": false, "puntos": -15, "feedback": "❌ Hiperventilación durante RCP causa: ↑presión intratorácica → ↓retorno venoso → ↓gasto → empeora supervivencia. Y alcalosis con vasoconstricción cerebral."},
+        {"texto": "'Ventilamos efectivamente al ritmo estándar (10/min con vía aérea avanzada). El componente respiratorio de la acidosis sí lo corrige la ventilación, pero hiperventilar es contraproducente'", "correcta": true, "puntos": 15, "feedback": "✅ Distingues entre 'ventilación efectiva' (correcta) y 'hiperventilación' (incorrecta). La acidosis se compensa parcialmente por buena ventilación, pero el ritmo no debe acelerarse."},
+        {"texto": "'No hay que ventilar, solo comprimimos'", "correcta": false, "puntos": -10, "feedback": "❌ En paro con causa metabólica, ventilar es crítico para resolver el componente respiratorio compensador. Hands-only no aplica aquí."},
+        {"texto": "'Ventilamos a 6/min para hipoventilación permisiva'", "correcta": false, "puntos": -10, "feedback": "❌ Hipoventilación permisiva es para SDRA en UCI estable, NO para paro con acidosis severa."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿debes dar bicarbonato sódico en este paciente con pH 6.85?",
+      "opciones": [
+        {"texto": "Sí, 1 amp cada 5 minutos hasta normalizar pH", "correcta": false, "puntos": -15, "feedback": "❌ Bicarbonato 'a ciegas' empeora: acidosis intracelular paradójica (CO2 cruza membrana), sobrecarga de Na, alcalosis post-resucitación, hipokalemia. Y desplaza curva de Hb a la izquierda → menos O2 a tejidos."},
+        {"texto": "Considerado SOLO si: pH <6.9 persistente PESE A ventilación efectiva, hiperK severa demostrada, o sobredosis ATC. Si lo doy: 1 mEq/kg, lento, monitorizando pH cada 30 min", "correcta": true, "puntos": 15, "feedback": "✅ Indicación restringida y selectiva. En CAD el bicarbonato NO está rutinariamente indicado; la insulina + fluidos corrigen la acidosis al cortar la cetogénesis. Verbalizar las indicaciones precisas demuestra dominio."},
+        {"texto": "No, jamás. El bicarbonato está contraindicado", "correcta": false, "puntos": 5, "feedback": "⚠️ Tampoco es contraindicación absoluta. En hiperK 7.2 con paro hay rol selectivo. Ser categórico aquí pierde matiz."},
+        {"texto": "Mejor THAM o trometamol", "correcta": false, "puntos": -5, "feedback": "⚠️ Poco disponible y experiencia limitada. No es estándar AHA."}
+      ]
+    },
+    {
+      "situacion": "Pides cristaloides para resucitación de la CAD. ¿Cuál eliges y por qué?",
+      "opciones": [
+        {"texto": "Suero salino 0.9% a chorro, 3L iniciales", "correcta": false, "puntos": -5, "feedback": "⚠️ SF 0.9% empeora la acidosis hiperclorémica que ya tiene. Volumen sí, pero el fluido importa."},
+        {"texto": "Cristaloides balanceados (Ringer lactato o Plasma-Lyte) — corrigen volumen sin empeorar el componente hiperclorémico de la acidosis; SF 0.9% puede usarse en la primera hora pero se asocia a peor evolución", "correcta": true, "puntos": 15, "feedback": "✅ Evidencia reciente (SMART, BaSICS): balanceados ≥ SF 0.9% en críticos. En CAD especialmente, evitar empeorar la acidosis hiperclorémica."},
+        {"texto": "Glucosado 5% para 'rehidratar suavemente'", "correcta": false, "puntos": -15, "feedback": "❌ Glucosa más en una paciente con 720 mg/dL. Y glucosado se redistribuye al intracelular sin expandir volumen."},
+        {"texto": "Coloides (gelatina 4%)", "correcta": false, "puntos": -10, "feedback": "❌ Sin indicación en CAD. Cristaloides son la base."}
+      ]
+    },
+    {
+      "situacion": "Tras 3 min, ETCO2 sube de 8 a 32 mmHg (ya con vía aérea avanzada), ritmo organizado con QRS ancho que se estrecha. Pulso carotídeo +. RCE. ¿Siguiente paso clave SOLO en este contexto de CAD?",
+      "opciones": [
+        {"texto": "Insulina IV 0.1 U/kg/h en infusión continua, una vez K >3.3 mEq/L y volumen iniciado", "correcta": true, "puntos": 15, "feedback": "✅ ADA: nunca iniciar insulina con K <3.3 (riesgo de hipoK letal). Y siempre EN INFUSIÓN, nunca en bolo. La insulina es lo que CORTA la cetogénesis y corrige la acidosis de fondo."},
+        {"texto": "Bolo grande de insulina rápida 20 U IV para bajar rápido la glucosa", "correcta": false, "puntos": -15, "feedback": "❌ Bolo de insulina = caída brusca de glucemia y K → arritmia. Y aumenta el riesgo de edema cerebral en CAD severa. SIEMPRE en infusión."},
+        {"texto": "Suspender resucitación de volumen, ya hay RCE", "correcta": false, "puntos": -10, "feedback": "❌ Déficit de volumen en CAD típica es 6-10L. RCE no significa euvolemia. Continuar reposición controlada."},
+        {"texto": "Bajar la glucosa a <100 lo más rápido posible", "correcta": false, "puntos": -15, "feedback": "❌ Caída brusca de glucemia = riesgo de edema cerebral letal en CAD (especialmente en jóvenes). Objetivo: bajar 50-75 mg/dL/h, no más rápido."}
+      ]
+    },
+    {
+      "situacion": "Bajar glucemia rápido en CAD severa es peligroso. ¿Por qué?",
+      "opciones": [
+        {"texto": "Por la hipoglucemia rebote", "correcta": false, "puntos": -5, "feedback": "⚠️ Es una preocupación menor. La grave es otra, especialmente en jóvenes con CAD severa."},
+        {"texto": "Riesgo de EDEMA CEREBRAL: caída brusca de osmolaridad plasmática → agua entra al cerebro hiperosmolar → herniación. Más frecuente en niños/jóvenes con CAD severa", "correcta": true, "puntos": 15, "feedback": "✅ Complicación catastrófica de CAD: cefalea + alteración consciencia post-tratamiento = sospecha edema cerebral. Manejo: manitol/SSH, evitar caídas >100 mg/dL/h, añadir glucosa al suero cuando glucemia llega a 200-250."},
+        {"texto": "Por riesgo de cetoacidosis paradójica", "correcta": false, "puntos": -10, "feedback": "❌ No existe ese fenómeno. Inventado."},
+        {"texto": "Por hipertensión rebote", "correcta": false, "puntos": -10, "feedback": "❌ No es el riesgo descrito. La complicación letal es neurológica, no cardiovascular."}
+      ]
+    },
+    {
+      "situacion": "Post-RCE, paciente intubada, en UCI. Glucosa 380, pH 7.1, K 4.8. ¿Cuándo añades glucosa a la sueroterapia?",
+      "opciones": [
+        {"texto": "Solo si glucosa <70", "correcta": false, "puntos": -10, "feedback": "❌ Tarde. Para entonces ya tienes hipoglucemia + déficit energético + posible edema."},
+        {"texto": "Cuando glucemia baje a 200-250, añadir glucosado al fluido y reducir insulina (sin suspender) — para mantener glucemia en rango 150-200 hasta cierre del anión gap", "correcta": true, "puntos": 15, "feedback": "✅ ADA estándar: nunca suspender insulina si anión gap aún abierto (necesitas insulina para cerrar cetogénesis). Suspender insulina precoz = recaída en CAD."},
+        {"texto": "Suspender insulina cuando glucemia <250", "correcta": false, "puntos": -15, "feedback": "❌ Si suspendes insulina con anión gap abierto, vuelve la cetogénesis y la CAD recae. Insulina sigue, glucosa se añade."},
+        {"texto": "Solo dar insulina subcutánea desde el inicio", "correcta": false, "puntos": -15, "feedback": "❌ En CAD severa la absorción SC es errática por mala perfusión. Infusión IV obligatoria hasta cierre del gap y comer tolerado."}
+      ]
+    },
+    {
+      "situacion": "Pareja pregunta '¿por qué le dio un paro si solo no se puso la insulina dos días?'. ¿Cómo explicas la cadena causal?",
+      "opciones": [
+        {"texto": "'Sin insulina la glucosa subió mucho y eso la mató'", "correcta": false, "puntos": -5, "feedback": "⚠️ Simplificación incorrecta. La hiperglucemia per se rara vez es letal aguda; el problema es la acidosis y el K."},
+        {"texto": "'Sin insulina el cuerpo no usa glucosa → quema grasa → produce cetonas (ácidos) → la sangre se vuelve muy ácida → eso paraliza el corazón. Además, la deshidratación por orinar tanto y el potasio descontrolado terminaron deteniendo el ritmo del corazón'", "correcta": true, "puntos": 15, "feedback": "✅ Cadena causal completa en lenguaje accesible: déficit insulina → cetogénesis → acidosis + deshidratación + hiperK → arritmia/paro. Educación útil para evitar recaída."},
+        {"texto": "'Es una complicación rara, mala suerte'", "correcta": false, "puntos": -10, "feedback": "❌ CAD severa por omisión de insulina es PREVENIBLE y debe educarse explícitamente. Llamarlo 'mala suerte' impide aprendizaje y aumenta recurrencia."},
+        {"texto": "Le explico el ciclo de Krebs en detalle", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico. Adapta el nivel."}
+      ]
+    },
+    {
+      "situacion": "Handover a UCI. Selecciona el SBAR más completo:",
+      "opciones": [
+        {"texto": "'Diabética con CAD, le dio paro, la reanimamos, está intubada'", "correcta": false, "puntos": -10, "feedback": "❌ Vago. Faltan los datos críticos para manejo continuado."},
+        {"texto": "'Mujer 24a DM1, CAD severa por omisión insulina 3 días, llegó con pH 6.85 / K 7.2 / Glu 720 → asistolia 4 min, RCE tras gluconato Ca 2g + Insulina 10U+Glu 25g IV + 2L LR + 1 mg adrenalina. Actualmente intubada, FiO2 50%, infusión insulina 0.1 U/kg/h con K 4.8, glucemia 380, pH 7.1. Plan: continuar fluidos balanceados, vigilar K cada 2h, glucosa al fluido cuando llegue a 200, vigilar consciencia por riesgo edema cerebral'", "correcta": true, "puntos": 15, "feedback": "✅ SBAR completo: contexto + datos clave + intervenciones + estado + plan específico. UCI puede continuar sin pedir más datos."},
+        {"texto": "Le doy las gasometrías y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Documento sin handover verbal estructurado es insuficiente."},
+        {"texto": "'Está estable, manéjenla'", "correcta": false, "puntos": -15, "feedback": "❌ Cero transferencia de contexto. Falla grave de comunicación clínica."}
+      ]
+    }
+  ]
+}

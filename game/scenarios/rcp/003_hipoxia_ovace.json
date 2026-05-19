@@ -1,0 +1,119 @@
+{
+  "id": "rcp_003_hipoxia_ovace",
+  "titulo": "Atragantamiento en restaurante con pérdida de consciencia",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 ERC 2021",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Estás cenando en un restaurante. En la mesa de al lado, un hombre de unos 55 años se lleva las manos al cuello (signo universal de atragantamiento), no puede hablar ni toser. Su acompañante grita pidiendo ayuda. Te acercas.",
+  "pasos": [
+    {
+      "situacion": "El paciente está de pie, manos al cuello, intentando respirar pero sin sonido. Ojos abiertos, asustado. ¿Qué haces PRIMERO?",
+      "opciones": [
+        {"texto": "Lo siento en una silla y le doy agua", "correcta": false, "puntos": -15, "feedback": "❌ Agua en un atragantamiento = aspiración + obstrucción peor. Y sentarlo dificulta las maniobras."},
+        {"texto": "Le pregunto '¿se está atragantando?' y le pido que tosa fuerte si puede", "correcta": true, "puntos": 15, "feedback": "✅ Primer paso: confirmar la obstrucción y evaluar si es PARCIAL (puede toser/hablar) o COMPLETA (signo universal sin tos efectiva). Manejo es distinto en cada caso."},
+        {"texto": "Inicio compresiones abdominales sin preguntar", "correcta": false, "puntos": -10, "feedback": "❌ Si la tos es efectiva, las compresiones pueden empeorar (impactar el cuerpo extraño). Primero confirma obstrucción severa."},
+        {"texto": "Le golpeo la espalda fuerte", "correcta": false, "puntos": -5, "feedback": "⚠️ Las palmadas son parte del manejo de OVACE en consciente, pero antes hay que confirmar que la obstrucción es completa y obtener consentimiento implícito."}
+      ]
+    },
+    {
+      "situacion": "Asiente con la cabeza (sí se atraganta), pero no emite ningún sonido. ¿Manejo?",
+      "opciones": [
+        {"texto": "5 palmadas interescapulares con el talón de la mano, alternando con 5 compresiones abdominales (Heimlich) hasta expulsión o pérdida de consciencia", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo ERC: 5 + 5 alternados en OVACE completa consciente. Verbalizar el ciclo es lo que el sinodal espera oír."},
+        {"texto": "Solo Heimlich, 5 compresiones y vuelvo a evaluar", "correcta": false, "puntos": 5, "feedback": "⚠️ AHA acepta solo Heimlich, pero ERC (más extendida en Latinoamérica/España) protocoliza 5+5 alternados. Para ECOE conviene el ciclo completo."},
+        {"texto": "Solo palmadas hasta que expulse", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente. Si las palmadas no resuelven en 5, hay que escalar a Heimlich. No quedarse en una sola técnica."},
+        {"texto": "Lo acuesto y le hago RCP", "correcta": false, "puntos": -15, "feedback": "❌ Mientras esté consciente NO se hace RCP. Se hace en CUANTO pierda consciencia, no antes."}
+      ]
+    },
+    {
+      "situacion": "Tras 2 ciclos de palmadas + Heimlich, el paciente se desploma. ¿Qué cambia en tu manejo?",
+      "opciones": [
+        {"texto": "Sigo con Heimlich en el suelo", "correcta": false, "puntos": -15, "feedback": "❌ Heimlich es maniobra de paciente consciente y de pie. En suelo + inconsciente cambia totalmente el algoritmo."},
+        {"texto": "'Paciente inconsciente con OVACE, lo acuesto, activo SEM y comienzo RCP empezando por 30 compresiones — las compresiones pueden movilizar el cuerpo extraño'", "correcta": true, "puntos": 15, "feedback": "✅ AHA explícito: al perder consciencia, OVACE pasa a algoritmo de paro. Las compresiones generan presión intratorácica similar a Heimlich. Y delegas activación de SEM en paralelo."},
+        {"texto": "Solo activo SEM y espero la ambulancia", "correcta": false, "puntos": -15, "feedback": "❌ Abandonar al paciente cuando está in extremis = pérdida de oportunidad de reanimar. Cada segundo importa."},
+        {"texto": "Le hago boca a boca primero por la causa hipóxica", "correcta": false, "puntos": -10, "feedback": "❌ La obstrucción impide que el aire entre. Ventilar antes de despejar la vía aérea = aire al estómago + nada al pulmón."}
+      ]
+    },
+    {
+      "situacion": "Comienzas compresiones. Cada vez que abres la vía aérea para ventilar, ¿qué haces de distinto al RCP estándar?",
+      "opciones": [
+        {"texto": "Igual que un paro convencional, ventilo sin mirar", "correcta": false, "puntos": -10, "feedback": "❌ En OVACE, antes de cada ventilación hay que MIRAR la boca por si el cuerpo extraño es visible y extraíble. Esto NO se hace en paro convencional."},
+        {"texto": "Antes de ventilar, abro la boca y MIRO si veo el cuerpo extraño. Si es visible y alcanzable, lo retiro con barrido digital o pinzas. Si no veo nada, ventilo y sigo", "correcta": true, "puntos": 15, "feedback": "✅ Algoritmo OVACE inconsciente: 30 compresiones → mirar boca → retirar si visible → 2 ventilaciones → repetir. El barrido digital A CIEGAS está PROHIBIDO."},
+        {"texto": "Hago barrido digital a ciegas en cada ciclo", "correcta": false, "puntos": -15, "feedback": "❌ Barrido a ciegas está CONTRAINDICADO: empuja el cuerpo extraño más adentro y puede causar mordedura del rescatador. Solo barrido si VES el objeto."},
+        {"texto": "Ventilo más rápido para forzar el paso del cuerpo extraño", "correcta": false, "puntos": -10, "feedback": "❌ Hiperventilación NO resuelve obstrucción mecánica. Genera distensión gástrica y empeora retorno venoso."}
+      ]
+    },
+    {
+      "situacion": "Llega la ambulancia con paramédicos y kit de vía aérea. ¿Qué herramienta es la de elección para extraer un cuerpo extraño bajo visión directa?",
+      "opciones": [
+        {"texto": "Tubo de Mayo (cánula orofaríngea)", "correcta": false, "puntos": -10, "feedback": "❌ La cánula orofaríngea mantiene la vía aérea permeable, no extrae nada. Y en paciente con OVACE puede empujar el objeto más adentro."},
+        {"texto": "Laringoscopio para visualizar + pinzas de Magill para extraer el cuerpo extraño", "correcta": true, "puntos": 15, "feedback": "✅ Combo estándar: laringoscopio expone la glotis y las pinzas de Magill (curvas, anguladas) permiten agarrar el objeto sin lesionar. Verbalizarlo demuestra dominio del kit."},
+        {"texto": "Aspirar fuerte con sonda de yankauer", "correcta": false, "puntos": 5, "feedback": "⚠️ Útil para secreciones/sangre, pero un trozo de comida sólida raramente cede a aspiración. Magill es lo definitivo."},
+        {"texto": "Intentar intubar empujando el objeto hacia el esófago", "correcta": false, "puntos": -15, "feedback": "❌ Empujar a ciegas un objeto puede impactarlo más, lesionar la vía aérea o causar perforación esofágica. Primero VER, después extraer."}
+      ]
+    },
+    {
+      "situacion": "Extraen un trozo grande de carne con las pinzas de Magill. Paciente sigue en paro. ¿Pista clínica clave para sospechar HIPOXIA como causa del paro?",
+      "opciones": [
+        {"texto": "Antecedente de cardiopatía", "correcta": false, "puntos": -5, "feedback": "⚠️ Sería pista de IAM, no de hipoxia. Lee de nuevo la escena."},
+        {"texto": "Cianosis previa al colapso + obstrucción evidente + ausencia de otros factores cardiovasculares", "correcta": true, "puntos": 15, "feedback": "✅ La hipoxia se sospecha cuando ves cianosis/desaturación PREVIAS al paro + mecanismo causal claro (atragantamiento, ahogamiento, asfixia)."},
+        {"texto": "La aparición súbita del paro", "correcta": false, "puntos": -5, "feedback": "⚠️ Súbita sin pródromos sugiere arritmia/IAM. En hipoxia suele haber deterioro respiratorio progresivo previo (en este caso, segundos de atragantamiento)."},
+        {"texto": "Diaforesis profusa", "correcta": false, "puntos": -5, "feedback": "⚠️ Diaforesis es inespecífica. La pista de hipoxia es la cianosis previa + causa respiratoria identificable."}
+      ]
+    },
+    {
+      "situacion": "Vía aérea libre. ¿Qué cambia ahora en tu RCP comparado con un paro de causa cardíaca?",
+      "opciones": [
+        {"texto": "Nada, sigo igual", "correcta": false, "puntos": -10, "feedback": "❌ En paros HIPÓXICOS la ventilación adquiere relevancia desproporcionada (a diferencia del paro cardíaco súbito donde compresiones son lo principal)."},
+        {"texto": "Optimizo ventilación: vía aérea avanzada precoz, asegurar SatO2 ≥94% post-RCE, ventilaciones bien dadas — la hipoxia ya generó la deuda de O2 que hay que pagar", "correcta": true, "puntos": 15, "feedback": "✅ En paro hipóxico (OVACE, ahogamiento, asfixia), las ventilaciones son críticas. Si la causa fue falta de O2, la solución prioriza dar O2."},
+        {"texto": "Doy hiperventilación rápida para compensar", "correcta": false, "puntos": -15, "feedback": "❌ Hiperventilación = aumento presión intratorácica → ↓retorno venoso → ↓gasto. Y alcalosis con vasoconstricción cerebral. Ventila ADECUADO, no rápido."},
+        {"texto": "Solo compresiones, sin ventilar (hands-only)", "correcta": false, "puntos": -15, "feedback": "❌ Hands-only CPR es para paros cardíacos súbitos extrahospitalarios SIN equipo. En paro hipóxico ventilar es prioritario porque la sangre ya está desoxigenada."}
+      ]
+    },
+    {
+      "situacion": "Tras 3 min de RCP con vía aérea libre, monitor muestra ritmo organizado, pulso carotídeo presente. SatO2 78% pese a FiO2 100%. ¿Causa más probable de la hipoxemia persistente?",
+      "opciones": [
+        {"texto": "Ya recuperó, esperar a que mejore solo", "correcta": false, "puntos": -15, "feedback": "❌ SatO2 78% es hipoxemia severa que mata neuronas cada minuto. Hay que investigar y tratar AHORA."},
+        {"texto": "Edema pulmonar post-obstructivo (por presión negativa generada al intentar respirar contra obstrucción) ± aspiración del contenido gástrico durante el evento — pedir Rx tórax y considerar VNI/PEEP", "correcta": true, "puntos": 15, "feedback": "✅ Dos complicaciones clásicas post-OVACE: edema pulmonar por presión negativa (NPPE) y neumonitis aspirativa. Ambas requieren PEEP/ventilación protectora y Rx tórax."},
+        {"texto": "Insuficiencia cardíaca aguda", "correcta": false, "puntos": -5, "feedback": "⚠️ Posible pero menos probable en paciente previamente sano que se atragantó. La causa mecánica reciente es lo más relevante."},
+        {"texto": "Asma de inicio súbito", "correcta": false, "puntos": -10, "feedback": "❌ No hay antecedente ni desencadenante alérgico. La causa más probable está ligada al evento mecánico que acaba de ocurrir."}
+      ]
+    },
+    {
+      "situacion": "Llega ECO portátil. ¿Qué buscas para confirmar tu sospecha?",
+      "opciones": [
+        {"texto": "Solo función ventricular", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil pero incompleto. En este contexto la sospecha es respiratoria; ECO pulmonar es la herramienta clave."},
+        {"texto": "ECO pulmonar: líneas B difusas (edema), patrón de consolidación con broncograma aéreo (aspiración) o derrame pleural", "correcta": true, "puntos": 15, "feedback": "✅ POCUS pulmonar: líneas B confluentes = edema/SDRA, consolidación = aspiración. Bedside en segundos, decisivo para diferenciar."},
+        {"texto": "Solo aorta y VCI", "correcta": false, "puntos": -10, "feedback": "❌ Apropiado en sospecha de hipovolemia/aneurisma, no en hipoxia post-OVACE."},
+        {"texto": "Solo buscar derrame pericárdico", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil para descartar taponamiento, pero no es la sospecha principal aquí."}
+      ]
+    },
+    {
+      "situacion": "Confirmas edema pulmonar post-obstructivo. Paciente intubado. ¿Parámetros ventilatorios iniciales?",
+      "opciones": [
+        {"texto": "Volumen tidal 10 mL/kg, PEEP 0, FiO2 100%", "correcta": false, "puntos": -15, "feedback": "❌ Volumen tidal alto + PEEP cero = barotrauma + atelectasias. En NPPE/SDRA hay que ser PROTECTOR."},
+        {"texto": "Ventilación protectora: Vt 6-8 mL/kg peso ideal, PEEP 8-10 cmH2O, FiO2 titulada para SatO2 92-96%, presión meseta <30", "correcta": true, "puntos": 15, "feedback": "✅ Estrategia protectora (ARDSnet): Vt bajo + PEEP moderada + plateau limitada. Y FiO2 no al 100% innecesariamente — hiperoxia post-paro es lesiva."},
+        {"texto": "Hiperventilación a 30 rpm para 'lavar' CO2", "correcta": false, "puntos": -15, "feedback": "❌ Hiperventilación post-paro causa vasoconstricción cerebral y empeora outcome neurológico. Meta normocapnia (PaCO2 35-45)."},
+        {"texto": "FiO2 100% permanente porque la causa fue hipóxica", "correcta": false, "puntos": -10, "feedback": "❌ Hiperoxia (PaO2 >300) post-paro está asociada a mayor mortalidad. Titular FiO2 a la SatO2 objetivo."}
+      ]
+    },
+    {
+      "situacion": "Acompañante pregunta '¿cómo fue posible que se atragantara así si solo estaba comiendo?'. Tu rol además del clínico es educativo. ¿Qué le explicas?",
+      "opciones": [
+        {"texto": "'Tuvo mala suerte, no se puede prevenir'", "correcta": false, "puntos": -10, "feedback": "❌ Inexacto y desperdicia oportunidad educativa. Hay factores de riesgo conocidos."},
+        {"texto": "'Adultos mayores, prótesis dentales mal ajustadas, comer rápido, hablar/reír mientras se traga, alcohol, alimentos de alto riesgo (carne, pan seco). Y para la próxima vez: si alguien se atraganta y no puede hablar, palmadas en la espalda y Heimlich salvan vidas — incluso autoHeimlich contra una silla'", "correcta": true, "puntos": 15, "feedback": "✅ Educación específica + plan de acción para el lego. Esto es prevención secundaria/terciaria genuina."},
+        {"texto": "'No es momento para hablar de eso, espere'", "correcta": false, "puntos": -10, "feedback": "❌ La educación al familiar reduce probabilidad de recurrencia y empodera al lego. Posponerla es desperdicio."},
+        {"texto": "Le explico la fisiopatología del NPPE en detalle técnico", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico para un familiar lego. Adapta el lenguaje."}
+      ]
+    },
+    {
+      "situacion": "Handover al equipo de UCI con SBAR. ¿Qué versión es la correcta?",
+      "opciones": [
+        {"texto": "'Atragantamiento, lo reanimaron, ya está bien'", "correcta": false, "puntos": -15, "feedback": "❌ Sin estructura, sin datos, sin plan. Equipo receptor empieza de cero."},
+        {"texto": "'Varón ~55a, OVACE en restaurante por bolo de carne, perdió consciencia → 6 min RCP con extracción del cuerpo extraño por Magill, RCE espontáneo. Actualmente intubado, SatO2 94% con FiO2 60% y PEEP 8, sospecha de edema pulmonar post-obstructivo + posible aspiración. Plan: ventilación protectora, Rx tórax, considerar manejo control temperatura post-paro 32-36°C × 24h'", "correcta": true, "puntos": 15, "feedback": "✅ SBAR completo: situación + intervenciones cronológicas + estado actual + plan claro. Equipo receptor puede actuar sin dudar."},
+        {"texto": "Solo le doy los papeles del DEA", "correcta": false, "puntos": -10, "feedback": "❌ Aquí no se usó DEA (paro hipóxico, no ritmo desfibrilable). Y los papeles no sustituyen handover verbal."},
+        {"texto": "'Tuvo paro pero ya está extubado y va a casa'", "correcta": false, "puntos": -15, "feedback": "❌ Mentira clínica grave. Está intubado, en post-paro, en riesgo. Información falsa al equipo receptor = daño al paciente."}
+      ]
+    }
+  ]
+}

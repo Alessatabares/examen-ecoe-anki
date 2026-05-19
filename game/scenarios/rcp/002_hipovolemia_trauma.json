@@ -1,0 +1,110 @@
+{
+  "id": "rcp_002_hipovolemia_trauma",
+  "titulo": "Politraumatizado en shock hipovolémico",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ATLS 11",
+  "dificultad": "Intermedio",
+  "contexto": "Eres parte del equipo de urgencias. Llega un motociclista de 28 años atropellado por un camión hace 15 min. Pantalón empapado en sangre, deformidad evidente en muslo derecho, palidez extrema. Los paramédicos te dicen: 'TA 70/40, FC 140, ya le pusimos 1L de cristaloides en el traslado'. Al pasarlo a la camilla — paro.",
+  "pasos": [
+    {
+      "situacion": "Apenas lo pasan a la camilla detectas que no responde. ¿Qué es lo PRIMERO que verbalizas?",
+      "opciones": [
+        {"texto": "'Inicio compresiones, secuencia CAB'", "correcta": false, "puntos": -5, "feedback": "⚠️ En trauma el reflejo es CAB también, pero antes el sinodal espera oír el diagnóstico verbalizado y la causa más probable. La lógica condiciona el manejo entero."},
+        {"texto": "'Paciente politraumatizado en paro, sospecha de causa hipovolémica por hemorragia exanguinante. Inicio RCP de alta calidad mientras controlamos foco'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + causa reversible sospechada + acción + plan paralelo. Esto es lo que diferencia un paro 'genérico' de un paro hipovolémico — la causa dirige todo el manejo."},
+        {"texto": "Tomo pulso 30 segundos para confirmar paro", "correcta": false, "puntos": -10, "feedback": "❌ Máximo 10 segundos, AHA explícito. Tomar 30s en un paciente sangrando es retrasar la perfusión."},
+        {"texto": "Le subo las piernas para autotransfundir", "correcta": false, "puntos": -10, "feedback": "❌ Maniobra obsoleta y desacreditada. No mejora retorno venoso útil y retrasa compresiones."}
+      ]
+    },
+    {
+      "situacion": "Mientras un compañero comprime, miras el muslo derecho: sangra activamente a chorro pulsátil desde una herida abierta. ¿Qué priorizas?",
+      "opciones": [
+        {"texto": "Espero al cirujano vascular", "correcta": false, "puntos": -15, "feedback": "❌ En hemorragia exanguinante cada segundo cuenta. Esperar = exsanguinación completa antes de que llegue el cirujano."},
+        {"texto": "Compresión directa firme con gasas, y si no cede, coloco torniquete proximal a 5-7 cm de la herida con anotación de hora", "correcta": true, "puntos": 15, "feedback": "✅ ATLS: presión directa primero, torniquete si falla. Anotar hora es esencial — el cirujano necesita saber cuánto tiempo lleva isquémico el miembro."},
+        {"texto": "Pongo torniquete distal a la herida", "correcta": false, "puntos": -15, "feedback": "❌ El torniquete DEBE ir proximal (entre la herida y el corazón). Distal no detiene nada."},
+        {"texto": "Le pongo un apósito hemostático y sigo sin más", "correcta": false, "puntos": 5, "feedback": "⚠️ Útil pero insuficiente solo. Necesita compresión directa firme + apósito + torniquete si no cede. Capa por capa."}
+      ]
+    },
+    {
+      "situacion": "Hemorragia controlada con torniquete. Pides accesos vasculares. ¿Qué tipo y dónde?",
+      "opciones": [
+        {"texto": "Una vía periférica 22G en mano izquierda", "correcta": false, "puntos": -10, "feedback": "❌ Calibre demasiado fino y único acceso. En shock hipovolémico necesitas FLUJO, no número de vías. 22G satura a ~30 mL/min."},
+        {"texto": "DOS vías periféricas cortas y gruesas (14-16G) en venas antecubitales; si fallan, intraósea humeral", "correcta": true, "puntos": 15, "feedback": "✅ ATLS clásico: dos vías cortas y gruesas — Ley de Poiseuille: flujo proporcional a R⁴ e inversamente a longitud. Una vía corta de 14G da más flujo que un catéter central. IO humeral como rescate."},
+        {"texto": "Línea central yugular interna", "correcta": false, "puntos": -5, "feedback": "⚠️ Central de doble lumen tiene LUMEN más estrecho que una 14G periférica. Útil para drogas/PVC pero no para resucitación rápida. Y consume tiempo."},
+        {"texto": "Esperar al anestesista para vía central", "correcta": false, "puntos": -15, "feedback": "❌ Pérdida fatal de tiempo. La intraósea está al alcance inmediato y da flujo equivalente a una periférica gruesa."}
+      ]
+    },
+    {
+      "situacion": "Vías colocadas. ¿Qué fluido pides y con qué objetivo hemodinámico?",
+      "opciones": [
+        {"texto": "Suero glucosado 5% a chorro", "correcta": false, "puntos": -15, "feedback": "❌ Glucosado se redistribuye al intracelular en minutos. No expande volumen. Y empeora edema cerebral en TEC asociado."},
+        {"texto": "Cristaloides balanceados (Ringer lactato/Plasma-Lyte) en bolo, pero el plan prioritario es transfusión masiva: paquetes 1:1:1 (concentrados + plasma + plaquetas)", "correcta": true, "puntos": 15, "feedback": "✅ Damage control resuscitation: minimizar cristaloides (max ~1L), activar protocolo de transfusión masiva 1:1:1. Reanimar solo con cristaloides causa coagulopatía dilucional + acidosis hiperclorémica."},
+        {"texto": "3 litros de suero salino 0.9% rápido", "correcta": false, "puntos": -10, "feedback": "❌ Sobreresucitación con cristaloides = tríada letal (coagulopatía + acidosis + hipotermia). Y SF 0.9% genera acidosis hiperclorémica."},
+        {"texto": "Solo coloides (almidones)", "correcta": false, "puntos": -15, "feedback": "❌ Almidones contraindicados en trauma/crítico — aumentan mortalidad y daño renal. Retirados de práctica estándar."}
+      ]
+    },
+    {
+      "situacion": "Llevas 2 min de RCP. Pides chequeo de ritmo: AESP (actividad eléctrica organizada sin pulso). ¿Qué te dice este ritmo en este contexto?",
+      "opciones": [
+        {"texto": "Es ritmo desfibrilable, cargo a 200J", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. AESP = NO desfibrilable. Solo FV y TVsp son desfibrilables. Descargar AESP es iatrogenia."},
+        {"texto": "Reanudo compresiones inmediatamente y refuerzo búsqueda de causas reversibles — en este paciente, hipovolemia es la #1", "correcta": true, "puntos": 15, "feedback": "✅ AESP en trauma → piensa en 5H/5T, con altísima probabilidad hipovolemia. El ritmo organizado sin pulso significa que el corazón intenta bombear pero no hay volumen que mover."},
+        {"texto": "Espero 30 segundos para ver si recupera pulso", "correcta": false, "puntos": -15, "feedback": "❌ Tiempo sin compresiones = perfusión cerebral cero. Nunca esperar; siempre comprimir mientras se piensa."},
+        {"texto": "Suspendo RCP, la AESP en trauma es signo de muerte", "correcta": false, "puntos": -15, "feedback": "❌ AESP por hipovolemia es REVERSIBLE si controlas el sangrado y repones volumen. Suspender = abandonar paciente recuperable."}
+      ]
+    },
+    {
+      "situacion": "Adrenalina IV ya administrada. El cirujano pregunta '¿estado del paciente para llevarlo a quirófano de control de daños?'. ¿Qué respondes?",
+      "opciones": [
+        {"texto": "'Esperemos a estabilizar primero'", "correcta": false, "puntos": -15, "feedback": "❌ En hemorragia exanguinante NO se estabiliza en urgencias — se lleva al quirófano. El control de daños quirúrgico ES la reanimación."},
+        {"texto": "'Hemorragia exanguinante en paro AESP, hipovolemia activa. Lo necesitamos en quirófano para control de daños inmediato; seguimos RCP en traslado'", "correcta": true, "puntos": 15, "feedback": "✅ Damage control surgery: en hipovolemia masiva, el quirófano es parte del reanimación. Resumen estructurado + plan claro."},
+        {"texto": "'Está en paro, lo trasladamos cuando recupere'", "correcta": false, "puntos": -15, "feedback": "❌ No va a recuperar sin control quirúrgico del foco. Esperar RCE en urgencias = muerte."},
+        {"texto": "'Mejor a hemodinamia para angioembolización'", "correcta": false, "puntos": 5, "feedback": "⚠️ Útil para sangrado pélvico o esplénico. En hemorragia de extremidad con torniquete provisional → quirófano vascular es más directo."}
+      ]
+    },
+    {
+      "situacion": "Tras 4 min más de RCP con volumen, ETCO2 sube de 14 a 38 mmHg, monitor muestra ritmo organizado. Verificas pulso carotídeo: palpas. ¿Manejo post-RCE inmediato en este contexto?",
+      "opciones": [
+        {"texto": "Bolo grande de adrenalina para subir la TA", "correcta": false, "puntos": -15, "feedback": "❌ Adrenalina en bolo post-RCE = picos hipertensivos + arritmias. Si necesitas vasopresor, infusión continua titulada."},
+        {"texto": "ABCDE post-paro, objetivo TAM ≥65, continúo transfusión 1:1:1, mantengo ácido tranexámico (TXA) si dentro de 3h del trauma, traslado urgente a quirófano", "correcta": true, "puntos": 15, "feedback": "✅ Marco ABCDE + objetivos hemodinámicos + TXA (CRASH-2: reduce mortalidad si <3h) + plan quirúrgico. Esto es manejo post-RCE en hipovolemia hecho bien."},
+        {"texto": "Lo extubo para verlo respirar espontáneamente", "correcta": false, "puntos": -15, "feedback": "❌ Post-RCE, Glasgow alterado, hemorragia activa = vía aérea protegida obligatoria. Extubar es perderlo."},
+        {"texto": "Solo cristaloides y observo", "correcta": false, "puntos": -10, "feedback": "❌ Hipovolemia no está resuelta porque tenga pulso. Necesita seguir transfusión hasta control quirúrgico."}
+      ]
+    },
+    {
+      "situacion": "En quirófano logran control vascular. Te preguntan el ratio de transfusión que pasaste. ¿Cuál es el estándar y por qué importa?",
+      "opciones": [
+        {"texto": "1 concentrado por cada 3 plasmas (1:3)", "correcta": false, "puntos": -10, "feedback": "❌ Invertido. La proporción protectora es ~1:1:1 (eritrocitos:plasma:plaquetas), no plasma excesivo."},
+        {"texto": "1:1:1 (concentrado eritrocitario : plasma fresco congelado : plaquetas) — reproduce sangre entera y previene coagulopatía dilucional", "correcta": true, "puntos": 15, "feedback": "✅ PROPPR trial: 1:1:1 vs 1:1:2 mostró mejor hemostasia precoz. La meta es reconstituir sangre completa, no solo subir hematocrito."},
+        {"texto": "Solo concentrados, los demás según TP/INR", "correcta": false, "puntos": -10, "feedback": "❌ Estrategia 'guiada por laboratorio' es tarde en hemorragia masiva — los resultados llegan cuando ya es coagulopático."},
+        {"texto": "10:1:1 priorizando concentrados", "correcta": false, "puntos": -15, "feedback": "❌ Coagulopatía dilucional garantizada. Por cada concentrado SIN plasma, diluyes factores de coagulación."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: 'Después de la reanimación, ¿qué tres complicaciones forman la tríada letal del trauma que querías evitar?'",
+      "opciones": [
+        {"texto": "Sepsis, falla renal y SIRS", "correcta": false, "puntos": -10, "feedback": "❌ Son complicaciones tardías. La tríada LETAL es la del paciente agudo en quirófano."},
+        {"texto": "Hipotermia, acidosis y coagulopatía — se retroalimentan y matan al paciente más rápido que el sangrado original", "correcta": true, "puntos": 15, "feedback": "✅ Tríada letal del trauma: cada componente empeora a los otros dos. Por eso se hace damage control (cirugía rápida, no definitiva) + reanimación con sangre + manta térmica."},
+        {"texto": "Hipoxia, hipovolemia e hipotermia", "correcta": false, "puntos": -5, "feedback": "⚠️ Suenan a 'tres H' pero no son la tríada letal canónica del trauma. Memorízala: H-A-C (hipotermia, acidosis, coagulopatía)."},
+        {"texto": "Shock, dolor y deshidratación", "correcta": false, "puntos": -15, "feedback": "❌ Términos genéricos sin valor pronóstico. La tríada letal tiene marcadores específicos: T <35°C, pH <7.2, INR >1.5."}
+      ]
+    },
+    {
+      "situacion": "Paciente estabilizado, intubado, en UCI. Familiares preguntan qué tan grave es. ¿Cómo comunicas?",
+      "opciones": [
+        {"texto": "'Está vivo, ya pasó lo peor'", "correcta": false, "puntos": -10, "feedback": "❌ Falso optimismo en paciente que tuvo paro reanimado. El sinodal evalúa comunicación realista, no tranquilizadora."},
+        {"texto": "'Su familiar tuvo una hemorragia muy grave que le causó un paro cardíaco. Logramos controlarlo y operarlo. Ahora está estable pero crítico — las próximas 48-72 horas son las que más nos van a decir. ¿Tienen preguntas?'", "correcta": true, "puntos": 15, "feedback": "✅ Realidad sin tecnicismos + horizonte temporal honesto + apertura a preguntas. SPIKES aplicado en versión corta."},
+        {"texto": "'Sufrió una hemorragia exanguinante con AESP, requirió MTP y damage control surgery'", "correcta": false, "puntos": -10, "feedback": "❌ Jerga incomprensible. El sinodal evalúa comunicación efectiva al lego, no demostración técnica."},
+        {"texto": "'No le puedo decir nada hasta que estabilice'", "correcta": false, "puntos": -15, "feedback": "❌ Ya está estabilizado. Negar información a la familia es falla ética; el deber de comunicar no termina cuando el paciente entra a UCI."}
+      ]
+    },
+    {
+      "situacion": "Resumen al equipo de UCI con SBAR. ¿Qué versión es más completa?",
+      "opciones": [
+        {"texto": "'Trauma con paro, ya está mejor, los dejo'", "correcta": false, "puntos": -15, "feedback": "❌ Cero estructura, cero datos accionables. El equipo de UCI decidirá manejo a ciegas."},
+        {"texto": "'Motociclista 28 años, atropellado, hemorragia exanguinante de muslo derecho con torniquete + paro AESP 6 min, RCE tras 2L cristaloides + 6 concentrados + 6 PFC + 1 pool plaquetas + 1g TXA + 2 mg adrenalina. Damage control vascular hecho. Actualmente TA 95/60 con noradrenalina 0.1, Hb 8, lactato 4.2, T 35.8°C. Plan: ventilación protectora, transfusión guiada por TEG, recalentamiento, second-look quirúrgico en 24-48h'", "correcta": true, "puntos": 15, "feedback": "✅ SBAR completo: situación + datos hemodinámicos + intervenciones + plan. El equipo de UCI puede actuar sin preguntar nada."},
+        {"texto": "Le entrego solo la hoja de evolución y me voy", "correcta": false, "puntos": -5, "feedback": "⚠️ Documento sin verbalización pierde el énfasis clínico. SBAR verbal + documento es el estándar."},
+        {"texto": "'Tuvo un paro por sangrado, está intubado en quirófano, llamen si pasa algo'", "correcta": false, "puntos": -10, "feedback": "❌ Información mínima, vaga, y delega responsabilidad sin transferir contexto. Handover fallido."}
+      ]
+    }
+  ]
+}

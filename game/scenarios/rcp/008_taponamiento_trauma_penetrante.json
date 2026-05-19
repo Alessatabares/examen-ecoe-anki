@@ -1,0 +1,110 @@
+{
+  "id": "rcp_008_taponamiento_trauma_penetrante",
+  "titulo": "Taponamiento cardíaco por herida precordial",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ATLS 11",
+  "dificultad": "Avanzado",
+  "contexto": "Sala de shock. Llega varón de 28 años herido por arma blanca en pelea callejera. Herida punzante visible en 4° espacio intercostal izquierdo paraesternal, ~2 cm. Ingurgitación yugular evidente, hipotensión 70/40, FC 130, ruidos cardíacos apagados. Al pasarlo a la camilla — bradicardia → AESP.",
+  "pasos": [
+    {
+      "situacion": "Reconoces el contexto. ¿Cuál es tu sospecha causal verbalizada del paro?",
+      "opciones": [
+        {"texto": "'Paro hipovolémico por hemorragia externa'", "correcta": false, "puntos": -10, "feedback": "❌ La herida no muestra sangrado masivo externo. Y antes del paro tenías yugulares INGURGITADAS — incompatible con hipovolemia (en hipovolemia las yugulares están planas)."},
+        {"texto": "'Paro en AESP por TAPONAMIENTO cardíaco: herida punzante zona precordial + tríada de Beck (hipotensión + ingurgitación yugular + ruidos apagados) + AESP. Necesita pericardiocentesis o toracotomía de emergencia'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico específico con sus 3 datos clave + plan definitivo. La AESP en trauma penetrante torácico = taponamiento hasta que se demuestre lo contrario."},
+        {"texto": "'Neumotórax a tensión'", "correcta": false, "puntos": 5, "feedback": "⚠️ Es el diferencial principal — ambos dan AESP + ingurgitación. Pero ruidos cardíacos APAGADOS apuntan más a taponamiento. La auscultación pulmonar y desviación traqueal diferencian."},
+        {"texto": "'IAM por estrés del trauma'", "correcta": false, "puntos": -10, "feedback": "❌ Joven sano + herida precordial es taponamiento, no IAM. Causa mecánica obvia."}
+      ]
+    },
+    {
+      "situacion": "Inicias RCP. ¿Hay alguna consideración especial sobre las compresiones en taponamiento?",
+      "opciones": [
+        {"texto": "Compresiones MUY profundas para 'exprimir' el corazón", "correcta": false, "puntos": -10, "feedback": "❌ La profundidad estándar es 5-6 cm. Excesiva = lesión costal/pulmonar/cardíaca adicional."},
+        {"texto": "Compresiones estándar (100-120/min, 5-6 cm), pero hay que entender que en taponamiento la RCP es POCO EFECTIVA — el corazón está comprimido por el líquido, no se llena. La única salida es DESCOMPRIMIR el pericardio", "correcta": true, "puntos": 15, "feedback": "✅ Concepto clave: RCP en taponamiento es 'puente desesperado'. Cada compresión sirve poco si no se libera el pericardio. La descompresión (pericardiocentesis o toracotomía) ES la reanimación, no un adyuvante."},
+        {"texto": "Compresiones más rápidas, 200/min", "correcta": false, "puntos": -10, "feedback": "❌ Frecuencia fuera de rango. Y no resuelve el problema mecánico."},
+        {"texto": "No comprimir, solo descomprimir el pericardio", "correcta": false, "puntos": -10, "feedback": "❌ Mientras se prepara la descompresión, hay que comprimir. No es 'una u otra' sino 'ambas en paralelo'."}
+      ]
+    },
+    {
+      "situacion": "Pides ECO bedside. ¿Qué proyección y qué buscas?",
+      "opciones": [
+        {"texto": "Solo cardíaca apical", "correcta": false, "puntos": -5, "feedback": "⚠️ Útil pero la SUBXIFOIDEA es la de elección en taponamiento — ve el pericardio claramente y guía pericardiocentesis."},
+        {"texto": "Proyección SUBXIFOIDEA: derrame pericárdico anecoico circunferencial + colapso diastólico de cavidades derechas (signo de taponamiento, no solo derrame). Esto confirma el diagnóstico y guía pericardiocentesis", "correcta": true, "puntos": 15, "feedback": "✅ Subxifoidea: la sonda apunta hacia el hombro izquierdo. Ve pericardio, ventrículos, válvulas. Distingue DERRAME (líquido sin compromiso) de TAPONAMIENTO (líquido con colapso de cavidades derechas en diástole)."},
+        {"texto": "ECO pulmonar para descartar neumotórax", "correcta": false, "puntos": 5, "feedback": "⚠️ Buen diferencial pero la pregunta ya es de taponamiento. Igual útil hacer ambos (eFAST: cardíaco + pulmonar + abdominal)."},
+        {"texto": "ECO abdominal completo", "correcta": false, "puntos": -10, "feedback": "❌ Tarda, no es la prioridad en herida torácica con AESP."}
+      ]
+    },
+    {
+      "situacion": "Confirmas derrame pericárdico voluminoso con colapso de VD. ¿Próximo paso?",
+      "opciones": [
+        {"texto": "Llamar al cardiólogo para que lo dialice", "correcta": false, "puntos": -15, "feedback": "❌ Diálisis no tiene nada que ver. Y demora fatal. Esto es maniobra de emergencia que se hace AHORA."},
+        {"texto": "Pericardiocentesis SUBXIFOIDEA con aguja larga 18G, guiada por ECO, ángulo 45° dirigida al hombro IZQUIERDO. Si el centro es de trauma con quirófano disponible → preferir TORACOTOMÍA RESUCITATIVA inmediata", "correcta": true, "puntos": 15, "feedback": "✅ Pericardiocentesis: rescate inmediato sin equipo quirúrgico. Pero en trauma penetrante torácico con paro reciente (<10 min de paro), la TORACOTOMÍA resucitativa es el manejo de elección si hay quirófano/cirujano: permite descompresión + control del foco + masaje cardíaco interno."},
+        {"texto": "Bolo de cristaloides masivo", "correcta": false, "puntos": -10, "feedback": "❌ Útil como puente (aumenta presión venosa central, mejora algo el llenado) pero NO RESUELVE el problema. Y solo no salva al paciente."},
+        {"texto": "Adrenalina en infusión", "correcta": false, "puntos": -10, "feedback": "❌ Sin descomprimir el pericardio, ninguna droga aumenta gasto cardíaco."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿criterios para TORACOTOMÍA RESUCITATIVA en urgencias?",
+      "opciones": [
+        {"texto": "Cualquier paciente con paro en urgencias", "correcta": false, "puntos": -15, "feedback": "❌ Demasiado amplio. Tiene indicaciones específicas."},
+        {"texto": "TRAUMA PENETRANTE torácico con signos de vida al ingreso O paro presenciado <10-15 min, con cirujano disponible y quirófano cercano. Permite: descompresión pericárdica, control hemorragia, masaje cardíaco interno, clampaje aórtico", "correcta": true, "puntos": 15, "feedback": "✅ Criterios EAST guideline: penetrante torácico con paro reciente = mejor candidato (supervivencia hasta 20%). Trauma cerrado con paro = supervivencia <2%. NO hacer en trauma cerrado sin signos de vida prolongado."},
+        {"texto": "Solo en trauma cerrado masivo", "correcta": false, "puntos": -15, "feedback": "❌ Invertido. En cerrado los resultados son malos. La indicación más fuerte es penetrante."},
+        {"texto": "En cualquier paro sin testigos", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario — sin testigos no sabes cuánto tiempo lleva el paro. Indicación requiere ventana corta."}
+      ]
+    },
+    {
+      "situacion": "Cirujano realiza pericardiocentesis y extrae 80 mL de sangre. Monitor: ritmo organizado, pulso carotídeo +. ECO control: derrame residual pequeño. ¿Manejo inmediato?",
+      "opciones": [
+        {"texto": "Lo damos de alta tras observación 2h", "correcta": false, "puntos": -15, "feedback": "❌ Solo se ha hecho descompresión PROVISIONAL. La herida cardíaca sigue sangrando hacia el pericardio. Recolección inevitable sin reparación quirúrgica."},
+        {"texto": "Traslado URGENTE a quirófano para esternotomía, exploración cardíaca y cierre de la herida. El líquido se reacumulará y la pericardiocentesis es solo puente", "correcta": true, "puntos": 15, "feedback": "✅ La pericardiocentesis NO ARREGLA — solo descomprime temporalmente. Sin cirugía definitiva, el taponamiento recurre. Activar quirófano inmediato es la única conducta correcta."},
+        {"texto": "Repito pericardiocentesis cada vez que se reacumule", "correcta": false, "puntos": -15, "feedback": "❌ Manejo no definitivo y con riesgo creciente cada punción (lesión coronaria, neumotórax)."},
+        {"texto": "Solo observación con ECO seriado", "correcta": false, "puntos": -15, "feedback": "❌ Observar mientras el corazón sigue sangrando = recaída del taponamiento."}
+      ]
+    },
+    {
+      "situacion": "En quirófano. Esternotomía. ¿Qué estructura es la más comúnmente lesionada en herida punzante precordial paraesternal izquierda?",
+      "opciones": [
+        {"texto": "Arteria pulmonar", "correcta": false, "puntos": -5, "feedback": "⚠️ Posible pero menos común. La cavidad más anterior es otra."},
+        {"texto": "VENTRÍCULO DERECHO (es la cámara más anterior, justo bajo el esternón). Aurícula derecha y aorta ascendente son las siguientes en frecuencia", "correcta": true, "puntos": 15, "feedback": "✅ Anatomía clínica: el VD ocupa la cara anterior del corazón → blanco más frecuente en herida punzante anterior. La cara anterior es muscular más delgada, lesión típica es laceración de 1-3 cm."},
+        {"texto": "Ventrículo izquierdo", "correcta": false, "puntos": -5, "feedback": "⚠️ Es posterolateral, menos accesible a herida anterior frontal."},
+        {"texto": "Aurícula izquierda", "correcta": false, "puntos": -5, "feedback": "⚠️ Posterior, casi nunca lesión directa por herida anterior."}
+      ]
+    },
+    {
+      "situacion": "Cirujano repara laceración de 2 cm en VD con sutura. ¿Vigilancia post-operatoria específica del taponamiento reciente?",
+      "opciones": [
+        {"texto": "Solo signos vitales", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. Hay complicaciones específicas tras taponamiento."},
+        {"texto": "ECO seriado para descartar reacumulación, monitor de PVC (debe bajar si descomprimido), atención al síndrome post-pericardiotomía (dolor torácico + roce + derrame nuevo, días-semanas después), descartar contusión miocárdica con troponinas + ECG seriado", "correcta": true, "puntos": 15, "feedback": "✅ Vigilancia integral: complicaciones inmediatas (re-sangrado) + tardías (síndrome post-pericardiotomía, mediado inmunológicamente, 1-3 sem después). Y por mecanismo, contusión miocárdica asociada."},
+        {"texto": "Dieta libre y movilización al día siguiente", "correcta": false, "puntos": -10, "feedback": "❌ Post-quirúrgico cardíaco requiere reposo y dieta progresiva, no movilización inmediata."},
+        {"texto": "Solo control en 1 mes", "correcta": false, "puntos": -15, "feedback": "❌ Vigilancia hospitalaria es obligatoria por días post-cirugía cardíaca."}
+      ]
+    },
+    {
+      "situacion": "Familia pregunta '¿por qué casi se muere si la herida era pequeña?'. ¿Mensaje educativo?",
+      "opciones": [
+        {"texto": "'Tuvo mala suerte'", "correcta": false, "puntos": -10, "feedback": "❌ Inexacto y desaprovecha oportunidad educativa."},
+        {"texto": "'En el pecho hay un saco que envuelve al corazón (pericardio). Ese saco es elástico pero no se estira rápido. Cuando una herida hace que el corazón sangre HACIA el saco, ese saco se llena en minutos y APRIETA al corazón, impidiendo que se llene de sangre y bombee. Por eso una herida 'pequeña' en el corazón puede matar muy rápido — no es la cantidad de sangre que pierde, es la PRESIÓN del saco lleno'", "correcta": true, "puntos": 15, "feedback": "✅ Fisiopatología accesible y precisa. La clave educativa: en taponamiento mata la PRESIÓN, no la cantidad de sangre perdida. 100-200 mL en pericardio agudo pueden ser letales (en crónico el pericardio se distiende y tolera litros)."},
+        {"texto": "'Es complicado, no se preocupen'", "correcta": false, "puntos": -10, "feedback": "❌ Eludir explicación = desconfianza y ansiedad. Familias entienden bien con analogías."},
+        {"texto": "Les explico la fisiopatología con ecuaciones de presión-volumen", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico para lego. Adapta."}
+      ]
+    },
+    {
+      "situacion": "Comparas mentalmente taponamiento traumático vs neumotórax a tensión (los dos diferenciales clave). ¿Cuál es la pista clínica que MÁS los distingue al pie de cama?",
+      "opciones": [
+        {"texto": "Tensión arterial", "correcta": false, "puntos": -5, "feedback": "⚠️ Ambos hipotensan. No distingue."},
+        {"texto": "AUSCULTACIÓN PULMONAR + percusión: neumotórax a tensión → hipoventilación + hiperresonancia + desviación traqueal contralateral + alta resistencia al ventilar con BVM. Taponamiento → ruidos pulmonares normales, ruidos cardíacos apagados, sin desviación traqueal", "correcta": true, "puntos": 15, "feedback": "✅ Tres datos físicos diferencian: auscultación pulmonar (asimétrica vs simétrica), percusión (hiper vs normal), tráquea (desviada vs central). Y al ventilar: neumotórax da alta presión, taponamiento no."},
+        {"texto": "Frecuencia cardíaca", "correcta": false, "puntos": -5, "feedback": "⚠️ Ambos cursan taquicárdicos (excepto en peri-paro)."},
+        {"texto": "Ingurgitación yugular", "correcta": false, "puntos": -5, "feedback": "⚠️ Ambos la dan. No distingue."}
+      ]
+    },
+    {
+      "situacion": "Handover a UCI cardíaca. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'Lo apuñalaron, lo operamos, está bien'", "correcta": false, "puntos": -15, "feedback": "❌ Sin estructura, sin datos. UCI receptora ciega."},
+        {"texto": "'Varón 28a, herida punzante 4° EIC izq paraesternal, ingreso con tríada Beck + AESP. ECO subxifoidea: taponamiento con colapso VD. Pericardiocentesis (80 mL sangre) → RCE → toracotomía con sutura de laceración VD 2 cm. 1.5L cristaloides + 3 concentrados + 3 PFC + 1 mg adrenalina total. Actualmente TA 110/70 sin vasopresor, ECG normal, troponinas pendientes. Plan: monitor + ECO en 6h por reacumulación, troponinas seriadas, vigilancia síndrome post-pericardiotomía, perfil tóxico (mecanismo en pelea), protocolo trauma psicosocial'", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo + hallazgos + intervención + transfusión + estado actual + plan + contexto (psicosocial post-violencia). Handover de calidad."},
+        {"texto": "Le entrego el ECG y me retiro", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Está bien, denle de alta'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. Necesita vigilancia continuada."}
+      ]
+    }
+  ]
+}

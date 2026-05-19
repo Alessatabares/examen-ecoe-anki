@@ -1,0 +1,110 @@
+{
+  "id": "rcp_011_anafilaxia_picadura",
+  "titulo": "Anafilaxia por picadura de abeja con paro inminente",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2020 (circunstancias especiales) + EAACI 2021",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Picnic en parque. Una mujer de 32 años es picada por una abeja en el cuello. A los 3 minutos: urticaria generalizada, edema facial creciente, sibilancias audibles, taquipnea, voz ronca y estridor. Su pareja te llama porque eres médica. La paciente refiere 'no puedo respirar' y se va deteriorando rápido — TA 70/40, FC 140, palidez cenicienta. Tienes un kit básico (epinefrina autoinyectora, BVM, vía aérea oral).",
+  "pasos": [
+    {
+      "situacion": "Reconoces el cuadro inmediatamente. ¿Qué verbalizas como diagnóstico y conducta?",
+      "opciones": [
+        {"texto": "'Reacción alérgica leve, antihistamínico oral'", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE — esto NO es leve. Compromiso de vía aérea (estridor, ronquera, edema) + hipotensión = anafilaxia GRAVE. Tratar como leve = muerte por demora."},
+        {"texto": "'ANAFILAXIA grave con compromiso de vía aérea (estridor, edema) e inestabilidad hemodinámica. ADRENALINA INTRAMUSCULAR INMEDIATA es la primera y única medida que cambia el pronóstico. Activo SEM en paralelo'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico preciso + reconocimiento de que adrenalina IM es la medida central. Antihistamínicos y corticoides son SECUNDARIOS — la adrenalina sola es la que salva la vida en anafilaxia."},
+        {"texto": "'Crisis asmática severa, salbutamol nebulizado'", "correcta": false, "puntos": -10, "feedback": "❌ Aunque hay broncoespasmo, el cuadro completo (urticaria + edema + hipotensión + estridor) es anafilaxia. El salbutamol no resuelve el shock distributivo ni el edema laríngeo."},
+        {"texto": "'Sepsis precoz, antibióticos'", "correcta": false, "puntos": -15, "feedback": "❌ No tiene contexto infeccioso. Y antibióticos no tratan anafilaxia."}
+      ]
+    },
+    {
+      "situacion": "Pides adrenalina IM. ¿Dosis, concentración y sitio exacto?",
+      "opciones": [
+        {"texto": "Adrenalina IV 1 mg en bolo", "correcta": false, "puntos": -15, "feedback": "❌ ERROR FATAL en pre-paro: bolo IV de 1 mg en paciente CONSCIENTE = arritmia, hemorragia cerebral, isquemia miocárdica. IV solo en PARO. En pre-paro (anafilaxia con pulso) = SIEMPRE IM."},
+        {"texto": "Adrenalina IM 0.3-0.5 mg (1:1000) en cara antero-lateral del MUSLO, repetir cada 5-15 min si no mejora. Autoinyector (EpiPen 0.3 mg, Anapen 0.3 mg) si disponible", "correcta": true, "puntos": 15, "feedback": "✅ Vía IM en muslo (vasto lateral) — la zona de mayor absorción. Concentración 1:1000 (1 mg/mL). NO en deltoides (absorción menor) ni IV en pre-paro. Repetir si necesario."},
+        {"texto": "Adrenalina SC en deltoides", "correcta": false, "puntos": -10, "feedback": "❌ Vía SC tiene absorción ERRÁTICA y LENTA en shock. EAACI/AHA recomiendan IM en muslo, abandonando la vía SC."},
+        {"texto": "Adrenalina inhalada nebulizada", "correcta": false, "puntos": -5, "feedback": "⚠️ Inhalada se usa para edema laríngeo (adyuvante), no como primera línea sistémica. Primero IM."}
+      ]
+    },
+    {
+      "situacion": "Tras adrenalina IM, sigues con estridor pero TA mejora ligeramente. Llega ambulancia. Te preguntan: ¿segunda línea de manejo?",
+      "opciones": [
+        {"texto": "Solo seguir con más adrenalina IM", "correcta": false, "puntos": 5, "feedback": "⚠️ Adrenalina puede repetirse, pero hay otras medidas paralelas que son críticas — manejo de vía aérea, fluidos, oxígeno."},
+        {"texto": "Manejo simultáneo: (1) oxígeno alto flujo, (2) FLUIDOS cristaloides 20 mL/kg bolo rápido (anafilaxia causa fuga capilar masiva → shock distributivo + hipovolemia relativa), (3) preparar VÍA AÉREA DIFÍCIL (edema en aumento → riesgo intubación imposible → preparar cricotiroidotomía), (4) segunda dosis adrenalina IM a los 5 min si no responde, (5) adyuvantes: H1+H2 antihistamínicos, corticoide IV", "correcta": true, "puntos": 15, "feedback": "✅ Manejo paralelo en 5 ejes. La FLUIDOTERAPIA agresiva es crítica (anafilaxia mueve hasta 30% del plasma al espacio intersticial en minutos). Y prepararse para vía aérea difícil ANTES de que sea inmanejable."},
+        {"texto": "Diferimos manejo hasta llegar al hospital", "correcta": false, "puntos": -15, "feedback": "❌ Anafilaxia con compromiso vía aérea y shock = manejo HORA CERO. Demorar = paro."},
+        {"texto": "Cortisona oral", "correcta": false, "puntos": -15, "feedback": "❌ Oral no es vía en paciente que no respira y con riesgo de aspiración. Y corticoide solo no salva."}
+      ]
+    },
+    {
+      "situacion": "Pese a 2 dosis IM de adrenalina, paciente entra en PARO AESP. ¿Cambia el manejo de adrenalina?",
+      "opciones": [
+        {"texto": "Sigo con IM cada 5 min", "correcta": false, "puntos": -10, "feedback": "❌ En PARO la absorción IM es nula (sin circulación). Cambia a IV."},
+        {"texto": "Ahora SÍ: ADRENALINA IV 1 mg en bolo cada 3-5 min (estándar ACLS) + RCP de alta calidad + considerar INFUSIÓN de adrenalina (1-10 mcg/min, titulada) por la fuga capilar masiva + fluidos masivos (puede necesitar 4-6 L) + vía aérea con plan de cricotiroidotomía", "correcta": true, "puntos": 15, "feedback": "✅ Distinción crítica: IM en pre-paro, IV en paro. Y en anafilaxia los volúmenes de fluido son MAYORES que en otros shock (la fuga capilar puede consumir litros). Adrenalina en infusión continua útil."},
+        {"texto": "No más adrenalina, pasar a otro fármaco", "correcta": false, "puntos": -15, "feedback": "❌ Adrenalina sigue siendo el fármaco central tanto en pre-paro como en paro. Cambia la vía, no el fármaco."},
+        {"texto": "Bolo de noradrenalina", "correcta": false, "puntos": -10, "feedback": "❌ Adrenalina es preferida en anafilaxia (efecto beta1+beta2+alfa1, el broncoespasmo necesita beta2). Noradrenalina como adyuvante si refractaria, no primera línea."}
+      ]
+    },
+    {
+      "situacion": "Intentan intubar pero la glotis no se visualiza por edema. Falla intubación. ¿Plan?",
+      "opciones": [
+        {"texto": "Más intentos con laringoscopio convencional", "correcta": false, "puntos": -15, "feedback": "❌ Intentos repetidos en vía aérea con edema empeoran (sangrado, edema mayor). Algoritmo de vía aérea difícil dice: cambiar de plan tras 2 intentos fallidos."},
+        {"texto": "Algoritmo vía aérea difícil: BVM con cánula orofaríngea/nasofaríngea + dispositivo supraglótico (i-gel, LMA) como rescate temporal. Si CICO ('can't intubate, can't oxygenate'): CRICOTIROIDOTOMÍA QUIRÚRGICA inmediata (incisión vertical sobre membrana cricotiroidea + dilatación con dedo + tubo 6.0)", "correcta": true, "puntos": 15, "feedback": "✅ Algoritmo difícil con plan B (supraglótico) y C (vía quirúrgica). En anafilaxia el edema puede hacer la vía aérea quirúrgica la única opción — pensarla TEMPRANO, no cuando el paciente está muerto."},
+        {"texto": "Esperar a que pase el edema con corticoide", "correcta": false, "puntos": -15, "feedback": "❌ Corticoide tarda 4-6h en hacer efecto. Sin vía aérea muere en minutos."},
+        {"texto": "Solo BVM hasta el hospital", "correcta": false, "puntos": -10, "feedback": "❌ Si la vía aérea está obstruyendo, BVM no consigue oxigenar. Necesita vía definitiva."}
+      ]
+    },
+    {
+      "situacion": "Cricotiroidotomía exitosa. Continúa RCP. Tras 4 min más con adrenalina IV + fluidos, ETCO2 sube de 14 a 32, ritmo organizado, pulso carotídeo + débil. RCE. ¿Manejo post-RCE?",
+      "opciones": [
+        {"texto": "Suspender adrenalina, ya respondió", "correcta": false, "puntos": -15, "feedback": "❌ La anafilaxia REBOTA frecuentemente (anafilaxia bifásica, 5-20% de casos). Suspender adrenalina = recaída. Continuar en infusión y vigilar."},
+        {"texto": "Continuar INFUSIÓN de adrenalina 1-10 mcg/min titulada a TAM ≥65. Mantener fluidos. Iniciar corticoide IV (metilprednisolona 1-2 mg/kg) — útil para prevenir/atenuar anafilaxia bifásica. H1 (difenhidramina) + H2 (ranitidina/famotidina) como adyuvantes. Vigilancia mínima 6-24h (riesgo bifásica). UCI con vía aérea quirúrgica = monitorización estricta", "correcta": true, "puntos": 15, "feedback": "✅ Post-RCE en anafilaxia: vigilancia prolongada por anafilaxia bifásica + adrenalina en infusión + adyuvantes. La cricotiroidotomía requiere conversión a vía aérea formal (traqueostomía) en quirófano si edema persiste."},
+        {"texto": "Dieta libre y suspender tratamiento", "correcta": false, "puntos": -15, "feedback": "❌ Estado crítico post-paro. Reposo absoluto, monitor."},
+        {"texto": "Solo observación 1h y alta", "correcta": false, "puntos": -15, "feedback": "❌ Anafilaxia bifásica puede aparecer 4-12h después. Observación mínima 6-24h en casos graves o con factores de riesgo (asma, demora a adrenalina, fenómeno bifásico previo)."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué es anafilaxia BIFÁSICA y cuándo sospecharla?",
+      "opciones": [
+        {"texto": "Anafilaxia por dos alérgenos a la vez", "correcta": false, "puntos": -15, "feedback": "❌ No es eso."},
+        {"texto": "Recurrencia de los síntomas anafilácticos 1-72h (típicamente 4-12h) tras resolución del cuadro inicial, SIN nueva exposición al alérgeno. Incidencia 5-20%. Factores de riesgo: anafilaxia grave inicial, demora en administrar adrenalina, requerimiento de >1 dosis de adrenalina, asma de base, alérgeno oral. Por eso vigilancia 6-24h", "correcta": true, "puntos": 15, "feedback": "✅ Conocimiento clave: la anafilaxia no termina cuando ceden los síntomas. La fase tardía puede ser tan grave como la inicial. Información esencial para decidir alta vs ingreso."},
+        {"texto": "Reacción a dos picaduras", "correcta": false, "puntos": -10, "feedback": "❌ Ninguna relación. Es recurrencia farmacológica del cuadro, no nueva exposición."},
+        {"texto": "Solo ocurre en niños", "correcta": false, "puntos": -10, "feedback": "❌ Ocurre en cualquier edad."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué criterios DIAGNÓSTICOS de anafilaxia debes verbalizar al sinodal?",
+      "opciones": [
+        {"texto": "Solo urticaria con hipotensión", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente. Hay criterios formales más amplios (NIAID/EAACI)."},
+        {"texto": "Anafilaxia es ALTAMENTE PROBABLE si UNO de: (1) inicio agudo (min-horas) con afectación de piel/mucosas (urticaria, prurito, edema) + compromiso respiratorio (disnea, sibilantes, estridor) O hipotensión/síntomas de hipoperfusión. (2) Tras exposición a alérgeno probable: ≥2 de: piel/mucosas, respiratorio, hipotensión, GI persistente. (3) Hipotensión aislada tras exposición a alérgeno conocido", "correcta": true, "puntos": 15, "feedback": "✅ Criterios NIAID 2006/2020. Importante: el criterio 3 (hipotensión aislada tras alérgeno conocido) salva vidas — no hace falta urticaria para diagnosticar anafilaxia. Síntomas pueden ser monosintomáticos."},
+        {"texto": "Solo si pierde consciencia", "correcta": false, "puntos": -10, "feedback": "❌ Esperar pérdida de consciencia = tarde. El tratamiento es precoz."},
+        {"texto": "Tras eosinofilia confirmada en analítica", "correcta": false, "puntos": -10, "feedback": "❌ Diagnóstico es CLÍNICO. Triptasa sérica (toma muestra dentro de 1-3h del evento) ayuda RETROSPECTIVAMENTE pero no esperar resultado para tratar."}
+      ]
+    },
+    {
+      "situacion": "Tras RCE, la paciente se va estabilizando. ¿Plan al alta de UCI/hospital?",
+      "opciones": [
+        {"texto": "Le doy alta con antihistamínico oral", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente. Anafilaxia previa = MAYOR riesgo de recurrencia + reacciones más severas. Plan integral obligatorio."},
+        {"texto": "(1) PRESCRIBIR autoinyector de adrenalina (mínimo 2 dispositivos, llevar siempre), enseñar uso. (2) Educación: evitación de abejas (insecticida, ropa, evitar perfumes), identificación de síntomas precoces. (3) PULSERA/COLLAR DE ALERTA médica con 'anafilaxia a himenópteros'. (4) Derivación a ALERGOLOGÍA para inmunoterapia con veneno (reduce riesgo de anafilaxia 95% en alérgicos confirmados). (5) Corticoide + antihistamínico oral 3-5 días post-evento", "correcta": true, "puntos": 15, "feedback": "✅ Plan integral: tratamiento emergente disponible (autoinyector) + educación + identificación médica + tratamiento causal a largo plazo (inmunoterapia). Esto es prevención secundaria genuina."},
+        {"texto": "Solo evitar abejas", "correcta": false, "puntos": -5, "feedback": "⚠️ Necesario pero insuficiente. Abeja puede sorprender en cualquier momento; necesita autoinyector y plan."},
+        {"texto": "Le digo que la próxima vez puede tomar antihistamínico", "correcta": false, "puntos": -15, "feedback": "❌ Antihistamínico oral en anafilaxia futura = retraso a adrenalina = muerte. Mensaje peligroso."}
+      ]
+    },
+    {
+      "situacion": "Educas a la paciente sobre uso del autoinyector. ¿Mensaje clave?",
+      "opciones": [
+        {"texto": "'Solo úsalo si estás segura de que es alergia'", "correcta": false, "puntos": -15, "feedback": "❌ Mensaje peligroso: hace dudar. La adrenalina IM es segura incluso si la sospecha resulta equivocada — los efectos adversos son menores que el riesgo de anafilaxia no tratada."},
+        {"texto": "'USA el autoinyector DESDE EL PRIMER SÍNTOMA tras exposición (urticaria, picor, opresión torácica, mareo). En el muslo, sobre la ropa si necesario, mantén 10 segundos. Después llama emergencias SIEMPRE, incluso si mejoras (puede haber rebote bifásico). NO te esperes a sentirte 'realmente mal' — para entonces ya es tarde'", "correcta": true, "puntos": 15, "feedback": "✅ Mensajes clave: usar PRECOZ (no esperar gravedad), técnica correcta, SIEMPRE llamar 112 después aunque mejore (rebote bifásico). Sobre la ropa funciona, en muslo, 10 segundos."},
+        {"texto": "'Espera 15 minutos a ver si empeora'", "correcta": false, "puntos": -15, "feedback": "❌ Retrasar adrenalina es el predictor #1 de muerte por anafilaxia. Cada minuto sin adrenalina = peor pronóstico."},
+        {"texto": "'Inyéctate en el cuello, cerca del corazón'", "correcta": false, "puntos": -15, "feedback": "❌ MUSLO. Inyectar en cuello = lesión vascular/nerviosa grave."}
+      ]
+    },
+    {
+      "situacion": "Handover post-evento a UCI. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'Le picó una abeja, tuvo alergia y la salvé'", "correcta": false, "puntos": -15, "feedback": "❌ Sin estructura, sin contexto, sin plan."},
+        {"texto": "'Mujer 32a, anafilaxia grave a picadura de abeja (cuello), con edema laríngeo + broncoespasmo + shock distributivo → paro AESP. Manejo prehospitalario: 2 dosis adrenalina IM 0.5 mg + cricotiroidotomía emergente (intubación imposible por edema) + RCP 8 min con 2 mg adrenalina IV + 3L cristaloides + metilprednisolona 125 mg + difenhidramina 50 mg + ranitidina 50 mg. RCE estable. Actualmente con cánula cricotiroidea, FiO2 50%, infusión adrenalina 2 mcg/min, TA 110/65. Plan: conversión a traqueostomía formal por ORL en quirófano, vigilancia mínima 24h por anafilaxia bifásica, triptasa enviada, derivación alergólogo post-alta con inmunoterapia veneno + autoinyector + pulsera médica'", "correcta": true, "puntos": 15, "feedback": "✅ Cronología + intervenciones extraordinarias (cricotiroidotomía) + estado + plan integral incluyendo prevención secundaria. Esto es atención completa."},
+        {"texto": "'Anafilaxia, está bien, la observan'", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. No transmite gravedad ni plan."},
+        {"texto": "Le digo que mañana le doy detalles", "correcta": false, "puntos": -15, "feedback": "❌ Handover en cambio de turno es OBLIGATORIO. Posponer = riesgo para el paciente."}
+      ]
+    }
+  ]
+}

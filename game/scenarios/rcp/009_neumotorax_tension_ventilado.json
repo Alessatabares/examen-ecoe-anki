@@ -1,0 +1,110 @@
+{
+  "id": "rcp_009_neumotorax_tension_ventilado",
+  "titulo": "Neumotórax a tensión en paciente ventilado",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ATLS 11",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "UCI. Paciente intubado de 55 años con neumonía severa, en ventilación mecánica desde hace 12h. Está estable en modo controlado: PEEP 8, FiO2 50%, presión meseta 22. De repente saltan alarmas: SatO2 cae de 95% a 78%, TA de 130/80 a 70/40, presión pico sube a 50, FC 140 → bradicardia 30 → AESP. Tórax derecho se ve abombado, no se mueve con el ventilador.",
+  "pasos": [
+    {
+      "situacion": "Paro AESP. Causa más probable verbalizada considerando que es un paciente VENTILADO con cambios súbitos:",
+      "opciones": [
+        {"texto": "'IAM agudo'", "correcta": false, "puntos": -10, "feedback": "❌ La tríada de cambios (caída TA + ↑P pico + asimetría torácica) en ventilado apunta a neumotórax mecánico, no a isquemia."},
+        {"texto": "'Paro AESP por NEUMOTÓRAX A TENSIÓN: paciente ventilado con barotrauma (cae TA y SatO2 + sube P pico + tórax derecho abombado e inmóvil). Necesita TORACOCENTESIS de descompresión inmediata, antes que cualquier otra cosa'", "correcta": true, "puntos": 15, "feedback": "✅ Reconocimiento del patrón clásico de neumotórax a tensión en ventilado: la barotrauma es complicación reconocida del VMI con PEEP. La descompresión va ANTES que confirmación radiológica."},
+        {"texto": "'Embolia pulmonar'", "correcta": false, "puntos": 5, "feedback": "⚠️ Diferencial razonable de AESP, pero el signo de tórax asimétrico + presión pico alta apunta más a problema mecánico ventilatorio."},
+        {"texto": "'Bloqueo del tubo endotraqueal'", "correcta": false, "puntos": 5, "feedback": "⚠️ Diferencial DOPES: D=desplazamiento, O=obstrucción, P=neumotórax, E=equipo, S=stomach. El tubo obstruido daría P alta pero no asimetría torácica."}
+      ]
+    },
+    {
+      "situacion": "Verbalizas DOPES (mnemotécnico del paciente ventilado que se deteriora). ¿Cuál es el orden de descarte rápido?",
+      "opciones": [
+        {"texto": "Solo descomprimir, sin pensar en otras causas", "correcta": false, "puntos": -10, "feedback": "❌ El neumotórax es la más urgente PERO debe ser confirmada por exam físico. Si el problema es otra cosa (tubo obstruido), pinchar el tórax es iatrogenia."},
+        {"texto": "DOPES en orden: (D) Desplazamiento del tubo (auscultar simétrico, capnografía), (O) Obstrucción del tubo (pasar sonda aspiración), (P) Neumotórax (auscultar, percusión, ECO pulmonar), (E) Equipo (desconectar y ventilar con BVM manual), (S) Stomach distensión (descomprimir SNG). Aquí los datos apuntan a P", "correcta": true, "puntos": 15, "feedback": "✅ DOPES es el algoritmo estándar. Hacerlo en orden previene iatrogenia. En este paciente, la asimetría torácica + presión pico alta + hemodinámicamente inestable apunta directo a P y procedes."},
+        {"texto": "Cambio el ventilador y veo qué pasa", "correcta": false, "puntos": -5, "feedback": "⚠️ Esa es la 'E' de equipo. Mejor: desconectar y ventilar con BVM manual — diferencia rápido si es el ventilador o el paciente."},
+        {"texto": "Solo radiografía urgente", "correcta": false, "puntos": -15, "feedback": "❌ Rx tarda 5-15 min. Neumotórax a tensión con paro = DIAGNÓSTICO CLÍNICO + descompresión inmediata. Esperar Rx = muerte."}
+      ]
+    },
+    {
+      "situacion": "Tras descartar otros DOPES (tubo ok, capno presente, BVM con alta resistencia), confirmas sospecha. ¿Dónde y cómo descomprimes?",
+      "opciones": [
+        {"texto": "Aguja en 2° espacio intercostal línea medioclavicular, borde superior de la 3ª costilla, lado derecho (aguja larga 14-16G, 5-8 cm)", "correcta": true, "puntos": 12, "feedback": "✅ Sitio clásico — pero ATLS 10ª-11ª edición PREFIERE 4°-5° EIC línea axilar anterior/media (mayor éxito en adultos obesos, menor riesgo de fallo). Ambos sitios son válidos; la línea axilar es la actualizada."},
+        {"texto": "4°-5° espacio intercostal línea axilar anterior o media, lado derecho, aguja larga 14G — actualización ATLS 11 (mayor profundidad alcanzable, menor fallo en obesos, menor riesgo de lesión cardíaca/grandes vasos)", "correcta": true, "puntos": 15, "feedback": "✅ ATLS 11ª edición: 4-5° EIC línea axilar es el sitio PREFERIDO sobre el clásico 2° EIC LMC. Razones: pared más delgada en LAA (5cm vs 4-7cm en LMC en obesos), menos fallos. Recordar borde SUPERIOR de la costilla inferior (evita paquete vasculonervioso)."},
+        {"texto": "Inserto aguja en línea media esternal", "correcta": false, "puntos": -15, "feedback": "❌ Lesionas mediastino + corazón + grandes vasos. Sitio absolutamente equivocado."},
+        {"texto": "Espero al cirujano para que ponga el tubo torácico de entrada", "correcta": false, "puntos": -15, "feedback": "❌ En paro por neumotórax, la AGUJA (procedimiento de minutos) es lo primero. El tubo torácico va DESPUÉS de descompresión inmediata."}
+      ]
+    },
+    {
+      "situacion": "Insertas aguja y sale 'soplo' de aire a presión. ¿Qué confirma esto y qué haces a continuación?",
+      "opciones": [
+        {"texto": "Saco la aguja porque ya descomprimí", "correcta": false, "puntos": -15, "feedback": "❌ Si sacas la aguja, el neumotórax se rellena. La aguja queda como descompresión provisional hasta colocar tubo torácico definitivo."},
+        {"texto": "El soplo audible/palpable de aire confirma neumotórax a tensión y descompresión exitosa. Dejo la aguja in situ y procedo a colocar TUBO TORÁCICO definitivo (28-32 Fr) en 5° EIC línea axilar media, lo conecto a sello de agua o aspiración", "correcta": true, "puntos": 15, "feedback": "✅ Aguja = puente. Tubo torácico = definitivo. Tamaño 28-32 Fr para adultos con aire (en hemotórax se usa más grande, 32-40 Fr). Conexión a sello de agua o aspiración controlada -20 cmH2O."},
+        {"texto": "Solo aspiro con jeringa por la aguja", "correcta": false, "puntos": -10, "feedback": "❌ Aspiración con jeringa no es definitiva. Y si el agujero pulmonar sigue fugando, se rellena rápido."},
+        {"texto": "Cierro con apósito oclusivo", "correcta": false, "puntos": -15, "feedback": "❌ Cerrar el orificio drenado re-genera la tensión. Apósito oclusivo es para neumotórax abierto (herida con burbujeo) en pre-hospitalario, NO aquí."}
+      ]
+    },
+    {
+      "situacion": "Tras toracocentesis: SatO2 sube a 92%, TA 100/60, retorno de ritmo organizado, pulso carotídeo +. ¿Pendientes inmediatos?",
+      "opciones": [
+        {"texto": "Continuar ventilación igual", "correcta": false, "puntos": -10, "feedback": "❌ Hay que reevaluar parámetros del ventilador — barotrauma sugiere que estaba alta la PEEP o presión, hay que ajustar para prevenir recurrencia."},
+        {"texto": "Reevaluar parámetros ventilatorios: BAJAR PEEP, reducir Vt si era alto, presión meseta meta <30. Rx tórax para confirmar reexpansión pulmonar y posición del tubo torácico. Y monitorización del sello: cantidad de aire/líquido drenado por hora", "correcta": true, "puntos": 15, "feedback": "✅ Tres acciones: (1) ajustar ventilador para prevenir recurrencia, (2) Rx para confirmar reexpansión + posición del tubo, (3) monitorizar drenaje (alto = fuga persistente). Esto es atención completa post-evento."},
+        {"texto": "Suspender ventilación mecánica", "correcta": false, "puntos": -15, "feedback": "❌ Sigue con neumonía severa post-paro. Continuar VMI con ajustes."},
+        {"texto": "Sacar el tubo torácico apenas reexpanda", "correcta": false, "puntos": -10, "feedback": "❌ Tubo se retira solo cuando: sin fuga aérea 24h + Rx con pulmón reexpandido + drenaje <100-200 mL/24h. Sacarlo precoz = recurrencia."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿factores de riesgo de barotrauma en VMI?",
+      "opciones": [
+        {"texto": "Solo fumadores", "correcta": false, "puntos": -10, "feedback": "❌ Demasiado restrictivo. Hay parámetros ventilatorios y patologías de riesgo."},
+        {"texto": "Volúmenes tidales altos (>8 mL/kg peso ideal), presión meseta >30 cmH2O, PEEP elevada, patologías con compliance heterogénea (asma severa, EPOC, SDRA, neumonía necrotizante), bullas previas, lesión torácica reciente. La ventilación protectora REDUCE barotrauma", "correcta": true, "puntos": 15, "feedback": "✅ Estrategia ARDSnet (Vt 6 mL/kg PI, P meseta <30, PEEP titulada) reduce barotrauma. Y patologías heterogéneas (parte sana hiperinsufla, parte enferma colapsa) son riesgo aumentado."},
+        {"texto": "Solo niños", "correcta": false, "puntos": -10, "feedback": "❌ Adultos pueden tenerlo también. La pediatría tiene matices pero no es exclusivo."},
+        {"texto": "Solo con ventiladores antiguos", "correcta": false, "puntos": -10, "feedback": "❌ El barotrauma es del paciente, no del equipo (mientras el equipo aplique parámetros adecuados)."}
+      ]
+    },
+    {
+      "situacion": "Tras 2h, alarma del sello indica burbujeo continuo en cámara de fuga aérea. ¿Diagnóstico y manejo?",
+      "opciones": [
+        {"texto": "Cambio el sello, está defectuoso", "correcta": false, "puntos": -10, "feedback": "❌ Antes de culpar al equipo, evaluar fuga AÉREA PULMONAR persistente — más probable."},
+        {"texto": "FUGA AÉREA PERSISTENTE (continuous bubbling): puede ser fuga del SISTEMA (conexiones flojas, tubo desplazado) o fuga PULMONAR (perforación pulmonar persistente). Diferenciar: clampar transitoriamente el tubo cerca del paciente — si cesa burbujeo, fuga es del sistema; si persiste, es pulmonar. NO clampar prolongado en paciente con fuga aérea activa", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico diferencial sistemático. ATENCIÓN: clampar prolongado un tubo con fuga aérea activa = neumotórax a tensión iatrogénico. Clampar es solo MOMENTÁNEO para localizar."},
+        {"texto": "Aumento la aspiración al máximo", "correcta": false, "puntos": -10, "feedback": "❌ Aumentar succión no resuelve fuga; puede empeorarla y dañar pulmón. -20 cmH2O es el rango habitual."},
+        {"texto": "Aviso pero no hago nada hasta mañana", "correcta": false, "puntos": -10, "feedback": "❌ Fuga continua puede indicar fistula broncopleural — evaluación temprana es importante."}
+      ]
+    },
+    {
+      "situacion": "Confirmas fuga pulmonar persistente (broncopleural). Cirujano de tórax consulta. ¿Manejo posibles?",
+      "opciones": [
+        {"texto": "Esperar a que cierre solo, son semanas", "correcta": false, "puntos": -5, "feedback": "⚠️ La mayoría cierra con tubo + tiempo, pero hay que tener plan si no cierra y considerar técnicas adyuvantes."},
+        {"texto": "Mantener tubo y observar 3-5 días (mayoría cierra), considerar: válvulas endobronquiales bajo broncoscopia, pleurodesis química o quirúrgica, reparación quirúrgica si fistula persistente >7 días o si hace inestabilidad ventilatoria. Optimizar ventilación: PEEP mínima, Vt bajo, evitar modos con altas presiones", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: tiempo + ventilación protectora + intervención endoscópica/quirúrgica si no cierra. Las válvulas endobronquiales son adyuvante moderno útil en fistulas persistentes."},
+        {"texto": "Aspiración muy alta para 'forzar el cierre'", "correcta": false, "puntos": -15, "feedback": "❌ Aspiración alta MANTIENE la fuga abierta. Hay que minimizar succión para permitir cierre."},
+        {"texto": "Retirar tubo y observar", "correcta": false, "puntos": -15, "feedback": "❌ Recurrencia del neumotórax garantizada."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿cómo verbalizas la diferencia entre NEUMOTÓRAX SIMPLE, A TENSIÓN y ABIERTO?",
+      "opciones": [
+        {"texto": "Son lo mismo con distinto nombre", "correcta": false, "puntos": -15, "feedback": "❌ Conductas distintas para cada uno."},
+        {"texto": "(1) SIMPLE: aire en pleura sin desplazamiento mediastínico, estable hemodinamicamente — tubo torácico programado. (2) A TENSIÓN: mecanismo valvular, aire entra y no sale, desplazamiento mediastínico, inestabilidad hemodinámica — DESCOMPRESIÓN INMEDIATA con aguja luego tubo. (3) ABIERTO: herida torácica >2/3 del diámetro tráquea, aire entra por la herida — apósito 3 lados (chest seal) + tubo torácico", "correcta": true, "puntos": 15, "feedback": "✅ Triángulo conceptual: estable vs inestable vs herida. Conducta específica para cada uno. Verbalizar las 3 distinciones demuestra dominio."},
+        {"texto": "Solo el a tensión es grave", "correcta": false, "puntos": -10, "feedback": "❌ Simple no tratado puede evolucionar a tensión. Abierto causa hipoventilación + shunt. Todos requieren manejo."},
+        {"texto": "Abierto no existe", "correcta": false, "puntos": -15, "feedback": "❌ Existe — clásico de trauma penetrante torácico con herida grande."}
+      ]
+    },
+    {
+      "situacion": "Tras 5 días, tubo retirado, paciente extubado. Familia pregunta '¿cómo le pasó esto si solo tenía neumonía?'. ¿Mensaje?",
+      "opciones": [
+        {"texto": "'Es complicación de la ventilación'", "correcta": false, "puntos": -5, "feedback": "⚠️ Cierto pero superficial. Familias entienden mejor con explicación de mecanismo."},
+        {"texto": "'La neumonía dañó parte del pulmón. Cuando la máquina lo ventilaba, una zona débil se rompió como un globo y el aire se escapó al espacio entre el pulmón y la pared del pecho. Ese aire fue comprimiendo el pulmón y el corazón hasta que paró. Pusimos un tubo para drenar ese aire y todo se resolvió. Ahora ya cicatrizó'", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo en lenguaje accesible + explicación del manejo + resolución. La 'analogía del globo roto' es comprensible para legos."},
+        {"texto": "'Tuvo mala suerte'", "correcta": false, "puntos": -10, "feedback": "❌ No es mala suerte — hay mecanismo identificable. Desperdicia oportunidad educativa."},
+        {"texto": "Les explico fisiopatología detallada del barotrauma alveolar", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado técnico. Adapta el lenguaje."}
+      ]
+    },
+    {
+      "situacion": "Resumen para cambio de turno UCI. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'Tuvo un neumotórax, ya está bien'", "correcta": false, "puntos": -10, "feedback": "❌ Sin contexto temporal, manejo, ni estado actual."},
+        {"texto": "'Varón 55a con neumonía en VMI día 12. Hace 6h: neumotórax a tensión derecho con paro AESP, manejado con aguja descompresión + tubo torácico 32 Fr a sello con aspiración -20. Reexpansión confirmada por Rx. Recuperó RCE rápido. Ahora extubado a CN 3L, SatO2 96%, hemodinámicamente estable. Tubo torácico sin fuga aérea desde hace 24h, listo para retirar si Rx muestra estabilidad. Plan: monitor 24h post-retirar tubo por riesgo recurrencia, control infectológico de neumonía con cobertura ajustada a antibiograma'", "correcta": true, "puntos": 15, "feedback": "✅ Cronología + manejo + estado actual + plan. Equipo entrante puede continuar sin pedir más."},
+        {"texto": "Le doy la Rx y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Documento sin handover insuficiente."},
+        {"texto": "'Está bien, denle alta'", "correcta": false, "puntos": -15, "feedback": "❌ Falso, está en UCI por neumonía severa, no es momento de alta."}
+      ]
+    }
+  ]
+}

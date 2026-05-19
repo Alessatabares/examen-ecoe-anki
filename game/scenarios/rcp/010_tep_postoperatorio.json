@@ -1,0 +1,110 @@
+{
+  "id": "rcp_010_tep_postoperatorio",
+  "titulo": "Paro AESP por tromboembolia pulmonar masiva postoperatoria",
+  "tema": "rcp",
+  "audiencia": "adulto",
+  "guia": "AHA 2025 + ESC 2019 TEP",
+  "dificultad": "Avanzado",
+  "contexto": "Planta de traumatología. Mujer de 72 años, día 5 post-prótesis total de cadera derecha. Esta mañana se queja de leve disnea al levantarse al baño. Mientras intentas auscultarla, refiere mareo intenso, palidez, taquipnea 35/min, SatO2 80% con aire ambiente, FC 130. Súbitamente: pérdida de consciencia, pulso filiforme → AESP.",
+  "pasos": [
+    {
+      "situacion": "AESP confirmada. ¿Causa más probable verbalizada?",
+      "opciones": [
+        {"texto": "'IAM agudo'", "correcta": false, "puntos": -10, "feedback": "❌ Cuadro súbito con disnea + hipoxia desproporcionada + cirugía mayor reciente + inmovilización = patrón clásico de TEP, no de IAM."},
+        {"texto": "'Paro AESP por TROMBOEMBOLIA PULMONAR masiva: postoperatorio cadera día 5 (factor de riesgo Wells muy alto), disnea súbita + hipoxia profunda + colapso súbito → AESP. Inicio RCP, activo equipo, considero trombolisis durante RCP'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico contextualizado + plan que ya considera la terapia específica (trombolisis durante RCP). En TEP masiva el tratamiento causal va PARALELO a la RCP."},
+        {"texto": "'Hipovolemia por sangrado postoperatorio'", "correcta": false, "puntos": 5, "feedback": "⚠️ Diferencial razonable en postoperatorio. Pero hipovolemia no da hipoxia profunda con pulmones limpios — la pista clave es la desaturación desproporcionada al estado general."},
+        {"texto": "'Hipoglucemia'", "correcta": false, "puntos": -10, "feedback": "❌ No explica la hipoxia ni la taquipnea pre-paro. Pista débil."}
+      ]
+    },
+    {
+      "situacion": "Inicias RCP. ¿Qué signos ECG/clínicos refuerzan TEP durante el paro?",
+      "opciones": [
+        {"texto": "Solo el ritmo de paro", "correcta": false, "puntos": -5, "feedback": "⚠️ La AESP es solo una pista. Hay datos adicionales que refuerzan TEP específicamente."},
+        {"texto": "AESP con frecuencia normal-alta (TEP suele dar AESP rápida, no bradicárdica), patrón S1Q3T3 en ECG previo si lo hay, signos de sobrecarga derecha (bloqueo rama derecha, T invertidas V1-V4), historia con factor de riesgo trombótico claro (cirugía cadera, cáncer, inmovilización)", "correcta": true, "puntos": 15, "feedback": "✅ Datos contextuales que refuerzan TEP: AESP taquicárdica + signos eléctricos de sobrecarga VD + historia. Y CONFIRMACIÓN definitiva: ECO bedside con dilatación e hipocinesia VD."},
+        {"texto": "Solo dolor precordial", "correcta": false, "puntos": -10, "feedback": "❌ Inconsciente no refiere dolor. Y dolor no es lo característico de TEP."},
+        {"texto": "Soplo carotídeo bilateral", "correcta": false, "puntos": -10, "feedback": "❌ No es signo de TEP."}
+      ]
+    },
+    {
+      "situacion": "Pides ECO bedside durante RCP. ¿Qué hallazgo es PATOGNOMÓNICO de TEP masivo en paro?",
+      "opciones": [
+        {"texto": "Derrame pericárdico abundante", "correcta": false, "puntos": -10, "feedback": "❌ Es signo de taponamiento, otro 5T. No de TEP."},
+        {"texto": "DILATACIÓN del VD con aplastamiento septal hacia VI (signo D-shape), hipocinesia VD con preservación apical (signo de McConnell), trombo móvil en cavidades derechas o tronco pulmonar (extremadamente sugestivo), VCI dilatada sin colapso", "correcta": true, "puntos": 15, "feedback": "✅ Tríada ECO de TEP masivo: VD dilatado + signo D + McConnell + posible trombo visible. Estos hallazgos en paro AESP justifican TROMBOLISIS empírica sin esperar TC."},
+        {"texto": "Estenosis aórtica severa", "correcta": false, "puntos": -10, "feedback": "❌ No causa paro AESP súbita en postoperatorio."},
+        {"texto": "Hipertrofia VI", "correcta": false, "puntos": -10, "feedback": "❌ Es hallazgo crónico, no agudo. Y no causa AESP."}
+      ]
+    },
+    {
+      "situacion": "ECO confirma VD dilatado con McConnell. Decides trombolisis. ¿Qué fármaco, dosis y vía?",
+      "opciones": [
+        {"texto": "Heparina solo", "correcta": false, "puntos": -5, "feedback": "⚠️ Heparina sola es para TEP estable. En TEP masiva con paro, se necesita TROMBOLISIS (lisar el coágulo, no solo evitar que crezca)."},
+        {"texto": "ALTEPLASA (tPA) 50 mg IV en bolo durante 1-2 min, dosis 'salvavidas' en paro (alternativa: 100 mg IV en 2h si estable). Continuar RCP MÍNIMO 60-90 MIN tras administración de trombolítico (la trombolisis necesita tiempo para actuar)", "correcta": true, "puntos": 15, "feedback": "✅ Trombolisis durante paro: bolo 50 mg alteplasa. Y la regla clave: RCP prolongada 60-90 min post-trombolisis, porque mientras se lisa el trombo aún hay obstrucción. Suspender en 20 min = perder pacientes recuperables."},
+        {"texto": "Estreptocinasa 1.5 millones UI", "correcta": false, "puntos": 5, "feedback": "⚠️ Alternativa más antigua. Alteplasa es preferida en TEP por su selectividad por fibrina. Estreptoquinasa puede usarse si es la única disponible."},
+        {"texto": "Aspirina 300 mg sublingual", "correcta": false, "puntos": -15, "feedback": "❌ Inadecuado y vía imposible en paro. Aspirina no lisa trombos venosos."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿contraindicaciones absolutas para trombolisis y cómo se manejan en paro inminente?",
+      "opciones": [
+        {"texto": "Solo embarazo", "correcta": false, "puntos": -10, "feedback": "❌ Embarazo es contraindicación relativa, no absoluta. Y hay otras."},
+        {"texto": "Absolutas: sangrado activo, ACV hemorrágico previo, ACV isquémico <3 meses, neoplasia SNC, trauma craneal/cirugía mayor reciente <3 semanas, sangrado GI activo, sospecha disección aórtica. EN PARO POR TEP MASIVO con muerte inminente, las contraindicaciones se relajan — es decisión de balance riesgo/beneficio (paro = muerte segura sin tratar). Alternativa: EMBOLECTOMÍA mecánica/quirúrgica si trombolisis contraindicada", "correcta": true, "puntos": 15, "feedback": "✅ Contraindicaciones específicas + matiz crítico: en paro por TEP, la regla del 'mal menor' aplica. Embolectomía es alternativa si trombolisis está fuera. Y ECMO veno-arterial como puente."},
+        {"texto": "Solo hipertensión", "correcta": false, "puntos": -10, "feedback": "❌ Solo HTA severa no controlada (>185/110) es relativa, no absoluta."},
+        {"texto": "Edad >65", "correcta": false, "puntos": -10, "feedback": "❌ No es contraindicación. Edad sola no contraindica."}
+      ]
+    },
+    {
+      "situacion": "En esta paciente, cirugía hace 5 días es contraindicación relativa fuerte. ¿Qué considerar?",
+      "opciones": [
+        {"texto": "No hacer trombolisis, dejarla morir", "correcta": false, "puntos": -15, "feedback": "❌ Decisión derrotista. Hay alternativa: embolectomía mecánica o quirúrgica."},
+        {"texto": "Riesgo de sangrado quirúrgico vs muerte cierta sin tratar = decisión a tomar con cirugía vascular/tórax: opciones (a) trombolisis con riesgo asumido, (b) embolectomía percutánea con catéter (Inari FlowTriever, AngioJet), (c) embolectomía quirúrgica de pulmón. Centro con hemodinamia intervencionista es destino ideal", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado: opciones reales en TEP masivo con contraindicación a trombolisis. Inari FlowTriever es técnica creciente que aspira el trombo sin trombolisis. ECMO veno-arterial como puente a estos procedimientos."},
+        {"texto": "Doy dosis baja de alteplasa", "correcta": false, "puntos": -5, "feedback": "⚠️ Dosis baja se ha estudiado pero datos limitados; no es estándar y reduce eficacia. Mejor decisión escalada con intervencionismo."},
+        {"texto": "Solo heparina y observar", "correcta": false, "puntos": -15, "feedback": "❌ Heparina sola en TEP masivo con paro = muerte casi segura."}
+      ]
+    },
+    {
+      "situacion": "Tras alteplasa, llevas 70 min de RCP. Te preguntan '¿hasta cuándo seguir?'. ¿Cuál es la regla SOLO para TEP?",
+      "opciones": [
+        {"texto": "Igual que cualquier paro, suspender a 30 min", "correcta": false, "puntos": -15, "feedback": "❌ Falso. En TEP la regla es DIFERENTE."},
+        {"texto": "Tras trombolisis en paro por TEP, RCP debe continuar MÍNIMO 60-90 MIN — la trombolisis necesita tiempo para lisar el coágulo. Suspender antes = perder pacientes recuperables. Hay sobrevivientes documentados tras 2-3h de RCP en TEP", "correcta": true, "puntos": 15, "feedback": "✅ Regla específica de TEP: prolongar RCP 60-90 min post-trombolisis. La trombolisis NO es instantánea — se necesita tiempo para que la enzima reabra el lecho vascular pulmonar."},
+        {"texto": "Suspender en 10 minutos si no hay respuesta", "correcta": false, "puntos": -15, "feedback": "❌ Tiempo insuficiente para que trombolisis actúe."},
+        {"texto": "Continuar hasta 24h", "correcta": false, "puntos": -10, "feedback": "❌ Excesivo y poco realista. 60-90 min es lo razonable; más allá hay que evaluar futilidad."}
+      ]
+    },
+    {
+      "situacion": "A los 85 min de RCP, ETCO2 sube de 12 a 38 mmHg súbitamente, ritmo organizado, pulso carotídeo +. RCE. ¿Manejo post-paro específico en TEP?",
+      "opciones": [
+        {"texto": "Suspender heparina por riesgo de sangrado", "correcta": false, "puntos": -15, "feedback": "❌ Si suspendes anticoagulación, retrombosis casi inmediata. La trombolisis lisó parte, pero hay que IMPEDIR nuevo trombo con heparina."},
+        {"texto": "ABCDE post-paro estándar + INICIAR INFUSIÓN DE HEPARINA IV (sin bolo si trombolisis reciente, para evitar sangrado), TC pulmonar para confirmar diagnóstico y evaluar carga residual, vasopresor (noradrenalina) para mantener TAM ≥65, evaluar disfunción VD residual (puede requerir ECMO V-A), considerar filtro de VCI si contraindicación a anticoagulación", "correcta": true, "puntos": 15, "feedback": "✅ Post-RCE TEP: anticoagulación INMEDIATA + soporte hemodinámico orientado a VD + diagnóstico definitivo. Filtro VCI solo si anticoagulación contraindicada (no como rutina)."},
+        {"texto": "Bolo grande de furosemida", "correcta": false, "puntos": -15, "feedback": "❌ Disminuir precarga del VD ya comprometido = empeorar gasto cardíaco. En TEP el VD necesita volumen pero CON cuidado (sobrecarga lo empeora también)."},
+        {"texto": "Dieta libre y movilizar", "correcta": false, "puntos": -15, "feedback": "❌ Post-paro hemodinámicamente inestable. Reposo absoluto, monitorización."}
+      ]
+    },
+    {
+      "situacion": "Te preguntan: ¿qué profilaxis tromboembólica DEBERÍA haber tenido esta paciente tras prótesis cadera?",
+      "opciones": [
+        {"texto": "Solo deambulación precoz", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente. Cirugía mayor ortopédica es la indicación más fuerte de profilaxis farmacológica."},
+        {"texto": "Profilaxis farmacológica obligatoria post-prótesis cadera: HBPM (enoxaparina 40 mg SC/día) o ANTICOAGULANTE ORAL DIRECTO (rivaroxaban 10 mg/día, apixaban, dabigatran) por 28-35 DÍAS (no solo durante el ingreso). Más medias de compresión + deambulación precoz. ESTA paciente quizá no las recibió o las suspendió temprano — error sistémico", "correcta": true, "puntos": 15, "feedback": "✅ Duración 28-35 días post-cadera es la recomendación ESC/AAOS. Suspender al alta hospitalaria (5-7 días) deja al paciente desprotegido durante el periodo de mayor riesgo. Auditar este caso es obligación clínica."},
+        {"texto": "Aspirina 100 mg", "correcta": false, "puntos": -5, "feedback": "⚠️ Algunos guidelines aceptan aspirina como alternativa a HBPM en cirugía ortopédica electiva (no en TEP previo). HBPM/DOAC son superiores."},
+        {"texto": "No requería profilaxis a su edad", "correcta": false, "puntos": -15, "feedback": "❌ Justo lo contrario. Edad >65 + cirugía mayor + inmovilización = riesgo alto que OBLIGA profilaxis."}
+      ]
+    },
+    {
+      "situacion": "Familia pregunta '¿esto era prevenible?'. ¿Cómo respondes con honestidad clínica?",
+      "opciones": [
+        {"texto": "'Era inevitable a su edad'", "correcta": false, "puntos": -15, "feedback": "❌ Falso. TEP postoperatorio TIENE estrategia preventiva probada. Auditar es deber."},
+        {"texto": "'Después de cirugías mayores como la prótesis de cadera, el riesgo de coágulos es alto durante semanas, no solo durante el ingreso. Existen tratamientos para prevenirlos (inyecciones o pastillas) que se dan típicamente por 28-35 días. Vamos a revisar exactamente qué profilaxis tuvo su madre, qué pasó, y si hay algo que mejorar en nuestro proceso. Tienen derecho a saber el resultado'", "correcta": true, "puntos": 15, "feedback": "✅ Información clara + reconocimiento de duración correcta de profilaxis + compromiso a auditar + transparencia con la familia. Esto es ética clínica madura."},
+        {"texto": "'Tuvo mala suerte'", "correcta": false, "puntos": -15, "feedback": "❌ Niega análisis causal + impide aprendizaje del sistema."},
+        {"texto": "Les cambio de tema", "correcta": false, "puntos": -15, "feedback": "❌ Evadir = ruptura de confianza + abre puerta a queja/demanda."}
+      ]
+    },
+    {
+      "situacion": "Handover a UCI. ¿Versión completa?",
+      "opciones": [
+        {"texto": "'TEP, lo reanimamos, está intubada'", "correcta": false, "puntos": -10, "feedback": "❌ Sin datos específicos para continuidad."},
+        {"texto": "'Mujer 72a, día 5 post-prótesis cadera derecha. Disnea súbita + hipoxia profunda → AESP. ECO bedside con VD dilatado + McConnell → trombolisis con alteplasa 50 mg en bolo durante RCP. RCE tras 85 min RCP. Actualmente intubada, FiO2 80%, noradrenalina 0.2 mcg/kg/min, infusión heparina 18 U/kg/h sin bolo. TC pulmonar confirma TEP central bilateral con carga residual moderada. Plan: anticoagulación terapéutica, vigilancia sangrado del lecho quirúrgico, ECO seriado por disfunción VD, evaluar embolectomía percutánea si inestabilidad persiste, traumatólogo informado para coordinación con sitio quirúrgico'", "correcta": true, "puntos": 15, "feedback": "✅ Contexto + intervención + estado actual + plan multidisciplinar. UCI puede continuar sin ambigüedad."},
+        {"texto": "Le entrego la TC y me voy", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "'Ya pasó lo peor'", "correcta": false, "puntos": -15, "feedback": "❌ Falso optimismo. Post-RCE prolongado es periodo crítico, no estabilidad."}
+      ]
+    }
+  ]
+}
