@@ -1,0 +1,110 @@
+{
+  "id": "ruidos_009_civ_lactante",
+  "titulo": "Soplo holosistólico mesocardio en lactante asintomático",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AHA cardiopatías congénitas + AAP + UpToDate",
+  "dificultad": "Intermedio",
+  "contexto": "Lactante de 4 meses traído a consulta de control rutinario por su madre. Asintomático, lactancia adecuada, ganancia ponderal en percentil 50, sin disnea, sin cianosis. Vacunado. Embarazo y parto sin complicaciones. En la auscultación rutinaria detectas un soplo.",
+  "pasos": [
+    {
+      "situacion": "Saludo + anamnesis dirigida. ¿Qué exploras?",
+      "opciones": [
+        {"texto": "Me presento a la madre, confirmo identidad del lactante. Pregunto: '¿Toma bien al pecho/biberón? ¿Suda al mamar? ¿Se cansa al alimentarse? ¿Disnea, taquipnea? ¿Cianosis? ¿Ganancia de peso? ¿Infecciones respiratorias frecuentes? ¿Antecedentes familiares de cardiopatía congénita?'", "correcta": true, "puntos": 15, "feedback": "✅ Anamnesis adaptada a lactante: alimentación (signo más sensible de IC en bebés), sudoración al mamar, ganancia ponderal, AF."},
+        {"texto": "Solo pregunto si llora mucho", "correcta": false, "puntos": -10, "feedback": "❌ No es específico de cardiopatía."},
+        {"texto": "'¿Está bien?'", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado abierto."},
+        {"texto": "Sin anamnesis", "correcta": false, "puntos": -15, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "Exploración general y constantes. ¿Qué evalúas?",
+      "opciones": [
+        {"texto": "Peso, talla, perímetro cefálico (percentiles), FC (lactante 100-160), FR (30-60), SatO2 en mano derecha y pie (descartar shunt D-I), PA en 4 extremidades, color (cianosis central vs periférica), dismorfias, hepatomegalia.", "correcta": true, "puntos": 15, "feedback": "✅ Constantes pediátricas + SatO2 pre y post ductal + PA 4 extremidades (coartación) + búsqueda de hepatomegalia (IC). Exploración cardiovascular pediátrica completa."},
+        {"texto": "Solo FC y SatO2 general", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta SatO2 pre/post ductal y PA en extremidades."},
+        {"texto": "Sin constantes", "correcta": false, "puntos": -15, "feedback": "❌ Falla."},
+        {"texto": "Solo percentiles", "correcta": false, "puntos": 0, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Auscultas y caracterizas el soplo. ¿Qué patrón sugiere CIV PEQUEÑA?",
+      "opciones": [
+        {"texto": "Soplo HOLOSISTÓLICO (plano), intensidad 3/6 (puede tener frémito), CALIDAD RASPOSA/RUDA, máximo en BORDE PARAESTERNAL IZQUIERDO BAJO (4.º EIC izq = MESOCARDIO), SIN irradiación a axila, S2 normal. PARADOJA: cuanto MÁS PEQUEÑA la CIV, MÁS RUIDOSA (alta velocidad por orificio pequeño = soplo intenso). Lactante asintomático con buen crecimiento sugiere CIV PEQUEÑA = pronóstico bueno.", "correcta": true, "puntos": 15, "feedback": "✅ Patrón típico de CIV pequeña + paradoja semiológica clave (menor tamaño = soplo más intenso). Buen pronóstico (mayoría cierra espontáneamente)."},
+        {"texto": "Soplo sistólico expulsivo en foco aórtico irradiado a carótidas", "correcta": false, "puntos": -15, "feedback": "❌ Eso es EAo del adulto. En lactante con CIV el soplo es holosistólico mesocardio."},
+        {"texto": "Soplo continuo en maquinaria infraclavicular", "correcta": false, "puntos": -15, "feedback": "❌ Eso es DUCTUS persistente (PCA), no CIV."},
+        {"texto": "Sin soplo, solo desdoblamiento fijo de S2", "correcta": false, "puntos": -15, "feedback": "❌ Desdoblamiento fijo de S2 es CIA, no CIV."}
+      ]
+    },
+    {
+      "situacion": "Si la CIV fuera GRANDE, ¿qué hallazgos esperarías además?",
+      "opciones": [
+        {"texto": "CIV GRANDE: signos de IC en lactante (taquipnea con tomas, sudoración al mamar, falla en ganar peso, hepatomegalia), hipertensión pulmonar con S2 reforzado (P2), soplo MENOS rasposo y MÁS BLANDO (porque menor gradiente entre VI y VD por igualación de presiones), retumbo diastólico mitral por hiperflujo. Riesgo de SÍNDROME DE EISENMENGER si no se trata.", "correcta": true, "puntos": 15, "feedback": "✅ Datos clave: paradoja semiológica inversa (CIV grande = soplo menos intenso) + signos de hiperflujo pulmonar + riesgo Eisenmenger."},
+        {"texto": "Soplo más intenso y rasposo", "correcta": false, "puntos": -10, "feedback": "❌ Lo opuesto — CIV grande tiene soplo MENOS intenso por igualación de presiones."},
+        {"texto": "Cianosis desde el nacimiento", "correcta": false, "puntos": -5, "feedback": "⚠️ La cianosis aparece tardíamente si se desarrolla Eisenmenger. Inicialmente shunt I-D acianótico."},
+        {"texto": "Igual hallazgos que CIV pequeña", "correcta": false, "puntos": -10, "feedback": "❌ Difieren mucho en clínica y soplo."}
+      ]
+    },
+    {
+      "situacion": "Diagnóstico diferencial del soplo holosistólico mesocardio. ¿Qué consideras?",
+      "opciones": [
+        {"texto": "DDx: 1) CIV (más frecuente, mesocardio). 2) INSUFICIENCIA TRICUSPÍDEA (foco tricuspídeo, Carvallo +). 3) INSUFICIENCIA MITRAL (apical, irradiado a axila). 4) Defecto del canal AV (en Down). 5) Estenosis subaórtica.", "correcta": true, "puntos": 15, "feedback": "✅ DDx sistemático de holosistólicos en pediatría. La localización + irradiación + maniobras separan unos de otros."},
+        {"texto": "Solo CIV", "correcta": false, "puntos": -5, "feedback": "⚠️ Es la más probable pero hay que descartar otros."},
+        {"texto": "Soplo inocente", "correcta": false, "puntos": -15, "feedback": "❌ Soplo inocente NUNCA es holosistólico. Es discrepancia diagnóstica grave."},
+        {"texto": "Solo causas de fiebre", "correcta": false, "puntos": -15, "feedback": "❌ Sin relación con la fisiopatología cardíaca."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios pides?",
+      "opciones": [
+        {"texto": "1) ECOCARDIOGRAMA TRANSTORÁCICO (estándar pediátrico — define tamaño, localización [perimembranosa la más común, muscular, infundibular, ostium primum], dirección del shunt, tamaño de cavidades, presión pulmonar). 2) ECG (sobrecarga VI vs biventricular). 3) Rx tórax (cardiomegalia, flujo pulmonar). 4) SatO2 si dudoso.", "correcta": true, "puntos": 15, "feedback": "✅ ETT es la prueba de oro pediátrica + ECG y Rx para repercusión. Sin cateterismo invasivo de inicio."},
+        {"texto": "Cateterismo cardíaco", "correcta": false, "puntos": -10, "feedback": "❌ Invasivo, reservado para casos seleccionados (medir resistencias pulmonares pre-cirugía, etc.). ETT es primera línea."},
+        {"texto": "Solo ECG", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente."},
+        {"texto": "TAC torácico", "correcta": false, "puntos": -10, "feedback": "❌ Sobreuso. ETT no irradia y es el estudio de elección en pediatría."}
+      ]
+    },
+    {
+      "situacion": "El eco muestra CIV PERIMEMBRANOSA PEQUEÑA (3 mm), shunt I→D modesto, sin sobrecarga de cavidades, presión pulmonar normal, FEVI normal. ¿Conducta?",
+      "opciones": [
+        {"texto": "VIGILANCIA: ETT y clínica cada 6-12 meses. ALTA PROBABILIDAD DE CIERRE ESPONTÁNEO en los primeros años (CIV perimembranosa o muscular pequeña cierran en >50% de casos). Educar a la familia. SIN profilaxis de endocarditis rutinaria (AHA 2007 retiró indicación salvo casos especiales).", "correcta": true, "puntos": 15, "feedback": "✅ CIV pequeña perimembranosa = vigilancia + cierre espontáneo frecuente + SIN profilaxis ATB. Mensaje tranquilizador."},
+        {"texto": "Cirugía urgente", "correcta": false, "puntos": -15, "feedback": "❌ CIV pequeña asintomática NO requiere cirugía — alta probabilidad de cierre espontáneo."},
+        {"texto": "Profilaxis antibiótica de por vida", "correcta": false, "puntos": -15, "feedback": "❌ AHA 2007 quitó la indicación rutinaria. Solo se da en cardiopatías cianóticas no reparadas, prótesis valvulares, EI previa, o defectos parcialmente reparados con materiales residuales."},
+        {"texto": "Restringir lactancia/actividad", "correcta": false, "puntos": -10, "feedback": "❌ No hay indicación de restricción."}
+      ]
+    },
+    {
+      "situacion": "¿Cuándo se indicaría CIRUGÍA en una CIV?",
+      "opciones": [
+        {"texto": "INDICACIONES QUIRÚRGICAS: 1) IC refractaria al tratamiento médico en lactante. 2) Falla en ganar peso/fracaso de medro pese a tto médico. 3) Hipertensión pulmonar progresiva. 4) Qp/Qs >2:1 con cavidades dilatadas. 5) CIV grande sintomática. 6) Endocarditis previa. 7) Algunas localizaciones específicas (subarterial) por riesgo de prolapso aórtico. Cierre quirúrgico (parche) o percutáneo (dispositivo) según localización.", "correcta": true, "puntos": 15, "feedback": "✅ Indicaciones quirúrgicas claras + opciones (quirúrgica vs percutánea)."},
+        {"texto": "Toda CIV se opera", "correcta": false, "puntos": -10, "feedback": "❌ CIV pequeña asintomática NO se opera — sobre todo si hay probabilidad de cierre espontáneo."},
+        {"texto": "Solo si tiene cianosis", "correcta": false, "puntos": -10, "feedback": "❌ La cianosis aparece en Eisenmenger (tardío). Hay que operar antes de llegar a ese punto."},
+        {"texto": "Nunca", "correcta": false, "puntos": -15, "feedback": "❌ Hay indicaciones claras."}
+      ]
+    },
+    {
+      "situacion": "Comunicación con la madre. ¿Qué le explicas?",
+      "opciones": [
+        {"texto": "'Su hijo tiene una pequeña abertura entre las cámaras inferiores del corazón, llamada comunicación interventricular. Es pequeña y no le está causando problemas. La mayoría de estos defectos pequeños se cierran solos en los primeros años de vida. Lo controlaremos con ecocardiograma cada 6-12 meses. Mientras tanto, vida normal — lactancia normal, vacunas al día. Signos de alarma: dificultad respiratoria al alimentarse, sudoración excesiva al mamar, falla en ganar peso, o cambios en su color — venga a urgencias.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación clara + pronóstico tranquilizador + vigilancia + sin restricciones + signos de alarma específicos a IC en lactante."},
+        {"texto": "'Necesita cirugía pronto'", "correcta": false, "puntos": -15, "feedback": "❌ Alarmar sin razón. CIV pequeña asintomática no se opera."},
+        {"texto": "'Es un soplo, sin importancia'", "correcta": false, "puntos": -10, "feedback": "❌ Subestima — CIV es un defecto estructural que requiere vigilancia."},
+        {"texto": "Sin signos de alarma", "correcta": false, "puntos": -5, "feedback": "⚠️ Esenciales para detectar IC en lactante."}
+      ]
+    },
+    {
+      "situacion": "Profilaxis de endocarditis. ¿En qué situaciones pediátricas SÍ está indicada (AHA 2007)?",
+      "opciones": [
+        {"texto": "AHA 2007 - Profilaxis ATB SOLO en alto riesgo de DESENLACE GRAVE de endocarditis: 1) Prótesis valvulares o materiales protésicos. 2) Endocarditis previa. 3) Cardiopatía congénita CIANÓTICA no reparada o paliada con shunts. 4) Cardiopatía congénita reparada con material protésico en los primeros 6 meses. 5) Defectos residuales adyacentes a parche/dispositivo. 6) Trasplante cardíaco con valvulopatía. Procedimientos: dentales con manipulación gingival, respiratorios con perforación.", "correcta": true, "puntos": 15, "feedback": "✅ Indicaciones limitadas según AHA 2007. CIV simple NO la requiere."},
+        {"texto": "Todos los niños con cardiopatía congénita", "correcta": false, "puntos": -15, "feedback": "❌ AHA 2007 RESTRINGIÓ las indicaciones — la mayoría de cardiopatías congénitas reparadas (incluyendo CIV reparada >6 meses) NO la necesitan."},
+        {"texto": "Nunca", "correcta": false, "puntos": -10, "feedback": "❌ Hay indicaciones específicas de alto riesgo."},
+        {"texto": "Solo niños con prótesis", "correcta": false, "puntos": -5, "feedback": "⚠️ Es UNA de las indicaciones, pero hay 6 categorías."}
+      ]
+    },
+    {
+      "situacion": "Cierre y plan de seguimiento. ¿Qué planificas?",
+      "opciones": [
+        {"texto": "Plan: 1) Control con ECOCARDIOGRAMA cada 6-12 meses + clínica pediátrica de rutina. 2) Crecimiento y desarrollo monitoreado. 3) Vacunación normal + vacunas estacionales (influenza). 4) Educación familiar continua. 5) Derivación a cardiología pediátrica para seguimiento conjunto. 6) Revaluar plan según evolución (cierre espontáneo o necesidad de cirugía).", "correcta": true, "puntos": 15, "feedback": "✅ Plan integral: control cardiológico + seguimiento pediátrico + vacunación + educación. Sin sobreintervenir."},
+        {"texto": "Solo control con ECG", "correcta": false, "puntos": -10, "feedback": "❌ ECG no muestra evolución estructural — ETT es el estándar."},
+        {"texto": "Sin seguimiento", "correcta": false, "puntos": -15, "feedback": "❌ Toda CIV requiere seguimiento aunque sea pequeña."},
+        {"texto": "Seguimiento mensual", "correcta": false, "puntos": -5, "feedback": "⚠️ Sobreuso si está estable y asintomático."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "ruidos_005_insuficiencia_aortica_cronica",
+  "titulo": "Disnea progresiva con pulsos saltones y soplo diastólico",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ACC/AHA 2020 valvulopatías + UpToDate",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Varón de 55 años acude por disnea de esfuerzo progresiva (NYHA II-III) de 8 meses de evolución y palpitaciones en decúbito que le obligan a sentarse. Niega dolor torácico. Antecedente de soplo conocido desde hace años, nunca estudiado. Talla 1.92 m, brazos largos.",
+  "pasos": [
+    {
+      "situacion": "El paciente entra. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo + presentación + identidad + anuncio de exploración cardiovascular.", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo completo."},
+        {"texto": "Empiezo a auscultar", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Saludo sin presentarme", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."},
+        {"texto": "Sin confirmar identidad", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta protocolo de seguridad."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida. El biotipo del paciente (alto, brazos largos) sugiere una pista. ¿Qué exploras?",
+      "opciones": [
+        {"texto": "Síntomas CV (5 centinela + NYHA) + antecedentes específicos: '¿Familiares con problemas de aorta, disecciones, muerte súbita? ¿Diagnóstico de Marfan o sospecha? ¿Endocarditis previa? ¿HTA crónica? ¿Sífilis tratada?' — etiologías clásicas de IAo.", "correcta": true, "puntos": 15, "feedback": "✅ Causas de IAo: válvula bicúspide, raíz aórtica (Marfan, dilatación), endocarditis previa, fiebre reumática, sífilis. El biotipo orienta a Marfan."},
+        {"texto": "Solo síntomas actuales", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes pistas etiológicas (biotipo marfanoide)."},
+        {"texto": "Pregunto por tabaquismo solamente", "correcta": false, "puntos": -10, "feedback": "❌ No te dirige a IAo."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde dirección a hipótesis."}
+      ]
+    },
+    {
+      "situacion": "Inspección general. ¿Qué signos PERIFÉRICOS de IAo crónica severa buscas?",
+      "opciones": [
+        {"texto": "Busco: SIGNO DE MUSSET (cabeceo sincrónico con cada latido), SIGNO DE QUINCKE (pulso capilar visible al presionar lecho ungueal), SIGNO DE CORRIGAN (pulso saltón en carótidas), HIPERPULSATILIDAD GENERALIZADA. Sugieren IAo crónica severa con presión diferencial amplia.", "correcta": true, "puntos": 15, "feedback": "✅ Signos periféricos de IAo severa — saber buscarlos demuestra nivel avanzado. Reflejan presión diferencial amplia (PAS alta + PAD baja)."},
+        {"texto": "Solo busco edemas", "correcta": false, "puntos": -5, "feedback": "⚠️ Edemas son tardíos. Los signos periféricos clásicos de IAo crónica son los nombrados."},
+        {"texto": "Janeway/Osler", "correcta": false, "puntos": -10, "feedback": "❌ Esos son endocarditis."},
+        {"texto": "Sin inspección general", "correcta": false, "puntos": -10, "feedback": "❌ Pierdes los signos clave."}
+      ]
+    },
+    {
+      "situacion": "Toma de PA. ¿Qué encuentras y por qué importa?",
+      "opciones": [
+        {"texto": "PRESIÓN DIFERENCIAL AMPLIA (ej. 170/50 mmHg) — PAS alta por volumen sistólico aumentado + PAD baja por regurgitación diastólica. Es marcador semiológico clave de IAo crónica severa.", "correcta": true, "puntos": 15, "feedback": "✅ Presión diferencial >50% de la PAS o >60 mmHg = severidad. Dato simple pero potente."},
+        {"texto": "PA normal", "correcta": false, "puntos": -10, "feedback": "❌ En IAo crónica severa SIEMPRE buscas la presión diferencial amplia — es esperable."},
+        {"texto": "PA solo en un brazo sin diferencial", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay que documentar PAS y PAD para calcular diferencial — punto clave."},
+        {"texto": "Hipotensión solamente", "correcta": false, "puntos": -10, "feedback": "❌ En IAo crónica la PAS está elevada, no baja."}
+      ]
+    },
+    {
+      "situacion": "Higiene y posición. ¿Cómo optimizas la audición del soplo diastólico de IAo?",
+      "opciones": [
+        {"texto": "Lavado de manos + estetoscopio + consentimiento. Posicionar paciente SENTADO E INCLINADO HACIA ADELANTE, EN ESPIRACIÓN sostenida, con MEMBRANA del estetoscopio en BORDE PARAESTERNAL IZQUIERDO BAJO (3.º-4.º EIC) — el soplo es de alta frecuencia y se ausculta mejor así.", "correcta": true, "puntos": 15, "feedback": "✅ Maniobra clásica para IAo: sentado, inclinado adelante, espiración, membrana en BPI bajo. Acerca la aorta a la pared torácica + acerca el corazón al estetoscopio."},
+        {"texto": "Decúbito supino con campana", "correcta": false, "puntos": -5, "feedback": "⚠️ La IAo se pierde — es alta frecuencia (membrana, no campana) y mejora sentado-inclinado-espiración."},
+        {"texto": "Decúbito lateral izquierdo (como EM)", "correcta": false, "puntos": -5, "feedback": "⚠️ Esa posición es para soplos MITRALES, no IAo."},
+        {"texto": "Sin posicionamiento", "correcta": false, "puntos": -10, "feedback": "❌ Sin la posición correcta puedes perder el soplo."}
+      ]
+    },
+    {
+      "situacion": "Auscultas en BPI bajo con membrana, sentado e inclinado adelante. Escuchas un soplo. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "Soplo DIASTÓLICO DECRESCENDO (en decrescendo), inicio inmediatamente tras S2, alta frecuencia, soplante, intensidad 2-3/6, máximo en BPI BAJO (3.º-4.º EIC izq), duración prolongada (refleja severidad — los más severos pueden ser MÁS CORTOS al final por igualación rápida de presiones).", "correcta": true, "puntos": 15, "feedback": "✅ Patrón clásico. La paradoja: en IAo MUY severa el soplo puede acortarse cuando las presiones se igualan rápido — signo de severidad."},
+        {"texto": "Soplo sistólico expulsivo en aórtico", "correcta": false, "puntos": -15, "feedback": "❌ Eso es ESTENOSIS aórtica, no insuficiencia. Confusión grave de timing."},
+        {"texto": "Soplo holosistólico apical", "correcta": false, "puntos": -15, "feedback": "❌ Eso es IM, no IAo."},
+        {"texto": "Sin mencionar la posición ni el foco", "correcta": false, "puntos": 0, "feedback": "⚠️ Detalles clave para distinguir IAo."}
+      ]
+    },
+    {
+      "situacion": "¿Qué OTRO soplo asociado puede aparecer en IAo severa y cómo lo identificas?",
+      "opciones": [
+        {"texto": "SOPLO DE AUSTIN FLINT: retumbo diastólico apical por el chorro de regurgitación aórtico que golpea la valva mitral anterior y la cierra parcialmente — SIMULA estenosis mitral pero NO tiene chasquido de apertura ni S1 intenso.", "correcta": true, "puntos": 15, "feedback": "✅ Austin Flint es un retumbo funcional. Saber distinguirlo de EM verdadera muestra nivel avanzado."},
+        {"texto": "Soplo de Carey-Coombs", "correcta": false, "puntos": -5, "feedback": "⚠️ Carey-Coombs es de carditis aguda reumática (mesodiastólico apical transitorio), no es típico de IAo."},
+        {"texto": "Soplo de Graham-Steell", "correcta": false, "puntos": -5, "feedback": "⚠️ Graham-Steell es soplo diastólico de insuficiencia pulmonar funcional por HTP, en BPI alto. No es típico de IAo crónica."},
+        {"texto": "No hay otros soplos asociados", "correcta": false, "puntos": -5, "feedback": "⚠️ Austin Flint es relativamente frecuente en IAo severa."}
+      ]
+    },
+    {
+      "situacion": "Maniobra dinámica. ¿Cuál realizas para CONFIRMAR origen aórtico y diferenciar de insuficiencia pulmonar?",
+      "opciones": [
+        {"texto": "HANDGRIP (aumento postcarga): la IAo AUMENTA con handgrip; la insuficiencia pulmonar NO cambia significativamente. Además, la inspiración (Carvallo) AUMENTA la IP pero NO la IAo (que es izquierda).", "correcta": true, "puntos": 15, "feedback": "✅ Handgrip aumenta IM e IAo. Carvallo (inspiración) aumenta SOLO derechos. Combinando ambas maniobras se puede localizar el origen."},
+        {"texto": "Sin maniobras", "correcta": false, "puntos": -10, "feedback": "❌ Maniobras dinámicas obligatorias."},
+        {"texto": "Solo Valsalva", "correcta": false, "puntos": 0, "feedback": "⚠️ Valsalva tiene utilidad pero handgrip es más discriminante para IAo."},
+        {"texto": "Le pido que tosa", "correcta": false, "puntos": -5, "feedback": "⚠️ La tos no es una maniobra diagnóstica de soplo."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas?",
+      "opciones": [
+        {"texto": "'Cuadro compatible con INSUFICIENCIA AÓRTICA CRÓNICA SEVERA: soplo diastólico decrescendo en BPI bajo, presión diferencial amplia, pulso de Corrigan, signo de Musset, biotipo marfanoide (descarto Marfan/aortopatía), NYHA II-III. Solicito ECOCARDIOGRAMA con énfasis en raíz aórtica.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + severidad + signos periféricos + sospecha etiológica + plan dirigido a raíz aórtica."},
+        {"texto": "'Soplo diastólico'", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta diagnóstico y severidad."},
+        {"texto": "'Soplo de IM'", "correcta": false, "puntos": -15, "feedback": "❌ Error de patología (IM es sistólico)."},
+        {"texto": "Sin síntesis", "correcta": false, "puntos": -10, "feedback": "❌ Falta diagnóstico explícito."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios solicitas?",
+      "opciones": [
+        {"texto": "1) ETT (severidad por vena contracta, ERO, jet, FEVI, DIÁMETROS VI, RAÍZ AÓRTICA Y AORTA ASCENDENTE). 2) ECG. 3) Rx tórax. 4) Si sospecha aortopatía: AngioTAC/RM de aorta torácica. 5) Estudios de Marfan si fenotipo (FBN1, ghent criteria).", "correcta": true, "puntos": 15, "feedback": "✅ ETT + imagen aórtica dirigida. En este paciente la valoración de raíz aórtica es prioritaria por el biotipo."},
+        {"texto": "Solo eco", "correcta": false, "puntos": 5, "feedback": "⚠️ Si el biotipo sugiere aortopatía, imagen TAC/RM de aorta es necesaria."},
+        {"texto": "Coronariografía directa", "correcta": false, "puntos": -10, "feedback": "❌ Solo pre-op."},
+        {"texto": "Prueba de esfuerzo", "correcta": false, "puntos": -5, "feedback": "⚠️ No es prioritaria; útil en casos asintomáticos para detectar síntomas ocultos, no aquí (ya sintomático)."}
+      ]
+    },
+    {
+      "situacion": "ETT: IAo severa, FEVI 50%, DTSVI 52 mm, DTDVI 70 mm, raíz aórtica 48 mm dilatada. ¿Decisión terapéutica?",
+      "opciones": [
+        {"texto": "CIRUGÍA: REEMPLAZO VALVULAR AÓRTICO + considerar reemplazo de raíz aórtica (procedimiento de Bentall) si raíz >45 mm o aortopatía asociada. Indicación clase I: IAo severa con síntomas (NYHA II-III) y/o FEVI ≤55% o DTSVI >50 mm.", "correcta": true, "puntos": 15, "feedback": "✅ Triple indicación: síntomas + FEVI 50 (≤55) + DTSVI 52 (>50). Raíz dilatada justifica Bentall combinado. Plan completo."},
+        {"texto": "Tratamiento médico con IECA indefinido", "correcta": false, "puntos": -15, "feedback": "❌ Cumple criterios quirúrgicos múltiples — tratamiento médico aislado es subóptimo."},
+        {"texto": "Reemplazo aórtico aislado sin valorar raíz", "correcta": false, "puntos": 5, "feedback": "⚠️ Raíz 48 mm dilatada en Marfan = considerar Bentall, no aislado."},
+        {"texto": "TAVR para IAo", "correcta": false, "puntos": -10, "feedback": "❌ TAVR está aprobado primariamente para EAo, no IAo (uso emergente off-label en casos seleccionados)."}
+      ]
+    },
+    {
+      "situacion": "Cierre con el paciente. ¿Qué le explicas?",
+      "opciones": [
+        {"texto": "'Tiene una insuficiencia severa de la válvula aórtica + dilatación de la aorta. Necesita cirugía para reemplazar la válvula y posiblemente la raíz aórtica. Lo derivaré a cardiología y cirugía cardíaca + estudio para descartar Marfan. Evite esfuerzos isométricos intensos. Signos de alarma: dolor torácico súbito intenso (puede ser disección aórtica → emergencia), disnea brusca, síncope — vaya a urgencias inmediatamente.'", "correcta": true, "puntos": 15, "feedback": "✅ Plan + sospecha sindrómica + restricción + signos de alarma (disección aórtica es crítica en este paciente)."},
+        {"texto": "Sin mencionar disección como signo de alarma", "correcta": false, "puntos": 5, "feedback": "⚠️ Con raíz dilatada, la disección es la complicación más grave; el paciente DEBE saberlo."},
+        {"texto": "'Tome enalapril y vuelva en 6 meses'", "correcta": false, "puntos": -15, "feedback": "❌ Subestima la gravedad y la indicación quirúrgica."},
+        {"texto": "Derivar sin restricción de actividad", "correcta": false, "puntos": -5, "feedback": "⚠️ Restricción de esfuerzos isométricos es importante."}
+      ]
+    }
+  ]
+}

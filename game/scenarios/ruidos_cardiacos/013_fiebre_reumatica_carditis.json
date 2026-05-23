@@ -1,0 +1,128 @@
+{
+  "id": "ruidos_013_fiebre_reumatica_carditis",
+  "titulo": "Adolescente con artritis migratoria y soplo nuevo tras faringitis",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AHA Jones 2015 modificados + AAP + UpToDate",
+  "dificultad": "Avanzado",
+  "contexto": "Adolescente de 13 años. Acude por fiebre de 8 días + dolor articular migratorio (inició en rodilla derecha, ahora en tobillo izquierdo y codo) que limita la deambulación. Refiere faringitis dolorosa hace 3 semanas tratada solo con paracetamol (sin antibiótico). En la exploración inicial detectas un soplo cardíaco nuevo.",
+  "pasos": [
+    {
+      "situacion": "Saludo y anamnesis. ¿Qué exploras dirigido a fiebre reumática?",
+      "opciones": [
+        {"texto": "Saludo + adaptación adolescente. Anamnesis: '¿FARINGITIS hace 1-5 semanas, tratada con antibiótico? ¿FIEBRE — cuántos días? ¿DOLOR ARTICULAR — qué articulación, migra de una a otra? ¿LESIONES EN PIEL (eritema marginado, nódulos subcutáneos)? ¿MOVIMIENTOS INVOLUNTARIOS o cambios de conducta (corea de Sydenham)? ¿Antecedente personal o familiar de fiebre reumática?'", "correcta": true, "puntos": 15, "feedback": "✅ Anamnesis dirigida a TODOS los criterios mayores de Jones + evidencia de SGA previa. Faringitis no tratada con ATB es el precipitante clásico."},
+        {"texto": "Solo síntomas actuales", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta antecedente de faringitis y otros criterios mayores."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde especificidad."},
+        {"texto": "Sin anamnesis", "correcta": false, "puntos": -15, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "Exploración articular. ¿Qué patrón es típico de fiebre reumática?",
+      "opciones": [
+        {"texto": "POLIARTRITIS MIGRATORIA de GRANDES articulaciones (rodillas, tobillos, codos, muñecas) — inflamación intensa pero de corta duración en cada articulación (1-2 días), MIGRA a otra. RESPUESTA DRAMÁTICA al AINE (24-48 h). SIN secuelas/destrucción articular. NO afecta pequeñas articulaciones de manos/pies (a diferencia de AR).", "correcta": true, "puntos": 15, "feedback": "✅ Patrón clásico: poliartritis migratoria, grandes articulaciones, sin secuelas, respuesta dramática a AINE. Es el criterio mayor más frecuente."},
+        {"texto": "Monoartritis crónica de rodilla", "correcta": false, "puntos": -10, "feedback": "❌ Eso sugeriría artritis séptica o reactiva, no FR."},
+        {"texto": "Poliartritis simétrica de pequeñas articulaciones", "correcta": false, "puntos": -10, "feedback": "❌ Eso es AR (artritis reumatoide), no fiebre reumática aguda."},
+        {"texto": "Sin afectación articular", "correcta": false, "puntos": -15, "feedback": "❌ El paciente refiere artritis migratoria — claramente presente."}
+      ]
+    },
+    {
+      "situacion": "Exploración cardiovascular. Sospecha de CARDITIS. ¿Cuál es el HALLAZGO más frecuente y CARACTERÍSTICO?",
+      "opciones": [
+        {"texto": "SOPLO HOLOSISTÓLICO APICAL irradiado a axila — INSUFICIENCIA MITRAL AGUDA por carditis reumática (la válvula MITRAL es la más afectada, seguida de la aórtica). Otros: SOPLO DE CAREY-COOMBS (retumbo mesodiastólico apical transitorio por mitralitis). SOPLO DIASTÓLICO de IAo en BPI bajo si hay valvulitis aórtica. PERICARDITIS (frote). Taquicardia DESPROPORCIONADA a la fiebre. Galope (S3 si IC).", "correcta": true, "puntos": 15, "feedback": "✅ Insuficiencia mitral aguda es el hallazgo cardínico más frecuente + Carey-Coombs es típico transitorio. Mitral > aórtica > tricúspide."},
+        {"texto": "Soplo sistólico expulsivo aórtico", "correcta": false, "puntos": -10, "feedback": "❌ La estenosis aórtica no es manifestación de FR aguda — afectación mitral es lo predominante."},
+        {"texto": "Solo taquicardia, sin soplo", "correcta": false, "puntos": -10, "feedback": "❌ El soplo nuevo es criterio mayor de carditis."},
+        {"texto": "Soplo continuo", "correcta": false, "puntos": -15, "feedback": "❌ Eso es PCA, sin relación con FR."}
+      ]
+    },
+    {
+      "situacion": "Exploración cutánea. ¿Qué hallazgos buscas?",
+      "opciones": [
+        {"texto": "1) ERITEMA MARGINADO: máculas rosadas no pruriginosas con bordes serpiginosos, evanescentes, en TRONCO y proximales (raro pero patognomónico — criterio mayor). 2) NÓDULOS SUBCUTÁNEOS: pequeños (0.5-2 cm), indoloros, sobre superficies extensoras (codos, rodillas), tendones — criterio mayor pero <10% casos.", "correcta": true, "puntos": 15, "feedback": "✅ Eritema marginado + nódulos subcutáneos son hallazgos cutáneos clásicos y CRITERIOS MAYORES de Jones."},
+        {"texto": "Petequias y hemorragias en astilla", "correcta": false, "puntos": -10, "feedback": "❌ Eso es endocarditis (Janeway/Osler), no FR."},
+        {"texto": "Rash malar", "correcta": false, "puntos": -10, "feedback": "❌ Eso es LES."},
+        {"texto": "Sin lesiones cutáneas", "correcta": false, "puntos": -5, "feedback": "⚠️ Aunque <10% — hay que buscarlos activamente."}
+      ]
+    },
+    {
+      "situacion": "¿Qué examen NEUROLÓGICO buscas dirigido a FR?",
+      "opciones": [
+        {"texto": "COREA DE SYDENHAM ('baile de San Vito'): MOVIMIENTOS INVOLUNTARIOS, no propositivos, irregulares, de las extremidades y cara; hipotonía; debilidad muscular; LABILIDAD EMOCIONAL (irritabilidad, llanto fácil, deterioro escolar). MÁS FRECUENTE EN MUJERES, latencia tardía (hasta 6 meses post-faringitis). Criterio mayor — su sola presencia justifica diagnóstico aún sin evidencia de SGA reciente.", "correcta": true, "puntos": 15, "feedback": "✅ Corea de Sydenham es criterio mayor único — su presencia + clínica permite diagnóstico aun sin evidencia microbiológica."},
+        {"texto": "Crisis convulsivas", "correcta": false, "puntos": -10, "feedback": "❌ No es la manifestación neurológica de FR."},
+        {"texto": "Sin examen neurológico", "correcta": false, "puntos": -10, "feedback": "❌ Corea es criterio mayor — debe buscarse."},
+        {"texto": "Solo fondo de ojo", "correcta": false, "puntos": -5, "feedback": "⚠️ No es la prioridad en FR (sí en endocarditis para Roth)."}
+      ]
+    },
+    {
+      "situacion": "CRITERIOS DE JONES 2015 modificados. ¿Cuántos criterios necesitas?",
+      "opciones": [
+        {"texto": "Criterios de JONES 2015 — Diagnóstico requiere: EVIDENCIA DE SGA PREVIA + (2 MAYORES) o (1 MAYOR + 2 MENORES). Excepciones: COREA sola o CARDITIS sola insidiosa permite diagnóstico. RECURRENCIA: 3 menores con evidencia de SGA. Estratificación por POBLACIÓN (alto vs bajo riesgo) — pueblo de alto riesgo usa criterios más laxos.", "correcta": true, "puntos": 15, "feedback": "✅ Criterios Jones 2015 + evidencia de SGA + excepciones. El esquema general: 2 mayores o 1 mayor + 2 menores + SGA previo."},
+        {"texto": "1 criterio mayor solamente", "correcta": false, "puntos": -10, "feedback": "❌ Salvo excepciones (corea/carditis insidiosa), no es suficiente."},
+        {"texto": "Todos los criterios mayores", "correcta": false, "puntos": -10, "feedback": "❌ No son necesarios todos."},
+        {"texto": "No hay criterios formales", "correcta": false, "puntos": -15, "feedback": "❌ Jones 2015 es el estándar."}
+      ]
+    },
+    {
+      "situacion": "MAYORES vs MENORES de Jones 2015. ¿Cuáles son?",
+      "opciones": [
+        {"texto": "MAYORES (5): 1) CARDITIS (clínica o subclínica por eco). 2) ARTRITIS (poliartritis migratoria; en alto riesgo: monoartritis o poliartralgia). 3) COREA. 4) ERITEMA MARGINADO. 5) NÓDULOS SUBCUTÁNEOS. MENORES: 1) Fiebre ≥38.5 (≥38 alto riesgo). 2) Poliartralgia (mono en alto riesgo). 3) PR PROLONGADO en ECG. 4) PCR/VSG elevados.", "correcta": true, "puntos": 15, "feedback": "✅ 5 mayores y 4 menores. Conocerlos demuestra dominio del esquema diagnóstico."},
+        {"texto": "Solo carditis y artritis son mayores", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay 5 mayores."},
+        {"texto": "Fiebre es mayor", "correcta": false, "puntos": -10, "feedback": "❌ Fiebre es MENOR (no mayor)."},
+        {"texto": "Sin distinguir mayores y menores", "correcta": false, "puntos": -10, "feedback": "❌ La distinción es esencial."}
+      ]
+    },
+    {
+      "situacion": "Evidencia de SGA PREVIO. ¿Cómo se demuestra?",
+      "opciones": [
+        {"texto": "1) CULTIVO FARÍNGEO positivo para SGA (excepcional si ya pasaron semanas). 2) Test rápido de antígeno SGA positivo. 3) ANTICUERPOS ANTI-ESTREPTOCÓCICOS elevados o en ascenso: ASLO (anti-estreptolisina O) más usado; anti-DNAasa B alternativa o complementaria. La combinación de ASLO + anti-DNAasa B detecta >95% casos. Si solo ASLO se pide, perderás algunos casos.", "correcta": true, "puntos": 15, "feedback": "✅ ASLO + anti-DNAasa B son los serológicos clave. Cultivo suele ser negativo a las semanas — se demuestra por anticuerpos."},
+        {"texto": "Cultivo es suficiente siempre", "correcta": false, "puntos": -5, "feedback": "⚠️ A las semanas suele estar negativo — los serológicos son más sensibles."},
+        {"texto": "Sin necesidad de evidencia de SGA", "correcta": false, "puntos": -15, "feedback": "❌ La evidencia de SGA es REQUISITO en Jones (salvo excepciones de corea o carditis insidiosa)."},
+        {"texto": "Solo PCR es necesario", "correcta": false, "puntos": -15, "feedback": "❌ PCR es inespecífico."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios complementarios pides para definir el caso?",
+      "opciones": [
+        {"texto": "1) BH, VSG, PCR (reactantes de fase aguda — criterio menor). 2) HEMOCULTIVOS (descartar EI). 3) ASLO + ANTI-DNAasa B (evidencia SGA). 4) FROTIS FARÍNGEO (excepcional positivo a estas alturas). 5) ECG (PR prolongado — criterio menor). 6) ECOCARDIOGRAMA (carditis subclínica + cuantificar valvulopatía). 7) Rx tórax (cardiomegalia, edema pulmonar si IC).", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo para confirmar criterios de Jones, descartar diferenciales (EI) y evaluar repercusión."},
+        {"texto": "Solo BH y PCR", "correcta": false, "puntos": -10, "feedback": "❌ Faltan serológicos SGA, ECG, eco."},
+        {"texto": "Solo ECG", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "Sin estudios", "correcta": false, "puntos": -15, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas con criterios de Jones?",
+      "opciones": [
+        {"texto": "'FIEBRE REUMÁTICA AGUDA según JONES 2015: MAYORES presentes — CARDITIS (soplo nuevo de IM, eco confirmatorio), POLIARTRITIS MIGRATORIA. MENORES — fiebre ≥38.5, PCR/VSG elevados, posible PR prolongado. EVIDENCIA DE SGA PREVIO — ASLO/anti-DNAasa B elevados, antecedente de faringitis. Cumple 2 MAYORES + criterio de SGA → diagnóstico confirmado.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico estructurado según Jones — mayores, menores, evidencia de SGA, conclusión. Nivel pulcro."},
+        {"texto": "'Cuadro reumatológico'", "correcta": false, "puntos": -10, "feedback": "❌ Diagnóstico genérico, sin aplicación de Jones."},
+        {"texto": "'AR juvenil'", "correcta": false, "puntos": -15, "feedback": "❌ Confusión grave. AR juvenil es otro cuadro distinto."},
+        {"texto": "'Endocarditis infecciosa'", "correcta": false, "puntos": -10, "feedback": "❌ EI tiene Duke modificados, hemocultivos positivos persistentes, vegetaciones — no es este cuadro."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento de la FASE AGUDA. ¿Qué prescribes?",
+      "opciones": [
+        {"texto": "1) ERRADICACIÓN DE SGA: PENICILINA G BENZATÍNICA 1.2 millones UI IM dosis única (si <27 kg: 600.000 UI) — o amoxicilina VO 10 días, o cefalosporina 1.ª G si alergia leve, o azitromicina si alergia grave. 2) ANTIINFLAMATORIO PARA CARDITIS LEVE: ÁCIDO ACETILSALICÍLICO (AAS) 80-100 mg/kg/d. 3) Si CARDITIS MODERADA-SEVERA con IC: añadir CORTICOIDE (prednisona 1-2 mg/kg/d, descenso lento). 4) REPOSO en cama hasta resolución de carditis. 5) Manejo de IC si presente (diurético, IECA).", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo de tratamiento agudo: erradicar SGA + AINE/corticoide según severidad + reposo + manejo IC."},
+        {"texto": "Solo AINE", "correcta": false, "puntos": -10, "feedback": "❌ Falta erradicar SGA con penicilina."},
+        {"texto": "Sin antibiótico", "correcta": false, "puntos": -15, "feedback": "❌ Penicilina obligatoria para erradicar SGA aún si no quedan signos faríngeos."},
+        {"texto": "Solo penicilina", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta AINE para artritis y carditis."}
+      ]
+    },
+    {
+      "situacion": "PROFILAXIS SECUNDARIA — la parte CRUCIAL del manejo. ¿Cómo y por cuánto tiempo?",
+      "opciones": [
+        {"texto": "PENICILINA G BENZATÍNICA IM CADA 3-4 SEMANAS (cada 21 días en zonas alto riesgo). DURACIÓN según afectación cardíaca: 1) FR SIN CARDITIS: 5 años o hasta los 21 años (lo más largo). 2) FR CON CARDITIS SIN ENF VALVULAR RESIDUAL: 10 años o hasta los 21 años. 3) FR CON ENF VALVULAR RESIDUAL: 10 años o hasta los 40 años (lo más largo), o INDEFINIDA si valvulopatía severa o cirugía. Alternativa VO: penicilina V 250 mg c/12 h (peor adherencia).", "correcta": true, "puntos": 15, "feedback": "✅ Profilaxis secundaria es la INTERVENCIÓN MÁS IMPORTANTE — previene recurrencias y daño valvular progresivo. Saber la duración por categoría es CLAVE."},
+        {"texto": "Penicilina VO durante 10 días", "correcta": false, "puntos": -15, "feedback": "❌ Eso es tratamiento agudo, no profilaxis secundaria. La profilaxis es POR AÑOS."},
+        {"texto": "Sin necesidad de profilaxis", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. La profilaxis secundaria es la base del manejo a largo plazo."},
+        {"texto": "Profilaxis solo 6 meses", "correcta": false, "puntos": -15, "feedback": "❌ Insuficiente — los plazos son años según severidad."}
+      ]
+    },
+    {
+      "situacion": "Cierre con el paciente y familia. ¿Qué comunicas?",
+      "opciones": [
+        {"texto": "'Tienes fiebre reumática, una reacción inflamatoria a una infección por estreptococo (la faringitis hace 3 semanas que no se trató con antibiótico). Ahora afecta tus articulaciones y tu corazón. Necesitas: 1) Reposo + antiinflamatorio. 2) Penicilina ahora para eliminar la bacteria. 3) MUY IMPORTANTE: una inyección de penicilina CADA 3-4 SEMANAS por VARIOS AÑOS para evitar que te vuelva a ocurrir — porque cada brote daña más la válvula del corazón. Necesitarás seguimiento con cardiología pediátrica. Signos de alarma: disnea brusca, dolor torácico, palpitaciones, fiebre — vuelvan a urgencias.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación completa + énfasis en profilaxis secundaria (parte crítica) + seguimiento + signos de alarma. Educación que evita complicaciones."},
+        {"texto": "Sin enfatizar profilaxis secundaria", "correcta": false, "puntos": -10, "feedback": "❌ La profilaxis es lo MÁS importante a largo plazo — debe entenderla bien."},
+        {"texto": "'Toma esto y vuelve si te sientes mal'", "correcta": false, "puntos": -15, "feedback": "❌ Sin plan claro ni educación de profilaxis."},
+        {"texto": "Sin signos de alarma", "correcta": false, "puntos": -5, "feedback": "⚠️ Carditis puede progresar — debe vigilarse."}
+      ]
+    }
+  ]
+}

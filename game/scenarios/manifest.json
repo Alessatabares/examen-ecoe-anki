@@ -215,6 +215,114 @@
       "dificultad": "Intermedio-Avanzado",
       "pasos": 16,
       "url": "scenarios/ruidos_cardiacos/001_endocarditis_drogas_iv.json"
+    },
+    {
+      "id": "ruidos_002_estenosis_aortica",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Síncope con esfuerzo y soplo en varón de 72 años",
+      "dificultad": "Avanzado",
+      "pasos": 13,
+      "url": "scenarios/ruidos_cardiacos/002_estenosis_aortica_severa.json"
+    },
+    {
+      "id": "ruidos_003_insuficiencia_mitral_prolapso",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Disnea y palpitaciones con soplo apical irradiado a axila",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 12,
+      "url": "scenarios/ruidos_cardiacos/003_insuficiencia_mitral_prolapso.json"
+    },
+    {
+      "id": "ruidos_004_estenosis_mitral_reumatica",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Disnea, FA reciente y soplo diastólico en mujer joven",
+      "dificultad": "Avanzado",
+      "pasos": 12,
+      "url": "scenarios/ruidos_cardiacos/004_estenosis_mitral_reumatica.json"
+    },
+    {
+      "id": "ruidos_005_insuficiencia_aortica_cronica",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Disnea progresiva con pulsos saltones y soplo diastólico",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 12,
+      "url": "scenarios/ruidos_cardiacos/005_insuficiencia_aortica_cronica.json"
+    },
+    {
+      "id": "ruidos_006_ic_descompensada_s3",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Disnea paroxística nocturna y edemas en varón de 68 años",
+      "dificultad": "Intermedio",
+      "pasos": 12,
+      "url": "scenarios/ruidos_cardiacos/006_insuficiencia_cardiaca_s3.json"
+    },
+    {
+      "id": "ruidos_007_pericarditis_aguda",
+      "tema": "Ruidos Cardíacos",
+      "icon": "🎧",
+      "titulo": "Dolor torácico pleurítico que mejora al inclinarse hacia adelante",
+      "dificultad": "Básico-Intermedio",
+      "pasos": 12,
+      "url": "scenarios/ruidos_cardiacos/007_pericarditis_aguda.json"
+    },
+    {
+      "id": "ruidos_008_soplo_inocente_still_nino",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Soplo hallado en cribado escolar de niña sana de 5 años",
+      "dificultad": "Básico",
+      "pasos": 11,
+      "url": "scenarios/ruidos_cardiacos/008_soplo_inocente_still_nino.json"
+    },
+    {
+      "id": "ruidos_009_civ_lactante",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Soplo holosistólico mesocardio en lactante asintomático",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/ruidos_cardiacos/009_civ_lactante.json"
+    },
+    {
+      "id": "ruidos_010_cia_desdoblamiento_fijo",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Soplo y desdoblamiento fijo de S2 en niña de 7 años",
+      "dificultad": "Intermedio-Avanzado",
+      "pasos": 11,
+      "url": "scenarios/ruidos_cardiacos/010_cia_desdoblamiento_fijo.json"
+    },
+    {
+      "id": "ruidos_011_ductus_persistente_pretermino",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Soplo continuo en maquinaria en recién nacido pretérmino",
+      "dificultad": "Intermedio",
+      "pasos": 11,
+      "url": "scenarios/ruidos_cardiacos/011_ductus_persistente_pretermino.json"
+    },
+    {
+      "id": "ruidos_012_tetralogia_fallot_crisis",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Lactante cianótico que se pone en cuclillas",
+      "dificultad": "Avanzado",
+      "pasos": 11,
+      "url": "scenarios/ruidos_cardiacos/012_tetralogia_fallot_crisis.json"
+    },
+    {
+      "id": "ruidos_013_fiebre_reumatica_carditis",
+      "tema": "Ruidos Cardíacos (Pediátrico)",
+      "icon": "🧸",
+      "titulo": "Adolescente con artritis migratoria y soplo nuevo tras faringitis",
+      "dificultad": "Avanzado",
+      "pasos": 13,
+      "url": "scenarios/ruidos_cardiacos/013_fiebre_reumatica_carditis.json"
     }
   ]
 }

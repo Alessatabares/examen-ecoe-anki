@@ -1,0 +1,119 @@
+{
+  "id": "ruidos_004_estenosis_mitral_reumatica",
+  "titulo": "Disnea, FA reciente y soplo diastólico en mujer joven",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ACC/AHA 2020 valvulopatías + Jones 2015 + UpToDate",
+  "dificultad": "Avanzado",
+  "contexto": "Mujer de 38 años inmigrante de zona endémica de fiebre reumática. Acude por disnea progresiva (ahora NYHA III), palpitaciones irregulares de aparición reciente y episodios de hemoptisis ocasional. Antecedente referido de 'amigdalitis frecuentes' en la infancia sin tratamiento adecuado.",
+  "pasos": [
+    {
+      "situacion": "Saludo y presentación. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo + presentación + identidad + anuncio de exploración cardiovascular.", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo completo."},
+        {"texto": "Exploro sin saludar", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Sin confirmar identidad", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta protocolo de seguridad."},
+        {"texto": "Pido los estudios sin anamnesis", "correcta": false, "puntos": -10, "feedback": "❌ Anamnesis primero."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida con la sospecha de cardiopatía reumática. ¿Qué preguntas?",
+      "opciones": [
+        {"texto": "'¿Faringitis estreptocócicas en infancia? ¿Fiebre reumática diagnosticada o sospechada? ¿Profilaxis con penicilina alguna vez? ¿País de origen? ¿Disnea, ortopnea, DPN? ¿Palpitaciones irregulares? ¿Hemoptisis? ¿Embarazos (descompensan EM)?'", "correcta": true, "puntos": 15, "feedback": "✅ Etiología (faringitis SGA, fiebre reumática, origen geográfico) + síntomas (clase funcional NYHA) + complicaciones (hemoptisis = HTP, palpitaciones = FA) + precipitantes (embarazo)."},
+        {"texto": "Solo síntomas actuales", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes la etiología que es clave para el manejo (profilaxis secundaria continua)."},
+        {"texto": "Pregunto sobre faringitis pero no por profilaxis previa", "correcta": false, "puntos": 5, "feedback": "⚠️ Casi completo. La profilaxis previa indica historia conocida."},
+        {"texto": "Anamnesis abierta sin dirigir", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierdes oportunidad de anclar el diagnóstico."}
+      ]
+    },
+    {
+      "situacion": "Inspección de la paciente. ¿Qué signo cutáneo clásico de EM crónica buscas?",
+      "opciones": [
+        {"texto": "Busco las 'CHAPETAS MITRALES' (rubor malar cianótico) — eritema/cianosis en pómulos por bajo gasto crónico + vasoconstricción periférica + congestión venosa.", "correcta": true, "puntos": 15, "feedback": "✅ Signo clásico aunque poco frecuente. Saber buscarlo es nivel pulcro."},
+        {"texto": "Janeway/Osler", "correcta": false, "puntos": -5, "feedback": "⚠️ Esos son de endocarditis, no EM."},
+        {"texto": "Eritema marginado", "correcta": false, "puntos": -5, "feedback": "⚠️ Es de fiebre reumática AGUDA (Jones), no EM crónica."},
+        {"texto": "No inspecciono la cara", "correcta": false, "puntos": -10, "feedback": "❌ Inspección es parte de la exploración cardiovascular."}
+      ]
+    },
+    {
+      "situacion": "Palpas el pulso radial. ¿Qué encuentras?",
+      "opciones": [
+        {"texto": "PULSO IRREGULARMENTE IRREGULAR con déficit de pulso (FC apical > FC radial) — sugiere FIBRILACIÓN AURICULAR, complicación frecuente en EM por dilatación auricular izquierda.", "correcta": true, "puntos": 15, "feedback": "✅ FA en EM es muy frecuente (>40%) por dilatación de AI; cuantificar déficit de pulso muestra apreciación clínica fina."},
+        {"texto": "Pulso bigeminado", "correcta": false, "puntos": -5, "feedback": "⚠️ Bigeminismo no es típico de FA. FA = irregularmente irregular."},
+        {"texto": "Pulso parvus et tardus", "correcta": false, "puntos": -10, "feedback": "❌ Eso es de EAo, no EM."},
+        {"texto": "Pulso normal", "correcta": false, "puntos": -10, "feedback": "❌ La paciente reporta palpitaciones — debes buscar el sustrato (FA)."}
+      ]
+    },
+    {
+      "situacion": "Higiene y preparación. ¿Cómo posicionas a la paciente para óptima audición de EM?",
+      "opciones": [
+        {"texto": "Lavado de manos + estetoscopio + consentimiento. Para óptima audición: DECÚBITO LATERAL IZQUIERDO con CAMPANA del estetoscopio sobre el ÁPEX — la EM tiene retumbo diastólico BAJA FRECUENCIA, mejor con campana y posición lateral.", "correcta": true, "puntos": 15, "feedback": "✅ Truco clave del EM: campana + lateral izq + ápex. Pídeselo verbalizando para mostrar al sinodal."},
+        {"texto": "Decúbito supino con membrana", "correcta": false, "puntos": -5, "feedback": "⚠️ El retumbo se pierde — es de baja frecuencia, requiere campana, no membrana."},
+        {"texto": "Bipedestación", "correcta": false, "puntos": -10, "feedback": "❌ La bipedestación reduce retorno venoso y disminuye el flujo a través de la válvula mitral — pierdes el soplo."},
+        {"texto": "No hago posicionamiento específico", "correcta": false, "puntos": -10, "feedback": "❌ Sin posicionamiento, no se ausculta bien la EM."}
+      ]
+    },
+    {
+      "situacion": "Auscultas. ¿Qué hallazgos auscultatorios completos describes en EM?",
+      "opciones": [
+        {"texto": "1) S1 INTENSO. 2) CHASQUIDO DE APERTURA tras S2. 3) RETUMBO DIASTÓLICO (soplo diastólico de baja frecuencia) con REFUERZO PRESISTÓLICO (perdido si FA — la paciente lo ha perdido). 4) Posible P2 reforzado (HTP). 5) Si IT asociada: soplo holosistólico paraesternal izq con Carvallo +.", "correcta": true, "puntos": 15, "feedback": "✅ TODOS los hallazgos clásicos. El refuerzo presistólico se pierde en FA porque depende de la contracción auricular activa."},
+        {"texto": "Solo describo soplo sistólico", "correcta": false, "puntos": -15, "feedback": "❌ EM es DIASTÓLICA — error de timing grave."},
+        {"texto": "Solo S3", "correcta": false, "puntos": -10, "feedback": "❌ S3 es IC sistólica, no es típico de EM."},
+        {"texto": "Soplo holosistólico apical", "correcta": false, "puntos": -15, "feedback": "❌ Eso es INSUFICIENCIA mitral, no estenosis."}
+      ]
+    },
+    {
+      "situacion": "Distancia entre A2 y chasquido de apertura. ¿Por qué importa?",
+      "opciones": [
+        {"texto": "El intervalo A2-CA es INVERSAMENTE proporcional a la severidad: a MENOR distancia (CA más temprano), MÁS severa la estenosis (presión auricular izq más alta).", "correcta": true, "puntos": 15, "feedback": "✅ Dato semiológico avanzado: A2-CA corto = EM severa. Refleja presión auricular izq elevada."},
+        {"texto": "El intervalo es siempre fijo", "correcta": false, "puntos": -5, "feedback": "⚠️ Varía con severidad."},
+        {"texto": "El chasquido no aporta información", "correcta": false, "puntos": -10, "feedback": "❌ El CA confirma reumática y, por su distancia con A2, indica severidad."},
+        {"texto": "A mayor distancia, más severa", "correcta": false, "puntos": -10, "feedback": "❌ Es lo opuesto — MENOR distancia = MÁS severa."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas?",
+      "opciones": [
+        {"texto": "'Cuadro compatible con ESTENOSIS MITRAL DE ORIGEN REUMÁTICO con FIBRILACIÓN AURICULAR e HIPERTENSIÓN PULMONAR: S1 intenso, chasquido de apertura, retumbo diastólico apical, pulso irregularmente irregular, NYHA III, hemoptisis. Solicito ETT/ETE para cuantificar severidad por gradiente medio y área valvular.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + etiología + complicaciones (FA, HTP) + clase funcional + plan."},
+        {"texto": "'Soplo de EM'", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta etiología, complicaciones y clase funcional."},
+        {"texto": "'Insuficiencia mitral'", "correcta": false, "puntos": -15, "feedback": "❌ Confusión de patología (diastólico vs sistólico)."},
+        {"texto": "Sin síntesis diagnóstica", "correcta": false, "puntos": -10, "feedback": "❌ ECOE espera diagnóstico clínico explícito."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios solicitas y en qué orden?",
+      "opciones": [
+        {"texto": "1) ECG (FA, signos de AI grande). 2) ETT (área valvular, gradiente medio, score de Wilkins para idoneidad de valvuloplastia, presión arterial pulmonar). 3) Rx tórax (cardiomegalia AI, líneas B Kerley, redistribución). 4) ETE (descartar trombo AI antes de valvuloplastia o cardioversión). 5) Analítica.", "correcta": true, "puntos": 15, "feedback": "✅ ETE para descartar trombo en AI es CRUCIAL antes de valvuloplastia o cardioversión — sin él, riesgo embólico."},
+        {"texto": "Solo ECG y Rx", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta ETT que define severidad."},
+        {"texto": "Cateterismo invasivo directo", "correcta": false, "puntos": -10, "feedback": "❌ Cateterismo se reserva para casos con discordancia eco-clínica."},
+        {"texto": "TAC torácico", "correcta": false, "puntos": -10, "feedback": "❌ TAC no es estudio primario en EM."}
+      ]
+    },
+    {
+      "situacion": "Manejo inicial — la paciente tiene FA y EM severa. ¿Qué tratamiento médico inicial?",
+      "opciones": [
+        {"texto": "1) ANTICOAGULACIÓN OBLIGATORIA con WARFARINA (INR 2-3) — DOAC CONTRAINDICADO en EM moderada-severa de origen reumático. 2) Control de FC con BETA-BLOQUEADOR (alarga diástole, mejora llenado VI). 3) Diurético si congestión. 4) Profilaxis secundaria fiebre reumática (penicilina G benzatínica IM c/3-4 sem indefinida).", "correcta": true, "puntos": 15, "feedback": "✅ Puntos clave: warfarina (NO DOAC en EM reumática), beta-bloqueador para alargar diástole, profilaxis secundaria continua."},
+        {"texto": "DOAC (apixabán) para anticoagulación", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. DOAC están CONTRAINDICADOS en EM moderada-severa de origen reumático y en válvula mecánica. Solo warfarina."},
+        {"texto": "Sin anticoagulación, control de FC solo", "correcta": false, "puntos": -15, "feedback": "❌ FA en EM reumática = anticoagulación SIEMPRE (CHA2DS2-VASc no aplica — riesgo embólico es alto por defecto)."},
+        {"texto": "Aspirina como anticoagulante", "correcta": false, "puntos": -15, "feedback": "❌ Aspirina NO es anticoagulante; solo antiagregante. Insuficiente para FA en EM."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento definitivo. El ETT muestra área valvular 1.0 cm², gradiente medio 12 mmHg, PSAP 55 mmHg, score Wilkins 7, sin trombo en AI. ¿Qué opción?",
+      "opciones": [
+        {"texto": "VALVULOPLASTIA MITRAL PERCUTÁNEA CON BALÓN (técnica de Inoue): elección en EM severa con anatomía favorable (Wilkins ≤8), sin trombo en AI, sin IM moderada-severa. Si Wilkins >8 o anatomía desfavorable: reemplazo valvular mitral.", "correcta": true, "puntos": 15, "feedback": "✅ Wilkins 7 + sin trombo + EM severa sintomática = candidata ideal para valvuloplastia percutánea (menos invasiva, evita esternotomía)."},
+        {"texto": "Reemplazo valvular sin valorar valvuloplastia", "correcta": false, "puntos": 5, "feedback": "⚠️ Si la anatomía es favorable (Wilkins ≤8), valvuloplastia primero — menos invasiva."},
+        {"texto": "Solo tratamiento médico indefinido", "correcta": false, "puntos": -10, "feedback": "❌ EM severa sintomática no responde a tratamiento médico aislado."},
+        {"texto": "Comisurotomía a corazón abierto", "correcta": false, "puntos": 0, "feedback": "⚠️ Comisurotomía quirúrgica era el estándar antes de la valvuloplastia percutánea — hoy se reserva para anatomía no favorable a percutánea."}
+      ]
+    },
+    {
+      "situacion": "Cierre con la paciente. ¿Qué le comunicas?",
+      "opciones": [
+        {"texto": "'Tiene estenosis mitral severa por su antecedente reumático, con fibrilación auricular asociada. Necesita: 1) anticoagulación con warfarina de por vida; 2) penicilina cada 3-4 semanas para evitar nuevos brotes reumáticos; 3) un procedimiento llamado valvuloplastia con balón para abrir la válvula. La derivaré a cardiología. Signos de alarma: disnea brusca, hemoptisis abundante, dolor torácico, focalidad neurológica (riesgo embólico).'", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo: anticoagulación + profilaxis secundaria + valvuloplastia + signos de alarma específicos al riesgo embólico y EAP."},
+        {"texto": "'Tome el medicamento y vuelva en 6 meses'", "correcta": false, "puntos": -15, "feedback": "❌ Sin claridad del diagnóstico ni del plan procedimental."},
+        {"texto": "Derivación sin explicar profilaxis secundaria", "correcta": false, "puntos": -5, "feedback": "⚠️ La profilaxis secundaria es vital — sin ella habrá nuevos brotes."},
+        {"texto": "Sin signos de alarma específicos", "correcta": false, "puntos": -5, "feedback": "⚠️ Riesgo embólico y EAP son frecuentes — debe saber qué vigilar."}
+      ]
+    }
+  ]
+}

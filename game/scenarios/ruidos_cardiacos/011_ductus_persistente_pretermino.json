@@ -1,0 +1,110 @@
+{
+  "id": "ruidos_011_ductus_persistente_pretermino",
+  "titulo": "Soplo continuo en maquinaria en recién nacido pretérmino",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AAP + AHA cardiopatías congénitas + UpToDate",
+  "dificultad": "Intermedio",
+  "contexto": "Recién nacido pretérmino de 32 semanas, peso 1700 g, día 5 de vida en UCIN. Presenta dificultad para destete de oxígeno, falla en ganar peso, taquipnea. Pulsos pedios saltones a la palpación. En la auscultación detectas un soplo continuo. La neonatóloga te pide que evalúes.",
+  "pasos": [
+    {
+      "situacion": "Saludo al equipo y revisión del caso. ¿Qué exploras primero en la anamnesis perinatal?",
+      "opciones": [
+        {"texto": "Datos perinatales: edad gestacional, peso al nacer, Apgar, antecedentes maternos (rubéola congénita, otras infecciones TORCH, ingesta de fármacos), curso neonatal, soporte respiratorio actual, ganancia ponderal, diuresis, tomas, deposiciones.", "correcta": true, "puntos": 15, "feedback": "✅ Anamnesis neonatal completa. PCA es muy frecuente en prematuros + asociado a rubéola congénita."},
+        {"texto": "Solo peso actual", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."},
+        {"texto": "Sin revisar historia", "correcta": false, "puntos": -15, "feedback": "❌ Falla."},
+        {"texto": "Solo Apgar", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Exploración física del recién nacido. ¿Qué evalúas?",
+      "opciones": [
+        {"texto": "Constantes (FC, FR, SatO2 PRE y POST DUCTAL — diferencia >3% sugiere shunt importante), PA en 4 extremidades, COLOR (cianosis diferencial), PULSOS PERIFÉRICOS (CARÁCTER SALTÓN/colapsante en PCA por presión diferencial amplia), PRESIÓN DIFERENCIAL amplia, hepatomegalia, perfusión.", "correcta": true, "puntos": 15, "feedback": "✅ SatO2 pre/post ductal + carácter del pulso (saltón) + presión diferencial amplia = HALLAZGOS CLAVE en PCA hemodinámicamente significativo."},
+        {"texto": "Solo FC y temperatura", "correcta": false, "puntos": -10, "feedback": "❌ Faltan elementos cruciales."},
+        {"texto": "Sin medir SatO2 pre/post ductal", "correcta": false, "puntos": -5, "feedback": "⚠️ Es la diferencia clave en cardiopatías ductus-dependientes."},
+        {"texto": "Sin palpar pulsos", "correcta": false, "puntos": -10, "feedback": "❌ Pulsos saltones son signo cardinal."}
+      ]
+    },
+    {
+      "situacion": "Auscultación cardíaca. ¿Cómo caracterizas el soplo de PCA?",
+      "opciones": [
+        {"texto": "SOPLO CONTINUO 'EN MAQUINARIA DE GIBSON': ocupa SÍSTOLE Y DIÁSTOLE, crescendo-decrescendo con pico en S2 (donde la diferencia de presión es máxima), foco máximo en REGIÓN INFRACLAVICULAR IZQUIERDA o 2.º EIC izq, intensidad 2-4/6 con posible frémito. Es el único soplo cardíaco CONTINUO típico — patognomónico de PCA.", "correcta": true, "puntos": 15, "feedback": "✅ Soplo continuo en maquinaria es PATOGNOMÓNICO de PCA. Foco infraclavicular izquierdo + crescendo en S2 son detalles clave."},
+        {"texto": "Soplo holosistólico mesocardio", "correcta": false, "puntos": -15, "feedback": "❌ Eso es CIV, no PCA. La PCA es el único continuo de las cardiopatías congénitas comunes."},
+        {"texto": "Soplo sistólico expulsivo pulmonar", "correcta": false, "puntos": -15, "feedback": "❌ Eso es CIA o estenosis pulmonar."},
+        {"texto": "Soplo diastólico aislado", "correcta": false, "puntos": -10, "feedback": "❌ PCA es CONTINUO (sístole + diástole), no diastólico aislado."}
+      ]
+    },
+    {
+      "situacion": "Pulsos saltones y presión diferencial amplia. ¿Por qué?",
+      "opciones": [
+        {"texto": "Por la PERSISTENCIA del shunt I→D a través del ductus (aorta a arteria pulmonar) → PRESIÓN AÓRTICA SISTÓLICA elevada (volumen sistólico aumentado) + PRESIÓN AÓRTICA DIASTÓLICA disminuida (sangre se escapa a la pulmonar durante diástole) → PRESIÓN DIFERENCIAL AMPLIA + PULSOS COLAPSANTES/SALTONES (similar a IAo en adultos).", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo correcto — PCA hemodinámicamente significativo produce signos periféricos similares a IAo."},
+        {"texto": "Por anemia", "correcta": false, "puntos": -10, "feedback": "❌ La anemia no explica el soplo continuo."},
+        {"texto": "Sin saber por qué", "correcta": false, "puntos": -5, "feedback": "⚠️ Entender el mecanismo importa."},
+        {"texto": "Por sepsis", "correcta": false, "puntos": -10, "feedback": "❌ No es el mecanismo del cuadro."}
+      ]
+    },
+    {
+      "situacion": "¿Qué OTROS hallazgos clínicos esperas en PCA significativo en pretérmino?",
+      "opciones": [
+        {"texto": "1) DIFICULTAD para destete de oxígeno (mecanismo descrito). 2) APNEAS recurrentes. 3) Falla en ganar peso (alto gasto metabólico + alimentación difícil). 4) Hepatomegalia. 5) HEMORRAGIA INTRAVENTRICULAR (HIV — robo del flujo cerebral). 6) ENTEROCOLITIS NECROTIZANTE (robo del flujo mesentérico). 7) DISPLASIA BRONCOPULMONAR (DBP).", "correcta": true, "puntos": 15, "feedback": "✅ Complicaciones del PCA en pretérmino — el 'robo' de flujo causa daño en cerebro, intestino y compromete pulmón. Justifica el tratamiento."},
+        {"texto": "Solo soplo, sin más", "correcta": false, "puntos": -10, "feedback": "❌ Las complicaciones son graves y guían el tratamiento."},
+        {"texto": "Convulsiones siempre", "correcta": false, "puntos": -5, "feedback": "⚠️ Pueden aparecer si HIV, pero no son hallazgo directo de PCA."},
+        {"texto": "Sin complicaciones en pretérmino", "correcta": false, "puntos": -15, "feedback": "❌ Pretérmino es la población de mayor riesgo."}
+      ]
+    },
+    {
+      "situacion": "Diagnóstico. ¿Qué estudio confirma?",
+      "opciones": [
+        {"texto": "ECOCARDIOGRAMA DOPPLER PEDIÁTRICO: confirma PCA, mide diámetro del ductus, dirección y magnitud del shunt (I→D acianótico vs bidireccional/D→I si HTP), repercusión sobre cavidades, valoración de presión pulmonar. Es no invasivo, sin radiación, estándar en neonatología.", "correcta": true, "puntos": 15, "feedback": "✅ ETT pediátrico es la prueba de oro."},
+        {"texto": "Cateterismo cardíaco", "correcta": false, "puntos": -10, "feedback": "❌ Invasivo en neonato. Solo si terapéutico o diagnóstico complejo."},
+        {"texto": "Rx tórax solamente", "correcta": false, "puntos": -5, "feedback": "⚠️ Rx muestra cardiomegalia e hiperflujo pero no confirma PCA."},
+        {"texto": "TAC", "correcta": false, "puntos": -15, "feedback": "❌ Irradia. ETT es preferido."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento de PCA HEMODINÁMICAMENTE SIGNIFICATIVO en pretérmino. ¿Cuál es la primera línea?",
+      "opciones": [
+        {"texto": "1) MEDIDAS DE SOPORTE: restricción hídrica, diurético (furosemida), ajuste de soporte respiratorio. 2) CIERRE FARMACOLÓGICO: INDOMETACINA o IBUPROFENO IV/oral (inhibidores COX que aumentan cierre ductal por inhibición de prostaglandinas). 3) PARACETAMOL IV (alternativa emergente, especialmente si contraindicación a indo/ibu). Evaluar contraindicaciones: NEC, insuficiencia renal, plaquetopenia, sangrado.", "correcta": true, "puntos": 15, "feedback": "✅ Manejo escalonado en pretérmino. Indometacina/ibuprofeno son primera línea. Paracetamol como alternativa moderna."},
+        {"texto": "Prostaglandina E1 para abrir el ductus", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. PGE1 se usa para MANTENER ABIERTO el ductus en cardiopatías ductus-dependientes (atresia pulmonar, hipoplasia VI). En PCA sintomático queremos CERRARLO con AINE."},
+        {"texto": "Cirugía urgente como primera opción", "correcta": false, "puntos": -10, "feedback": "❌ Cirugía si falla el cierre farmacológico o contraindicación."},
+        {"texto": "Observación sin tratar", "correcta": false, "puntos": -10, "feedback": "❌ PCA significativo en pretérmino con complicaciones requiere intervención."}
+      ]
+    },
+    {
+      "situacion": "¿Cuándo se indica CIRUGÍA o cierre PERCUTÁNEO?",
+      "opciones": [
+        {"texto": "CIRUGÍA (ligadura quirúrgica): pretérmino con PCA significativo y FALLO de cierre farmacológico o contraindicación a AINE. CIERRE PERCUTÁNEO con dispositivo: niño mayor (>5-6 kg habitualmente) con PCA persistente — preferido sobre cirugía. Toda PCA persistente sintomática o con shunt significativo eventualmente se cierra para evitar HTP, IC, endocarditis.", "correcta": true, "puntos": 15, "feedback": "✅ Algoritmo: AINE → ligadura quirúrgica en pretérmino refractario → cierre percutáneo en niño mayor. Todos los PCA significativos eventualmente se cierran."},
+        {"texto": "Nunca se opera", "correcta": false, "puntos": -15, "feedback": "❌ Sí hay indicaciones."},
+        {"texto": "Toda PCA requiere cirugía urgente", "correcta": false, "puntos": -10, "feedback": "❌ Pasos previos: medidas + AINE."},
+        {"texto": "Solo cirugía a cielo abierto", "correcta": false, "puntos": -5, "feedback": "⚠️ Existe opción percutánea en niño mayor."}
+      ]
+    },
+    {
+      "situacion": "Sospechas que la madre tuvo rubéola durante el embarazo. ¿Qué OTRAS manifestaciones de rubéola congénita debes buscar?",
+      "opciones": [
+        {"texto": "TRÍADA DE GREGG: 1) Cardiopatía (PCA típica, también CIA, estenosis pulmonar). 2) Catarata congénita / glaucoma. 3) Sordera neurosensorial. Otras: microcefalia, retardo psicomotor, hepatoesplenomegalia, púrpura ('blueberry muffin' por eritropoyesis dérmica), retinopatía 'sal y pimienta'.", "correcta": true, "puntos": 15, "feedback": "✅ Tríada de Gregg + asociaciones. La PCA por rubéola es 'la' cardiopatía clásica de la rubéola congénita."},
+        {"texto": "Solo busco la cardiopatía", "correcta": false, "puntos": -10, "feedback": "❌ Rubéola congénita es síndrome multisistémico — hay que descartar todas las manifestaciones."},
+        {"texto": "Sin relacionarlo con la madre", "correcta": false, "puntos": -10, "feedback": "❌ El antecedente materno cambia el enfoque del lactante."},
+        {"texto": "Solo neurológico", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Comunicación con los padres. ¿Qué les explicas?",
+      "opciones": [
+        {"texto": "'Su bebé tiene un canal que normalmente se cierra después del nacimiento pero en su caso sigue abierto — se llama ductus arterioso persistente. Es muy frecuente en prematuros. Está sobrecargando los pulmones y dificultando que respire por su cuenta. Le daremos un medicamento (ibuprofeno o indometacina) para ayudar a que se cierre. Si no funciona, podría necesitar cirugía. Es un problema tratable. Lo controlaremos con ecocardiograma.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación clara, sin tecnicismos + plan + pronóstico + opciones. Comunicación apropiada en UCIN."},
+        {"texto": "'Tiene un soplo, no se preocupen'", "correcta": false, "puntos": -10, "feedback": "❌ Subestima — es un PCA significativo con complicaciones."},
+        {"texto": "'Necesita cirugía urgente'", "correcta": false, "puntos": -10, "feedback": "❌ Primero AINE."},
+        {"texto": "Sin comunicar plan", "correcta": false, "puntos": -10, "feedback": "❌ Comunicación es parte clave."}
+      ]
+    },
+    {
+      "situacion": "Tras tratamiento exitoso. ¿Plan de seguimiento?",
+      "opciones": [
+        {"texto": "1) ETT de control para confirmar cierre. 2) Seguimiento en cardiología pediátrica. 3) Tras cierre completo y curación, vida normal, vacunación al día, sin restricciones ni profilaxis (AHA 2007: PCA cerrado >6 meses no requiere profilaxis salvo materiales residuales). 4) Vigilar secuelas asociadas a prematuridad (DBP, ROP, neurodesarrollo).", "correcta": true, "puntos": 15, "feedback": "✅ Plan integral post-cierre + seguimiento de comorbilidades de pretérmino."},
+        {"texto": "Profilaxis ATB de por vida", "correcta": false, "puntos": -15, "feedback": "❌ No indicado tras cierre exitoso sin materiales residuales (AHA 2007)."},
+        {"texto": "Sin seguimiento", "correcta": false, "puntos": -10, "feedback": "❌ Pretérmino requiere seguimiento multidisciplinar."},
+        {"texto": "Solo seguimiento cardiológico", "correcta": false, "puntos": 5, "feedback": "⚠️ Pretérminos tienen comorbilidades múltiples que requieren seguimiento integral."}
+      ]
+    }
+  ]
+}

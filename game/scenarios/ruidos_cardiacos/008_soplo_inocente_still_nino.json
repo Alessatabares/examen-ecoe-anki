@@ -1,0 +1,110 @@
+{
+  "id": "ruidos_008_soplo_inocente_still_nino",
+  "titulo": "Soplo hallado en cribado escolar de niña sana de 5 años",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AHA + AAP + UpToDate",
+  "dificultad": "Básico",
+  "contexto": "Niña de 5 años derivada de la revisión escolar por hallazgo de soplo. Está completamente asintomática. Crecimiento y desarrollo normales (p50 talla y peso). Sin antecedentes perinatales relevantes (parto a término, sin complicaciones). Vacunada. Sin antecedentes familiares de cardiopatía congénita ni muerte súbita. Acude acompañada de su madre, ansiosa por el resultado.",
+  "pasos": [
+    {
+      "situacion": "Llegan a tu consulta. ¿Cómo abordas la situación?",
+      "opciones": [
+        {"texto": "Saludo a la niña y a la madre por separado. Me presento, confirmo identidad, me pongo a la altura de la niña, le explico con palabras simples qué haré. Anuncio el motivo a la madre.", "correcta": true, "puntos": 15, "feedback": "✅ Comunicación pediátrica: saludo a ambos, lenguaje adaptado, ponerse a la altura del niño. Reduce ansiedad."},
+        {"texto": "Solo saludo a la madre y exploro a la niña sin hablarle", "correcta": false, "puntos": -10, "feedback": "❌ La niña tiene 5 años — debe ser involucrada en la comunicación."},
+        {"texto": "Empiezo a auscultar sin presentaciones", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Saludo formal pero sin adaptar a la edad", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta adaptación pediátrica."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis. ¿Qué exploras para diferenciar soplo inocente de patológico?",
+      "opciones": [
+        {"texto": "'¿Disnea con ejercicio o lactancia? ¿Cianosis (labios, lechos ungueales)? ¿Síncopes o desmayos con esfuerzo? ¿Cansancio fácil? ¿Edemas? ¿Antecedentes familiares de cardiopatía congénita o muerte súbita en jóvenes? ¿Crecimiento adecuado? ¿Infecciones respiratorias frecuentes? ¿Soplo previo conocido?'", "correcta": true, "puntos": 15, "feedback": "✅ Cribado de RED FLAGS pediátricas — la AUSENCIA de todo esto apoya soplo inocente."},
+        {"texto": "Solo pregunto si la niña tiene síntomas", "correcta": false, "puntos": -5, "feedback": "⚠️ Antecedentes familiares y crecimiento son CLAVE en pediatría."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierdes especificidad."},
+        {"texto": "Solo pregunto a la madre si está preocupada", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente."}
+      ]
+    },
+    {
+      "situacion": "Constantes y exploración general. ¿Qué evalúas?",
+      "opciones": [
+        {"texto": "TA en ambos brazos y una pierna (descarto coartación), FC, FR, SatO2 (descarto cardiopatía cianótica), peso/talla (percentiles), aspecto general, dismorfias (Down, Turner, Williams, etc. asocian cardiopatía).", "correcta": true, "puntos": 15, "feedback": "✅ Constantes pediátricas + PA en pierna (coartación) + SatO2 (cianótica subclínica) + buscar dismorfias. Sin esto el cribado es incompleto."},
+        {"texto": "Solo PA en un brazo y FC", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta PA en pierna (coartación) y SatO2."},
+        {"texto": "Sin constantes", "correcta": false, "puntos": -15, "feedback": "❌ Falla."},
+        {"texto": "Solo SatO2", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Higiene + preparación. ¿Cómo abordas la auscultación en una niña pequeña?",
+      "opciones": [
+        {"texto": "Lavado de manos, limpio el estetoscopio y lo CALIENTO con la mano antes de aplicarlo. Pido a la madre que la sostenga si está nerviosa. Le digo a la niña 'voy a escuchar tu corazón con esto que parece un estetoscopio de juguete, no duele'.", "correcta": true, "puntos": 15, "feedback": "✅ Detalles pediátricos: estetoscopio tibio, distracción, presencia parental, lenguaje no amenazante."},
+        {"texto": "Aplico el estetoscopio frío sin avisar", "correcta": false, "puntos": -10, "feedback": "❌ Estetoscopio frío puede provocar llanto y arruinar la auscultación."},
+        {"texto": "Sin pedir permiso a la madre ni a la niña", "correcta": false, "puntos": -5, "feedback": "⚠️ Consentimiento parental es necesario."},
+        {"texto": "Higiene sin adaptación pediátrica", "correcta": false, "puntos": 5, "feedback": "⚠️ Higiene OK pero falta adaptación."}
+      ]
+    },
+    {
+      "situacion": "Auscultas los focos y escuchas un soplo. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "Soplo SISTÓLICO breve, suave (2/6), VIBRATORIO/MUSICAL ('cuerda zumbante'), máximo en BORDE PARAESTERNAL IZQUIERDO BAJO o ENTRE BPI Y ÁPEX, SIN frémito, S1 y S2 normales (S2 desdoblamiento fisiológico con respiración), SIN clicks, SIN soplos diastólicos, CAMBIA CON POSICIÓN (disminuye al sentarse o con Valsalva).", "correcta": true, "puntos": 15, "feedback": "✅ Patrón clásico de SOPLO DE STILL — el soplo inocente más común en niños 3-7 años. Cumple las 7 S."},
+        {"texto": "Soplo holosistólico fuerte con frémito", "correcta": false, "puntos": -15, "feedback": "❌ Frémito (≥4/6) NUNCA es inocente — es patológico."},
+        {"texto": "Soplo diastólico", "correcta": false, "puntos": -15, "feedback": "❌ TODO soplo diastólico en niño es PATOLÓGICO — nunca inocente."},
+        {"texto": "Soplo continuo en maquinaria", "correcta": false, "puntos": -15, "feedback": "❌ Eso es DUCTUS persistente (PCA), patológico."}
+      ]
+    },
+    {
+      "situacion": "¿Cuáles son las '7 S' que definen un soplo inocente?",
+      "opciones": [
+        {"texto": "1) SISTÓLICO. 2) SUAVE (≤2/6, sin frémito). 3) CORTO (no holosistólico). 4) DULCE/musical (no áspero). 5) ÚNICO (sin otros ruidos: clicks, S3 patológico, etc.). 6) SENSIBLE A POSICIÓN (cambia con cambios posturales). 7) ESTABLE (asintomático, S2 normal, ECG y crecimiento normales).", "correcta": true, "puntos": 15, "feedback": "✅ Las 7 S clásicas para soplo inocente. Cumplirlas TODAS con clínica normal = no estudios complementarios necesarios."},
+        {"texto": "Solo necesito que sea sistólico", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente — hay soplos sistólicos patológicos también (CIV, EAo, EP)."},
+        {"texto": "No hay criterios formales", "correcta": false, "puntos": -10, "feedback": "❌ Las 7 S son referencia clásica."},
+        {"texto": "Solo que el niño esté asintomático", "correcta": false, "puntos": -5, "feedback": "⚠️ Es uno de los criterios pero hay más."}
+      ]
+    },
+    {
+      "situacion": "¿Cuándo está justificado pedir un ECOCARDIOGRAMA en un soplo en pediatría?",
+      "opciones": [
+        {"texto": "ECO indicado si CUALQUIERA: soplo diastólico, soplo continuo, soplo holosistólico, intensidad ≥3/6 o con frémito, soplo localizado en focos no típicos de inocente, S2 anormal (fijo, único), síntomas (cianosis, disnea, sincope), antecedentes familiares relevantes, dismorfias, falla de medro, PA anormal (coartación) o SatO2 baja.", "correcta": true, "puntos": 15, "feedback": "✅ Criterios para eco. Si TODO es inocente (las 7 S + clínica normal) → NO se necesita eco."},
+        {"texto": "Pido eco a todo niño con soplo", "correcta": false, "puntos": -5, "feedback": "⚠️ Sobreuso. Soplo inocente con clínica normal NO necesita eco."},
+        {"texto": "Nunca pido eco en pediatría", "correcta": false, "puntos": -15, "feedback": "❌ Hay indicaciones claras."},
+        {"texto": "Solo si hay síntomas evidentes", "correcta": false, "puntos": -5, "feedback": "⚠️ Cardiopatías congénitas pueden ser asintomáticas con hallazgos auscultatorios típicos (CIA, CIV)."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas?",
+      "opciones": [
+        {"texto": "'Soplo SISTÓLICO INOCENTE compatible con SOPLO DE STILL: cumple las 7 S, niña asintomática con crecimiento normal, sin red flags. NO requiere estudios complementarios. Tranquilizar a la familia y revisión en próxima visita pediátrica.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + razón + conducta. Tranquilizar a la familia es PARTE del manejo (la madre está ansiosa)."},
+        {"texto": "'Soplo, pido eco por seguridad'", "correcta": false, "puntos": -5, "feedback": "⚠️ Sobreuso si claramente cumple criterios de inocencia."},
+        {"texto": "'Probable CIV pequeña'", "correcta": false, "puntos": -10, "feedback": "❌ CIV tiene soplo holosistólico mesocárdico con frémito posible, no vibratorio dulce. Diagnóstico diferencial incorrecto."},
+        {"texto": "Sin diagnóstico ni plan", "correcta": false, "puntos": -10, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "La madre pregunta '¿es peligroso? ¿se le quitará?'. ¿Cómo respondes?",
+      "opciones": [
+        {"texto": "'No es peligroso. Es un sonido normal causado por la sangre pasando por su corazón sano. Muchos niños sanos lo tienen, especialmente entre los 3 y 7 años. Habitualmente desaparece con el crecimiento, hacia la adolescencia. No necesita medicación, restricción de actividad, ni profilaxis con antibióticos antes del dentista. Puede seguir su vida normal completamente.'", "correcta": true, "puntos": 15, "feedback": "✅ Mensaje completo: tranquilizar + explicar mecanismo + pronóstico + sin restricciones ni profilaxis. Comunicación pediátrica de excelencia."},
+        {"texto": "'No se preocupe' sin más explicación", "correcta": false, "puntos": -5, "feedback": "⚠️ La familia necesita información concreta para confiar."},
+        {"texto": "Indicar restricción de deporte 'por precaución'", "correcta": false, "puntos": -10, "feedback": "❌ Sin razón médica. Restricción innecesaria daña al niño psicológicamente."},
+        {"texto": "Indicar profilaxis antibiótica para endocarditis", "correcta": false, "puntos": -15, "feedback": "❌ ERROR. AHA 2007 retiró la indicación de profilaxis salvo en alto riesgo (cardiopatías cianóticas no reparadas, prótesis valvular, etc.). Un soplo inocente NO la requiere."}
+      ]
+    },
+    {
+      "situacion": "Signos de alarma para revaluar. ¿Cuáles le indicas a la familia?",
+      "opciones": [
+        {"texto": "'Vuelvan si aparece CUALQUIERA: dificultad respiratoria con ejercicio, cianosis (labios morados), desmayos, dolor torácico, palpitaciones, falla en ganar peso, o si su pediatra escucha cambios en el soplo en próximas revisiones. Mientras no aparezca nada, control rutinario en su pediatra.'", "correcta": true, "puntos": 15, "feedback": "✅ Signos específicos + plan de seguimiento normal. Empodera a la familia sin alarmar."},
+        {"texto": "Sin signos de alarma", "correcta": false, "puntos": -10, "feedback": "❌ Aunque sea inocente, hay que dar pautas para revaluar."},
+        {"texto": "'Si pasa cualquier cosa vengan'", "correcta": false, "puntos": -5, "feedback": "⚠️ Demasiado vago — debe ser específico."},
+        {"texto": "Vigilancia mensual programada", "correcta": false, "puntos": -10, "feedback": "❌ Sobreuso de sistema sanitario sin justificación."}
+      ]
+    },
+    {
+      "situacion": "Cierre final. ¿Qué documentas?",
+      "opciones": [
+        {"texto": "Registro en historia: anamnesis sin red flags + exploración completa + descripción detallada del soplo cumpliendo las 7 S + diagnóstico de SOPLO INOCENTE DE STILL + plan (sin estudios, control rutinario) + información dada a la familia. Permite a futuros profesionales saber que ya fue evaluado.", "correcta": true, "puntos": 15, "feedback": "✅ Documentación adecuada protege al niño de futuras evaluaciones repetidas o ansiedad familiar."},
+        {"texto": "Solo registro 'soplo'", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente — sin descripción detallada, otro profesional volverá a estudiar."},
+        {"texto": "No documento porque es normal", "correcta": false, "puntos": -15, "feedback": "❌ Falla. Toda evaluación se documenta."},
+        {"texto": "Documento 'pendiente de eco'", "correcta": false, "puntos": -10, "feedback": "❌ No tiene indicación de eco en este caso."}
+      ]
+    }
+  ]
+}

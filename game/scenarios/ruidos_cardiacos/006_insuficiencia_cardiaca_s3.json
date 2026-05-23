@@ -1,0 +1,119 @@
+{
+  "id": "ruidos_006_ic_descompensada_s3",
+  "titulo": "Disnea paroxística nocturna y edemas en varón de 68 años",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ACC/AHA 2022 IC + UpToDate",
+  "dificultad": "Intermedio",
+  "contexto": "Varón de 68 años acude por disnea progresiva las últimas 2 semanas, ortopnea (duerme con 3 almohadas) y disnea paroxística nocturna que le despierta. Refiere edemas en piernas progresivos. Antecedentes: HTA, IAM hace 3 años, DM2. Toma enalapril y metformina.",
+  "pasos": [
+    {
+      "situacion": "Saludo y presentación. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo + presentación + identidad + anuncio de exploración.", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo completo."},
+        {"texto": "Empiezo a explorar", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Solo saludo", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."},
+        {"texto": "Pido placa de tórax sin explorarlo", "correcta": false, "puntos": -10, "feedback": "❌ Exploración primero."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida. ¿Qué buscas para confirmar IC y caracterizar congestión vs bajo gasto?",
+      "opciones": [
+        {"texto": "Síntomas de CONGESTIÓN IZQ (disnea, ortopnea, DPN, tos nocturna), CONGESTIÓN DERECHA (edemas, hepatalgia, nicturia), BAJO GASTO (fatiga, mareo, frialdad, oliguria); NYHA; PRECIPITANTES (no adherencia, transgresión sodio, infección, arritmia, isquemia, AINE).", "correcta": true, "puntos": 15, "feedback": "✅ Esquema 'perfil hemodinámico' (congestión + bajo gasto) + clase NYHA + precipitantes. Modelo completo."},
+        {"texto": "Solo síntomas presentes", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta perfil hemodinámico estructurado y precipitantes."},
+        {"texto": "Ningún precipitante", "correcta": false, "puntos": -10, "feedback": "❌ Identificar precipitante cambia conducta (suspender AINE, tratar infección, etc.)."},
+        {"texto": "Anamnesis abierta sin estructura", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde sistemática."}
+      ]
+    },
+    {
+      "situacion": "Exploración general. ¿Qué evaluas primero?",
+      "opciones": [
+        {"texto": "Constantes (PA, FC, FR, SatO2, temp), aspecto general (taquipneico, disnea en reposo), posición preferida (sentado), PERFUSIÓN PERIFÉRICA (frialdad, llenado capilar, color).", "correcta": true, "puntos": 15, "feedback": "✅ Constantes + perfusión definen estabilidad y perfil hemodinámico (calientes vs fríos)."},
+        {"texto": "Solo PA y FC", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta FR y SatO2, claves en disnea."},
+        {"texto": "Salto directo a auscultar pulmones", "correcta": false, "puntos": -5, "feedback": "⚠️ Constantes son protocolo básico."},
+        {"texto": "Sin constantes", "correcta": false, "puntos": -10, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "Inspección/palpación cardiovascular. ¿Qué buscas?",
+      "opciones": [
+        {"texto": "INGURGITACIÓN YUGULAR (PVY elevada >3 cm sobre ángulo de Louis), REFLUJO HEPATOYUGULAR positivo (PVY sube y mantiene), choque de la punta DESPLAZADO (sugiere dilatación VI), edemas con fovea en MMII, hepatomegalia, ascitis.", "correcta": true, "puntos": 15, "feedback": "✅ Signos sistémicos de congestión derecha y signos cardíacos. Verbalización completa."},
+        {"texto": "Solo edemas en piernas", "correcta": false, "puntos": -5, "feedback": "⚠️ Edemas son tardíos; PVY elevada es signo más temprano y sensible."},
+        {"texto": "Sin inspección cardiovascular", "correcta": false, "puntos": -10, "feedback": "❌ Pierdes IY que es signo cardinal."},
+        {"texto": "Edemas + frialdad sin PVY", "correcta": false, "puntos": 5, "feedback": "⚠️ Bien pero falta el dato cardinal de PVY."}
+      ]
+    },
+    {
+      "situacion": "Higiene y preparación. ¿Cómo te preparas?",
+      "opciones": [
+        {"texto": "Lavado de manos + estetoscopio + consentimiento. Para óptima audición de S3: DECÚBITO LATERAL IZQUIERDO con CAMPANA del estetoscopio sobre el ÁPEX (S3 es BAJA FRECUENCIA).", "correcta": true, "puntos": 15, "feedback": "✅ S3 = baja frecuencia → campana, lateral izquierdo, ápex. Sin esta técnica se pierde fácilmente."},
+        {"texto": "Membrana en supino", "correcta": false, "puntos": -5, "feedback": "⚠️ S3 se pierde — alta frecuencia (membrana) no lo capta."},
+        {"texto": "Sin posicionamiento", "correcta": false, "puntos": -10, "feedback": "❌ Pierdes S3."},
+        {"texto": "Solo lavado de manos", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta limpiar estetoscopio + posicionamiento."}
+      ]
+    },
+    {
+      "situacion": "Auscultación cardíaca. ¿Cómo describes los ruidos?",
+      "opciones": [
+        {"texto": "Ritmo de GALOPE VENTRICULAR por S3 audible (BAJA frecuencia, telediastólico — 'Ken-tu-cky'), S1 y S2 conservados, sin soplos significativos. S3 patológico en adulto >40 años = IC sistólica con sobrecarga de volumen.", "correcta": true, "puntos": 15, "feedback": "✅ S3 patológico + interpretación funcional. Esquema 'Ken-tu-cky' ayuda a recordar timing. Es signo de IC FEr."},
+        {"texto": "S4 (galope auricular)", "correcta": false, "puntos": -5, "feedback": "⚠️ S4 es de HVI por presión (HTA, EAo) y precede a S1. Aquí buscamos S3 (telediastólico, IC sistólica)."},
+        {"texto": "Solo S1 y S2 normales", "correcta": false, "puntos": -10, "feedback": "❌ En IC descompensada SE BUSCA S3 — su presencia es diagnóstico de IC sistólica."},
+        {"texto": "Soplo de IM", "correcta": false, "puntos": 5, "feedback": "⚠️ Puede haber IM funcional secundaria a dilatación, pero el hallazgo cardinal es S3 con galope."}
+      ]
+    },
+    {
+      "situacion": "Auscultación pulmonar. ¿Qué hallazgos buscas y describes?",
+      "opciones": [
+        {"texto": "CREPITOS bilaterales en BASES (congestión pulmonar), pueden ascender en EAP franco. Sin sibilancias significativas (descarto asma cardíaco). Matidez basal si derrame pleural asociado.", "correcta": true, "puntos": 15, "feedback": "✅ Crepitos bilaterales en bases = congestión pulmonar. Su altura indica severidad. Descartas sibilancias (broncoespasmo / asma cardíaco)."},
+        {"texto": "Solo sibilancias", "correcta": false, "puntos": -5, "feedback": "⚠️ Sibilancias aisladas orientarían a asma/EPOC; en IC predominan crepitos."},
+        {"texto": "Sin auscultar pulmones", "correcta": false, "puntos": -15, "feedback": "❌ Falla — pulmón es ESENCIAL en disnea."},
+        {"texto": "Crepitos en ápex aislados", "correcta": false, "puntos": -5, "feedback": "⚠️ Patrón atípico de IC; más sugerente de fibrosis pulmonar apical."}
+      ]
+    },
+    {
+      "situacion": "¿Qué clasificación clínica usas en IC descompensada para guiar tratamiento (forrester/perfiles)?",
+      "opciones": [
+        {"texto": "PERFILES HEMODINÁMICOS DE STEVENSON: A (seco-caliente), B (HÚMEDO-CALIENTE, el más frecuente), C (HÚMEDO-FRÍO, peor pronóstico), L (seco-frío, raro). Este paciente parece HÚMEDO-CALIENTE — diurético + vasodilatador.", "correcta": true, "puntos": 15, "feedback": "✅ Perfiles de Stevenson (congestión + perfusión) guían directamente el tratamiento. Es el esquema práctico estándar."},
+        {"texto": "Killip", "correcta": false, "puntos": 5, "feedback": "⚠️ Killip se usa específicamente en IC post-IAM (4 grupos). Stevenson es más universal en IC."},
+        {"texto": "NYHA solo", "correcta": false, "puntos": 0, "feedback": "⚠️ NYHA es funcional cronica, no guía agudo."},
+        {"texto": "Ninguna", "correcta": false, "puntos": -10, "feedback": "❌ La clasificación guía el tratamiento agudo."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas?",
+      "opciones": [
+        {"texto": "'IC DESCOMPENSADA, perfil HÚMEDO-CALIENTE (Stevenson B). Hallazgos: PVY elevada, reflujo hepatoyugular +, S3, crepitos basales, edemas, NYHA III-IV. Sospecho IC con FE reducida (antecedente de IAM). Solicito BNP/NT-proBNP, ECG, Rx tórax, ETT urgente y analítica.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + perfil hemodinámico + hallazgos + sospecha de FEr + plan diagnóstico."},
+        {"texto": "'Disnea por IC'", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta perfil hemodinámico y plan."},
+        {"texto": "'Probable infección respiratoria'", "correcta": false, "puntos": -15, "feedback": "❌ Cuadro y hallazgos NO encajan con infección."},
+        {"texto": "Sin diagnóstico explícito", "correcta": false, "puntos": -10, "feedback": "❌ Falta diagnóstico."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento inicial en urgencias. ¿Qué prescribes?",
+      "opciones": [
+        {"texto": "1) Posición SEMISENTADO + O2 si SatO2 <90%. 2) Considerar VNI (CPAP/BiPAP) si EAP / hipercapnia. 3) DIURÉTICO DE ASA IV: furosemida 40-80 mg IV (1-2.5x dosis ambulatoria si la toma). 4) VASODILATADOR IV (nitroglicerina) si HTA + EAP. 5) Monitorización + diuresis. 6) NO suspender BB; continuar tratamiento basal. 7) Iniciar iSGLT2 si no lo toma.", "correcta": true, "puntos": 15, "feedback": "✅ Esquema completo: posición + O2/VNI + diurético IV + vasodilatador + monitorización + mantener BB + iSGLT2 (puede iniciarse durante hospitalización — SOLOIST-WHF)."},
+        {"texto": "Solo aumentar dosis de enalapril oral", "correcta": false, "puntos": -10, "feedback": "❌ En descompensación aguda con congestión, diurético IV es la prioridad."},
+        {"texto": "Suspender betabloqueador", "correcta": false, "puntos": -15, "feedback": "❌ ERROR. NO suspender BB salvo shock cardiogénico — su mantenimiento mejora pronóstico."},
+        {"texto": "Diurético VO ambulatorio", "correcta": false, "puntos": -10, "feedback": "❌ En IC descompensada con congestión, IV es la elección por mejor biodisponibilidad."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento crónico de IC FEr. ¿Cuáles son los 4 pilares + adicionales?",
+      "opciones": [
+        {"texto": "4 PILARES (ACC/AHA 2022): 1) ARNI (sacubitrilo/valsartán) preferido sobre IECA/ARA-II. 2) Betabloqueador con evidencia (carvedilol/bisoprolol/metoprolol succinato). 3) ARM (espironolactona/eplerenona). 4) iSGLT2 (dapagliflozina/empagliflozina). + Diurético si congestión. + Ivabradina/vericiguat/CRT/DAI según indicación.", "correcta": true, "puntos": 15, "feedback": "✅ Los 4 pilares actuales — base del tratamiento moderno de IC FEr."},
+        {"texto": "Solo IECA + diurético", "correcta": false, "puntos": -10, "feedback": "❌ Tratamiento incompleto. Hoy estándar son los 4 pilares simultáneos."},
+        {"texto": "Solo BB y diurético", "correcta": false, "puntos": -10, "feedback": "❌ Faltan ARNI/IECA, ARM e iSGLT2."},
+        {"texto": "Digoxina como primera línea", "correcta": false, "puntos": -15, "feedback": "❌ Digoxina es de segunda/tercera línea, no pilar."}
+      ]
+    },
+    {
+      "situacion": "Cierre. ¿Qué comunicas al paciente y signos de alarma?",
+      "opciones": [
+        {"texto": "'Tiene insuficiencia cardíaca descompensada. Lo INGRESO para diurético intravenoso y optimizar su tratamiento. Tras alta: dieta hiposódica (<2 g/d), pesarse diario (subir >2 kg en 3 días = alarma), restricción de líquidos si indica, adherencia a medicación, vacunación influenza y neumococo. Signos de alarma: disnea súbita en reposo, dolor torácico, palpitaciones sostenidas, síncope, edema súbito, aumento de peso rápido — vaya a urgencias.'", "correcta": true, "puntos": 15, "feedback": "✅ Ingreso + plan de alta + autocuidado + signos de alarma específicos a IC."},
+        {"texto": "Alta con ajuste de diurético oral", "correcta": false, "puntos": -10, "feedback": "❌ Descompensación con perfil B en urgencias requiere ingreso."},
+        {"texto": "Sin educación de autocuidado", "correcta": false, "puntos": -5, "feedback": "⚠️ El autocuidado es parte CLAVE del manejo crónico."},
+        {"texto": "Sin signos de alarma", "correcta": false, "puntos": -5, "feedback": "⚠️ Esenciales para reingresos tempranos."}
+      ]
+    }
+  ]
+}

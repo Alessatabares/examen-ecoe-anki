@@ -1,0 +1,128 @@
+{
+  "id": "ruidos_002_estenosis_aortica",
+  "titulo": "Síncope con esfuerzo y soplo en varón de 72 años",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ACC/AHA 2020 valvulopatías + UpToDate",
+  "dificultad": "Avanzado",
+  "contexto": "Varón de 72 años acude por episodio sincopal mientras subía escaleras. Refiere desde hace 6 meses disnea de esfuerzo progresiva y dolor torácico opresivo con actividad que cede en reposo. Sin antecedentes cardiológicos conocidos. Es fumador. En la exploración inicial detectas un soplo cardíaco.",
+  "pasos": [
+    {
+      "situacion": "El paciente entra a tu consulta. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo profesional: 'Buenos días, soy Dr. [nombre]. ¿Es usted el señor [apellido]? Voy a hacerle una exploración cardiovascular por su consulta de síncope y soplo.'", "correcta": true, "puntos": 15, "feedback": "✅ Saludo + presentación + identidad + anuncio de la maniobra."},
+        {"texto": "Empiezo a auscultarlo sin presentarme", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática por ausencia de saludo y consentimiento."},
+        {"texto": "Saludo brevemente sin confirmar identidad", "correcta": false, "puntos": 0, "feedback": "⚠️ Confirmar identidad es parte del protocolo básico de seguridad."},
+        {"texto": "Lo siento y pido directamente el ECG", "correcta": false, "puntos": -10, "feedback": "❌ Sin anamnesis ni exploración primero, no puedes pedir estudios racionales."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida. ¿Qué tríada SÍMPTOMÁTICA debes preguntar específicamente?",
+      "opciones": [
+        {"texto": "'¿Tiene angina/dolor torácico con esfuerzo? ¿Síncopes o mareos al esfuerzo? ¿Disnea de esfuerzo progresiva?' — la TRÍADA CLÁSICA DE EAo SEVERA SINTOMÁTICA", "correcta": true, "puntos": 15, "feedback": "✅ Tríada clásica: angina + síncope + disnea = EAo severa sintomática = INDICACIÓN QUIRÚRGICA. Sin preguntarla específicamente, pierdes el punto crítico."},
+        {"texto": "Solo pregunto por dolor torácico", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. La tríada de EAo es ANGINA + SÍNCOPE + DISNEA — cada uno cambia el pronóstico."},
+        {"texto": "Pregunto los 5 síntomas CV generales", "correcta": false, "puntos": 5, "feedback": "⚠️ Correcto en general, pero en sospecha de EAo debes ENFATIZAR la tríada (especialmente si los síntomas son con esfuerzo)."},
+        {"texto": "Anamnesis abierta sin dirigir", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierdes especificidad. El sinodal espera anamnesis dirigida a la hipótesis."}
+      ]
+    },
+    {
+      "situacion": "El paciente confirma síncope con esfuerzo + angina + disnea. ¿Qué hipótesis y nivel de urgencia tienes ANTES de explorar?",
+      "opciones": [
+        {"texto": "Sospecho ESTENOSIS AÓRTICA SEVERA SINTOMÁTICA. Es urgente: síncope con esfuerzo en EAo predice mortalidad alta a corto plazo si no se reemplaza la válvula.", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + reconocimiento de urgencia. Síncope con esfuerzo en EAo = supervivencia ~2-3 años sin reemplazo."},
+        {"texto": "Sospecho cardiopatía isquémica simplemente", "correcta": false, "puntos": -5, "feedback": "⚠️ La angina en EAo es por desbalance oferta/demanda; la tríada completa (síncope + angina + disnea) orienta a EAo, no a CI aislada."},
+        {"texto": "No tengo hipótesis hasta auscultar", "correcta": false, "puntos": 0, "feedback": "⚠️ Hay que formular hipótesis previa a la exploración para que la auscultación sea dirigida."},
+        {"texto": "Sospecho estenosis aórtica leve, sin urgencia", "correcta": false, "puntos": -10, "feedback": "❌ EAo SINTOMÁTICA es severa por definición funcional. Subestimar la urgencia es un error grave de juicio clínico."}
+      ]
+    },
+    {
+      "situacion": "Antes de explorar. ¿Qué haces?",
+      "opciones": [
+        {"texto": "Me lavo las manos verbalizándolo, limpio el estetoscopio con alcohol, pido consentimiento y explico que necesitaré que descubra el tórax y cambie de posición.", "correcta": true, "puntos": 15, "feedback": "✅ Higiene + limpieza estetoscopio + consentimiento + anuncio de maniobras dinámicas."},
+        {"texto": "Solo me lavo las manos", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta limpiar el estetoscopio."},
+        {"texto": "Sin higiene, voy directo a auscultar", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Higiene sin pedir consentimiento", "correcta": false, "puntos": 0, "feedback": "⚠️ Consentimiento es ineludible."}
+      ]
+    },
+    {
+      "situacion": "Inspección del precordio. ¿Qué buscas y verbalizas?",
+      "opciones": [
+        {"texto": "Inspecciono: sin cicatrices de toracotomía/esternotomía, sin deformidades, sin latidos visibles anormales. Luego palpo el choque de la punta y los pulsos.", "correcta": true, "puntos": 15, "feedback": "✅ Inspección sistemática con negativos pertinentes antes de palpación."},
+        {"texto": "Salto a auscultar directamente", "correcta": false, "puntos": -10, "feedback": "❌ La sistemática es inspección → palpación → auscultación."},
+        {"texto": "Inspecciono pero no verbalizo nada", "correcta": false, "puntos": 0, "feedback": "⚠️ En ECOE TIENES que pensar en voz alta para que el sinodal lo registre."},
+        {"texto": "Describo cicatriz inexistente", "correcta": false, "puntos": -10, "feedback": "❌ Inventar hallazgos es error grave."}
+      ]
+    },
+    {
+      "situacion": "Palpas el PULSO CAROTÍDEO. ¿Qué característica buscas que es CLAVE en EAo?",
+      "opciones": [
+        {"texto": "Busco PULSO PARVUS ET TARDUS: ascenso lento y amplitud disminuida; un pulso 'pequeño y tardío' es signo de EAo severa. Lo verbalizo.", "correcta": true, "puntos": 15, "feedback": "✅ Parvus et tardus = signo periférico específico de EAo severa. Sumas mucho por nombrarlo y palparlo dirigido."},
+        {"texto": "Solo verifico que está presente", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto. En EAo lo importante es el CARÁCTER del pulso, no solo su presencia."},
+        {"texto": "No palpo carotídeos por riesgo", "correcta": false, "puntos": -10, "feedback": "❌ Palpación carotídea es parte estándar; el cuidado es no presionar bilateralmente a la vez."},
+        {"texto": "Palpo y describo pulso saltón (Corrigan)", "correcta": false, "puntos": -10, "feedback": "❌ Pulso saltón/Corrigan es de INSUFICIENCIA aórtica, no estenosis. Confusión grave de signo."}
+      ]
+    },
+    {
+      "situacion": "Palpas el choque de la punta. ¿Qué esperas y por qué?",
+      "opciones": [
+        {"texto": "Choque de la punta NO desplazado, SOSTENIDO (de larga duración) — refleja HIPERTROFIA VENTRICULAR IZQUIERDA por sobrecarga de presión.", "correcta": true, "puntos": 15, "feedback": "✅ Choque sostenido = HVI por presión = típico de EAo crónica. Diferencia con IC dilatada (choque desplazado y débil)."},
+        {"texto": "Choque desplazado a línea axilar anterior", "correcta": false, "puntos": -5, "feedback": "⚠️ Eso sería cardiomegalia con dilatación (IC, IM crónica), no EAo no descompensada."},
+        {"texto": "No palpo el choque", "correcta": false, "puntos": -10, "feedback": "❌ Saltar palpación pierde el signo de HVI."},
+        {"texto": "Sin frémito palpable en focos", "correcta": false, "puntos": 5, "feedback": "⚠️ Útil pero incompleto — debes describir TAMBIÉN el choque."}
+      ]
+    },
+    {
+      "situacion": "Auscultas SISTEMÁTICAMENTE los 5 focos. En el FOCO AÓRTICO (2.º EIC derecho) escuchas un soplo. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "Soplo SISTÓLICO EXPULSIVO (forma romboidal/crescendo-decrescendo), intensidad 4/6 CON FRÉMITO, pico mesosistólico tardío, IRRADIA A CARÓTIDAS, calidad rasposa. S2 disminuido/único.", "correcta": true, "puntos": 15, "feedback": "✅ Los 7 elementos + pico tardío + S2 disminuido (signo de severidad). Frémito = al menos 4/6 de Levine."},
+        {"texto": "'Soplo sistólico fuerte'", "correcta": false, "puntos": 5, "feedback": "⚠️ Solo 2 de 7 elementos. Pierdes severidad, irradiación, S2."},
+        {"texto": "Soplo holosistólico irradiado a axila", "correcta": false, "puntos": -15, "feedback": "❌ Eso es PATRÓN MITRAL (insuficiencia mitral). La EAo es expulsivo (romboidal), no holosistólico, e irradia a CARÓTIDAS, no a axila."},
+        {"texto": "Soplo diastólico decrescente", "correcta": false, "puntos": -15, "feedback": "❌ Error de timing — eso es INSUFICIENCIA aórtica, no estenosis."}
+      ]
+    },
+    {
+      "situacion": "¿Qué maniobra dinámica realizas para CONFIRMAR origen aórtico y descartar miocardiopatía hipertrófica?",
+      "opciones": [
+        {"texto": "MANIOBRA DE VALSALVA: en EAo el soplo DISMINUYE (menos retorno = menos flujo a través de la válvula); en miocardiopatía hipertrófica obstructiva AUMENTA. También: HANDGRIP — EAo no cambia o disminuye, IM aumenta.", "correcta": true, "puntos": 15, "feedback": "✅ Valsalva diferencia EAo de MHO; handgrip diferencia EAo de IM/IAo. Maniobras dirigidas demuestran nivel pulcro."},
+        {"texto": "Maniobra de CARVALLO (inspiración profunda)", "correcta": false, "puntos": -5, "feedback": "⚠️ Carvallo es para soplos DERECHOS (tricúspide, pulmonar). La EAo es izquierda — Carvallo NO aplica."},
+        {"texto": "No hago maniobras dinámicas", "correcta": false, "puntos": -10, "feedback": "❌ Las maniobras dinámicas son obligatorias para caracterizar un soplo en ECOE."},
+        {"texto": "Le pido que se acueste en decúbito lateral izquierdo", "correcta": false, "puntos": 0, "feedback": "⚠️ Decúbito lateral izq es para mejorar audición de soplos MITRALES con campana, no para diferenciar EAo."}
+      ]
+    },
+    {
+      "situacion": "Tras la exploración. ¿Cómo verbalizas el diagnóstico estructurado?",
+      "opciones": [
+        {"texto": "'Cuadro compatible con ESTENOSIS AÓRTICA SEVERA SINTOMÁTICA: tríada angina + síncope + disnea, soplo sistólico expulsivo 4/6 con frémito e irradiación a carótidas, pulso parvus et tardus, S2 disminuido, choque sostenido. Es una indicación quirúrgica.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + severidad + síntesis de hallazgos clínicos + reconocimiento de la indicación quirúrgica."},
+        {"texto": "'Soplo de estenosis aórtica' sin más", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta severidad y indicación quirúrgica. Pierdes puntos."},
+        {"texto": "'Soplo funcional sin trascendencia'", "correcta": false, "puntos": -15, "feedback": "❌ Falla diagnóstica grave. Soplo funcional no tiene frémito ni la tríada sintomática."},
+        {"texto": "'Insuficiencia aórtica con repercusión clínica'", "correcta": false, "puntos": -15, "feedback": "❌ Confusión de patología — IA tiene soplo diastólico y pulso saltón."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios pides para confirmar y planificar?",
+      "opciones": [
+        {"texto": "1) ECOCARDIOGRAMA TRANSTORÁCICO (área valvular, gradiente medio, velocidad pico, FEVI) — define severidad. 2) ECG (HVI con strain). 3) Rx tórax. 4) Analítica completa + BNP. 5) Coronariografía pre-quirúrgica (descartar coronariopatía concomitante en >40 años).", "correcta": true, "puntos": 15, "feedback": "✅ Eco es la prueba reina + ECG + Rx + analítica + coronariografía pre-op (estándar en >40 años antes de SAVR)."},
+        {"texto": "Solo ECG", "correcta": false, "puntos": -5, "feedback": "⚠️ ECG es útil pero no define severidad. Eco es obligatorio."},
+        {"texto": "TAC torácico", "correcta": false, "puntos": -10, "feedback": "❌ TAC es para planificación de TAVR específica, no como estudio diagnóstico inicial."},
+        {"texto": "Hacer prueba de esfuerzo", "correcta": false, "puntos": -15, "feedback": "❌ PROHIBIDA en EAo severa sintomática — riesgo de síncope y muerte súbita."}
+      ]
+    },
+    {
+      "situacion": "El eco confirma EAo severa: área 0.7 cm², gradiente medio 50 mmHg, velocidad pico 4.5 m/s, FEVI 55%. ¿Cuál es la decisión terapéutica?",
+      "opciones": [
+        {"texto": "REEMPLAZO VALVULAR AÓRTICO: SAVR (cirugía abierta) si bajo riesgo quirúrgico, o TAVR (transcatéter) si riesgo intermedio-alto o anatomía favorable. Decisión por equipo cardiológico-quirúrgico (Heart Team).", "correcta": true, "puntos": 15, "feedback": "✅ EAo severa sintomática = indicación clase I para reemplazo. SAVR vs TAVR decidido por Heart Team según riesgo quirúrgico (STS, EuroSCORE) y anatomía."},
+        {"texto": "Tratamiento médico con diuréticos y beta-bloqueador", "correcta": false, "puntos": -15, "feedback": "❌ El tratamiento médico no modifica el pronóstico en EAo severa sintomática. La indicación es quirúrgica YA."},
+        {"texto": "Valvuloplastia con balón aórtico definitiva", "correcta": false, "puntos": -10, "feedback": "❌ Valvuloplastia es PUENTE temporal en pacientes inestables previo a TAVR/SAVR, no tratamiento definitivo en el adulto."},
+        {"texto": "Esperar a que progresen síntomas para operar", "correcta": false, "puntos": -15, "feedback": "❌ Ya hay síntomas — esperar incrementa riesgo de muerte súbita."}
+      ]
+    },
+    {
+      "situacion": "Cierre con el paciente. ¿Qué le comunicas?",
+      "opciones": [
+        {"texto": "'Sus síntomas indican una válvula aórtica estrechada de grado severo. Necesita reemplazo valvular pronto; lo derivaré urgentemente a cardiología y cirugía cardíaca para decidir el tipo de procedimiento. Mientras tanto evite esfuerzos físicos intensos. Signos de alarma: dolor de pecho persistente, desmayo, falta de aire en reposo — venga a urgencias.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación clara + derivación urgente + restricción de esfuerzo + signos de alarma. Plan completo."},
+        {"texto": "'Tiene un soplo, vuelva en 6 meses'", "correcta": false, "puntos": -15, "feedback": "❌ ERROR CRÍTICO. EAo severa sintomática se opera urgentemente, no se vigila."},
+        {"texto": "Derivar a cardiología sin urgencia ni restricciones", "correcta": false, "puntos": -10, "feedback": "❌ Falta urgencia de la derivación y restricción de esfuerzo."},
+        {"texto": "Sin explicación clara, dejo al paciente confundido", "correcta": false, "puntos": -10, "feedback": "❌ Comunicación clara es parte del puntaje ECOE."}
+      ]
+    }
+  ]
+}

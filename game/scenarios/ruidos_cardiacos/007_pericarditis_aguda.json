@@ -1,0 +1,119 @@
+{
+  "id": "ruidos_007_pericarditis_aguda",
+  "titulo": "Dolor torácico pleurítico que mejora al inclinarse hacia adelante",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ESC 2015 pericardio + ACC/AHA + UpToDate",
+  "dificultad": "Básico-Intermedio",
+  "contexto": "Varón de 28 años, previamente sano. Acude por dolor torácico desde hace 2 días, descrito como punzante, que aumenta con la inspiración profunda y en decúbito, y mejora al sentarse e inclinarse hacia adelante. Refiere cuadro de IRA viral hace 10 días con fiebre baja y mialgias. Sin antecedentes cardíacos. No fuma. No drogas.",
+  "pasos": [
+    {
+      "situacion": "El paciente entra a tu consulta. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo + presentación + identidad + anuncio de exploración cardiovascular.", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo completo."},
+        {"texto": "Empiezo a auscultarlo", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Pido ECG sin más", "correcta": false, "puntos": -10, "feedback": "❌ Anamnesis y exploración primero."},
+        {"texto": "Solo saludo sin confirmar identidad", "correcta": false, "puntos": 0, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida del dolor. ¿Qué características exploras?",
+      "opciones": [
+        {"texto": "OPQRST + características que diferencian pericarditis: '¿el dolor empeora con la inspiración? ¿con el decúbito? ¿mejora al sentarse e inclinarse hacia adelante? ¿irradiación al trapecio? ¿síntomas virales recientes?'", "correcta": true, "puntos": 15, "feedback": "✅ Características clásicas: pleurítico + postural + cuadro viral previo. Diferencian de SCA."},
+        {"texto": "Solo localización del dolor", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente — falta caracterización completa."},
+        {"texto": "Pregunto solo si es opresivo", "correcta": false, "puntos": -5, "feedback": "⚠️ La característica de SCA es opresivo, pero la pericarditis es punzante/pleurítico — debes diferenciar."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde dirección a hipótesis."}
+      ]
+    },
+    {
+      "situacion": "Debes descartar diagnósticos potencialmente mortales primero. ¿Cuáles consideras?",
+      "opciones": [
+        {"texto": "DIAGNÓSTICOS DIFERENCIALES VITALES en dolor torácico: 1) SCA (IAM/angina). 2) Disección aórtica. 3) TEP. 4) Neumotórax. 5) Tamponade cardíaco. 6) Esofagitis/ruptura esofágica. La pericarditis ENTRA en el diferencial pero hay que descartar SCA y tamponade activamente.", "correcta": true, "puntos": 15, "feedback": "✅ Pensamiento sistemático del dolor torácico — los 5 letales primero. Y reconocer que la pericarditis puede COMPLICARSE con tamponade."},
+        {"texto": "No considero otros diagnósticos", "correcta": false, "puntos": -15, "feedback": "❌ Error grave. Dolor torácico requiere descarte sistemático."},
+        {"texto": "Solo descarto IAM", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto — disección, TEP, neumotórax y tamponade también pueden ser letales."},
+        {"texto": "Asumo que es muscular", "correcta": false, "puntos": -15, "feedback": "❌ Diagnóstico precoz erróneo de exclusión."}
+      ]
+    },
+    {
+      "situacion": "Constantes y exploración general. ¿Qué evalúas?",
+      "opciones": [
+        {"texto": "Constantes (PA, FC, FR, SatO2, temp), aspecto general, posición preferida (sentado-inclinado adelante = signo orientativo). Busco signos de TAMPONADE (PA, IY, pulso paradójico) y de SCA.", "correcta": true, "puntos": 15, "feedback": "✅ Constantes + búsqueda activa de tamponade — fundamental porque pericarditis puede evolucionar a derrame con tamponade."},
+        {"texto": "Solo constantes", "correcta": false, "puntos": 5, "feedback": "⚠️ Sin búsqueda dirigida a tamponade pierdes la complicación más grave."},
+        {"texto": "Sin constantes", "correcta": false, "puntos": -10, "feedback": "❌ Protocolo básico."},
+        {"texto": "Solo ausculto", "correcta": false, "puntos": -5, "feedback": "⚠️ Saltarte constantes."}
+      ]
+    },
+    {
+      "situacion": "Higiene y preparación para auscultación. ¿Cómo posicionas al paciente?",
+      "opciones": [
+        {"texto": "Lavado de manos + estetoscopio + consentimiento. Para óptima audición de FROTE PERICÁRDICO: SENTADO E INCLINADO HACIA ADELANTE, EN ESPIRACIÓN, MEMBRANA del estetoscopio en BORDE PARAESTERNAL IZQUIERDO BAJO.", "correcta": true, "puntos": 15, "feedback": "✅ Frote pericárdico es alta frecuencia → membrana. Sentado-inclinado mejora la audición al acercar el pericardio."},
+        {"texto": "Decúbito supino con campana", "correcta": false, "puntos": -5, "feedback": "⚠️ Pierdes el frote (alta frecuencia → membrana, no campana)."},
+        {"texto": "Decúbito lateral izquierdo", "correcta": false, "puntos": -5, "feedback": "⚠️ Esa posición es para soplos mitrales, no frote pericárdico."},
+        {"texto": "Sin posicionamiento", "correcta": false, "puntos": -10, "feedback": "❌ Pierdes el hallazgo cardinal."}
+      ]
+    },
+    {
+      "situacion": "Auscultas en BPI bajo con membrana, paciente sentado e inclinado adelante. Escuchas un ruido áspero. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "FROTE PERICÁRDICO: ruido áspero, 'cuero crujiente', TRIFÁSICO clásico (componente sistólico, diastólico temprano por llenado ventricular rápido, y diastólico tardío por contracción auricular). Puede ser mono o bifásico. PATOGNOMÓNICO de pericarditis aguda.", "correcta": true, "puntos": 15, "feedback": "✅ Frote pericárdico trifásico es PATOGNOMÓNICO. Saber describir los 3 componentes muestra nivel."},
+        {"texto": "Soplo holosistólico", "correcta": false, "puntos": -15, "feedback": "❌ Confusión con soplo. El frote es ÁSPERO y no es una vibración valvular."},
+        {"texto": "Crepitos pulmonares", "correcta": false, "puntos": -10, "feedback": "❌ Eso es pulmonar, no pericárdico."},
+        {"texto": "Solo 'ruido extraño'", "correcta": false, "puntos": 0, "feedback": "⚠️ Hay que nombrarlo: FROTE PERICÁRDICO."}
+      ]
+    },
+    {
+      "situacion": "¿Qué hallazgos buscas activamente para descartar TAMPONADE?",
+      "opciones": [
+        {"texto": "TRIADA DE BECK: 1) HIPOTENSIÓN. 2) INGURGITACIÓN YUGULAR ELEVADA. 3) RUIDOS CARDÍACOS APAGADOS. + PULSO PARADÓJICO (caída de PAS >10 mmHg en inspiración). + Signo de Kussmaul. + FAST/eco transtorácico si dudoso.", "correcta": true, "puntos": 15, "feedback": "✅ Tríada de Beck + pulso paradójico. Tamponade es emergencia con pericardiocentesis urgente."},
+        {"texto": "Solo PA", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto. Beck son 3 + pulso paradójico."},
+        {"texto": "No busco tamponade", "correcta": false, "puntos": -15, "feedback": "❌ Error grave — es la complicación más temida."},
+        {"texto": "Solo escucho ruidos cardíacos", "correcta": false, "puntos": -5, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "ECG en pericarditis aguda. ¿Qué patrón clásico esperas?",
+      "opciones": [
+        {"texto": "PATRÓN DE 4 ESTADIOS (Spodick): I) ELEVACIÓN ST CÓNCAVA DIFUSA (todas las derivaciones salvo aVR y V1) + DESCENSO DEL PR (signo precoz y específico). II) ST se normaliza, T se aplana. III) Inversión de T. IV) Normalización. La AUSENCIA de reciprocidad (a diferencia de IAM) y la difusión orientan a pericarditis.", "correcta": true, "puntos": 15, "feedback": "✅ ST elevado cóncavo DIFUSO + PR descendido + sin reciprocidad = pericarditis. Diferencia clave con IAM (localizado + reciprocidad)."},
+        {"texto": "ST elevado en derivaciones inferiores con reciprocidad en aVL", "correcta": false, "puntos": -15, "feedback": "❌ Eso es IAM INFERIOR, no pericarditis. La pericarditis es DIFUSA, sin reciprocidad."},
+        {"texto": "QRS ancho con BAV completo", "correcta": false, "puntos": -10, "feedback": "❌ No es patrón de pericarditis."},
+        {"texto": "ECG normal en pericarditis", "correcta": false, "puntos": -5, "feedback": "⚠️ Puede serlo en algunos casos, pero el típico es ST elevado difuso + PR descendido."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo verbalizas?",
+      "opciones": [
+        {"texto": "'Cuadro compatible con PERICARDITIS AGUDA, probable etiología VIRAL (cuadro de IRA hace 10 días). Hallazgos: dolor pleurítico postural característico, frote pericárdico, sin signos de tamponade. ECG con ST elevado cóncavo difuso + PR descendido. Solicito troponina (descartar miocarditis), Rx tórax, eco transtorácico (descartar derrame) y analítica con marcadores inflamatorios.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + etiología sospechada + criterios + plan dirigido (incluye descartar miopericarditis con troponina)."},
+        {"texto": "'Probable IAM'", "correcta": false, "puntos": -15, "feedback": "❌ El ECG y la clínica son típicos de pericarditis, no IAM."},
+        {"texto": "'Sospecho TEP'", "correcta": false, "puntos": -10, "feedback": "❌ TEP es pleurítico pero sin patrón ECG ni frote ni cuadro viral previo."},
+        {"texto": "'Dolor músculo-esquelético'", "correcta": false, "puntos": -15, "feedback": "❌ Faltan diagnósticos serios sin evaluar."}
+      ]
+    },
+    {
+      "situacion": "Criterios diagnósticos formales de pericarditis aguda (ESC 2015). ¿Cuántos necesitas?",
+      "opciones": [
+        {"texto": "Diagnóstico requiere AL MENOS 2 DE 4 criterios: 1) Dolor torácico pericárdico típico (>85% casos). 2) FROTE pericárdico (33%). 3) ECG con elevación ST difusa nueva o depresión PR. 4) DERRAME pericárdico nuevo o que empeora en eco. + Apoyan: elevación PCR/VSG, evidencia de inflamación pericárdica en imagen (TAC/RM).", "correcta": true, "puntos": 15, "feedback": "✅ Criterios ESC 2015: 2 de 4. Conocerlos demuestra nivel."},
+        {"texto": "Necesito los 4 criterios", "correcta": false, "puntos": -5, "feedback": "⚠️ Son 2 de 4, no los 4."},
+        {"texto": "Solo criterios clínicos", "correcta": false, "puntos": -5, "feedback": "⚠️ Hay criterios ECG e imagen también."},
+        {"texto": "No hay criterios formales", "correcta": false, "puntos": -10, "feedback": "❌ Sí los hay (ESC 2015)."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento. ¿Qué prescribes?",
+      "opciones": [
+        {"texto": "1) RESTRICCIÓN DE EJERCICIO hasta resolución y normalización de marcadores. 2) AINE (ibuprofeno 600 mg c/8 h x 1-2 sem) + IBP. 3) COLCHICINA 0.5 mg c/12 h por 3 MESES (reduce recurrencia >50%, COPE/CORE/ICAP/CORP trials). 4) Si pericarditis postcardiotomía o autoinmune: corticoide a dosis baja con descenso lento. 5) Tratamiento etiológico si específico.", "correcta": true, "puntos": 15, "feedback": "✅ AINE + COLCHICINA es el estándar actual. Colchicina REDUCE RECURRENCIA — evidencia sólida (COPE, CORE, ICAP, CORP trials)."},
+        {"texto": "Solo paracetamol", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente — AINE son primera línea por efecto antiinflamatorio."},
+        {"texto": "Solo AINE sin colchicina", "correcta": false, "puntos": 5, "feedback": "⚠️ AINE es base pero AÑADIR COLCHICINA reduce recurrencia significativamente."},
+        {"texto": "Corticoide como primera línea", "correcta": false, "puntos": -10, "feedback": "❌ Corticoide AUMENTA recurrencia si se usa de inicio en pericarditis idiopática/viral. Se reserva para casos específicos."}
+      ]
+    },
+    {
+      "situacion": "Cierre con el paciente. ¿Qué comunicas?",
+      "opciones": [
+        {"texto": "'Tiene una inflamación del saco que rodea su corazón, llamada pericarditis, probablemente por virus reciente. Le doy ibuprofeno y colchicina, evite ejercicio físico hasta que esté curado. Signos de ALARMA: disnea súbita, hipotensión/mareos, disminución importante de pulso, dolor torácico opresivo nuevo — vaya a urgencias inmediatamente (descartar tamponade). Control en 1 semana con repetición de ECG y marcadores.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación + tratamiento + restricción + signos de alarma específicos a tamponade + control programado."},
+        {"texto": "'Tome ibuprofeno y váyase'", "correcta": false, "puntos": -10, "feedback": "❌ Falta colchicina + signos de alarma + control."},
+        {"texto": "Sin restricción de ejercicio", "correcta": false, "puntos": -5, "feedback": "⚠️ La restricción es importante para prevenir miopericarditis y recurrencia."},
+        {"texto": "Sin signos de alarma", "correcta": false, "puntos": -10, "feedback": "❌ Tamponade es complicación grave — debe saber qué vigilar."}
+      ]
+    }
+  ]
+}

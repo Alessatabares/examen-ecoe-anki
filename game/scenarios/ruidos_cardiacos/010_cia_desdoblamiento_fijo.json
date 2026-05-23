@@ -1,0 +1,110 @@
+{
+  "id": "ruidos_010_cia_desdoblamiento_fijo",
+  "titulo": "Soplo y desdoblamiento fijo de S2 en niña de 7 años",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AHA cardiopatías congénitas + AAP + UpToDate",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Niña de 7 años derivada por hallazgo de soplo en revisión escolar. Asintomática, buen desarrollo, percentiles normales. Ha tenido más infecciones respiratorias que sus hermanos, según la madre. Sin antecedentes familiares de cardiopatía. En la auscultación rutinaria detectas un soplo sistólico Y un desdoblamiento de S2.",
+  "pasos": [
+    {
+      "situacion": "Saludo y anamnesis. ¿Qué exploras?",
+      "opciones": [
+        {"texto": "Saludo + adaptación pediátrica. Anamnesis: '¿Disnea con ejercicio? ¿Se cansa más que otros niños? ¿Infecciones respiratorias frecuentes (sugiere hiperflujo pulmonar)? ¿Cianosis? ¿Síncopes? ¿Crecimiento adecuado? ¿Antecedentes familiares de CIA?'", "correcta": true, "puntos": 15, "feedback": "✅ Anamnesis pediátrica completa. La pregunta clave: infecciones respiratorias frecuentes (hiperflujo en CIA) y tolerancia al ejercicio."},
+        {"texto": "Solo pregunto si tiene fiebre", "correcta": false, "puntos": -10, "feedback": "❌ No relacionado."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde dirección."},
+        {"texto": "Sin anamnesis", "correcta": false, "puntos": -15, "feedback": "❌ Falla."}
+      ]
+    },
+    {
+      "situacion": "Exploración general. ¿Qué evalúas?",
+      "opciones": [
+        {"texto": "Constantes pediátricas, percentiles, PA 4 extremidades, SatO2 pre y post ductal, color, dismorfias (CIA secundum esporádica, pero CIA primum asociada a Down — buscar dismorfias), hepatomegalia. INSPECCIÓN PRECORDIAL: posible levantamiento paraesternal izquierdo (sobrecarga VD).", "correcta": true, "puntos": 15, "feedback": "✅ Exploración pediátrica completa + búsqueda activa de signos de sobrecarga ventricular derecha. Síndrome de Down + CIA primum = relación clásica."},
+        {"texto": "Solo constantes", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta buscar sobrecarga VD y dismorfias."},
+        {"texto": "Sin constantes", "correcta": false, "puntos": -15, "feedback": "❌ Falla."},
+        {"texto": "Solo auscultar", "correcta": false, "puntos": -5, "feedback": "⚠️ Saltar inspección y constantes."}
+      ]
+    },
+    {
+      "situacion": "Auscultas y escuchas un soplo + S2 anormal. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "Soplo SISTÓLICO EXPULSIVO suave (2-3/6) en FOCO PULMONAR (2.º EIC izq) por HIPERFLUJO PULMONAR (no por estenosis verdadera). DESDOBLAMIENTO FIJO DE S2 (no varía con respiración): PATOGNOMÓNICO de CIA. Posible RETUMBO DIASTÓLICO tricuspídeo (foco tricúspide) si shunt grande.", "correcta": true, "puntos": 15, "feedback": "✅ TRÍADA AUSCULTATORIA de CIA: soplo expulsivo pulmonar de hiperflujo + DESDOBLAMIENTO FIJO de S2 (patognomónico) + retumbo tricuspídeo si shunt grande. Saber describir el desdoblamiento fijo es CLAVE."},
+        {"texto": "Soplo holosistólico mesocardio (como CIV)", "correcta": false, "puntos": -15, "feedback": "❌ CIA NO da soplo holosistólico — el shunt es de baja velocidad. CIV sí es holosistólico."},
+        {"texto": "Soplo en maquinaria", "correcta": false, "puntos": -15, "feedback": "❌ Eso es PCA."},
+        {"texto": "Desdoblamiento variable con respiración (normal)", "correcta": false, "puntos": -10, "feedback": "❌ En CIA el desdoblamiento es FIJO (no cambia con respiración). Pierdes el dato patognomónico."}
+      ]
+    },
+    {
+      "situacion": "Explica por qué el desdoblamiento de S2 es FIJO en CIA.",
+      "opciones": [
+        {"texto": "El shunt I→D constante a través de la CIA igualala carga del VD durante TODO el ciclo respiratorio. Normalmente, en inspiración el retorno venoso aumenta hacia el lado derecho y se desdobla más S2 (P2 más tardío). En CIA, el flujo extra constante por el defecto IMPIDE que la respiración module el desdoblamiento → este se vuelve FIJO. Patognomónico de CIA ostium secundum.", "correcta": true, "puntos": 15, "feedback": "✅ Mecanismo fisiopatológico claro — entender el por qué demuestra dominio."},
+        {"texto": "Por la posición del paciente", "correcta": false, "puntos": -10, "feedback": "❌ No, es por la fisiología del shunt."},
+        {"texto": "Sin saber por qué", "correcta": false, "puntos": -5, "feedback": "⚠️ El por qué importa para defender el diagnóstico."},
+        {"texto": "Por hipertensión pulmonar", "correcta": false, "puntos": -10, "feedback": "❌ HTP puede ser complicación tardía pero el desdoblamiento fijo es por el mecanismo del shunt en sí."}
+      ]
+    },
+    {
+      "situacion": "ECG esperado en CIA con sobrecarga VD. ¿Qué patrón buscas?",
+      "opciones": [
+        {"texto": "BLOQUEO DE RAMA DERECHA INCOMPLETO (rsR' en V1 con QRS <120 ms) + DESVIACIÓN DEL EJE A LA DERECHA (en ostium secundum). En CIA ostium PRIMUM: eje IZQUIERDO + bloqueo AV primer grado (asociación con Down).", "correcta": true, "puntos": 15, "feedback": "✅ ECG ayuda a localizar el tipo de CIA: secundum (eje derecho) vs primum (eje izquierdo)."},
+        {"texto": "Hipertrofia VI", "correcta": false, "puntos": -10, "feedback": "❌ En CIA hay sobrecarga DERECHA (no izquierda) por shunt I→D."},
+        {"texto": "ECG normal siempre", "correcta": false, "puntos": -5, "feedback": "⚠️ Suele tener alteraciones (BRD incompleto, eje derecho)."},
+        {"texto": "Onda Q patológica", "correcta": false, "puntos": -10, "feedback": "❌ Eso es IAM, no CIA."}
+      ]
+    },
+    {
+      "situacion": "Rx de tórax esperada. ¿Qué encontrarías?",
+      "opciones": [
+        {"texto": "1) CARDIOMEGALIA con predominio DERECHO (silueta cardíaca aumentada, AD prominente). 2) ABOMBAMIENTO DEL TRONCO DE LA PULMONAR (segundo arco izquierdo). 3) HIPERVASCULARIDAD PULMONAR (vasculatura aumentada periféricamente — 'pulmón hiperémico'). 4) AORTA pequeña.", "correcta": true, "puntos": 15, "feedback": "✅ Patrón típico de shunt I→D: cardiomegalia derecha + arteria pulmonar prominente + hiperflujo pulmonar."},
+        {"texto": "Cardiomegalia izquierda", "correcta": false, "puntos": -10, "feedback": "❌ Predominio derecho, no izquierdo."},
+        {"texto": "Pulmones hipoflujos", "correcta": false, "puntos": -10, "feedback": "❌ Hiperflujo, no hipoflujo (en CIA el flujo pulmonar AUMENTA)."},
+        {"texto": "Rx normal", "correcta": false, "puntos": -5, "feedback": "⚠️ Suele tener alteraciones radiográficas."}
+      ]
+    },
+    {
+      "situacion": "Diagnóstico definitivo. ¿Qué estudio pides?",
+      "opciones": [
+        {"texto": "ECOCARDIOGRAMA TRANSTORÁCICO PEDIÁTRICO: define tipo de CIA (ostium secundum la más común, primum, seno venoso, seno coronario), tamaño del defecto, dirección y magnitud del shunt, dilatación de cámaras derechas, presión pulmonar, defectos asociados. ETT por subcostal es óptimo en pediatría.", "correcta": true, "puntos": 15, "feedback": "✅ ETT pediátrico vía subcostal es la prueba de elección. No invasivo, sin radiación."},
+        {"texto": "Cateterismo cardíaco diagnóstico", "correcta": false, "puntos": -10, "feedback": "❌ Solo si ETT insuficiente o para procedimiento terapéutico percutáneo."},
+        {"texto": "Solo ECG", "correcta": false, "puntos": -10, "feedback": "❌ ECG es complementario, no diagnóstico definitivo."},
+        {"texto": "TAC torácico", "correcta": false, "puntos": -15, "feedback": "❌ Sobreuso, irradiación innecesaria en pediatría."}
+      ]
+    },
+    {
+      "situacion": "El eco confirma CIA OSTIUM SECUNDUM 10 mm, shunt I→D significativo (Qp/Qs = 2.2), dilatación de cámaras derechas, presión pulmonar normal. ¿Conducta?",
+      "opciones": [
+        {"texto": "CIERRE DEL DEFECTO (indicado por Qp/Qs >1.5-2 + sobrecarga derecha): preferentemente CIERRE PERCUTÁNEO con DISPOSITIVO (Amplatzer u otros) — vía cateterismo, sin esternotomía, recuperación rápida; CIRUGÍA si anatomía desfavorable, defecto muy grande, asociaciones, o tipo no secundum (primum/seno venoso requieren cirugía). EDAD ÓPTIMA: antes de los 5 años para minimizar remodelado y prevenir HTP/arritmias futuras (FA en adulto).", "correcta": true, "puntos": 15, "feedback": "✅ Cierre percutáneo es la elección en ostium secundum con anatomía favorable. Timing: idealmente antes de la edad escolar para mejor pronóstico a largo plazo."},
+        {"texto": "Vigilancia indefinida sin cierre", "correcta": false, "puntos": -10, "feedback": "❌ Con Qp/Qs >2 y sobrecarga, hay indicación de cierre."},
+        {"texto": "Cirugía abierta directamente", "correcta": false, "puntos": 5, "feedback": "⚠️ Es opción válida pero en ostium secundum, percutáneo es preferido."},
+        {"texto": "Trasplante cardíaco", "correcta": false, "puntos": -15, "feedback": "❌ Completamente desproporcionado."}
+      ]
+    },
+    {
+      "situacion": "¿Cuáles son las CONSECUENCIAS de no cerrar una CIA significativa?",
+      "opciones": [
+        {"texto": "Complicaciones tardías: 1) FIBRILACIÓN AURICULAR (4.ª-5.ª década por dilatación AD). 2) HIPERTENSIÓN PULMONAR progresiva. 3) SÍNDROME DE EISENMENGER (inversión del shunt → cianosis). 4) Insuficiencia cardíaca derecha. 5) Embolia paradójica (riesgo de ACV en buceo, esfuerzos). 6) Endocarditis infecciosa.", "correcta": true, "puntos": 15, "feedback": "✅ Complicaciones progresivas. FA y HTP son los más temidos en adulto. Cerrar antes previene todo esto."},
+        {"texto": "No hay consecuencias", "correcta": false, "puntos": -15, "feedback": "❌ Hay consecuencias graves a largo plazo."},
+        {"texto": "Solo problemas leves", "correcta": false, "puntos": -10, "feedback": "❌ Pueden ser graves y limitan la vida."},
+        {"texto": "Muerte súbita en infancia", "correcta": false, "puntos": -10, "feedback": "❌ CIA aislada no causa muerte súbita en infancia."}
+      ]
+    },
+    {
+      "situacion": "Comunicación a la familia tras decidir cierre. ¿Qué explicas?",
+      "opciones": [
+        {"texto": "'Su hija tiene una abertura entre las cámaras superiores del corazón, llamada CIA. Es de tamaño significativo y está sobrecargando el lado derecho. La recomendación es cerrarla — preferiblemente con un dispositivo a través de un catéter (sin abrir el tórax), procedimiento corto, recuperación de pocos días. Cerrarla ahora evita complicaciones a largo plazo como arritmias, hipertensión pulmonar e insuficiencia cardíaca. La derivaré a cardiología pediátrica intervencionista.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación + procedimiento + justificación + plan de derivación. Comunicación completa."},
+        {"texto": "'Necesita cirugía abierta'", "correcta": false, "puntos": -5, "feedback": "⚠️ Anatomía favorable → percutáneo es preferido, no cirugía abierta."},
+        {"texto": "Sin explicar consecuencias de no cerrar", "correcta": false, "puntos": -5, "feedback": "⚠️ La familia necesita entender por qué se hace ahora."},
+        {"texto": "'Es leve, no haga nada'", "correcta": false, "puntos": -15, "feedback": "❌ Con Qp/Qs >2 y sobrecarga, hay indicación de cierre."}
+      ]
+    },
+    {
+      "situacion": "Tras cierre percutáneo exitoso. ¿Qué seguimiento y profilaxis?",
+      "opciones": [
+        {"texto": "1) ASPIRINA 81 mg/d × 6 meses (prevenir trombosis del dispositivo). 2) PROFILAXIS ENDOCARDITIS × 6 meses (AHA 2007: material protésico reciente). 3) Control con ETT a 1, 6, 12 meses y anual después. 4) Vida normal completa, sin restricciones de deporte tras curación. 5) Vacunas al día.", "correcta": true, "puntos": 15, "feedback": "✅ Manejo post-cierre completo: antiagregación, profilaxis temporal, seguimiento estructurado, sin restricciones."},
+        {"texto": "Sin ningún tratamiento post-procedimiento", "correcta": false, "puntos": -10, "feedback": "❌ Falta ASA y profilaxis endocarditis 6 meses."},
+        {"texto": "Anticoagulación de por vida", "correcta": false, "puntos": -10, "feedback": "❌ Es antiagregación 6 meses, no anticoagulación crónica."},
+        {"texto": "Restricción de deporte de por vida", "correcta": false, "puntos": -10, "feedback": "❌ Tras curación → vida normal sin restricciones."}
+      ]
+    }
+  ]
+}

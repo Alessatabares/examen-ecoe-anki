@@ -1,0 +1,119 @@
+{
+  "id": "ruidos_003_insuficiencia_mitral_prolapso",
+  "titulo": "Disnea y palpitaciones con soplo apical irradiado a axila",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "adulto",
+  "guia": "ACC/AHA 2020 valvulopatías + UpToDate",
+  "dificultad": "Intermedio-Avanzado",
+  "contexto": "Mujer de 45 años acude por palpitaciones intermitentes y disnea progresiva al esfuerzo desde hace 6 meses. Refiere antecedente de soplo conocido desde la infancia. Sin dolor torácico, sin síncopes. En la exploración inicial confirmas el soplo descrito.",
+  "pasos": [
+    {
+      "situacion": "La paciente entra. ¿Qué haces primero?",
+      "opciones": [
+        {"texto": "Saludo profesional + presentación + confirmación de identidad + anuncio de la maniobra cardiovascular.", "correcta": true, "puntos": 15, "feedback": "✅ Protocolo completo."},
+        {"texto": "Empiezo a explorarla", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Pregunto qué le pasa sin presentarme", "correcta": false, "puntos": -5, "feedback": "⚠️ Falta presentación."},
+        {"texto": "Saludo brevemente", "correcta": false, "puntos": 0, "feedback": "⚠️ Incompleto."}
+      ]
+    },
+    {
+      "situacion": "Anamnesis dirigida. ¿Qué síntomas exploras específicamente?",
+      "opciones": [
+        {"texto": "'¿Disnea (NYHA)? ¿Palpitaciones — sostenidas o paroxísticas? ¿Dolor torácico? ¿Síncope? ¿Edema? ¿Tos nocturna u ortopnea?' + caracterización del soplo conocido (cuándo se lo dijeron, si ha cambiado).", "correcta": true, "puntos": 15, "feedback": "✅ Síntomas CV + clasificación funcional NYHA + caracterización temporal del soplo."},
+        {"texto": "Solo pregunto disnea", "correcta": false, "puntos": -5, "feedback": "⚠️ Cribado CV incompleto."},
+        {"texto": "Pregunto los 5 CV sin clasificar NYHA", "correcta": false, "puntos": 5, "feedback": "⚠️ Bien pero falta NYHA, que cambia conducta."},
+        {"texto": "Anamnesis abierta", "correcta": false, "puntos": 0, "feedback": "⚠️ Pierde especificidad."}
+      ]
+    },
+    {
+      "situacion": "Antecedentes específicos. ¿Qué preguntas?",
+      "opciones": [
+        {"texto": "'¿Fiebre reumática en la infancia? ¿Endocarditis previa? ¿Cardiopatía conocida? ¿Antecedentes familiares de prolapso mitral o Marfan? ¿Embarazos? ¿Medicación cardiotrópica?'", "correcta": true, "puntos": 15, "feedback": "✅ Etiologías relevantes para IM: reumática, degenerativa (prolapso), endocarditis, Marfan."},
+        {"texto": "Solo pregunto si fuma", "correcta": false, "puntos": -5, "feedback": "⚠️ Insuficiente."},
+        {"texto": "Antecedentes generales sin dirigir a IM", "correcta": false, "puntos": 0, "feedback": "⚠️ Falta especificidad."},
+        {"texto": "Nada de antecedentes", "correcta": false, "puntos": -10, "feedback": "❌ Imposible diagnosticar etiología sin antecedentes."}
+      ]
+    },
+    {
+      "situacion": "Higiene y preparación. ¿Qué haces?",
+      "opciones": [
+        {"texto": "Me lavo las manos verbalizándolo, limpio el estetoscopio, pido consentimiento, explico maniobras dinámicas y cuido el pudor.", "correcta": true, "puntos": 15, "feedback": "✅ Completo. Pudor especialmente importante con paciente mujer."},
+        {"texto": "Solo lavarse las manos", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta limpiar estetoscopio."},
+        {"texto": "Sin higiene", "correcta": false, "puntos": -15, "feedback": "❌ Falla automática."},
+        {"texto": "Higiene sin consentimiento", "correcta": false, "puntos": 0, "feedback": "⚠️ Consentimiento obligatorio."}
+      ]
+    },
+    {
+      "situacion": "Inspección + palpación. ¿Qué buscas en el choque de la punta?",
+      "opciones": [
+        {"texto": "Choque DESPLAZADO LATERALMENTE (hacia línea axilar anterior) y AMPLIO — refleja DILATACIÓN del VI por sobrecarga crónica de volumen.", "correcta": true, "puntos": 15, "feedback": "✅ IM crónica = sobrecarga de volumen = dilatación VI = choque desplazado y amplio. Diferencia con EAo (sostenido pero NO desplazado)."},
+        {"texto": "Choque no desplazado y sostenido", "correcta": false, "puntos": -5, "feedback": "⚠️ Eso es patrón de HVI por presión (EAo, HTA), no de IM."},
+        {"texto": "Sin palpar el choque", "correcta": false, "puntos": -10, "feedback": "❌ Saltar palpación pierde signo clave de la enfermedad."},
+        {"texto": "Inventar el choque sin medir realmente", "correcta": false, "puntos": -10, "feedback": "❌ Inventar hallazgos es error grave."}
+      ]
+    },
+    {
+      "situacion": "Auscultas sistemáticamente los 5 focos. En el FOCO MITRAL (ápex, 5.º EIC LMC) escuchas un soplo. ¿Cómo lo caracterizas?",
+      "opciones": [
+        {"texto": "Soplo HOLOSISTÓLICO (plano, todo el sístole), intensidad 3/6 sin frémito, máximo en ÁPEX, IRRADIA A AXILA, calidad soplante, precedido por CLICK MESOSISTÓLICO (sugiere prolapso). S3 audible (sobrecarga volumen).", "correcta": true, "puntos": 15, "feedback": "✅ Patrón típico de IM por prolapso: holosistólico apical irradiado a axila + click mesosistólico + S3."},
+        {"texto": "Soplo sistólico expulsivo en aórtico irradiado a carótidas", "correcta": false, "puntos": -15, "feedback": "❌ Eso es patrón de EAo, no IM. Confusión grave de patología."},
+        {"texto": "Soplo sin especificar foco ni irradiación", "correcta": false, "puntos": 0, "feedback": "⚠️ Faltan los datos clave."},
+        {"texto": "Soplo diastólico apical", "correcta": false, "puntos": -15, "feedback": "❌ Eso es ESTENOSIS MITRAL, no insuficiencia."}
+      ]
+    },
+    {
+      "situacion": "¿Qué maniobra dinámica realizas para CONFIRMAR origen mitral?",
+      "opciones": [
+        {"texto": "HANDGRIP (aumento de postcarga): la IM AUMENTA con handgrip (más regurgitación). Cuclillas: AUMENTA. Valsalva: DISMINUYE. Útil también: decúbito lateral izq con campana mejora la audición.", "correcta": true, "puntos": 15, "feedback": "✅ Maniobras dirigidas: handgrip aumenta IM (y IAo); Valsalva disminuye IM (y aumenta MHO); cuclillas aumenta IM. Distingue IM de EAo (que no cambia o disminuye con handgrip)."},
+        {"texto": "Carvallo (inspiración)", "correcta": false, "puntos": -5, "feedback": "⚠️ Carvallo es para soplos DERECHOS. La IM es izquierda."},
+        {"texto": "Sin maniobras dinámicas", "correcta": false, "puntos": -10, "feedback": "❌ Obligatorias en ECOE."},
+        {"texto": "Le pido que respire profundo", "correcta": false, "puntos": 0, "feedback": "⚠️ Carvallo de nuevo — incorrecto para soplo izquierdo."}
+      ]
+    },
+    {
+      "situacion": "¿Cómo distingues el click mesosistólico del prolapso (auscultatorio)?",
+      "opciones": [
+        {"texto": "El CLICK MESOSISTÓLICO precede al soplo telesistólico. Con maniobras: VALSALVA y BIPEDESTACIÓN adelantan el click (más temprano en sístole, soplo más largo); CUCLILLAS y handgrip lo retrasan. Patrón dinámico patognomónico de PROLAPSO de válvula mitral.", "correcta": true, "puntos": 15, "feedback": "✅ Patrón dinámico del prolapso: maniobras que disminuyen volumen VI (Valsalva, bipedestación) → click más temprano, soplo más largo. Datos avanzados."},
+        {"texto": "El click no cambia con maniobras", "correcta": false, "puntos": -10, "feedback": "❌ El comportamiento dinámico del click es PRECISAMENTE el sello del prolapso."},
+        {"texto": "No reconozco el click", "correcta": false, "puntos": -5, "feedback": "⚠️ El click es clave para diferenciar prolapso de otras causas de IM."},
+        {"texto": "Click protosistólico", "correcta": false, "puntos": -5, "feedback": "⚠️ Click protosistólico = clicks de eyección (válvula aórtica/pulmonar), no es el del prolapso (mesosistólico)."}
+      ]
+    },
+    {
+      "situacion": "Síntesis diagnóstica. ¿Cómo lo verbalizas?",
+      "opciones": [
+        {"texto": "'Cuadro compatible con INSUFICIENCIA MITRAL POR PROLAPSO DE VÁLVULA MITRAL: soplo holosistólico apical 3/6 irradiado a axila, click mesosistólico, S3, choque desplazado, NYHA II. Solicito ECOCARDIOGRAMA para cuantificar severidad y planificar manejo.'", "correcta": true, "puntos": 15, "feedback": "✅ Diagnóstico + mecanismo + signos + clase funcional + plan."},
+        {"texto": "'Soplo de insuficiencia mitral'", "correcta": false, "puntos": 5, "feedback": "⚠️ Falta mecanismo y severidad funcional."},
+        {"texto": "'Soplo inocente'", "correcta": false, "puntos": -15, "feedback": "❌ Soplo inocente no es holosistólico ni tiene click ni S3 ni síntomas asociados."},
+        {"texto": "'Estenosis mitral'", "correcta": false, "puntos": -15, "feedback": "❌ Estenosis es diastólico con chasquido de apertura, no holosistólico con click."}
+      ]
+    },
+    {
+      "situacion": "¿Qué estudios pides?",
+      "opciones": [
+        {"texto": "1) ECOCARDIOGRAMA TRANSTORÁCICO (mecanismo, severidad — vena contracta, ERO, volumen regurgitante; FEVI; DTSVI). 2) ECG (busco FA, HVI). 3) Rx tórax. 4) Considero ETE si imagen subóptima o planificación quirúrgica.", "correcta": true, "puntos": 15, "feedback": "✅ ETT es la primera prueba; ETE para planificación quirúrgica y caracterización fina del mecanismo (especialmente para reparación)."},
+        {"texto": "Solo ECG", "correcta": false, "puntos": -5, "feedback": "⚠️ ECG no define severidad."},
+        {"texto": "Coronariografía como primer estudio", "correcta": false, "puntos": -10, "feedback": "❌ Coronariografía solo pre-op para descartar CI concomitante en >40 años."},
+        {"texto": "Resonancia magnética cardíaca", "correcta": false, "puntos": -5, "feedback": "⚠️ RMC es 2.ª línea si eco insuficiente. No es primera elección."}
+      ]
+    },
+    {
+      "situacion": "El eco muestra: IM severa (vena contracta 7 mm, ERO 0.42 cm², volumen regurgitante 65 mL), FEVI 58%, DTSVI 41 mm, prolapso de velo posterior con flail. ¿Qué decisión terapéutica?",
+      "opciones": [
+        {"texto": "CIRUGÍA VALVULAR MITRAL: REPARACIÓN ANTES QUE REEMPLAZO siempre que sea factible (mejor supervivencia, sin anticoagulación crónica). Indicación clase I por: IM severa sintomática. Derivar a centro con experiencia en reparación.", "correcta": true, "puntos": 15, "feedback": "✅ IM severa sintomática = clase I para cirugía. Reparación > reemplazo. Centro experto para maximizar reparabilidad."},
+        {"texto": "Manejo médico con diuréticos y vasodilatadores indefinido", "correcta": false, "puntos": -10, "feedback": "❌ Tratamiento médico no corrige la valvulopatía severa. En sintomáticos, la cirugía es la indicación."},
+        {"texto": "Reemplazo valvular sin intentar reparar primero", "correcta": false, "puntos": 5, "feedback": "⚠️ Reparación es prioridad sobre reemplazo en prolapso (mejor pronóstico, sin necesidad de anticoagulación crónica)."},
+        {"texto": "TAVR para válvula mitral", "correcta": false, "puntos": -15, "feedback": "❌ TAVR es para válvula AÓRTICA. Para mitral existen procedimientos percutáneos (MitraClip) pero indicación restringida."}
+      ]
+    },
+    {
+      "situacion": "Cierre con la paciente. ¿Qué le explicas y aconsejas?",
+      "opciones": [
+        {"texto": "'Tiene insuficiencia severa de la válvula mitral por prolapso. Necesita una operación para repararla — la reparación es preferible al reemplazo. La derivaré a cardiología y cirugía cardíaca. Signos de alarma: disnea brusca en reposo, dolor torácico nuevo, palpitaciones sostenidas o síncope. Si presenta uno, vaya a urgencias.'", "correcta": true, "puntos": 15, "feedback": "✅ Explicación + plan quirúrgico + preferencia por reparación + signos de alarma específicos."},
+        {"texto": "'Está bien, vuelva en un año'", "correcta": false, "puntos": -15, "feedback": "❌ IM severa sintomática requiere cirugía, no vigilancia."},
+        {"texto": "Derivar sin explicar", "correcta": false, "puntos": -5, "feedback": "⚠️ Comunicación es parte del puntaje."},
+        {"texto": "Prescribir IECA y dar alta", "correcta": false, "puntos": -10, "feedback": "❌ Tratamiento médico aislado en IM severa sintomática es subóptimo."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "ruidos_012_tetralogia_fallot_crisis",
+  "titulo": "Lactante cianótico que se pone en cuclillas",
+  "tema": "ruidos_cardiacos",
+  "audiencia": "pediátrico",
+  "guia": "AHA cardiopatías congénitas + AAP + UpToDate",
+  "dificultad": "Avanzado",
+  "contexto": "Lactante de 8 meses traído a urgencias por episodio de cianosis severa con llanto al despertar. La madre refiere que el bebé desde hace meses se 'agacha' o queda en cuclillas con frecuencia al jugar. Hoy presentó cianosis labial intensa que mejoró espontáneamente al sostenerlo en brazos en posición fetal. Antecedentes: soplo conocido desde nacimiento, sin estudios. Bajo peso (p10).",
+  "pasos": [
+    {
+      "situacion": "El lactante llega cianótico. ¿Qué haces PRIMERO?",
+      "opciones": [
+        {"texto": "1) Mantener al niño TRANQUILO en brazos de la madre (no separar). 2) POSICIÓN GENUPECTORAL o RODILLAS AL TÓRAX (aumenta resistencia vascular sistémica → disminuye shunt D→I). 3) OXÍGENO suplementario por mascarilla (relaja vasculatura pulmonar). 4) Llamar a colega y preparar acceso vascular sin causar dolor/llanto.", "correcta": true, "puntos": 15, "feedback": "✅ Manejo de crisis hipoxémica de Fallot: posición + O2 + tranquilizar (evitar llanto que empeora). Pasos urgentes correctos."},
+        {"texto": "Separo al niño de la madre y obtengo vía rápido", "correcta": false, "puntos": -15, "feedback": "❌ ERROR GRAVE. Separar al niño causa LLANTO que aumenta el shunt D→I y empeora la cianosis."},
+        {"texto": "Intubo inmediatamente", "correcta": false, "puntos": -10, "feedback": "❌ Innecesario inicialmente — primero medidas conservadoras."},
+        {"texto": "Sólo administro oxígeno", "correcta": false, "puntos": 5, "feedback": "⚠️ Incompleto — falta posición + tranquilizar."}
+      ]
+    },
+    {
+      "situacion": "¿Por qué la posición en CUCLILLAS (o genupectoral) mejora al niño con Fallot?",
+      "opciones": [
+        {"texto": "La compresión femoral en cuclillas AUMENTA LA RESISTENCIA VASCULAR SISTÉMICA (postcarga del VI) y AUMENTA EL RETORNO VENOSO. Ambos efectos DISMINUYEN el SHUNT DERECHA-IZQUIERDA a través de la CIV (más sangre va hacia el lado pulmonar y menos pasa directamente al sistémico desoxigenada) → MEJORA OXIGENACIÓN.", "correcta": true, "puntos": 15, "feedback": "✅ Fisiología clara del 'squatting'. El niño con Fallot lo aprende instintivamente para autorrescatarse en hipoxia."},
+        {"texto": "Por relajación muscular", "correcta": false, "puntos": -10, "feedback": "❌ Mecanismo incorrecto."},
+        {"texto": "Sin saber por qué", "correcta": false, "puntos": -5, "feedback": "⚠️ Entender el mecanismo importa."},
+        {"texto": "Por elevación de las piernas", "correcta": false, "puntos": -5, "feedback": "⚠️ Parcialmente — la clave es la compresión femoral + aumento RVS."}
+      ]
+    },
+    {
+      "situacion": "¿Cuáles son los 4 COMPONENTES de la TETRALOGÍA DE FALLOT?",
+      "opciones": [
+        {"texto": "1) ESTENOSIS PULMONAR (obstrucción del tracto de salida del VD) — el componente CLAVE que determina severidad. 2) CIV (comunicación interventricular grande mal alineada). 3) AORTA CABALGANTE sobre el septum. 4) HIPERTROFIA VENTRICULAR DERECHA (consecuencia de la EP).", "correcta": true, "puntos": 15, "feedback": "✅ Los 4 componentes clásicos. La estenosis pulmonar determina el grado de cianosis (más grave = más cianótico)."},
+        {"texto": "Solo CIV y estenosis pulmonar", "correcta": false, "puntos": -5, "feedback": "⚠️ Faltan aorta cabalgante e HVD."},
+        {"texto": "CIA, ductus, coartación, estenosis aórtica", "correcta": false, "puntos": -15, "feedback": "❌ Componentes totalmente erróneos."},
+        {"texto": "Solo 3 componentes", "correcta": false, "puntos": -10, "feedback": "❌ Son 4 — tetralogía."}
+      ]
+    },
+    {
+      "situacion": "Constantes y exploración general una vez estable. ¿Qué hallazgos esperas?",
+      "opciones": [
+        {"texto": "Constantes: SatO2 baja (suele 75-85% en reposo en Fallot no operada), FR alta, FC normal. Hallazgos: CIANOSIS CENTRAL (labios, lengua, mucosas), DEDOS EN PALILLO DE TAMBOR (acropaquias por hipoxia crónica), HUESEN PROMINENTE en pretendril precordial izquierdo (HVD), retardo de crecimiento (p10).", "correcta": true, "puntos": 15, "feedback": "✅ Hallazgos típicos de Fallot crónica no operada: hipoxia crónica + HVD + crecimiento subóptimo."},
+        {"texto": "SatO2 normal", "correcta": false, "puntos": -10, "feedback": "❌ Fallot es cianótica — SatO2 baja es esperable."},
+        {"texto": "Sin cianosis", "correcta": false, "puntos": -10, "feedback": "❌ Fallot acianótica existe pero es rara; aquí ya hay crisis hipoxémica."},
+        {"texto": "Cianosis periférica solamente", "correcta": false, "puntos": -10, "feedback": "❌ Es cianosis CENTRAL (afecta mucosas), no solo periférica."}
+      ]
+    },
+    {
+      "situacion": "Auscultación cardíaca. ¿Cómo es el soplo de Fallot?",
+      "opciones": [
+        {"texto": "SOPLO SISTÓLICO EXPULSIVO INTENSO en FOCO PULMONAR (2.º EIC izq) y BPI alto — generado por la ESTENOSIS PULMONAR (NO por la CIV). PARADOJA: en crisis hipoxémica el soplo DISMINUYE o desaparece (porque casi nada de flujo sale hacia el lado pulmonar — todo va al sistémico vía CIV). S2 ÚNICO (P2 disminuido por EP).", "correcta": true, "puntos": 15, "feedback": "✅ El soplo de Fallot es de ESTENOSIS PULMONAR (no de la CIV). Paradoja clave: durante crisis el soplo DESAPARECE porque el flujo se desvía al sistémico."},
+        {"texto": "Soplo holosistólico mesocardio (CIV)", "correcta": false, "puntos": -10, "feedback": "❌ La CIV en Fallot suele ser grande con flujo en ambos sentidos a baja velocidad — NO genera soplo significativo. El soplo es de la EP."},
+        {"texto": "Soplo en maquinaria", "correcta": false, "puntos": -15, "feedback": "❌ Eso es PCA."},
+        {"texto": "Sin soplo", "correcta": false, "puntos": -10, "feedback": "❌ El soplo es típico aunque puede atenuarse en crisis."}
+      ]
+    },
+    {
+      "situacion": "ECG y Rx tórax esperados. ¿Qué patrón buscas?",
+      "opciones": [
+        {"texto": "ECG: HIPERTROFIA VENTRICULAR DERECHA (R alta en V1, S profunda en V6) + DESVIACIÓN DEL EJE A LA DERECHA. Rx tórax: silueta cardíaca en FORMA DE BOTA o 'COEUR EN SABOT' (punta elevada por HVD + arco pulmonar excavado) + FLUJO PULMONAR DISMINUIDO (hipoflujo) + posible arco aórtico derecho (25%).", "correcta": true, "puntos": 15, "feedback": "✅ Patrón clásico: HVD en ECG + corazón en bota + hipoflujo pulmonar en Rx. El arco aórtico derecho es típico (25%)."},
+        {"texto": "Hipertrofia ventricular izquierda", "correcta": false, "puntos": -10, "feedback": "❌ En Fallot hay HVD (no HVI) por la EP."},
+        {"texto": "Cardiomegalia con hiperflujo pulmonar", "correcta": false, "puntos": -15, "feedback": "❌ Eso es shunt I→D (CIA, CIV, PCA). En Fallot hay HIPOFLUJO pulmonar y silueta no muy aumentada."},
+        {"texto": "Patrón normal", "correcta": false, "puntos": -10, "feedback": "❌ Alteraciones típicas son esperables."}
+      ]
+    },
+    {
+      "situacion": "Crisis hipoxémica refractaria a posición + O2. ¿Siguientes pasos farmacológicos?",
+      "opciones": [
+        {"texto": "ESCALADA EN CRISIS DE FALLOT REFRACTARIA: 1) MORFINA IV/SC 0.1 mg/kg (calma, reduce hiperpnea, disminuye tono adrenérgico). 2) Bolo de FLUIDOS (10-20 mL/kg cristaloide para aumentar precarga). 3) BICARBONATO IV si acidosis. 4) PROPRANOLOL IV 0.1 mg/kg (relaja infundíbulo espasmódico — bloqueo β1). 5) FENILEFRINA IV (aumenta RVS, disminuye shunt D→I). 6) Si refractario: anestesia + ECMO + cirugía urgente.", "correcta": true, "puntos": 15, "feedback": "✅ Algoritmo completo de crisis hipoxémica refractaria. Morfina + fluidos + propranolol + fenilefrina son los pilares farmacológicos."},
+        {"texto": "Solo administrar más oxígeno", "correcta": false, "puntos": -10, "feedback": "❌ Insuficiente. La crisis requiere medidas escalonadas."},
+        {"texto": "Adrenalina IV", "correcta": false, "puntos": -15, "feedback": "❌ Adrenalina aumenta contractilidad del infundíbulo VD → empeora obstrucción y crisis. CONTRAINDICADA."},
+        {"texto": "Vasodilatador para reducir resistencia pulmonar", "correcta": false, "puntos": -15, "feedback": "❌ ERROR. Reducir RVS empeora el shunt D→I. Queremos AUMENTAR la RVS, no reducirla."}
+      ]
+    },
+    {
+      "situacion": "Tratamiento DEFINITIVO de la tetralogía de Fallot. ¿Qué propones?",
+      "opciones": [
+        {"texto": "REPARACIÓN QUIRÚRGICA COMPLETA — ELECCIÓN actual: cierre de CIV + ampliación del tracto de salida del VD (resección de bandas musculares estenóticas + parche transanular si necesario). EDAD ÓPTIMA: entre 3 y 11 meses, antes de 1 año, idealmente reparación temprana. Si crisis hipoxémicas severas y no es candidato a reparación completa (muy bajo peso, anatomía coronaria desfavorable): SHUNT PALIATIVO de Blalock-Taussig modificado como puente.", "correcta": true, "puntos": 15, "feedback": "✅ Reparación completa antes del año es el estándar moderno. Shunt BT modificado solo como paliativo si no es candidato a reparación completa."},
+        {"texto": "Solo tratamiento médico de por vida", "correcta": false, "puntos": -15, "feedback": "❌ Fallot es quirúrgica — sin cirugía mortalidad alta."},
+        {"texto": "Trasplante cardíaco", "correcta": false, "puntos": -15, "feedback": "❌ Desproporcionado — la reparación quirúrgica es muy efectiva."},
+        {"texto": "Cierre percutáneo de CIV", "correcta": false, "puntos": -10, "feedback": "❌ Fallot requiere reparación quirúrgica abierta — solo cerrar CIV no resuelve la EP."}
+      ]
+    },
+    {
+      "situacion": "Educación a los padres sobre PREVENCIÓN de crisis hipoxémicas. ¿Qué les explicas?",
+      "opciones": [
+        {"texto": "EVITAR PRECIPITANTES: 1) Episodios de LLANTO prolongado (consolar pronto). 2) FIEBRE ALTA (manejo agresivo con antipirético). 3) DESHIDRATACIÓN (mantener buen aporte de líquidos). 4) ESFUERZO físico intenso. 5) ESTRÉS o dolor (analgesia preventiva en procedimientos). ENSEÑAR MANIOBRA DE RODILLAS AL TÓRAX para revertir crisis en casa. ACUDIR A URGENCIAS si crisis no cede en 5-10 min o saturación muy baja persistente.", "correcta": true, "puntos": 15, "feedback": "✅ Educación preventiva completa + maniobra de rescate + signos de alarma. Los padres son fundamentales en el manejo crónico."},
+        {"texto": "Sin educación", "correcta": false, "puntos": -15, "feedback": "❌ Crítica — los padres necesitan saber qué evitar y qué hacer."},
+        {"texto": "Solo evitar deportes", "correcta": false, "puntos": -10, "feedback": "❌ Incompleto — hay muchos otros precipitantes."},
+        {"texto": "Inducir vómito si crisis", "correcta": false, "puntos": -15, "feedback": "❌ No tiene relación. Las medidas son posición + tranquilizar."}
+      ]
+    },
+    {
+      "situacion": "Cierre del caso. ¿Plan inmediato?",
+      "opciones": [
+        {"texto": "1) INGRESO HOSPITALARIO en cardiología pediátrica. 2) ECT confirmatorio + caracterización completa de anatomía (incluida coronaria). 3) Optimización médica + estabilización. 4) Discusión en sesión clínica multidisciplinaria (cardiología pediátrica + cirugía cardíaca pediátrica) para programar REPARACIÓN COMPLETA. 5) Comenzar PROPRANOLOL ORAL profiláctico para reducir frecuencia de crisis mientras se programa cirugía. 6) Vacunación al día + profilaxis endocarditis (cardiopatía cianótica no reparada — AHA 2007 sí indicada).", "correcta": true, "puntos": 15, "feedback": "✅ Plan completo: ingreso + estudio + decisión multidisciplinaria + profilaxis con propranolol + cuidados periféricos. La profilaxis endocarditis SÍ está indicada en cianótica no reparada (AHA 2007)."},
+        {"texto": "Alta con seguimiento ambulatorio", "correcta": false, "puntos": -15, "feedback": "❌ Crisis hipoxémica activa = ingreso obligatorio."},
+        {"texto": "Sin profilaxis endocarditis", "correcta": false, "puntos": -5, "feedback": "⚠️ Cardiopatía CIANÓTICA NO REPARADA está en el grupo de alto riesgo según AHA 2007 — SÍ indicada."},
+        {"texto": "Solo cirugía sin propranolol previo", "correcta": false, "puntos": -5, "feedback": "⚠️ Propranolol oral profiláctico reduce crisis mientras se espera cirugía."}
+      ]
+    },
+    {
+      "situacion": "Pronóstico tras reparación quirúrgica exitosa. ¿Qué les dices a los padres?",
+      "opciones": [
+        {"texto": "'La reparación de Fallot tiene EXCELENTES resultados — sobrevida >90% a largo plazo. La mayoría llevan vida normal. Necesitará seguimiento cardiológico de POR VIDA para vigilar: insuficiencia pulmonar (frecuente), arritmias, función ventricular derecha. Eventualmente podría necesitar un REEMPLAZO de la válvula pulmonar (PVR) en la adolescencia/adultez. Vacunación completa. Vida normal con seguimiento. Profilaxis ATB en los primeros 6 meses post-cirugía con material protésico (AHA 2007).'", "correcta": true, "puntos": 15, "feedback": "✅ Pronóstico realista + necesidad de seguimiento de por vida + posible reintervención. Comunicación honesta y completa."},
+        {"texto": "'Tras cirugía está totalmente curado, no necesita más'", "correcta": false, "puntos": -10, "feedback": "❌ Falso — requiere seguimiento de por vida (insuficiencia pulmonar, arritmias, posible PVR)."},
+        {"texto": "'El pronóstico es muy malo'", "correcta": false, "puntos": -10, "feedback": "❌ Falso. Resultados modernos son excelentes."},
+        {"texto": "Sin información de pronóstico", "correcta": false, "puntos": -10, "feedback": "❌ Familia necesita expectativas realistas."}
+      ]
+    }
+  ]
+}
