@@ -293,6 +293,46 @@
       "guia": "ATLS 10a + Tokyo 2018/2024 + WSES + ACG 2021/2024 + IDSA 2010 + SIS 2017 + Surviving Sepsis 2021 + ACOG/ASRM + SVS 2018 + SAGES + UpToDate",
       "output": "cirugia/output/Cirugia_Adulto_Capa4.apkg",
       "notas": 50
+    },
+    {
+      "tema": "Medicina Interna",
+      "audiencia": "Adulto",
+      "capa": 1,
+      "deck_id": 1465810910,
+      "deck_name": "Medicina Interna Adulto::Capa 1 - Reconocimiento de Patron Internista",
+      "guia": "ACC/AHA 2017 HTA + AHA 2018 lipidos + ACC/AHA 2023 IC + ACC/AHA 2023 ACS + ACC/AHA 2019 FA + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + SSC 2021 + USPSTF + UpToDate",
+      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa1.apkg",
+      "notas": 45
+    },
+    {
+      "tema": "Medicina Interna",
+      "audiencia": "Adulto",
+      "capa": 2,
+      "deck_id": 1137569095,
+      "deck_name": "Medicina Interna Adulto::Capa 2 - Exploracion Dirigida y Calculadoras",
+      "guia": "ACC/AHA + ADA 2025 + KDIGO + Duke + Keith-Wagener + ACR + UpToDate",
+      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa2.apkg",
+      "notas": 35
+    },
+    {
+      "tema": "Medicina Interna",
+      "audiencia": "Adulto",
+      "capa": 3,
+      "deck_id": 1306015269,
+      "deck_name": "Medicina Interna Adulto::Capa 3 - Interpretacion de Estudios",
+      "guia": "AHA 2018 lipidos + ADA 2025 + KDIGO 2024 + AASLD + Sokolow/Cornell + CKD-EPI + Winter + Sepsis-3 + UpToDate",
+      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa3.apkg",
+      "notas": 40
+    },
+    {
+      "tema": "Medicina Interna",
+      "audiencia": "Adulto",
+      "capa": 4,
+      "deck_id": 1710703980,
+      "deck_name": "Medicina Interna Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
+      "guia": "ACC/AHA 2017+2018+2022+2023 + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + Surviving Sepsis 2021 + USPSTF + CDC/ACIP + UpToDate",
+      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa4.apkg",
+      "notas": 55
     }
   ]
 }
