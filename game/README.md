@@ -41,7 +41,19 @@ python3 -m http.server 8000
 | 👂 Otoscopia | Hemotímpano post-TCE (TM íntegra azul) | 11 | Avanzado |
 | 👂 Otoscopia | Colesteatoma con otorrea fétida crónica | 11 | Avanzado |
 | 👂 Otoscopia | Otomicosis con detritos algodonosos | 11 | Intermedio |
-| 🎧 Ruidos cardíacos | Fiebre y soplo nuevo en usuario de drogas IV | 16 | Intermedio-Avanzado |
+| 🎧 Ruidos cardíacos | Fiebre y soplo nuevo en usuario de drogas IV (endocarditis) | 16 | Intermedio-Avanzado |
+| 🎧 Ruidos cardíacos | Síncope con esfuerzo y soplo (estenosis aórtica severa) | 13 | Avanzado |
+| 🎧 Ruidos cardíacos | Disnea + soplo apical irradiado a axila (IM por prolapso) | 12 | Intermedio-Avanzado |
+| 🎧 Ruidos cardíacos | Disnea + FA + soplo diastólico (estenosis mitral reumática) | 12 | Avanzado |
+| 🎧 Ruidos cardíacos | Disnea + pulsos saltones + soplo diastólico (IAo crónica) | 12 | Intermedio-Avanzado |
+| 🎧 Ruidos cardíacos | DPN + edemas en varón 68 años (IC descompensada con S3) | 12 | Intermedio |
+| 🎧 Ruidos cardíacos | Dolor pleurítico que mejora al inclinarse (pericarditis aguda) | 12 | Básico-Intermedio |
+| 🧸 Ruidos cardíacos (Ped) | Soplo en cribado escolar (soplo inocente de Still) | 11 | Básico |
+| 🧸 Ruidos cardíacos (Ped) | Soplo holosistólico mesocardio en lactante (CIV pequeña) | 11 | Intermedio |
+| 🧸 Ruidos cardíacos (Ped) | Desdoblamiento fijo de S2 en niña de 7 años (CIA secundum) | 11 | Intermedio-Avanzado |
+| 🧸 Ruidos cardíacos (Ped) | Soplo continuo en maquinaria en pretérmino (PCA) | 11 | Intermedio |
+| 🧸 Ruidos cardíacos (Ped) | Lactante cianótico que se pone en cuclillas (Fallot, crisis) | 11 | Avanzado |
+| 🧸 Ruidos cardíacos (Ped) | Artritis migratoria + soplo nuevo (fiebre reumática, Jones 2015) | 13 | Avanzado |
 
 > **RCP (11 escenarios)** — 5H/5T canónicas (hipovolemia, hipoxia, hidrogeniones, hiperpotasemia, hipotermia, tóxicos, taponamiento, neumotórax a tensión, trombosis coronaria/IAM, TEP) + **anafilaxia** (AHA 2020).
 >
@@ -50,6 +62,11 @@ python3 -m http.server 8000
 > - 💧 **Transparente/claro** (OME color miel, otolicuorrea por LCR con halo sign, disfunción trompa)
 > - 🔴 **Hemorrágico** (perforación traumática, miringitis bullosa serosanguinolenta, hemotímpano azul-violáceo)
 > - ⚪ **Blanquecino/fétido** (colesteatoma, otomicosis)
+>
+> **Ruidos cardíacos (13 escenarios)** — auscultación dirigida con caracterización del soplo (los 7 elementos) + maniobras dinámicas + decisión clínica:
+> - 🎧 **Adulto (7)** — endocarditis IV, EAo severa, IM por prolapso, EM reumática con FA, IAo crónica (Marfan), IC con S3, pericarditis aguda
+> - 🧸 **Pediátrico (6)** — soplo inocente de Still, CIV pequeña, CIA secundum (desdoblamiento fijo S2), PCA en pretérmino, tetralogía de Fallot (crisis hipoxémica), fiebre reumática con carditis (Jones 2015)
+> - **Guías**: ACC/AHA 2020 valvulopatías + ACC/AHA 2022 IC + ESC 2015 pericardio + AHA Jones 2015 modificados + AHA cardiopatías congénitas + AAP + UpToDate
 
 ## Mecánicas
 
