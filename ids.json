@@ -285,6 +285,16 @@
       "notas": 59
     },
     {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 7,
+      "deck_id": 1897089931,
+      "deck_name": "Medicina Familiar Adulto::Capa 7 - Eje Clinico",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa7_EjeClinico.apkg",
+      "notas": 29
+    },
+    {
       "tema": "Cirugia",
       "audiencia": "Adulto",
       "capa": 1,
