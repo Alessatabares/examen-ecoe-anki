@@ -275,6 +275,16 @@
       "notas": 39
     },
     {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": 6,
+      "deck_id": 1184046378,
+      "deck_name": "Medicina Familiar Adulto::Capa 6 - Integrador de Discriminador Clinico",
+      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa6_Integrador.apkg",
+      "notas": 59
+    },
+    {
       "tema": "Cirugia",
       "audiencia": "Adulto",
       "capa": 1,
