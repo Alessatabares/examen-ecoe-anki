@@ -215,6 +215,16 @@
       "notas": 46
     },
     {
+      "tema": "Gineco-Obstetricia",
+      "audiencia": "Adulto",
+      "capa": 6,
+      "deck_id": 1178771173,
+      "deck_name": "Gineco-Obstetricia Adulto::Capa 6 - Eje Clinico",
+      "guia": "GPC mexicanas + ACOG + Williams",
+      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa6_EjeClinico.apkg",
+      "notas": 30
+    },
+    {
       "tema": "Medicina Familiar",
       "audiencia": "Adulto",
       "capa": 1,
