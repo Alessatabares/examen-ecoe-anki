@@ -205,6 +205,16 @@
       "notas": 46
     },
     {
+      "tema": "Gineco-Obstetricia",
+      "audiencia": "Adulto",
+      "capa": 5,
+      "deck_id": 2079099594,
+      "deck_name": "Gineco-Obstetricia Adulto::Capa 5 - Integrador de Discriminador Clinico",
+      "guia": "GPC mexicanas + ACOG + Williams",
+      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa5_Integrador.apkg",
+      "notas": 46
+    },
+    {
       "tema": "Medicina Familiar",
       "audiencia": "Adulto",
       "capa": 1,
