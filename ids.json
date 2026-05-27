@@ -412,6 +412,18 @@
       "rama_shock": "cardiogenico"
     },
     {
+      "tema": "Patrones Madre",
+      "audiencia": "Mixto",
+      "capa": "shock_4",
+      "deck_id": 1428675319,
+      "deck_name": "Patrones Madre::Shock 4",
+      "guia": "ESC 2019 TEP + ATLS 10a + AHA/ACC pericardio + ACEP USG + UpToDate",
+      "output": "patrones_madre/output/Patrones_Madre_Shock_4.apkg",
+      "notas": 10,
+      "subcausas": ["tep", "neumotorax_tension", "taponamiento"],
+      "rama_shock": "obstructivo"
+    },
+    {
       "tema": "Preparacion Verbalizada",
       "audiencia": "Mixto",
       "capa": "deck1_interrogatorio_universal",

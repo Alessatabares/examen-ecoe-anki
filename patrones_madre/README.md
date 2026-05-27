@@ -101,7 +101,7 @@ Una card por subcausa. El front describe **la escena del paciente** + una lista 
 - ✅ Shock 1 — hipovolémico (4 subcausas: GI, hemorrágico, quemaduras, pediátrico)
 - ✅ Shock 2 — séptico / distributivo (6 subcausas)
 - ✅ Shock 3 — cardiogénico (3 subcausas: IAM, arritmia, IC aguda)
-- ⏳ Shock 4 — obstructivo
+- ✅ Shock 4 — obstructivo (3 subcausas: TEP, neumotórax a tensión, taponamiento) — **serie shock completa**
 - ⏳ Dolor torácico
 - ⏳ Abdomen agudo
 - ⏳ Alteración del estado mental
