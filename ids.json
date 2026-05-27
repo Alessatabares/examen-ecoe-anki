@@ -393,6 +393,16 @@
       "guia": "Bates 13a + ATLS 10a + ACC/AHA 2017+2020 + Sepsis-3 + Tokyo Guidelines 2024 + Alvarado + ACOG + Williams 26a + AAP Bright Futures 2022 + Glasgow + GALS (Doherty 1992) + MRC + ADA 2025 + UpToDate",
       "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck2_Exploracion_Basica.apkg",
       "notas": 25
+    },
+    {
+      "tema": "Preparacion Verbalizada",
+      "audiencia": "Mixto",
+      "capa": "deck4_estudios_basicos",
+      "deck_id": 1736284091,
+      "deck_name": "Preparación Verbalizada::Deck 4 - Estudios Básicos",
+      "guia": "ADA 2025 + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + Atlanta revisada 2012 + Ranson + BISAP + TG24 + Alvarado + ATA 2014-2017 + IADPSG + ACOG + USPSTF 2024-2025 + ACIP 2025 + AAP Bright Futures 2022 + APA Practice Guidelines + ATLS 10a + Surviving Sepsis 2021 + ESC SICA 2023 + Williams 26a + UpToDate",
+      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck4_Estudios_Basicos.apkg",
+      "notas": 32
     }
   ]
 }
