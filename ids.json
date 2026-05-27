@@ -400,6 +400,18 @@
       "rama_shock": "septico_distributivo"
     },
     {
+      "tema": "Patrones Madre",
+      "audiencia": "Mixto",
+      "capa": "shock_3",
+      "deck_id": 1734892056,
+      "deck_name": "Patrones Madre::Shock 3",
+      "guia": "ACC/AHA 2023 SCA + ACC/AHA 2022 IC + ACLS 2020 + ESC 2023 + UpToDate",
+      "output": "patrones_madre/output/Patrones_Madre_Shock_3.apkg",
+      "notas": 10,
+      "subcausas": ["iam", "arritmia", "ic_aguda"],
+      "rama_shock": "cardiogenico"
+    },
+    {
       "tema": "Preparacion Verbalizada",
       "audiencia": "Mixto",
       "capa": "deck1_interrogatorio_universal",

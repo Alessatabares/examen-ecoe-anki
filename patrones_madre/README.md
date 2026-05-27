@@ -98,10 +98,10 @@ Una card por subcausa. El front describe **la escena del paciente** + una lista 
 
 ## Patrones madre planeados
 
-- ✅ Shock hipovolémico (4 subcausas: GI, hemorrágico, quemaduras, pediátrico)
-- ⏳ Shock séptico / distributivo
-- ⏳ Shock cardiogénico
-- ⏳ Shock obstructivo
+- ✅ Shock 1 — hipovolémico (4 subcausas: GI, hemorrágico, quemaduras, pediátrico)
+- ✅ Shock 2 — séptico / distributivo (6 subcausas)
+- ✅ Shock 3 — cardiogénico (3 subcausas: IAM, arritmia, IC aguda)
+- ⏳ Shock 4 — obstructivo
 - ⏳ Dolor torácico
 - ⏳ Abdomen agudo
 - ⏳ Alteración del estado mental
