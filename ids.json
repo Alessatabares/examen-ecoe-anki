@@ -383,6 +383,16 @@
       "guia": "Bates 13a + Calgary-Cambridge + USPSTF 2025 + ACIP 2025 + ACOG + Williams 26a + ATLS 10a + DSM-5-TR + Columbia C-SSRS + AAP Bright Futures 2022 + AUDIT/CAGE + NOM-004-SSA3 + UpToDate",
       "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck1_Interrogatorio_Universal.apkg",
       "notas": 41
+    },
+    {
+      "tema": "Preparacion Verbalizada",
+      "audiencia": "Mixto",
+      "capa": "deck2_exploracion_basica",
+      "deck_id": 1582740396,
+      "deck_name": "Preparación Verbalizada::Deck 2 - Exploración Física Básica",
+      "guia": "Bates 13a + ATLS 10a + ACC/AHA 2017+2020 + Sepsis-3 + Tokyo Guidelines 2024 + Alvarado + ACOG + Williams 26a + AAP Bright Futures 2022 + Glasgow + GALS (Doherty 1992) + MRC + ADA 2025 + UpToDate",
+      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck2_Exploracion_Basica.apkg",
+      "notas": 25
     }
   ]
 }
