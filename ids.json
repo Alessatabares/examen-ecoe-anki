@@ -373,6 +373,16 @@
       "guia": "ACC/AHA 2017+2018+2022+2023 + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + Surviving Sepsis 2021 + USPSTF + CDC/ACIP + UpToDate",
       "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa4.apkg",
       "notas": 55
+    },
+    {
+      "tema": "Preparacion Verbalizada",
+      "audiencia": "Mixto",
+      "capa": "deck1_interrogatorio_universal",
+      "deck_id": 1647829513,
+      "deck_name": "Preparación Verbalizada::Deck 1 - Interrogatorio Universal",
+      "guia": "Bates 13a + Calgary-Cambridge + USPSTF 2025 + ACIP 2025 + ACOG + Williams 26a + ATLS 10a + DSM-5-TR + Columbia C-SSRS + AAP Bright Futures 2022 + AUDIT/CAGE + NOM-004-SSA3 + UpToDate",
+      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck1_Interrogatorio_Universal.apkg",
+      "notas": 41
     }
   ]
 }
