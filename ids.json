@@ -388,6 +388,18 @@
       "rama_shock": "hipovolemico"
     },
     {
+      "tema": "Patrones Madre",
+      "audiencia": "Mixto",
+      "capa": "shock_2",
+      "deck_id": 1135155371,
+      "deck_name": "Patrones Madre::Shock 2",
+      "guia": "Surviving Sepsis 2021 + Tokyo Guidelines 2018/2024 + IDSA + ACOG + AAP/NICE neonatal sepsis + UpToDate",
+      "output": "patrones_madre/output/Patrones_Madre_Shock_2.apkg",
+      "notas": 19,
+      "subcausas": ["neumonia", "pielonefritis", "colangitis", "peritonitis", "endometritis", "sepsis_neonatal"],
+      "rama_shock": "septico_distributivo"
+    },
+    {
       "tema": "Preparacion Verbalizada",
       "audiencia": "Mixto",
       "capa": "deck1_interrogatorio_universal",
