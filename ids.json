@@ -424,6 +424,20 @@
       "rama_shock": "obstructivo"
     },
     {
+      "tema": "Patrones Madre",
+      "audiencia": "Mixto",
+      "capa": "shock_5",
+      "deck_id": 1593847062,
+      "deck_name": "Patrones Madre::Shock 5 - Mapa por Estacion",
+      "guia": "Surviving Sepsis 2021 + ATLS 10a + ACC/AHA + ACOG + AAP + OMS dengue + UpToDate",
+      "output": "patrones_madre/output/Patrones_Madre_Shock_5.apkg",
+      "notas": 32,
+      "escenarios": 16,
+      "estaciones": ["medicina_interna", "cirugia", "gineco_obstetricia", "pediatria"],
+      "formato": "dual (clinica->dx + dx->manejo)",
+      "rama_shock": "integrador"
+    },
+    {
       "tema": "Preparacion Verbalizada",
       "audiencia": "Mixto",
       "capa": "deck1_interrogatorio_universal",

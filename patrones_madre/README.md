@@ -101,7 +101,8 @@ Una card por subcausa. El front describe **la escena del paciente** + una lista 
 - ✅ Shock 1 — hipovolémico (4 subcausas: GI, hemorrágico, quemaduras, pediátrico)
 - ✅ Shock 2 — séptico / distributivo (6 subcausas)
 - ✅ Shock 3 — cardiogénico (3 subcausas: IAM, arritmia, IC aguda)
-- ✅ Shock 4 — obstructivo (3 subcausas: TEP, neumotórax a tensión, taponamiento) — **serie shock completa**
+- ✅ Shock 4 — obstructivo (3 subcausas: TEP, neumotórax a tensión, taponamiento)
+- ✅ Shock 5 — **Mapa por Estación ECOE** (integrador dual, 16 escenarios × 2 cards = 32 cards). Formato distinto: card A clínica→estación+dx; card B estación+dx→manejo. Estaciones: Medicina Interna (5), Cirugía (4), Gineco-Obstetricia (4), Pediatría (3). **Serie shock completa (84 cards en total).**
 - ⏳ Dolor torácico
 - ⏳ Abdomen agudo
 - ⏳ Alteración del estado mental
