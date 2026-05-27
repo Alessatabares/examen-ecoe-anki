@@ -1,7 +1,8 @@
 {
   "models": {
     "cloze_estandar": 1607392319,
-    "_comentario": "MODEL_ID reusable para todas las capas cloze. No cambiar."
+    "qa_estandar": 1607392320,
+    "_comentario": "MODEL_IDs reusables. cloze_estandar para Capas cloze; qa_estandar para Capas 5+, Patrones Madre y otros Q&A. No cambiar."
   },
   "decks": [
     {
@@ -373,6 +374,18 @@
       "guia": "ACC/AHA 2017+2018+2022+2023 + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + Surviving Sepsis 2021 + USPSTF + CDC/ACIP + UpToDate",
       "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa4.apkg",
       "notas": 55
+    },
+    {
+      "tema": "Patrones Madre",
+      "audiencia": "Mixto",
+      "capa": "shock_1",
+      "deck_id": 2096096757,
+      "deck_name": "Patrones Madre::Shock 1",
+      "guia": "ATLS 10a + Surviving Sepsis 2021 + Parkland (ABA) + UpToDate + AAP",
+      "output": "patrones_madre/output/Patrones_Madre_Shock_1.apkg",
+      "notas": 13,
+      "subcausas": ["gi", "hemorragico", "quemaduras", "pediatrico"],
+      "rama_shock": "hipovolemico"
     },
     {
       "tema": "Preparacion Verbalizada",
