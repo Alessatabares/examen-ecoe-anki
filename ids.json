@@ -384,7 +384,12 @@
       "guia": "ATLS 10a + Surviving Sepsis 2021 + Parkland (ABA) + UpToDate + AAP",
       "output": "patrones_madre/output/Patrones_Madre_Shock_1.apkg",
       "notas": 13,
-      "subcausas": ["gi", "hemorragico", "quemaduras", "pediatrico"],
+      "subcausas": [
+        "gi",
+        "hemorragico",
+        "quemaduras",
+        "pediatrico"
+      ],
       "rama_shock": "hipovolemico"
     },
     {
@@ -396,7 +401,14 @@
       "guia": "Surviving Sepsis 2021 + Tokyo Guidelines 2018/2024 + IDSA + ACOG + AAP/NICE neonatal sepsis + UpToDate",
       "output": "patrones_madre/output/Patrones_Madre_Shock_2.apkg",
       "notas": 19,
-      "subcausas": ["neumonia", "pielonefritis", "colangitis", "peritonitis", "endometritis", "sepsis_neonatal"],
+      "subcausas": [
+        "neumonia",
+        "pielonefritis",
+        "colangitis",
+        "peritonitis",
+        "endometritis",
+        "sepsis_neonatal"
+      ],
       "rama_shock": "septico_distributivo"
     },
     {
@@ -408,7 +420,11 @@
       "guia": "ACC/AHA 2023 SCA + ACC/AHA 2022 IC + ACLS 2020 + ESC 2023 + UpToDate",
       "output": "patrones_madre/output/Patrones_Madre_Shock_3.apkg",
       "notas": 10,
-      "subcausas": ["iam", "arritmia", "ic_aguda"],
+      "subcausas": [
+        "iam",
+        "arritmia",
+        "ic_aguda"
+      ],
       "rama_shock": "cardiogenico"
     },
     {
@@ -420,7 +436,11 @@
       "guia": "ESC 2019 TEP + ATLS 10a + AHA/ACC pericardio + ACEP USG + UpToDate",
       "output": "patrones_madre/output/Patrones_Madre_Shock_4.apkg",
       "notas": 10,
-      "subcausas": ["tep", "neumotorax_tension", "taponamiento"],
+      "subcausas": [
+        "tep",
+        "neumotorax_tension",
+        "taponamiento"
+      ],
       "rama_shock": "obstructivo"
     },
     {
@@ -433,7 +453,12 @@
       "output": "patrones_madre/output/Patrones_Madre_Shock_5.apkg",
       "notas": 32,
       "escenarios": 16,
-      "estaciones": ["medicina_interna", "cirugia", "gineco_obstetricia", "pediatria"],
+      "estaciones": [
+        "medicina_interna",
+        "cirugia",
+        "gineco_obstetricia",
+        "pediatria"
+      ],
       "formato": "dual (clinica->dx + dx->manejo)",
       "rama_shock": "integrador"
     },
@@ -466,6 +491,46 @@
       "guia": "ADA 2025 + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + Atlanta revisada 2012 + Ranson + BISAP + TG24 + Alvarado + ATA 2014-2017 + IADPSG + ACOG + USPSTF 2024-2025 + ACIP 2025 + AAP Bright Futures 2022 + APA Practice Guidelines + ATLS 10a + Surviving Sepsis 2021 + ESC SICA 2023 + Williams 26a + UpToDate",
       "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck4_Estudios_Basicos.apkg",
       "notas": 32
+    },
+    {
+      "tema": "Urgencias",
+      "audiencia": "Adulto",
+      "capa": 1,
+      "deck_id": 1311472058,
+      "deck_name": "Urgencias Adulto::Capa 1 - Flujo Macro",
+      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+      "output": "urgencias/output/Urgencias_Adulto_Capa1.apkg",
+      "notas": 37
+    },
+    {
+      "tema": "Urgencias",
+      "audiencia": "Adulto",
+      "capa": 2,
+      "deck_id": 1322556677,
+      "deck_name": "Urgencias Adulto::Capa 2 - Componentes",
+      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+      "output": "urgencias/output/Urgencias_Adulto_Capa2.apkg",
+      "notas": 29
+    },
+    {
+      "tema": "Urgencias",
+      "audiencia": "Adulto",
+      "capa": 3,
+      "deck_id": 1433667788,
+      "deck_name": "Urgencias Adulto::Capa 3 - Ejes",
+      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+      "output": "urgencias/output/Urgencias_Adulto_Capa3.apkg",
+      "notas": 13
+    },
+    {
+      "tema": "Urgencias",
+      "audiencia": "Adulto",
+      "capa": 4,
+      "deck_id": 1544778899,
+      "deck_name": "Urgencias Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
+      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+      "output": "urgencias/output/Urgencias_Adulto_Capa4.apkg",
+      "notas": 13
     }
   ]
 }
