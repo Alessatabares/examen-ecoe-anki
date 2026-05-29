@@ -531,6 +531,46 @@
       "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
       "output": "urgencias/output/Urgencias_Adulto_Capa4.apkg",
       "notas": 13
+    },
+    {
+      "tema": "Pediatria",
+      "audiencia": "Pediátrico",
+      "capa": 1,
+      "deck_id": 1611472033,
+      "deck_name": "Pediatria Pediátrico::Capa 1 - Flujo Macro",
+      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+      "output": "pediatria/output/Pediatria_Pediatrico_Capa1.apkg",
+      "notas": 42
+    },
+    {
+      "tema": "Pediatria",
+      "audiencia": "Pediátrico",
+      "capa": 2,
+      "deck_id": 1622556641,
+      "deck_name": "Pediatria Pediátrico::Capa 2 - Componentes",
+      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+      "output": "pediatria/output/Pediatria_Pediatrico_Capa2.apkg",
+      "notas": 22
+    },
+    {
+      "tema": "Pediatria",
+      "audiencia": "Pediátrico",
+      "capa": 3,
+      "deck_id": 1633667722,
+      "deck_name": "Pediatria Pediátrico::Capa 3 - Ejes",
+      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+      "output": "pediatria/output/Pediatria_Pediatrico_Capa3.apkg",
+      "notas": 10
+    },
+    {
+      "tema": "Pediatria",
+      "audiencia": "Pediátrico",
+      "capa": 4,
+      "deck_id": 1644778833,
+      "deck_name": "Pediatria Pediátrico::Capa 4 - Manejo y Diagnostico Diferencial",
+      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+      "output": "pediatria/output/Pediatria_Pediatrico_Capa4.apkg",
+      "notas": 11
     }
   ]
 }
