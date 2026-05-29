@@ -611,6 +611,16 @@
       "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
       "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
       "notas": 6
+    },
+    {
+      "tema": "Medicina Interna",
+      "audiencia": "Adulto",
+      "capa": "integrador",
+      "deck_id": 1573829104,
+      "deck_name": "Medicina Interna Adulto::Integrador - Clasificaciones",
+      "guia": "Derivado de Capa 1 (ACC/AHA SCA/IC/HTA + ADA + KDIGO + Sepsis-3 + CURB-65 + Duke + Anthonisen + Wells + ATA + UpToDate)",
+      "output": "medicina_interna/output/Medicina_Interna_Adulto_Integrador.apkg",
+      "notas": 23
     }
   ]
 }
