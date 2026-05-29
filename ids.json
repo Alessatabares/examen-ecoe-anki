@@ -571,6 +571,46 @@
       "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
       "output": "pediatria/output/Pediatria_Pediatrico_Capa4.apkg",
       "notas": 11
+    },
+    {
+      "tema": "Control del Paciente Cronico",
+      "audiencia": "Adulto",
+      "capa": 1,
+      "deck_id": 1928374650,
+      "deck_name": "Control del Paciente Cronico Adulto::Capa 1 - Estratificacion",
+      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+      "notas": 22
+    },
+    {
+      "tema": "Control del Paciente Cronico",
+      "audiencia": "Adulto",
+      "capa": 2,
+      "deck_id": 1837465029,
+      "deck_name": "Control del Paciente Cronico Adulto::Capa 2 - Metas y Monitoreo",
+      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+      "notas": 22
+    },
+    {
+      "tema": "Control del Paciente Cronico",
+      "audiencia": "Adulto",
+      "capa": 3,
+      "deck_id": 1746528390,
+      "deck_name": "Control del Paciente Cronico Adulto::Capa 3 - Manejo y Transiciones",
+      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+      "notas": 20
+    },
+    {
+      "tema": "Control del Paciente Cronico",
+      "audiencia": "Adulto",
+      "capa": 4,
+      "deck_id": 1659302847,
+      "deck_name": "Control del Paciente Cronico Adulto::Capa 4 - Casos Integradores",
+      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+      "notas": 6
     }
   ]
 }
