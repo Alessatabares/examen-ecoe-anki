@@ -621,6 +621,16 @@
       "guia": "Derivado de Capa 1 (ACC/AHA SCA/IC/HTA + ADA + KDIGO + Sepsis-3 + CURB-65 + Duke + Anthonisen + Wells + ATA + UpToDate)",
       "output": "medicina_interna/output/Medicina_Interna_Adulto_Integrador.apkg",
       "notas": 23
+    },
+    {
+      "tema": "Cirugia",
+      "audiencia": "Adulto",
+      "capa": "integrador",
+      "deck_id": 1490337261,
+      "deck_name": "Cirugia Adulto::Integrador - Clasificaciones",
+      "guia": "Derivado de Capa 1 (ATLS 10a + Tokyo 2018 + Atlanta revisada + Alvarado + Hinchey + Forrest + Stanford + Surviving Sepsis 2021); verificado adversarialmente",
+      "output": "cirugia/output/Cirugia_Adulto_Integrador.apkg",
+      "notas": 17
     }
   ]
 }
