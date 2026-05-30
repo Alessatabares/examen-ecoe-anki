@@ -631,6 +631,16 @@
       "guia": "Derivado de Capa 1 (ATLS 10a + Tokyo 2018 + Atlanta revisada + Alvarado + Hinchey + Forrest + Stanford + Surviving Sepsis 2021); verificado adversarialmente",
       "output": "cirugia/output/Cirugia_Adulto_Integrador.apkg",
       "notas": 17
+    },
+    {
+      "tema": "Medicina Familiar",
+      "audiencia": "Adulto",
+      "capa": "integrador",
+      "deck_id": 1382947561,
+      "deck_name": "Medicina Familiar Adulto::Integrador - Clasificaciones",
+      "guia": "Derivado de Capa 1 (GINA 2025 + GOLD 2025 + CURB-65/IDSA + Centor + sinusitis IDSA + ICHD-3 + red flags lumbalgia + ATA + USPSTF + OMS); verificado adversarialmente",
+      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Integrador.apkg",
+      "notas": 12
     }
   ]
 }
