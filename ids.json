@@ -641,6 +641,106 @@
       "guia": "Derivado de Capa 1 (GINA 2025 + GOLD 2025 + CURB-65/IDSA + Centor + sinusitis IDSA + ICHD-3 + red flags lumbalgia + ATA + USPSTF + OMS); verificado adversarialmente",
       "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Integrador.apkg",
       "notas": 12
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "01 - Topografico",
+      "deck_id": 1290110011,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 01 - Topografico",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "02 - Vascular",
+      "deck_id": 1290220022,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 02 - Vascular",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "03 - Infeccioso",
+      "deck_id": 1290330033,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 03 - Infeccioso",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "04 - Metabolico-Endocrino",
+      "deck_id": 1290440044,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 04 - Metabolico-Endocrino",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "05 - Degenerativo",
+      "deck_id": 1290550055,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 05 - Degenerativo",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "06 - Congenito",
+      "deck_id": 1290660066,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 06 - Congenito",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "07 - Traumatico",
+      "deck_id": 1290770077,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 07 - Traumatico",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "08 - Autoinmune-Inflamatorio",
+      "deck_id": 1290880088,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 08 - Autoinmune-Inflamatorio",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "09 - Neoplasico",
+      "deck_id": 1290990099,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 09 - Neoplasico",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
+    },
+    {
+      "tema": "Ejes Diagnosticos",
+      "audiencia": "Adulto",
+      "capa": "10 - Toxico-Farmacologico",
+      "deck_id": 1291010101,
+      "deck_name": "Ejes Diagnosticos Adulto::Eje 10 - Toxico-Farmacologico",
+      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+      "notas": 19
     }
   ]
 }
