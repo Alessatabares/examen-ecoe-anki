@@ -741,6 +741,16 @@
       "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
       "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
       "notas": 19
+    },
+    {
+      "tema": "Simulaciones",
+      "audiencia": "Gine",
+      "capa": "repaso1",
+      "deck_id": 2059400110,
+      "deck_name": "Simulaciones::Gine - Repaso 1",
+      "guia": "GPC mexicanas + CDC STI 2021 + ACOG",
+      "output": "simulaciones/simulacion-1-gine/simulacion-1-gine.apkg",
+      "notas": 36
     }
   ]
 }

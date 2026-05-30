@@ -17,25 +17,34 @@ La exploración describe cómo se hace y qué verbalizar en la ECOE.
 
 import genanki
 
+# Reusa el note type Q&A estándar del repo (ver ids.json -> models.qa_estandar)
+# para que las tarjetas compartan tipo de nota en Anki con las demás capas Q&A.
+MODEL_QA_ID = 1607392320
+DECK_ID = 2059400110  # registrado en ids.json
+DECK_NAME = "Simulaciones::Gine - Repaso 1"
+
 MODEL = genanki.Model(
-    1607390516,
-    "Simulacion ECOE (basico)",
+    MODEL_QA_ID,
+    "Estudio Medico QA",
     fields=[{"name": "Front"}, {"name": "Back"}],
     templates=[{
-        "name": "Card 1",
+        "name": "QA",
         "qfmt": "{{Front}}",
-        "afmt": '{{FrontSide}}<hr id="answer">{{Back}}',
+        "afmt": '{{Front}}<hr id="extra">{{Back}}',
     }],
     css="""
-.card { font-family: -apple-system, Segoe UI, Arial; font-size: 18px;
-        color: #222; background: #fff; text-align: left; padding: 16px; }
-b { color: #b00020; }
-hr#answer { border: none; border-top: 2px solid #ccc; margin: 12px 0; }
-ul { margin: 6px 0 6px 18px; }
+.card { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 19px; text-align: left; color: #1a1a1a;
+        background-color: #fafafa; padding: 20px; line-height: 1.55; }
+b { color: #b45309; }
+i { color: #2563eb; }
+ul { margin: 8px 0 8px 22px; }
+li { margin: 5px 0; }
+#extra { margin-top: 16px; border: none; border-top: 1px solid #d4d4d4; padding-top: 12px; }
 """,
 )
 
-DECK = genanki.Deck(2059400110, "Simulaciones::Gine - Repaso 1")
+DECK = genanki.Deck(DECK_ID, DECK_NAME)
 
 # (Front, Back, [tags])
 CARDS = [
