@@ -751,6 +751,16 @@
       "guia": "GPC mexicanas + CDC STI 2021 + ACOG",
       "output": "simulaciones/simulacion-1-gine/simulacion-1-gine.apkg",
       "notas": 36
+    },
+    {
+      "tema": "Simulaciones",
+      "audiencia": "Familiar-ORL",
+      "capa": "repaso2",
+      "deck_id": 2061700220,
+      "deck_name": "Simulaciones::Familiar ORL - Repaso 2",
+      "guia": "GPC mexicanas medicina familiar (ORL/tiroides)",
+      "output": "simulaciones/simulacion-2-familiar-orl/simulacion-2-familiar-orl.apkg",
+      "notas": 66
     }
   ]
 }
