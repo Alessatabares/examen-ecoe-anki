@@ -3,16 +3,15 @@
 Deck de Anki **`Simulaciones::Familiar ORL - Repaso 2`**. Repaso de la simulación de medicina
 familiar (sección otorrinolaringología y patología tiroidea), en formato ECOE.
 
-## Estructura (66 tarjetas)
+## Estructura (33 tarjetas) — versión condensada
 
-11 entidades × 6 tarjetas:
+11 entidades × 3 tarjetas:
 
 | # | Tarjeta | Para qué |
 |---|---------|----------|
-| 1 | Interrogatorio dirigido | qué preguntar y **qué orienta** cada respuesta |
-| 2 | Exploración dirigida | **cómo hacerla y qué verbalizar** (otoscopia, rinoscopia, orofaringe, palpación de cuello/tiroides) |
-| 3 | Manejo | dx + tratamiento (dosis) + criterios de referencia/consejería |
-| 4–6 | Casos leve · moderado · difícil | la **misma entidad escalando**; el caso difícil = bandera roja → referencia |
+| 1 | Abordaje | interrogatorio (qué pregunto y **qué orienta**) + exploración (**cómo y qué verbalizar**: otoscopia, rinoscopia, orofaringe, palpación de cuello/tiroides) |
+| 2 | Manejo | dx + tratamiento (dosis) por gravedad + **cuándo referir** + frase ECOE |
+| 3 | Caso escalonado | una viñeta **leve → moderado → difícil** con la conducta de cada nivel (el difícil = bandera roja → referencia) |
 
 Entidades: **Sinusitis · Coinfección (sinusitis+otitis+neumonía) · Otitis media aguda ·
 Otitis media serosa · Perforación timpánica · Otitis externa · Faringitis estreptocócica ·
