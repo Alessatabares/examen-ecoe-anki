@@ -761,6 +761,16 @@
       "guia": "GPC mexicanas medicina familiar (ORL/tiroides)",
       "output": "simulaciones/simulacion-2-familiar-orl/simulacion-2-familiar-orl.apkg",
       "notas": 33
+    },
+    {
+      "tema": "Simulaciones",
+      "audiencia": "Trauma-Cirugia",
+      "capa": "repaso3",
+      "deck_id": 2063900330,
+      "deck_name": "Simulaciones::Trauma Cirugía - Repaso 3",
+      "guia": "ATLS 11a ed. (2024) + guia europea de hemorragia mayor 6a ed. (2023)",
+      "output": "simulaciones/simulacion-3-trauma-cirugia/simulacion-3-trauma-cirugia.apkg",
+      "notas": 30
     }
   ]
 }
