@@ -951,6 +951,96 @@
       "guia": "GPC MX / ACOG / Williams",
       "output": "no-hay-tiempo/obstetricia/output/Estudios_03_Menos.apkg",
       "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990005001,
+      "deck_name": "No hay tiempo::Cirugia::1 - Ejes / patrones madre",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Manejo_01_Ejes.apkg",
+      "notas": 7
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990005002,
+      "deck_name": "No hay tiempo::Cirugia::2 - Manejos comunes (core)",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Manejo_02_Core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990005003,
+      "deck_name": "No hay tiempo::Cirugia::3 - Menos comunes",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Manejo_03_Menos.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990005011,
+      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::1 - Troncos (ejes)",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_01_Troncos.apkg",
+      "notas": 7
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990005012,
+      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::2 - Llaves comunes (core)",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_02_Llaves_core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990005013,
+      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::3 - Llaves menos comunes",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_03_Llaves_menos.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990005021,
+      "deck_name": "No hay tiempo::Cirugia::Estudios::1 - Discriminadores (herramienta)",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Estudios_01_Discriminadores.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990005022,
+      "deck_name": "No hay tiempo::Cirugia::Estudios::2 - Paneles (por entidad)",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Estudios_02_Paneles.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Cirugia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990005023,
+      "deck_name": "No hay tiempo::Cirugia::Estudios::3 - Signos y scores",
+      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+      "output": "no-hay-tiempo/cirugia/output/Estudios_03_Signos_scores.apkg",
+      "notas": 17
     }
   ]
 }
