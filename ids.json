@@ -771,6 +771,96 @@
       "guia": "ATLS 11a ed. (2024) + guia europea de hemorragia mayor 6a ed. (2023)",
       "output": "simulaciones/simulacion-3-trauma-cirugia/simulacion-3-trauma-cirugia.apkg",
       "notas": 30
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990001001,
+      "deck_name": "No hay tiempo::Ginecologia::1 - Ejes (madre)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/01_Ejes_madre.apkg",
+      "notas": 7
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990001002,
+      "deck_name": "No hay tiempo::Ginecologia::2 - Manejos trampa (core)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/02_Manejos_trampa_core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990001003,
+      "deck_name": "No hay tiempo::Ginecologia::3 - Menos preguntados",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/03_Menos_preguntados.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990001011,
+      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::1 - Troncos (ejes)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_01_Troncos.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990001012,
+      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::2 - Llaves comunes (core)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_02_Llaves_core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990001013,
+      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::3 - Llaves menos preguntadas",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_03_Llaves_menos.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990001021,
+      "deck_name": "No hay tiempo::Ginecologia::Estudios::1 - Discriminadores (herramienta)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Estudios_01_Discriminadores.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990001022,
+      "deck_name": "No hay tiempo::Ginecologia::Estudios::2 - Paneles (por enfermedad)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Estudios_02_Paneles.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Ginecologia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990001023,
+      "deck_name": "No hay tiempo::Ginecologia::Estudios::3 - Menos preguntados",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/ginecologia/output/Estudios_03_Menos_preguntados.apkg",
+      "notas": 17
     }
   ]
 }

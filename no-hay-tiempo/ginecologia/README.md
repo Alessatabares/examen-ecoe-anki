@@ -1,19 +1,48 @@
 # No hay tiempo — Ginecología
 
-Decks de **rescate** para cuando queda poco para la ECOE. No estudies 25 manejos
-sueltos: estudia primero los **ejes de decisión** (el árbol) y cuelga de ahí los
-manejos, ya **verbalizados** como se hablan en la estación.
+Decks de **rescate** para cuando queda poco para la ECOE, organizados por los
+**3 pilares de la estación**. El mismo recorrido, una sola arquitectura:
 
-> La *key* que sacas en el interrogatorio dirigido **es** la bifurcación del manejo.
-> Interrogatorio y tratamiento son el mismo árbol.
+```
+PREGUNTO  → tronco + llave            (Pilar 1: Interrogatorio)
+EXPLORO/PIDO → herramienta + panel    (Pilar 3: Exploración + Estudios)
+MANEJO    → eje + bifurcación         (Pilar 2: Manejo)
+```
 
-## Los 3 subdecks (42 cartas)
+> La *key* que sacas en el interrogatorio **es** la bifurcación del manejo, y el
+> hallazgo de la exploración **es** lo que cierra el dx. Los tres pilares son el mismo árbol.
+
+## Pilar 2 — Manejo (42 cartas)
 
 | Orden | Subdeck | Cartas | Para qué |
 |---|---|---|---|
 | 1 | **Ejes (madre)** | 7 | El andamiaje. La *pregunta* que decide el manejo. **Estúdialo primero.** |
 | 2 | **Manejos trampa (core)** | 18 | El 80% de lo puntuable. Formato hablado. |
 | 3 | **Menos preguntados** | 17 | Segunda pasada si sobra tiempo. |
+
+## Pilar 1 — Interrogatorio: tronco + llave (43 cartas)
+
+| Orden | Subdeck | Cartas | Para qué |
+|---|---|---|---|
+| 1 | **Troncos (ejes)** | 8 | El guión de apertura por motivo de consulta (reutilizable en todo el grupo). |
+| 2 | **Llaves comunes (core)** | 18 | La pregunta-llave que fija el dx de lo más preguntado. |
+| 3 | **Llaves menos preguntadas** | 17 | Segunda pasada. |
+
+Build: `build_interrogatorio_gine.py` · chuleta imprimible: `CHULETA_INTERROGATORIO.md`.
+
+## Pilar 3 — Exploración + Estudios (33 cartas)
+
+Dos **formas** de estudio, no una:
+- **A) Discriminador:** una herramienta separa un grupo por un hallazgo → organizas *por herramienta* (USG-TV, bimanual, especuloscopia…).
+- **B) Panel / workup:** una enfermedad pide una batería con roles (confirma / descarta imitador / repercusión) → organizas *por enfermedad* (SOP, infertilidad, climaterio…).
+
+| Orden | Subdeck | Cartas | Para qué |
+|---|---|---|---|
+| 1 | **Discriminadores (herramienta)** | 8 | Front = herramienta, back = tabla hallazgo → dx. |
+| 2 | **Paneles (por enfermedad)** | 8 | La batería de labs/imagen y el rol de cada uno. |
+| 3 | **Menos preguntados** | 17 | AMH, HSG, BI-RADS, POP-Q, DXA, 17-OHP… |
+
+Build: `build_estudios_gine.py`.
 
 ## Formato de cada carta de manejo (dorso, 3 bloques)
 
