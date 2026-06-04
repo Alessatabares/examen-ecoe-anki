@@ -861,6 +861,96 @@
       "guia": "GPC MX / ACOG / Williams",
       "output": "no-hay-tiempo/ginecologia/output/Estudios_03_Menos_preguntados.apkg",
       "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990003001,
+      "deck_name": "No hay tiempo::Obstetricia::1 - Ejes (madre)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Manejo_01_Ejes.apkg",
+      "notas": 7
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990003002,
+      "deck_name": "No hay tiempo::Obstetricia::2 - Manejos trampa (core)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Manejo_02_Core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "manejo",
+      "deck_id": 1990003003,
+      "deck_name": "No hay tiempo::Obstetricia::3 - Menos preguntados",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Manejo_03_Menos.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990003011,
+      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::1 - Troncos (ejes)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_01_Troncos.apkg",
+      "notas": 7
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990003012,
+      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::2 - Llaves comunes (core)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_02_Llaves_core.apkg",
+      "notas": 18
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "interrogatorio",
+      "deck_id": 1990003013,
+      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::3 - Llaves menos preguntadas",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_03_Llaves_menos.apkg",
+      "notas": 17
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990003021,
+      "deck_name": "No hay tiempo::Obstetricia::Estudios::1 - Discriminadores (herramienta)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Estudios_01_Discriminadores.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990003022,
+      "deck_name": "No hay tiempo::Obstetricia::Estudios::2 - Paneles (por enfermedad)",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Estudios_02_Paneles.apkg",
+      "notas": 8
+    },
+    {
+      "tema": "No hay tiempo - Obstetricia",
+      "audiencia": "Adulto",
+      "capa": "estudios",
+      "deck_id": 1990003023,
+      "deck_name": "No hay tiempo::Obstetricia::Estudios::3 - Menos preguntados",
+      "guia": "GPC MX / ACOG / Williams",
+      "output": "no-hay-tiempo/obstetricia/output/Estudios_03_Menos.apkg",
+      "notas": 17
     }
   ]
 }
