@@ -16,7 +16,7 @@
 
 **3. Dolor torácico** → carácter (opresivo/pleurítico/**desgarrante**) · irradiación · esfuerzo vs reposo · **vegetativo** · factores de riesgo CV · inmovilización/cirugía reciente.
 
-**4. Dolor abdominal** → inicio · **localización y migración** · relación con comida · náusea/vómito · tránsito · fiebre · **FUM/embarazo** · cirugías previas · AINE/alcohol.
+**4. Síntomas digestivos (crónico/ambulatorio)** → relación con comida · **pirosis/regurgitación** · dispepsia · **cambio del hábito** (diarrea/estreñimiento) · **banderas** (disfagia, ↓peso, sangrado/anemia, vómito persistente, >55 a de novo) · AINE/alcohol · dieta · familiares con cáncer/EII. *(Abdomen agudo quirúrgico → deck de Cirugía.)*
 
 **5. Cefalea** → tiempo y **forma de inicio** · carácter · asociados (náusea, foto/fonofobia, aura, fiebre) · **banderas (SNNOOP)** · patrón previo · analgésicos.
 
@@ -43,6 +43,9 @@
 | Dolor opresivo con esfuerzo + sudor | **¿Irradia a brazo/mandíbula? ¿vegetativo?** | SCA |
 | Disnea + ortopnea + edema | **¿Se ahoga al acostarse / despierta ahogado?** | Insuficiencia cardiaca |
 | Diarrea + vómito + dolor difuso | **¿Alimentos/contactos? ¿sangre/fiebre/deshidratación?** | Gastroenteritis |
+| Ardor retroesternal que sube, peor acostado | **¿Pirosis/regurgitación? ¿sin banderas?** | ERGE |
+| Ardor epigástrico relacionado con comida | **¿AINE? ¿sin banderas ni >60 a de novo?** | Dispepsia / úlcera (H. pylori) |
+| Dolor abdominal crónico que mejora al evacuar | **¿Hábito alterado? ¿SIN sangrado/↓peso/anemia?** | SII (Roma IV) |
 | Cefalea pulsátil + náusea + fotofobia | **¿Episodios previos? ¿aura?** | Migraña |
 | Cefalea opresiva "en banda" | **¿Sin náusea? ¿estrés/postura?** | Cefalea tensional |
 | Vértigo de segundos al girar cabeza | **¿Breve y fatigable? ¿sin foco neuro ni sordera?** | VPPB |
@@ -59,7 +62,7 @@
 **Respiratorio:** Bronquitis (tos 1-3 sem post-viral, sin foco) · Derrame pleural (matidez + ausencia de murmullo) · Neumotórax (dolor + disnea súbitos, alto/delgado/fumador).
 **ORL:** Otitis externa (**dolor al traccionar el pabellón**, nadador) · Laringitis (ronquera viral <2 sem) · Nódulo tiroideo (se mueve al tragar; banderas: duro/fijo/disfonía/adenopatía).
 **Cardio:** Pericarditis (mejora inclinado adelante + frote) · Estenosis aórtica (**síncope/angina de esfuerzo** + soplo eyectivo) · TVP (pierna unilateral hinchada/caliente) · Síncope (vasovagal con pródromos vs **rojo**: esfuerzo/supino/palpitaciones).
-**Abdominal:** Apendicitis (migra a FID) · Colecistitis (Murphy tras grasas) · Pancreatitis (en barra a espalda, lipasa >3x) · Diverticulitis (FII + fiebre) · Obstrucción (cólico + distensión + no canaliza).
+**Digestivo (crónico):** Celíaca (diarrea crónica + ↓peso + anemia que no responde a hierro; mejora sin gluten) · EII (**diarrea crónica CON sangre** + ↓peso + extraintestinal) · Estreñimiento con banderas (de novo >50 a + sangrado/↓peso → colonoscopia) · Diarrea crónica (>4 sem; calprotectina separa SII de EII) · Disfagia con banderas (progresiva a sólidos en mayor/fumador → Ca eso-gástrico). *(Abdomen agudo quirúrgico → deck de Cirugía.)*
 **Neuro:** EVC (**déficit focal súbito**, hora de inicio) · Cefalea red flag (**trueno / fiebre+rigidez / >50 de novo / focal / papiledema**).
 **MSK/GU:** Cauda equina (**retención + anestesia en silla + déficit bilateral**) · Ciática (irradia bajo la rodilla + Lasegue) · HPB (LUTS de vaciado en varón mayor).
 

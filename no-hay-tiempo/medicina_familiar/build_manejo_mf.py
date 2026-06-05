@@ -148,7 +148,7 @@ add(deck_e, caso("EJE 8 — PREVENCION en cada consulta: tamizaje + vacunas + co
     E + ["prevencion"])
 
 
-# ===================== CORE / COMUNES (24) =====================
+# ===================== CORE / COMUNES (27) =====================
 C = ["core"]
 core(deck_c, "Hipertension arterial",
      "Estilo de vida + farmaco: <b>IECA/ARA-II + calcioantagonista + tiazida</b> (combinar pronto). Meta general "
@@ -261,6 +261,32 @@ core(deck_c, "Gastroenteritis aguda",
      "suero oral; la mayoria no necesita antibiotico.",
      "Datos de alarma: deshidratacion, sangre en heces, fiebre alta, intolerancia oral &rarr; valorar IV/estudio. "
      "Evita antibiotico de rutina (riesgo SHU en E. coli O157).", C + ["gastroenteritis"])
+
+core(deck_c, "ERGE (enfermedad por reflujo)",
+     "<b>Estilo de vida</b> (peso, no acostarse tras comer, elevar cabecera, evitar gatillos) + <b>IBP</b> 4-8 "
+     "semanas. Sintomas tipicos sin alarma &rarr; tratar empirico (sin endoscopia). Reevaluo y desescalo a la "
+     "minima dosis eficaz.",
+     "Es el reflujo del acido del estomago hacia el esofago (agruras, ardor que sube). Mejora con cambios de habito "
+     "y un protector gastrico (IBP); la mayoria no necesita estudios.",
+     "<b>Banderas = endoscopia</b> (no IBP a ciegas): disfagia, perdida de peso, sangrado/anemia, vomito "
+     "persistente, &gt;55 a de novo. Dolor toracico: descarta SCA primero.", C + ["erge"])
+
+core(deck_c, "Dispepsia / ulcera peptica / H. pylori",
+     "Sin banderas y &lt;60 a &rarr; <b>'test and treat' de H. pylori</b> (prueba no invasiva; si + erradico con "
+     "triple/cuadruple esquema) o prueba con IBP. <b>Suspendo AINE</b>. Confirmo erradicacion.",
+     "Es dolor o ardor en la boca del estomago, a veces por una bacteria (H. pylori) o por antiinflamatorios. "
+     "Buscamos la bacteria y la eliminamos con antibioticos, y damos protector gastrico.",
+     "<b>Banderas = endoscopia</b> (descartar cancer/ulcera): &gt;60 a de novo, disfagia, perdida de peso, "
+     "sangrado/anemia, masa, vomito persistente. Ulcera + AINE/anticoagulante = riesgo de sangrado.", C + ["dispepsia"])
+
+core(deck_c, "Sindrome de intestino irritable (SII)",
+     "Dx <b>clinico positivo (criterios de Roma IV)</b> tras descartar banderas. Manejo: <b>educacion + dieta</b> "
+     "(fibra soluble, valorar baja en FODMAP) + tratar el sintoma dominante (antiespasmodico, laxante/PEG si "
+     "estrenimiento, loperamida si diarrea) + eje intestino-cerebro.",
+     "Es un intestino 'sensible': dolor abdominal que mejora al evacuar, con cambios del habito, sin dano organico. "
+     "Se controla con alimentacion, manejo del estres y medicamento para el sintoma que mas molesta.",
+     "Es dx por criterios + ausencia de banderas, NO por descarte infinito. Banderas (estudiar): sangrado, perdida "
+     "de peso, anemia, fiebre, inicio &gt;50 a, antecedente familiar de cancer/EII.", C + ["sii"])
 
 core(deck_c, "Migrana",
      "<b>Agudo</b>: AINE o <b>triptan</b> + antiemetico, temprano, en ambiente oscuro. <b>Profilaxis</b> "
@@ -434,44 +460,52 @@ menos(deck_m, "Sincope (enfoque)",
       "Banderas cardiacas (referir/urgencia): de <b>esfuerzo</b>, en supino, sin prodromos, palpitaciones, "
       "cardiopatia, ECG anormal, muerte subita familiar.", ["sincope"])
 
-menos(deck_m, "Apendicitis aguda",
-      "<b>Referir a cirugia</b> (urgencia). Analgesia + NPO + liquidos + antibiotico mientras. Dx clinico "
-      "(migracion del dolor a FID) + laboratorio/USG/TAC.",
-      "(urgencia) Es una inflamacion del apendice que requiere cirugia. Lo enviamos al hospital; mientras, ayuno, "
-      "suero y algo para el dolor.",
-      "Dolor que migra a fosa iliaca derecha + Blumberg/McBurney. No retrasar (riesgo de perforacion). En mujer "
-      "fertil descarta embarazo/ectopico.", ["apendicitis"])
+# NOTA: el abdomen agudo quirurgico (apendicitis, colecistitis, pancreatitis,
+# diverticulitis, obstruccion) vive en el deck de Cirugia (no se duplica aqui).
+# Esta carpeta cubre lo CRONICO / AMBULATORIO del tubo digestivo.
 
-menos(deck_m, "Colecistitis aguda",
-      "<b>Referir</b>: NPO + liquidos + analgesia + <b>antibiotico</b>; <b>colecistectomia temprana</b>. USG "
-      "(pared engrosada, litos, Murphy ecografico).",
-      "Es una inflamacion de la vesicula por una piedra. El tratamiento es retirarla con cirugia, pronto; mientras, "
-      "antibiotico y ayuno.",
-      "Murphy +. Si aparece ictericia + fiebre con escalofrios &rarr; sospecha <b>colangitis</b> (urgencia mayor).",
-      ["colecistitis"])
+menos(deck_m, "Enfermedad celiaca / malabsorcion",
+      "<b>Serologia (anti-transglutaminasa IgA + IgA total)</b> con dieta con gluten &rarr; confirmar con "
+      "<b>biopsia duodenal</b> (referir) &rarr; <b>dieta sin gluten de por vida</b>. Repongo deficits (hierro, "
+      "B12/folato, vitamina D, calcio).",
+      "Es una reaccion al gluten que dana el intestino y no deja absorber nutrientes. El tratamiento es quitar el "
+      "gluten de por vida; con eso el intestino se recupera y mejoran la anemia y los sintomas.",
+      "Pide la serologia <b>antes</b> de quitar el gluten (si ya lo quito, se negativiza). Sospecha en anemia "
+      "ferropenica que no responde, diarrea cronica, perdida de peso, osteoporosis temprana.", ["celiaca"])
 
-menos(deck_m, "Pancreatitis aguda",
-      "<b>Referir/hospital</b>: <b>reanimacion con liquidos</b>, analgesia, NPO con reinicio precoz, tratar causa "
-      "(biliar/alcohol). <b>No antibiotico de rutina</b>.",
-      "Es una inflamacion del pancreas, casi siempre por piedras o alcohol. El tratamiento es hidratacion, control "
-      "del dolor y reposo intestinal, vigilando la gravedad.",
-      "Dx: 2 de 3 (dolor en barra + <b>lipasa &gt;3x</b> + imagen). Vigila falla organica las primeras 48 h.",
-      ["pancreatitis"])
+menos(deck_m, "Enfermedad inflamatoria intestinal (Crohn / CUCI)",
+      "<b>Referir a gastroenterologia</b> para dx (endoscopia + biopsia) y tratamiento (mesalazina, esteroide en "
+      "brote, inmunomoduladores/biologicos). En 1er nivel: sospecho, estabilizo y derivo; vigilo desnutricion/anemia.",
+      "Es una inflamacion cronica del intestino (Crohn o colitis ulcerosa) que cursa en brotes con diarrea, a veces "
+      "con sangre, dolor y perdida de peso. Necesita estudio y tratamiento con el especialista.",
+      "Banderas: <b>diarrea cronica con sangre</b>, dolor, perdida de peso, fiebre, manifestaciones extraintestinales "
+      "(articulares, oculares, cutaneas). Brote grave (fiebre, distension, sangrado) &rarr; urgencia.", ["eii"])
 
-menos(deck_m, "Diverticulitis aguda",
-      "<b>No complicada</b>: reposo intestinal + analgesia &plusmn; antibiotico (ambulatorio en leves). "
-      "<b>Complicada</b> (absceso/perforacion) &rarr; referir (drenaje/cirugia). TAC para estadificar.",
-      "Es inflamacion de pequenas bolsas del colon (dolor en fosa iliaca izquierda). Si es leve se maneja con "
-      "reposo del intestino; si hay absceso o perforacion, se refiere.",
-      "Colonoscopia <b>tras resolver</b> (no en agudo). Peritonismo/sepsis = urgencia quirurgica.", ["diverticulitis"])
+menos(deck_m, "Estrenimiento cronico",
+      "<b>Descarto banderas</b> &rarr; medidas: <b>fibra + liquidos + actividad</b> + habito defecatorio; "
+      "laxante osmotico (PEG) si no mejora. Reviso farmacos que estrinen (opioides, anticolinergicos, hierro).",
+      "Cuesta evacuar y las heces son duras o poco frecuentes. Mejoramos con fibra, liquidos y movimiento; si hace "
+      "falta, un laxante suave. Revisamos si algun medicamento lo esta causando.",
+      "Banderas (estudiar/colonoscopia): <b>inicio reciente en &gt;50 a, sangrado, perdida de peso, anemia, "
+      "antecedente familiar de cancer</b>, cambio del calibre de las heces.", ["estrenimiento"])
 
-menos(deck_m, "Obstruccion intestinal",
-      "<b>Referir (urgencia)</b>: NPO + SNG (descompresion) + liquidos + corregir electrolitos. Cirugia si "
-      "estrangulacion/asa cerrada/hernia incarcerada.",
-      "(urgencia) El intestino esta obstruido (dolor colico, distension, vomito, no canaliza gases). Lo enviamos al "
-      "hospital para descomprimir y valorar cirugia.",
-      "Dolor continuo + fiebre + lactato = estrangulacion (urgencia). Pregunta por cirugias previas (bridas) y "
-      "hernias.", ["obstruccion"])
+menos(deck_m, "Diarrea cronica (enfoque)",
+      "Defino <b>&gt;4 semanas</b> y oriento el tipo (acuosa, inflamatoria/con sangre, malabsortiva/esteatorrea). "
+      "Estudio dirigido (BH, ferritina, serologia celiaca, TSH, calprotectina, coprologico) y <b>referir</b> si "
+      "banderas o sin causa clara.",
+      "La diarrea que dura mas de un mes necesita buscar la causa (celiaca, intolerancias, inflamacion intestinal, "
+      "tiroides, infecciones). Pedimos analisis dirigidos y, segun el caso, lo enviamos al especialista.",
+      "Banderas: sangre, perdida de peso, anemia, diarrea nocturna, fiebre, &gt;50 a. La <b>calprotectina fecal</b> "
+      "separa funcional (SII) de organico (EII).", ["diarrea_cronica"])
+
+menos(deck_m, "Disfagia / banderas de alarma digestivas (Ca eso-gastrico)",
+      "<b>Endoscopia + referir</b> ante banderas. La disfagia es sintoma de alarma: nunca la trates como ERGE "
+      "simple sin estudiar.",
+      "Dificultad para tragar o datos de alarma digestivos obligan a mirar por dentro con una endoscopia, porque "
+      "podrian deberse a una lesion seria (incluido cancer). Lo referimos para estudio.",
+      "Banderas (endoscopia urgente): <b>disfagia, odinofagia, perdida de peso, sangrado/anemia, vomito persistente, "
+      "masa, &gt;55 a de novo</b>. Disfagia <b>progresiva a solidos</b> en mayor/fumador = sospecha de Ca esofagico.",
+      ["disfagia_alarma"])
 
 menos(deck_m, "Enfermedad vascular cerebral (EVC)",
       "(urgencia) <b>Activar codigo ictus + traslado inmediato</b> (ventana de trombolisis/trombectomia). "

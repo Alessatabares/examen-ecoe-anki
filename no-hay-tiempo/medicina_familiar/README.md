@@ -12,32 +12,32 @@ MANEJO    → eje + bifurcación         (Pilar 2: Manejo)
 > **¿ambulatorio vs referir/urgencias?**, **antibiótico solo cuando cambia el desenlace**, y
 > **prevención en cada consulta** (tamizaje + vacunas + consejo).
 
-## Pilar 2 — Manejo (69)
+## Pilar 2 — Manejo (72)
 
 | Subdeck | Cartas | Tag |
 |---|---|---|
 | 1 - Ejes / patrones madre | 8 | `tag:eje` |
-| 2 - Manejos comunes (core) | 24 | `tag:core` |
+| 2 - Manejos comunes (core) | 27 | `tag:core` |
 | 3 - Menos comunes | 37 | `tag:menos_comun` |
 
-## Pilar 1 — Interrogatorio: tronco + llave (47)
+## Pilar 1 — Interrogatorio: tronco + llave (49)
 
 | Subdeck | Cartas | Tag |
 |---|---|---|
 | 1 - Troncos (ejes) | 8 | `tag:tronco` |
-| 2 - Llaves comunes (core) | 19 | `tag:core` |
-| 3 - Llaves menos comunes | 20 | `tag:menos_comun` |
+| 2 - Llaves comunes (core) | 22 | `tag:core` |
+| 3 - Llaves menos comunes | 19 | `tag:menos_comun` |
 
-## Pilar 3 — Exploración + Estudios (34)
+## Pilar 3 — Exploración + Estudios (39)
 
 **A) Discriminador** (por herramienta: otoscopia, espirometría, ECG, tira de orina, glucemia/HbA1c, perfil tiroideo, índices de anemia, exploración del vértigo) y
-**B) Panel** (por entidad: crónico DM/HTA, ITU, dolor torácico, respiratorio, anemia, próstata/LUTS, preventivo, cefalea).
+**B) Panel** (por entidad: crónico DM/HTA, ITU, dolor torácico, respiratorio, anemia, próstata/LUTS, preventivo, cefalea, digestivo alto, diarrea crónica).
 
 | Subdeck | Cartas | Tag |
 |---|---|---|
 | 1 - Discriminadores (herramienta) | 8 | `tag:discriminador` |
-| 2 - Paneles (por entidad) | 8 | `tag:panel` |
-| 3 - Signos y scores | 18 | `tag:signo_score` |
+| 2 - Paneles (por entidad) | 10 | `tag:panel` |
+| 3 - Signos y scores | 21 | `tag:signo_score` |
 
 ## Chuletas (una página para recitar)
 
@@ -50,7 +50,7 @@ MANEJO    → eje + bifurcación         (Pilar 2: Manejo)
 - **Respiratorio:** neumonía, bronquitis, asma, EPOC, IVAS, influenza, derrame pleural, neumotórax.
 - **ORL:** sinusitis, otitis media, otitis externa, faringitis, laringitis, rinitis, nódulo tiroideo.
 - **Cardiovascular:** SCA, pericarditis, ICC, estenosis aórtica, TVP, síncope, dolor torácico.
-- **Abdominal:** apendicitis, colecistitis, gastroenteritis, pancreatitis, diverticulitis, obstrucción.
+- **Digestivo (crónico/ambulatorio):** ERGE, dispepsia/úlcera péptica + H. pylori, SII, enfermedad celíaca/malabsorción, EII (Crohn/CUCI), estreñimiento crónico, diarrea crónica, disfagia/banderas de alarma (Ca eso-gástrico), gastroenteritis aguda. *(El abdomen agudo quirúrgico — apendicitis, colecistitis, pancreatitis, diverticulitis, obstrucción — vive en el deck de Cirugía.)*
 - **Neuro:** EVC, migraña, cefalea tensional, cefalea red flag, vértigo (VPPB/central).
 - **Musculoesquelético:** lumbalgia, cauda equina, ciática, cervicalgia.
 - **Genitourinario:** cistitis, pielonefritis, cólico renal, ITU en embarazo, HPB, CA próstata.

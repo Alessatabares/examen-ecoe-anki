@@ -37,6 +37,9 @@
 | Rinitis alérgica | **Corticoide nasal** ± antihistamínico + evitar alérgeno | Abuso de descongestivo → rinitis medicamentosa |
 | ICC | FEr: 4 pilares; FEp: iSGLT2 + comorbilidades; diurético | BB no en descompensación congestiva |
 | Gastroenteritis | **Hidratación oral**; ATB solo en disentería/riesgo | Deshidratación/sangre → valorar IV |
+| ERGE | Estilo de vida + **IBP** 4-8 sem (empírico sin banderas) | Banderas → endoscopia (no IBP a ciegas) |
+| Dispepsia/úlcera | **Test-and-treat H. pylori** + suspender AINE | >60 a de novo/banderas → endoscopia |
+| SII | **Roma IV** + dieta (FODMAP) + síntoma dominante | Dx positivo, no por descarte infinito |
 | Migraña | AINE/triptán + antiemético; profilaxis si frecuente | Cefalea nueva/trueno/focal → estudiar |
 | Cefalea tensional | Analgésico simple + estrés/sueño/postura | Evita abuso de analgésicos (rebote) |
 | VPPB | Dix-Hallpike → **Epley** | Datos centrales → referir |
@@ -55,7 +58,7 @@
 **Respiratorio:** Bronquitis (**sintomático, sin ATB**) · Derrame pleural (toracocentesis; empiema → drenar) · Neumotórax (vigilar/drenar; **a tensión → aguja YA**).
 **ORL:** Otitis externa (gotas + oído seco; diabético → otitis maligna) · Laringitis (reposo vocal; ronquera >2-3 sem fumador → ORL) · Nódulo tiroideo (TSH + USG ± BAAF; referir si banderas).
 **Cardio:** SCA (**AAS + traslado urgente**) · Pericarditis (AINE + colchicina; vigila taponamiento) · Estenosis aórtica (referir → reemplazo; evita vasodilatadores) · TVP (anticoagular; vigila TEP) · Síncope (vasovagal: educar; cardiogénico: referir).
-**Abdominal (referir/urgencia):** Apendicitis · Colecistitis · Pancreatitis (líquidos, no ATB de rutina) · Diverticulitis (leve ambulatorio) · Obstrucción (NPO+SNG, cirugía si estrangula).
+**Digestivo (crónico/ambulatorio):** Celíaca (serología tTG con gluten + biopsia → **dieta sin gluten**) · EII (Crohn/CUCI → **referir** gastro; brote grave = urgencia) · Estreñimiento crónico (fibra + líquidos + PEG; banderas → colonoscopia) · Diarrea crónica (estudio dirigido; calprotectina) · Disfagia/banderas (**endoscopia + referir**). *(Abdomen agudo quirúrgico → deck de Cirugía.)*
 **Neuro:** EVC (**código ictus, NO AAS hasta TAC**) · Cefalea red flag (estudio urgente) · Vértigo central (referir).
 **MSK:** Cauda equina (**RM + neurocirugía YA**) · Ciática (conservador) · Cervicalgia (movilización; no collarín prolongado).
 **GU:** Pielonefritis (ATB ± IV; obstrucción+ITU = drenar) · Cólico renal (AINE + tamsulosina; fiebre+obstrucción → urgencia) · ITU embarazo (**tratar incluso bacteriuria asintomática**, ATB seguro) · HPB (alfa-bloqueante ± 5-ARI; retención → sondar) · CA próstata (PSA+tacto, decisión compartida → referir).

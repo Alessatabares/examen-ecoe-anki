@@ -86,13 +86,16 @@ add(deck_t, caso("TRONCO — Dolor toracico"),
            "adelante</b> &rarr; pericarditis. <b>Reproducible a la palpacion</b> &rarr; costocondritis (exclusion)."),
     T + ["dolor_toracico"])
 
-add(deck_t, caso("TRONCO — Dolor abdominal"),
-    tronco("<b>Inicio</b> (subito/gradual), <b>localizacion y migracion</b>, caracter, relacion con comida, "
-           "nausea/vomito, transito, fiebre, <b>FUM/embarazo</b>, cirugias previas, AINE/alcohol.",
-           "<b>Migra a FID</b> &rarr; apendicitis. <b>HD + Murphy tras grasas</b> &rarr; colecistitis. <b>En barra a "
-           "espalda</b> &rarr; pancreatitis. <b>FII + cambio de habito</b> &rarr; diverticulitis. <b>Colico + "
-           "distension + no canaliza</b> &rarr; obstruccion. <b>Difuso + diarrea/vomito</b> &rarr; gastroenteritis."),
-    T + ["abdominal"])
+add(deck_t, caso("TRONCO — Sintomas digestivos (cronico / ambulatorio)"),
+    tronco("<b>Localizacion y relacion con la comida</b>, pirosis/regurgitacion, dispepsia, <b>cambio del habito "
+           "intestinal</b> (diarrea/estrenimiento), <b>banderas de alarma</b> (disfagia, perdida de peso, sangrado/"
+           "anemia, vomito persistente, &gt;55 a de novo), AINE/alcohol, dieta, viajes, familiares con cancer/EII.",
+           "<b>Pirosis/regurgitacion</b> &rarr; ERGE. <b>Ardor epigastrico</b> &rarr; dispepsia/ulcera (H. pylori). "
+           "<b>Dolor que mejora al evacuar + habito alterado, sin banderas</b> &rarr; SII. <b>Diarrea cronica/"
+           "malabsorcion</b> &rarr; celiaca/EII. <b>Difuso + diarrea aguda</b> &rarr; gastroenteritis.<br>"
+           "<i>(Abdomen agudo quirurgico &mdash; apendicitis, colecistitis, pancreatitis, diverticulitis, "
+           "obstruccion &mdash; ver el deck de Cirugia.)</i>"),
+    T + ["digestivo"])
 
 add(deck_t, caso("TRONCO — Cefalea"),
     tronco("<b>Tiempo y forma de inicio</b>, caracter, localizacion, intensidad, sintomas asociados "
@@ -127,7 +130,7 @@ add(deck_t, caso("TRONCO — Consulta del paciente cronico / control y prevencio
     T + ["cronico_prevencion"])
 
 
-# ===================== LLAVES CORE (18) =====================
+# ===================== LLAVES CORE (22) =====================
 C = ["core"]
 add(deck_c, caso("Fiebre con tos productiva y dolor pleuritico"),
     llave("&iquest;<b>Fiebre + tos con esputo + dolor pleuritico</b>? &iquest;disnea? &iquest;confusion/edad "
@@ -260,8 +263,29 @@ add(deck_c, caso("Astenia y palidez con dieta pobre o sangrado cronico"),
           "Anemia (ferropenica)"),
     C + ["anemia"])
 
+add(deck_c, caso("Ardor retroesternal que sube, peor al acostarse o tras comer"),
+    llave("&iquest;<b>Pirosis (ardor que sube) y regurgitacion acida</b>, peor al acostarse/agacharse o tras "
+          "comidas? &iquest;SIN banderas (disfagia, perdida de peso, sangrado)?",
+          "Pirosis/regurgitacion tipicas, sin alarma; responde a IBP (dx clinico).",
+          "ERGE (enfermedad por reflujo)"),
+    C + ["erge"])
 
-# ===================== LLAVES MENOS (20) =====================
+add(deck_c, caso("Ardor o dolor en la boca del estomago, relacionado con la comida"),
+    llave("&iquest;<b>Ardor/dolor epigastrico</b>, relacion con la comida? &iquest;<b>AINE</b>, alcohol, tabaco? "
+          "&iquest;sin banderas ni &gt;60 a de novo?",
+          "Dispepsia epigastrica; H. pylori o AINE como causa frecuente (test-and-treat si sin alarma).",
+          "Dispepsia / ulcera peptica"),
+    C + ["dispepsia"])
+
+add(deck_c, caso("Dolor abdominal cronico que mejora al evacuar, con habito alterado"),
+    llave("&iquest;Dolor que <b>mejora al evacuar</b> + cambio en frecuencia/forma de las heces, cronico? "
+          "&iquest;SIN sangrado, perdida de peso, anemia ni inicio &gt;50 a?",
+          "Criterios de Roma IV positivos + ausencia de banderas (dx positivo, no por descarte).",
+          "Sindrome de intestino irritable (SII)"),
+    C + ["sii"])
+
+
+# ===================== LLAVES MENOS (19) =====================
 M = ["menos_comun"]
 pares = [
     ("Tos seca persistente tras un catarro, sin foco ni fiebre alta",
@@ -296,21 +320,24 @@ pares = [
      "&iquest;<b>Prodromos</b> (calor/sudor/vision borrosa) y gatillo (calor/dolor/bipedestacion)? &iquest;o fue de "
      "ESFUERZO/en supino/con palpitaciones (rojo)?",
      "Vasovagal = prodromos + gatillo + recuperacion rapida; cardiogenico = banderas.", "Sincope", "sincope"),
-    ("Dolor que migra del ombligo a la fosa iliaca derecha",
-     "&iquest;El dolor <b>empezo en el ombligo y bajo a la derecha</b>? &iquest;anorexia, nausea, febricula?",
-     "Migracion + dolor en McBurney + Blumberg + leucocitosis.", "Apendicitis", "apendicitis"),
-    ("Dolor en hipocondrio derecho tras comida grasa con Murphy",
-     "&iquest;Dolor en HD que <b>detiene la inspiracion al palpar (Murphy)</b>, tras grasas, con fiebre?",
-     "Murphy + dolor HD + fiebre; USG con litos y pared engrosada.", "Colecistitis aguda", "colecistitis"),
-    ("Dolor epigastrico en barra que irradia a la espalda",
-     "&iquest;Dolor <b>en barra hacia la espalda</b> que mejora inclinado adelante? &iquest;alcohol o litiasis? &iquest;vomito?",
-     "Dolor transfixiante + <b>lipasa &gt;3x</b>; causa biliar o alcoholica.", "Pancreatitis aguda", "pancreatitis"),
-    ("Dolor en fosa iliaca izquierda con fiebre en adulto mayor",
-     "&iquest;Dolor en <b>FII</b> + cambio del habito + fiebre? &iquest;episodios previos?",
-     "Dolor FII + fiebre + leucocitosis; TAC con engrosamiento/diverticulos.", "Diverticulitis aguda", "diverticulitis"),
-    ("Dolor colico, distension y no canaliza gases",
-     "&iquest;<b>Vomito, distension y no expulsa gases ni heces</b>? &iquest;cirugias previas o hernias?",
-     "Colico + distension + RHA metalicos/ausentes + niveles en Rx.", "Obstruccion intestinal", "obstruccion"),
+    # Abdomen agudo quirurgico (apendicitis, colecistitis, pancreatitis,
+    # diverticulitis, obstruccion) -> deck de Cirugia. Aqui: GI cronico/ambulatorio.
+    ("Diarrea cronica con perdida de peso y anemia ferropenica que no responde",
+     "&iquest;<b>Diarrea cronica + perdida de peso</b>? &iquest;anemia que no mejora con hierro? &iquest;mejora al "
+     "quitar el gluten? &iquest;familiares con celiaquia?",
+     "Malabsorcion + anti-transglutaminasa positiva (con gluten); biopsia confirma.", "Enfermedad celiaca", "celiaca"),
+    ("Diarrea cronica con sangre, dolor y perdida de peso en joven",
+     "&iquest;<b>Diarrea cronica CON SANGRE</b> + dolor + perdida de peso + fiebre? &iquest;sintomas articulares/"
+     "oculares/cutaneos? &iquest;nocturna?",
+     "Diarrea inflamatoria cronica + calprotectina alta + manifestaciones extraintestinales.", "Enfermedad inflamatoria intestinal", "eii"),
+    ("Estrenimiento de inicio reciente en mayor de 50 anos",
+     "&iquest;<b>Cambio reciente del habito (estrenimiento) en &gt;50 a</b>? &iquest;sangrado, perdida de peso, "
+     "anemia, cambio del calibre de las heces, antecedente familiar de cancer?",
+     "Estrenimiento de novo con banderas = alarma de cancer colorrectal &rarr; colonoscopia.", "Estrenimiento con banderas", "estrenimiento"),
+    ("Dificultad para tragar progresiva con perdida de peso",
+     "&iquest;<b>Disfagia (se atora la comida)</b>, primero solidos? &iquest;perdida de peso, sangrado/anemia, "
+     "vomito persistente? &iquest;fumador/mayor?",
+     "Disfagia progresiva a solidos + banderas = sospecha de cancer eso-gastrico &rarr; endoscopia.", "Disfagia con banderas (Ca eso-gastrico)", "disfagia_alarma"),
     ("Deficit neurologico focal de inicio subito",
      "&iquest;<b>Debilidad/asimetria facial/alteracion del habla SUBITAS</b>? &iquest;hora de inicio exacta? "
      "&iquest;FA, HTA, factores?",

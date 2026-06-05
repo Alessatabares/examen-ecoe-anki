@@ -46,6 +46,8 @@
 | Próstata (LUTS) | **Tacto + PSA** + EGO + IPSS | Tamizaje = decisión compartida |
 | Preventivo / chequeo | TA, glucosa, lípidos, cáncer (cérvix/mama/colon), **VIH**, vacunas | Por edad/riesgo, no "a todos todo" |
 | Cefalea | **Clínico, SIN imagen**; TC/RM solo con banderas | Imagen sin banderas = sobrestudio |
+| Digestivo alto (dispepsia/ERGE) | **H. pylori no invasivo** (heces/aliento) ± IBP; suspender AINE | Banderas → endoscopia |
+| Diarrea crónica/malabsorción | BH, ferritina, TSH, **serología celíaca** (con gluten), **calprotectina** | Calprotectina separa SII de EII |
 
 ---
 
@@ -59,8 +61,11 @@
 | Reversibilidad espirométrica | Asma (reversible) vs EPOC (fija) |
 | **Wells (TVP/TEP)** | Probabilidad → dímero D vs imagen |
 | **CHA₂DS₂-VASc** | Anticoagulación en FA |
-| Murphy | Colecistitis |
-| McBurney / Blumberg | Apendicitis (irritación peritoneal) |
+| Banderas de alarma digestivas | Disfagia, ↓peso, sangrado/anemia, vómito persistente, >55-60 a de novo → **endoscopia** (Ca eso-gástrico) |
+| Test-and-treat H. pylori | Sin banderas y <60 a: prueba no invasiva → erradicar (dispepsia/úlcera) |
+| Criterios de Roma IV | Dx **positivo** del SII (dolor que mejora al evacuar + cambio del hábito, sin banderas) |
+| Anti-transglutaminasa (tTG-IgA) | Tamiz de celíaca (pedir **con gluten**) → biopsia confirma |
+| Calprotectina fecal | Separa SII (funcional) de EII (orgánico) |
 | Lasegue | Ciática / radiculopatía |
 | **SNNOOP** | Banderas de cefalea → estudiar |
 | Dix-Hallpike / Epley | VPPB (diagnóstico y tratamiento) |

@@ -144,7 +144,7 @@ add(deck_d, caso("Exploracion neurologica del vertigo (Dix-Hallpike / HINTS)"),
     D + ["vertigo_hints"])
 
 
-# ===================== PANELES (8) =====================
+# ===================== PANELES (10) =====================
 P = ["panel"]
 add(deck_p, caso("Panel del control del paciente cronico (DM/HTA)"),
     panel("<b>Glucosa/HbA1c</b>, <b>lipidos</b>, <b>funcion renal + albuminuria (RAC)</b>, electrolitos, TA, IMC, "
@@ -203,8 +203,25 @@ add(deck_p, caso("Panel de la cefalea (cuando SI estudiar)"),
           "La mayoria de las cefaleas NO necesita imagen. Pedirla sin banderas es sobrestudio; con banderas es urgente."),
     P + ["cefalea"])
 
+add(deck_p, caso("Panel digestivo alto (dispepsia / ERGE)"),
+    panel("Sin banderas y &lt;60 a: <b>NO endoscopia de entrada</b> &rarr; <b>prueba de H. pylori no invasiva</b> "
+          "(antigeno en heces / prueba de aliento) y/o prueba con IBP. Suspender AINE.",
+          "Banderas que obligan a <b>endoscopia</b>: disfagia, perdida de peso, sangrado/anemia, vomito "
+          "persistente, masa, &gt;60 a de novo (descartar Ca eso-gastrico/ulcera).",
+          "Para la prueba de H. pylori (aliento/antigeno) suspende IBP ~2 sem y antibiotico ~4 sem (falsos negativos). "
+          "Confirma erradicacion."),
+    P + ["digestivo_alto"])
 
-# ===================== SIGNOS Y SCORES (18) =====================
+add(deck_p, caso("Panel de diarrea cronica / malabsorcion"),
+    panel("<b>BH, ferritina, PCR/VSG, TSH, serologia celiaca (anti-transglutaminasa IgA + IgA total)</b>, "
+          "electrolitos, coprologico/coprocultivo segun caso, <b>calprotectina fecal</b>; colonoscopia si banderas.",
+          "Funcional (SII) vs organico (EII, celiaca, malabsorcion, tiroides); banderas (sangre, ↓peso, anemia).",
+          "<b>Calprotectina fecal</b> separa funcional de inflamatorio (EII). Pide la serologia celiaca CON gluten en "
+          "la dieta."),
+    P + ["diarrea_cronica"])
+
+
+# ===================== SIGNOS Y SCORES (21) =====================
 M = ["signo_score"]
 simple = [
     ("Centor / McIsaac", "Probabilidad de <b>faringitis estreptococica</b> (fiebre, exudado, adenopatias, AUSENCIA de tos, edad) -> decide antibiotico.", "faringitis"),
@@ -213,8 +230,11 @@ simple = [
     ("Reversibilidad espirometrica", "&Delta;FEV1 &ge;12% y 200 mL post-broncodilatador = <b>asma</b>; obstruccion fija = EPOC.", "asma"),
     ("Score de Wells (TVP/TEP)", "Probabilidad pretest de <b>TVP/TEP</b> -> guia dimero D vs Doppler/angio-TAC.", "tvp"),
     ("CHA2DS2-VASc", "Riesgo embolico en <b>FA</b> -> decide anticoagulacion.", "icc"),
-    ("Signo de Murphy", "Detencion de la inspiracion al palpar el HD = <b>colecistitis</b>.", "colecistitis"),
-    ("McBurney / Blumberg", "Dolor en punto de McBurney + rebote = irritacion peritoneal -> <b>apendicitis</b>.", "apendicitis"),
+    ("Banderas de alarma digestivas", "Disfagia, perdida de peso, sangrado/anemia, vomito persistente, masa, &gt;55-60 a de novo -> <b>endoscopia + referir</b> (descartar Ca eso-gastrico).", "disfagia_alarma"),
+    ("Test-and-treat de H. pylori", "Sin banderas y &lt;60 a: <b>prueba no invasiva</b> (antigeno en heces/aliento); si + erradico (triple/cuadruple) -> <b>dispepsia/ulcera</b>.", "dispepsia"),
+    ("Criterios de Roma IV", "Dx <b>positivo</b> del SII: dolor abdominal recurrente relacionado con la defecacion + cambio en frecuencia/forma, sin banderas.", "sii"),
+    ("Anti-transglutaminasa (tTG-IgA) + IgA total", "Tamiz serologico de <b>enfermedad celiaca</b> (pedir CON gluten); confirmar con biopsia duodenal.", "celiaca"),
+    ("Calprotectina fecal", "Marcador de inflamacion intestinal: separa <b>SII (funcional)</b> de <b>EII (organico)</b>.", "eii"),
     ("Signo de Lasegue", "Dolor radicular al elevar la pierna recta = <b>ciatica/radiculopatia</b> lumbar.", "ciatica"),
     ("SNNOOP (banderas de cefalea)", "Sintomas sistemicos, Neoplasia/inmunodep., Neurologico, Onset en trueno, Older &gt;50, cambio de Patron -> <b>estudiar</b>.", "cefalea_red_flag"),
     ("Dix-Hallpike / Epley", "Maniobra que reproduce el <b>VPPB</b> (Dix-Hallpike) y lo trata (Epley).", "vppb"),
