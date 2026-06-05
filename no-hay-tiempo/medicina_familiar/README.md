@@ -12,38 +12,38 @@ MANEJO    → eje + bifurcación         (Pilar 2: Manejo)
 > **¿ambulatorio vs referir/urgencias?**, **antibiótico solo cuando cambia el desenlace**, y
 > **prevención en cada consulta** (tamizaje + vacunas + consejo).
 
-## Pilar 2 — Manejo (72)
+## Pilar 2 — Manejo (88)
 
 | Subdeck | Cartas | Tag |
 |---|---|---|
-| 1 - Ejes / patrones madre | 8 | `tag:eje` |
-| 2 - Manejos comunes (core) | 27 | `tag:core` |
-| 3 - Menos comunes | 37 | `tag:menos_comun` |
+| 1 - Ejes / patrones madre | 9 | `tag:eje` |
+| 2 - Manejos comunes (core) | 35 | `tag:core` |
+| 3 - Menos comunes | 44 | `tag:menos_comun` |
 
-## Pilar 1 — Interrogatorio: tronco + llave (49)
-
-| Subdeck | Cartas | Tag |
-|---|---|---|
-| 1 - Troncos (ejes) | 8 | `tag:tronco` |
-| 2 - Llaves comunes (core) | 22 | `tag:core` |
-| 3 - Llaves menos comunes | 19 | `tag:menos_comun` |
-
-## Pilar 3 — Exploración + Estudios (39)
-
-**A) Discriminador** (por herramienta: otoscopia, espirometría, ECG, tira de orina, glucemia/HbA1c, perfil tiroideo, índices de anemia, exploración del vértigo) y
-**B) Panel** (por entidad: crónico DM/HTA, ITU, dolor torácico, respiratorio, anemia, próstata/LUTS, preventivo, cefalea, digestivo alto, diarrea crónica).
+## Pilar 1 — Interrogatorio: tronco + llave (64)
 
 | Subdeck | Cartas | Tag |
 |---|---|---|
-| 1 - Discriminadores (herramienta) | 8 | `tag:discriminador` |
-| 2 - Paneles (por entidad) | 10 | `tag:panel` |
-| 3 - Signos y scores | 21 | `tag:signo_score` |
+| 1 - Troncos (ejes) | 10 | `tag:tronco` |
+| 2 - Llaves comunes (core) | 27 | `tag:core` |
+| 3 - Llaves menos comunes | 27 | `tag:menos_comun` |
+
+## Pilar 3 — Exploración + Estudios (49)
+
+**A) Discriminador** (por herramienta: otoscopia, espirometría, ECG, tira de orina, glucemia/HbA1c, perfil tiroideo, índices de anemia, exploración del vértigo, escalas de salud mental PHQ-9/GAD-7, TFG+albuminuria) y
+**B) Panel** (por entidad: crónico DM/HTA, ITU, dolor torácico, respiratorio, anemia, próstata/LUTS, preventivo, cefalea, digestivo alto, diarrea crónica, salud mental, artropatía gota/OA).
+
+| Subdeck | Cartas | Tag |
+|---|---|---|
+| 1 - Discriminadores (herramienta) | 10 | `tag:discriminador` |
+| 2 - Paneles (por entidad) | 12 | `tag:panel` |
+| 3 - Signos y scores | 27 | `tag:signo_score` |
 
 ## Chuletas (una página para recitar)
 
-- [Interrogatorio](CHULETA_INTERROGATORIO.md) — 8 troncos + llaves core/menos
+- [Interrogatorio](CHULETA_INTERROGATORIO.md) — 10 troncos + llaves core/menos
 - [Estudios / exploración](CHULETA_ESTUDIOS.md) — discriminadores + paneles + scores
-- [Manejo](CHULETA_MANEJO.md) — 8 ejes + core + menos
+- [Manejo](CHULETA_MANEJO.md) — 9 ejes + core + menos
 
 ## Cobertura (temas pedidos)
 
@@ -54,7 +54,12 @@ MANEJO    → eje + bifurcación         (Pilar 2: Manejo)
 - **Neuro:** EVC, migraña, cefalea tensional, cefalea red flag, vértigo (VPPB/central).
 - **Musculoesquelético:** lumbalgia, cauda equina, ciática, cervicalgia.
 - **Genitourinario:** cistitis, pielonefritis, cólico renal, ITU en embarazo, HPB, CA próstata.
-- **Crónico/endocrino:** DM2, HTA, dislipidemia, hipo/hipertiroidismo, Cushing, pie diabético, anemia.
+- **Crónico/endocrino/metabólico:** DM2, HTA, dislipidemia, hipo/hipertiroidismo, Cushing, pie diabético, anemia, **obesidad**.
+- **Renal crónico:** **ERC** (estadificación KDIGO, nefroprotección).
+- **Salud mental:** **depresión, ansiedad (TAG), insomnio** (PHQ-9/GAD-7 + riesgo suicida).
+- **Musculoesquelético/óseo:** lumbalgia, cauda equina, ciática, cervicalgia, **osteoartritis, osteoporosis, gota**.
+- **Dermatología:** **dermatitis, acné, tiña, melanoma/cáncer de piel (ABCDE)**.
+- **Vascular/sueño:** **insuficiencia venosa crónica, EAP (ITB), SAOS (STOP-BANG)**.
 - **Urgencias:** sepsis, emergencia hipertensiva, CAD, hipoglucemia, tormenta tiroidea, crisis adrenal.
 - **Preventivo:** vacunas, tabaquismo, VIH, tamizaje.
 

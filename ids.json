@@ -1140,7 +1140,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::1 - Ejes / patrones madre",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Manejo_01_Ejes.apkg",
-            "notas": 8
+            "notas": 9
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1150,7 +1150,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::2 - Manejos comunes (core)",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Manejo_02_Core.apkg",
-            "notas": 27
+            "notas": 35
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1160,7 +1160,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::3 - Menos comunes",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Manejo_03_Menos.apkg",
-            "notas": 37
+            "notas": 44
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1170,7 +1170,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Interrogatorio::1 - Troncos (ejes)",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Interrogatorio_01_Troncos.apkg",
-            "notas": 8
+            "notas": 10
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1180,7 +1180,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Interrogatorio::2 - Llaves comunes (core)",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Interrogatorio_02_Llaves_core.apkg",
-            "notas": 22
+            "notas": 27
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1190,7 +1190,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Interrogatorio::3 - Llaves menos comunes",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Interrogatorio_03_Llaves_menos.apkg",
-            "notas": 19
+            "notas": 27
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1200,7 +1200,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Estudios::1 - Discriminadores (herramienta)",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Estudios_01_Discriminadores.apkg",
-            "notas": 8
+            "notas": 10
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1210,7 +1210,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Estudios::2 - Paneles (por entidad)",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Estudios_02_Paneles.apkg",
-            "notas": 10
+            "notas": 12
         },
         {
             "tema": "No hay tiempo - Medicina Familiar",
@@ -1220,7 +1220,7 @@
             "deck_name": "No hay tiempo::Medicina Familiar::Estudios::3 - Signos y scores",
             "guia": "GPC MX / GINA / GOLD / ADA / AHA-ACC / ESC / IDSA / USPSTF / CENETEC",
             "output": "no-hay-tiempo/medicina_familiar/output/Estudios_03_Signos_scores.apkg",
-            "notas": 21
+            "notas": 27
         }
     ]
 }

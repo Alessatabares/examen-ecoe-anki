@@ -32,6 +32,12 @@
 **8. Exploración del vértigo (Dix-Hallpike / HINTS)** → **Dix-Hallpike +** (breve, fatigable) = VPPB → Epley · **nistagmo que no fatiga / HINTS central** = central (referir).
 *Trampa: impulso cefálico NORMAL en vértigo agudo sugiere causa CENTRAL.*
 
+**9. Escalas de salud mental (PHQ-9 / GAD-7)** → **PHQ-9** alto = depresión (gradúa) · **GAD-7** alto = ansiedad · **ítem 9 +** = ideación suicida → evaluar riesgo YA.
+*Trampa: la escala apoya, no sustituye la evaluación del riesgo ni descartar orgánico/bipolar.*
+
+**10. TFG + albuminuria (ERC, KDIGO)** → **TFG 59-30** = G3 (nefroproteger) · **TFG <30** = G4-G5 (referir) · **RAC alto** = daño + riesgo CV.
+*Trampa: necesitas 2 determinaciones ≥3 meses para "crónica" (vs AKI).*
+
 ---
 
 ## PANELES (por entidad)
@@ -46,6 +52,8 @@
 | Próstata (LUTS) | **Tacto + PSA** + EGO + IPSS | Tamizaje = decisión compartida |
 | Preventivo / chequeo | TA, glucosa, lípidos, cáncer (cérvix/mama/colon), **VIH**, vacunas | Por edad/riesgo, no "a todos todo" |
 | Cefalea | **Clínico, SIN imagen**; TC/RM solo con banderas | Imagen sin banderas = sobrestudio |
+| Salud mental | **Entrevista + PHQ-9/GAD-7 + riesgo suicida**; TSH, BH | Dx clínico; descarta orgánico/bipolar |
+| Artropatía (gota/OA) | Ác. úrico, **artrocentesis (cristales)** si duda séptica; Rx | Ác. úrico normal NO descarta gota aguda |
 | Digestivo alto (dispepsia/ERGE) | **H. pylori no invasivo** (heces/aliento) ± IBP; suspender AINE | Banderas → endoscopia |
 | Diarrea crónica/malabsorción | BH, ferritina, TSH, **serología celíaca** (con gluten), **calprotectina** | Calprotectina separa SII de EII |
 
@@ -76,11 +84,17 @@
 | Wagner | Úlcera del pie diabético → manejo/derivación |
 | IPSS | Gravedad de síntomas prostáticos (HPB) |
 | qSOFA | Riesgo de sepsis |
+| **PHQ-9 / GAD-7** | Cribado/seguimiento de depresión y ansiedad (ítem 9 = suicidio) |
+| **FRAX / DEXA** | Riesgo de fractura / densidad ósea → tratar osteoporosis |
+| **ABCDE del melanoma** | Lesión pigmentada sospechosa → biopsia/referir |
+| **ITB** | ≤0.9 = enfermedad arterial periférica (y riesgo CV) |
+| **STOP-BANG** | Cribado de apnea del sueño (SAOS) |
+| Cristales de urato / Heberden-Bouchard | Urato en aguja (−) = gota; nódulos = osteoartritis |
 
 ---
 
 ### Plan <3 días
-1. **Hoy:** los **8 discriminadores** — "lo pido para separar X de Y, y la trampa es…" en voz alta.
+1. **Hoy:** los **10 discriminadores** — "lo pido para separar X de Y, y la trampa es…" en voz alta.
 2. **Hoy:** los **paneles** por entidad: batería + criterio + **qué NO pido de rutina**.
 3. **Mañana:** memoriza los **scores** (reconocimiento) y enlázalos al caso.
 4. **Día 3:** integra los 3 pilares en casos completos (tronco → herramienta/panel → eje de manejo).

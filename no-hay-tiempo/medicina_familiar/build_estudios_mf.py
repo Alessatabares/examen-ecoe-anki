@@ -66,7 +66,7 @@ def panel(pido, des, clave):
             f'<span class="bloque clave"><span class="lab">Clave / criterio</span>{clave}</span>')
 
 
-# ===================== DISCRIMINADORES (8) =====================
+# ===================== DISCRIMINADORES (10) =====================
 D = ["discriminador"]
 add(deck_d, caso("Otoscopia"),
     disc("Diferenciar las causas de otalgia/hipoacusia en el consultorio.",
@@ -143,8 +143,28 @@ add(deck_d, caso("Exploracion neurologica del vertigo (Dix-Hallpike / HINTS)"),
          "Paradoja: <b>impulso cefalico NORMAL</b> en un vertigo agudo sugiere causa CENTRAL (no tranquiliza)."),
     D + ["vertigo_hints"])
 
+add(deck_d, caso("Escalas de salud mental (PHQ-9 / GAD-7)"),
+    disc("Cribar y graduar la gravedad del animo y la ansiedad de forma estructurada.",
+         [("<b>PHQ-9</b> elevado + animo/anhedonia", "Depresion (gradua gravedad)"),
+          ("<b>GAD-7</b> elevado", "Ansiedad / TAG"),
+          ("Item 9 del PHQ-9 positivo", "Ideacion suicida -> evaluar riesgo YA"),
+          ("Sintomas + sospecha organica", "Pedir TSH, BH (descartar tiroides/anemia)")],
+         "La escala apoya, NO sustituye la evaluacion del <b>riesgo suicida</b> ni la entrevista. Descarta causa "
+         "organica y bipolaridad antes de etiquetar."),
+    D + ["escalas_mental"])
 
-# ===================== PANELES (10) =====================
+add(deck_d, caso("TFG + albuminuria (estadificacion de ERC, KDIGO)"),
+    disc("Detectar y estadificar la enfermedad renal cronica y su riesgo.",
+         [("<b>TFG &ge;90-60</b> con dano (albuminuria)", "ERC G1-G2"),
+          ("<b>TFG 59-30</b>", "ERC G3 (vigilar/nefroproteger)"),
+          ("<b>TFG &lt;30</b>", "ERC G4-G5 -> referir nefrologia"),
+          ("<b>Cociente albumina/creatinina (RAC)</b> alto", "Dano renal / riesgo CV y de progresion")],
+         "Necesitas <b>2 determinaciones &ge;3 meses</b> para hablar de cronica (vs AKI). La albuminuria es marcador "
+         "precoz y de riesgo CV, no solo renal."),
+    D + ["tfg_erc"])
+
+
+# ===================== PANELES (12) =====================
 P = ["panel"]
 add(deck_p, caso("Panel del control del paciente cronico (DM/HTA)"),
     panel("<b>Glucosa/HbA1c</b>, <b>lipidos</b>, <b>funcion renal + albuminuria (RAC)</b>, electrolitos, TA, IMC, "
@@ -220,8 +240,23 @@ add(deck_p, caso("Panel de diarrea cronica / malabsorcion"),
           "la dieta."),
     P + ["diarrea_cronica"])
 
+add(deck_p, caso("Panel de salud mental (animo / ansiedad)"),
+    panel("<b>Entrevista clinica + PHQ-9 / GAD-7</b> + <b>evaluacion del riesgo suicida</b>; descartar organico: "
+          "<b>TSH</b>, BH (anemia), revisar farmacos/alcohol/sustancias.",
+          "Causa organica (tiroides, anemia, farmacos), bipolaridad (antes de antidepresivo), consumo de sustancias.",
+          "El dx es <b>clinico</b>; la escala gradua y da seguimiento. Nunca cierres sin evaluar ideacion suicida."),
+    P + ["salud_mental"])
 
-# ===================== SIGNOS Y SCORES (21) =====================
+add(deck_p, caso("Panel de la artropatia (gota / osteoartritis)"),
+    panel("Clinica + <b>acido urico</b> (puede ser normal en el ataque) y, si hay duda con septica, <b>artrocentesis "
+          "con analisis del liquido (cristales)</b>. <b>Rx</b> para osteoartritis (pinzamiento, osteofitos).",
+          "Artritis septica (urgencia: liquido purulento), gota vs osteoartritis vs AR.",
+          "Gota: <b>cristales de urato</b> (birrefringencia negativa, forma de aguja). El acido urico NORMAL no "
+          "descarta el ataque agudo. OA: cambios en Rx + dolor mecanico."),
+    P + ["artropatia"])
+
+
+# ===================== SIGNOS Y SCORES (27) =====================
 M = ["signo_score"]
 simple = [
     ("Centor / McIsaac", "Probabilidad de <b>faringitis estreptococica</b> (fiebre, exudado, adenopatias, AUSENCIA de tos, edad) -> decide antibiotico.", "faringitis"),
@@ -245,6 +280,12 @@ simple = [
     ("Clasificacion de Wagner", "Gradua la <b>ulcera del pie diabetico</b> (0 a 5) y guia el manejo/derivacion.", "pie_diabetico"),
     ("IPSS", "Puntua la gravedad de los <b>sintomas prostaticos (LUTS)</b> en HPB.", "hpb"),
     ("qSOFA", "Tamiz de gravedad en infeccion (TAS&le;100, FR&ge;22, alterado) -> riesgo de <b>sepsis</b>.", "sepsis"),
+    ("PHQ-9 / GAD-7", "Escalas de cribado y seguimiento de <b>depresion</b> (PHQ-9) y <b>ansiedad</b> (GAD-7); el item 9 tamiza ideacion suicida.", "depresion"),
+    ("FRAX / DEXA", "DEXA mide densidad osea (T-score); <b>FRAX</b> estima el riesgo de fractura a 10 anos -> decide tratar <b>osteoporosis</b>.", "osteoporosis"),
+    ("ABCDE del melanoma", "Asimetria, Bordes irregulares, Color heterogeneo, Diametro &gt;6 mm, Evolucion -> lesion sospechosa = <b>biopsia/referir</b>.", "melanoma"),
+    ("Indice tobillo-brazo (ITB)", "ITB &le;0.9 = <b>enfermedad arterial periferica</b>; tambien estratifica riesgo CV.", "eap"),
+    ("STOP-BANG", "Cribado de <b>apnea del sueno (SAOS)</b> (ronquido, cansancio, apneas, presion, IMC, edad, cuello, sexo).", "saos"),
+    ("Cristales de urato / nodulos de Heberden-Bouchard", "Urato en aguja con birrefringencia negativa = <b>gota</b>; nodulos de Heberden (IFD)/Bouchard (IFP) = <b>osteoartritis</b>.", "gota"),
 ]
 for titulo, texto, tag in simple:
     add(deck_m, caso(titulo),

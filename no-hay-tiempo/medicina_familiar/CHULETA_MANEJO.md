@@ -16,6 +16,7 @@
 6. **Crisis metabólica/endocrina: glucemia primero; luego líquidos + corregir déficit + tratar el gatillo.** Hidrocortisona ANTES de T4 en crisis suprarrenal/mixedema.
 7. **Toda cefalea, lumbalgia y síncope: buscar RED FLAGS antes de etiquetar benigno.** Sin banderas → conservador, **sin imagen de rutina**.
 8. **Prevención en cada consulta:** tamizaje por edad/riesgo + vacunas + consejo breve (tabaco 5 A, alcohol, dieta).
+9. **Salud mental: cribo el ánimo como un signo vital y SIEMPRE evalúo riesgo suicida.** Dx clínico (PHQ-9/GAD-7) + descartar orgánico; leve-moderado → psicoterapia ± ISRS; grave/riesgo → referir.
 
 ---
 
@@ -50,6 +51,14 @@
 | Vacunas | Influenza, neumococo, Td/Tdap, VPH, zóster, HepB | Embarazo: NO virus vivos |
 | Tabaquismo | **5 A** + farmacoterapia (TRN/bupropión/vareniclina) | Ofrece consejo SIEMPRE |
 | Tamizaje | TA, glucosa, lípidos, cáncer (cérvix/mama/colon), VIH | Por edad/riesgo, no "a todos todo" |
+| Depresión | **PHQ-9** + descartar orgánico; psicoterapia ± **ISRS** | **Riesgo suicida SIEMPRE**; viraje a manía |
+| Ansiedad (TAG) | **GAD-7**; **TCC** ± ISRS/IRSN | Evita benzodiacepinas crónicas |
+| ERC | **TFG+albuminuria (KDIGO)**; IECA/ARA-II + iSGLT2, evitar AINE | TFG<30/progresión → nefro; vigila K |
+| Osteoartritis | **Ejercicio + peso** + paracetamol/AINE tópico | Cuidado AINE oral crónico (gástrico/renal) |
+| Gota | Agudo: AINE/colchicina/esteroide; **alopurinol después** | No tocar alopurinol en el ataque |
+| Obesidad | Dieta+actividad+conductual; GLP-1 si IMC≥30/≥27+comorb. | 5-10% ya mejora; consejería sin juicio |
+| Dermatitis | **Emolientes + corticoide tópico** + evitar irritante | Sobreinfección → ATB; cara/pliegues |
+| Acné | Retinoide tópico ± peróxido benzoilo/ATB; grave → isotretinoína | Isotretinoína **teratogénica** |
 
 ---
 
@@ -60,16 +69,19 @@
 **Cardio:** SCA (**AAS + traslado urgente**) · Pericarditis (AINE + colchicina; vigila taponamiento) · Estenosis aórtica (referir → reemplazo; evita vasodilatadores) · TVP (anticoagular; vigila TEP) · Síncope (vasovagal: educar; cardiogénico: referir).
 **Digestivo (crónico/ambulatorio):** Celíaca (serología tTG con gluten + biopsia → **dieta sin gluten**) · EII (Crohn/CUCI → **referir** gastro; brote grave = urgencia) · Estreñimiento crónico (fibra + líquidos + PEG; banderas → colonoscopia) · Diarrea crónica (estudio dirigido; calprotectina) · Disfagia/banderas (**endoscopia + referir**). *(Abdomen agudo quirúrgico → deck de Cirugía.)*
 **Neuro:** EVC (**código ictus, NO AAS hasta TAC**) · Cefalea red flag (estudio urgente) · Vértigo central (referir).
-**MSK:** Cauda equina (**RM + neurocirugía YA**) · Ciática (conservador) · Cervicalgia (movilización; no collarín prolongado).
+**MSK/óseo:** Cauda equina (**RM + neurocirugía YA**) · Ciática (conservador) · Cervicalgia (movilización; no collarín prolongado) · Osteoporosis (calcio+vit D+ejercicio; **bifosfonato** si alto riesgo/FRAX; fractura por fragilidad).
 **GU:** Pielonefritis (ATB ± IV; obstrucción+ITU = drenar) · Cólico renal (AINE + tamsulosina; fiebre+obstrucción → urgencia) · ITU embarazo (**tratar incluso bacteriuria asintomática**, ATB seguro) · HPB (alfa-bloqueante ± 5-ARI; retención → sondar) · CA próstata (PSA+tacto, decisión compartida → referir).
 **Endocrino:** Hipertiroidismo/Graves (BB + metimazol; vigila agranulocitosis) · Cushing (cribar → referir; descarta esteroides exógenos) · Pie diabético (clasificar Wagner, descarga + ATB; isquemia/hueso → referir).
 **Urgencias:** Sepsis (bundle 1 h + referir) · Emergencia HTA (IV, ↓TAM 10-25% 1ª h) · CAD (líquidos+insulina+K) · **Hipoglucemia** (regla del 15 / glucosa IV / glucagón) · Tormenta tiroidea (BB+tionamida→yodo+esteroide) · Crisis suprarrenal (**hidrocortisona 100 mg IV YA**).
+**Salud mental/sueño:** Insomnio crónico (**higiene + TCC-I**; hipnótico solo corto plazo) · SAOS (**CPAP** + peso + STOP-BANG/polisomnografía).
+**Dermatología:** Tiña (antimicótico tópico; oral si extensa/uñas/cuero cabelludo; **no corticoide solo**) · Melanoma/cáncer de piel (**ABCDE → referir biopsia**; no cauterizar) · (dermatitis/acné en core).
+**Vascular:** Insuficiencia venosa (**medias de compresión** + elevar piernas; úlcera venosa) · EAP (**dejar de fumar** + estatina/antiagregante + ejercicio; **ITB ≤0.9**; isquemia crítica → vascular).
 **Preventivo:** VIH (ofrecer prueba; reactiva → referir TAR; PrEP si riesgo).
 
 ---
 
 ### Plan <3 días
-1. **Hoy:** los **8 ejes** en voz alta — el guion con el que abres cualquier manejo y justificas **ambulatorio vs referir**.
-2. **Hoy:** la tabla **core** (24): por entidad, primer movimiento + red flag.
+1. **Hoy:** los **9 ejes** en voz alta — el guion con el que abres cualquier manejo y justificas **ambulatorio vs referir**.
+2. **Hoy:** la tabla **core** (35): por entidad, primer movimiento + red flag.
 3. **Mañana:** enlaza interrogatorio → estudios → manejo en 5-6 casos completos.
 4. **Día 3:** las **menos comunes**, con foco en las urgencias (EVC, cauda equina, sepsis, crisis endocrinas, neumotórax a tensión) y las trampas de secuencia.

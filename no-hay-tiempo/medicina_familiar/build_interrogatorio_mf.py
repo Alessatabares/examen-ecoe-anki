@@ -60,7 +60,7 @@ def llave(p, pat, dx):
             f'<span class="bloque dx"><span class="lab">Diagnostico</span><b>{dx}</b></span>')
 
 
-# ===================== TRONCOS (8) =====================
+# ===================== TRONCOS (10) =====================
 T = ["tronco"]
 add(deck_t, caso("TRONCO — Tos / sintomas respiratorios"),
     tronco("<b>Tiempo</b>, fiebre, esputo (color/cantidad), disnea, dolor pleuritico, sibilancias, "
@@ -129,8 +129,26 @@ add(deck_t, caso("TRONCO — Consulta del paciente cronico / control y prevencio
            "complicacion. <b>Brecha en prevencion</b> &rarr; ofrecer tamizaje/vacuna/consejo (tabaco, VIH)."),
     T + ["cronico_prevencion"])
 
+add(deck_t, caso("TRONCO — Animo / sueno / sintomas emocionales"),
+    tronco("<b>Animo y anhedonia</b> (PHQ-9), <b>preocupacion/ansiedad</b> (GAD-7), <b>sueno</b>, apetito/peso, "
+           "energia, concentracion, <b>ideacion suicida (SIEMPRE)</b>, consumo de alcohol/sustancias, estresores, "
+           "red de apoyo, organico (tiroides, anemia, farmacos).",
+           "<b>Animo bajo/anhedonia &ge;2 sem</b> &rarr; depresion. <b>Preocupacion excesiva la mayoria de dias "
+           "&ge;6 meses</b> &rarr; TAG. <b>Solo dificultad para dormir</b> &rarr; insomnio (descarta SAOS). "
+           "<b>Ideacion con plan/intencion</b> &rarr; urgencia."),
+    T + ["animo"])
 
-# ===================== LLAVES CORE (22) =====================
+add(deck_t, caso("TRONCO — Dolor / inflamacion articular"),
+    tronco("<b>Patron</b> (mono/oligo/poliarticular), <b>mecanico vs inflamatorio</b> (rigidez matutina), "
+           "agudo vs cronico, articulaciones afectadas, <b>signos inflamatorios</b> (rubor/calor), fiebre, "
+           "trauma, dieta/alcohol/diureticos, antecedente.",
+           "<b>Mecanico cronico + rigidez &lt;30 min</b> &rarr; osteoartritis. <b>Monoartritis aguda muy roja "
+           "(podagra)</b> &rarr; gota. <b>Poliartritis simetrica + rigidez &gt;1 h</b> &rarr; AR. "
+           "<b>Monoartritis + fiebre</b> &rarr; septica (urgencia)."),
+    T + ["articular"])
+
+
+# ===================== LLAVES CORE (27) =====================
 C = ["core"]
 add(deck_c, caso("Fiebre con tos productiva y dolor pleuritico"),
     llave("&iquest;<b>Fiebre + tos con esputo + dolor pleuritico</b>? &iquest;disnea? &iquest;confusion/edad "
@@ -284,8 +302,43 @@ add(deck_c, caso("Dolor abdominal cronico que mejora al evacuar, con habito alte
           "Sindrome de intestino irritable (SII)"),
     C + ["sii"])
 
+add(deck_c, caso("Animo bajo y perdida de interes la mayor parte del dia, 2 semanas"),
+    llave("&iquest;<b>Animo bajo + anhedonia</b> casi todo el dia &ge;2 semanas? &iquest;sueno, apetito, energia, "
+          "concentracion, culpa? &iquest;<b>ideas de muerte/suicidio</b>?",
+          "&ge;5 sintomas (incl. animo o anhedonia) &ge;2 semanas con disfuncion; PHQ-9 apoya.",
+          "Depresion"),
+    C + ["depresion"])
 
-# ===================== LLAVES MENOS (19) =====================
+add(deck_c, caso("Preocupacion excesiva e incontrolable la mayoria de los dias"),
+    llave("&iquest;<b>Preocupacion excesiva dificil de controlar</b> la mayoria de los dias &ge;6 meses? "
+          "&iquest;inquietud, fatiga, tension, irritabilidad, insomnio? &iquest;cafeina/tiroides?",
+          "Ansiedad/preocupacion cronica + sintomas somaticos; GAD-7 apoya, sin causa organica.",
+          "Trastorno de ansiedad generalizada (TAG)"),
+    C + ["ansiedad"])
+
+add(deck_c, caso("Dolor articular que empeora con el uso y mejora con el reposo"),
+    llave("&iquest;Dolor <b>mecanico</b> (peor al usar, mejor en reposo) + <b>rigidez matutina &lt;30 min</b> + "
+          "crepito? &iquest;rodillas/caderas/manos? &iquest;edad/peso?",
+          "Dolor mecanico cronico + rigidez breve + nodulos de Heberden/Bouchard; sin inflamacion franca.",
+          "Osteoartritis (artrosis)"),
+    C + ["osteoartritis"])
+
+add(deck_c, caso("Articulacion roja, caliente e hipersensible de inicio nocturno (1er dedo del pie)"),
+    llave("&iquest;<b>Inicio agudo, nocturno</b>, monoarticular (podagra), roja y muy dolorosa? &iquest;alcohol, "
+          "carnes/mariscos, diureticos, episodios previos?",
+          "Monoartritis aguda muy inflamatoria; cristales de urato (negativos, en aguja) confirman.",
+          "Gota (ataque agudo)"),
+    C + ["gota"])
+
+add(deck_c, caso("Placas pruriginosas y piel seca, recurrentes"),
+    llave("&iquest;<b>Prurito + piel seca/eritematosa</b>, en pliegues (atopica), por contacto con algo, o grasa en "
+          "cara/cuero cabelludo (seborreica)? &iquest;atopia, irritante?",
+          "Lesion eccematosa pruriginosa recurrente segun el patron (atopica/contacto/seborreica).",
+          "Dermatitis"),
+    C + ["dermatitis"])
+
+
+# ===================== LLAVES MENOS (27) =====================
 M = ["menos_comun"]
 pares = [
     ("Tos seca persistente tras un catarro, sin foco ni fiebre alta",
@@ -338,6 +391,38 @@ pares = [
      "&iquest;<b>Disfagia (se atora la comida)</b>, primero solidos? &iquest;perdida de peso, sangrado/anemia, "
      "vomito persistente? &iquest;fumador/mayor?",
      "Disfagia progresiva a solidos + banderas = sospecha de cancer eso-gastrico &rarr; endoscopia.", "Disfagia con banderas (Ca eso-gastrico)", "disfagia_alarma"),
+    ("Dificultad cronica para conciliar o mantener el sueno con repercusion diurna",
+     "&iquest;<b>Cuesta dormir/se despierta</b>, &ge;3 noches/sem, con cansancio diurno? &iquest;cafeina/pantallas/"
+     "horarios? &iquest;ronca o se duerme de dia (descartar SAOS)? &iquest;animo?",
+     "Insomnio cronico con repercusion diurna; descartar SAOS, ansiedad/depresion y sustancias.", "Insomnio cronico", "insomnio"),
+    ("Ronquido fuerte con somnolencia diurna y pausas respiratorias",
+     "&iquest;<b>Ronca fuerte + apneas presenciadas + somnolencia diurna</b>? &iquest;se duerme al conducir? "
+     "&iquest;obesidad, cuello ancho, HTA resistente? (STOP-BANG)",
+     "Ronquido + apneas presenciadas + somnolencia (triada); STOP-BANG alto.", "Apnea del sueno (SAOS)", "saos"),
+    ("Dolor en la pantorrilla al caminar que cede con el reposo",
+     "&iquest;<b>Dolor en pierna al caminar cierta distancia que cede al detenerse (claudicacion)</b>? &iquest;"
+     "tabaquismo, DM? &iquest;pulsos disminuidos, piel fria?",
+     "Claudicacion intermitente + pulsos disminuidos; ITB &le;0.9 confirma.", "Enfermedad arterial periferica", "eap"),
+    ("Pesadez y edema vespertino de piernas con varices",
+     "&iquest;<b>Pesadez/hinchazon de piernas al final del dia</b> que mejora al elevarlas? &iquest;varices, "
+     "cambios de color en tobillo? &iquest;bipedestacion prolongada?",
+     "Edema vespertino bilateral + varices + dermatitis ocre; insuficiencia venosa.", "Insuficiencia venosa cronica", "insuf_venosa"),
+    ("Fractura con un traumatismo minimo en adulto mayor",
+     "&iquest;<b>Fractura por caida de su propia altura/trauma minimo</b> (cadera, vertebra, muneca)? &iquest;"
+     "menopausia, esteroides, tabaco/alcohol, antecedente familiar?",
+     "Fractura por fragilidad = osteoporosis (aunque DEXA no llegue a -2.5); FRAX/DEXA.", "Osteoporosis", "osteoporosis"),
+    ("Lunar que cambia de tamano, color o forma",
+     "&iquest;<b>Cambio</b> de un lunar (asimetria, bordes, color, &gt;6 mm, evolucion) o que sangra/no cura? "
+     "&iquest;el 'patito feo'? &iquest;exposicion solar, antecedentes?",
+     "Lesion pigmentada con criterios ABCDE / cambio = sospecha de melanoma &rarr; biopsia.", "Melanoma / cancer de piel", "melanoma"),
+    ("Placa anular pruriginosa con borde descamativo y centro claro",
+     "&iquest;<b>Placa que crece en anillo</b>, borde activo descamativo, centro mas claro, prurito? &iquest;"
+     "contacto con animales/humedad? &iquest;unas/cuero cabelludo afectados?",
+     "Placa anular de borde activo (tina); KOH positivo.", "Tina / dermatofitosis", "tina"),
+    ("Creatinina elevada o albuminuria detectada en un control",
+     "&iquest;<b>TFG baja / albuminuria persistente</b> en un control? &iquest;DM/HTA, AINE, antecedente renal "
+     "familiar? &iquest;sintomas (casi siempre asintomatica)?",
+     "TFG &lt;60 o dano renal &ge;3 meses (albuminuria); estadificar KDIGO.", "Enfermedad renal cronica (ERC)", "erc"),
     ("Deficit neurologico focal de inicio subito",
      "&iquest;<b>Debilidad/asimetria facial/alteracion del habla SUBITAS</b>? &iquest;hora de inicio exacta? "
      "&iquest;FA, HTA, factores?",

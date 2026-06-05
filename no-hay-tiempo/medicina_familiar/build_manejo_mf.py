@@ -69,7 +69,7 @@ def menos(deck, t, v, c, ci, tags):
     add(deck, caso(t), manejo(v, c, ci), ["menos_comun"] + tags)
 
 
-# ===================== EJES / PATRONES MADRE (8) =====================
+# ===================== EJES / PATRONES MADRE (9) =====================
 E = ["eje"]
 add(deck_e, caso("EJE 1 — Primero descarto LO URGENTE; recien luego trato como banal"),
     eje("Imagen: el portero que revisa banderas rojas antes de dejar pasar. En primer contacto, ante cualquier "
@@ -147,8 +147,19 @@ add(deck_e, caso("EJE 8 — PREVENCION en cada consulta: tamizaje + vacunas + co
         "la medicina familiar. Documenta y ofrece siempre."),
     E + ["prevencion"])
 
+add(deck_e, caso("EJE 9 — Salud mental: cribo el animo como un signo vital y SIEMPRE evaluo riesgo suicida"),
+    eje("Imagen: el animo/sueno es otra constante a medir. El malestar emocional es dx <b>clinico</b> (criterios + "
+        "cribado <b>PHQ-9 / GAD-7</b>), no de laboratorio; pero descarto organico (tiroides, anemia, farmacos, "
+        "alcohol) y <b>siempre</b> pregunto por ideacion suicida.",
+        "<b>Animo bajo/anhedonia &ge;2 semanas</b> &rarr; depresion. <b>Preocupacion excesiva la mayoria de los dias "
+        "&ge;6 meses</b> &rarr; ansiedad (TAG). Leve-moderado &rarr; psicoterapia &plusmn; ISRS; grave/refractario/"
+        "riesgo &rarr; referir.",
+        "Preguntar por suicidio NO lo induce: omitirlo es el error grave. <b>Ideacion con plan/intencion = "
+        "urgencia</b>. Vigila viraje a mania al iniciar antidepresivo (descarta bipolar)."),
+    E + ["salud_mental"])
 
-# ===================== CORE / COMUNES (27) =====================
+
+# ===================== CORE / COMUNES (35) =====================
 C = ["core"]
 core(deck_c, "Hipertension arterial",
      "Estilo de vida + farmaco: <b>IECA/ARA-II + calcioantagonista + tiazida</b> (combinar pronto). Meta general "
@@ -370,8 +381,77 @@ core(deck_c, "Tamizaje (deteccion oportuna por edad/riesgo)",
      "El tamizaje es por edad/riesgo, no 'a todos todo'. Cervico: 21-65 a (citologia/co-test); mama y colon segun "
      "guia local. Individualiza prostata (consentimiento informado).", C + ["tamizaje"])
 
+core(deck_c, "Depresion",
+     "Cribo (<b>PHQ-9</b>) y descarto organico (TSH, anemia, farmacos, alcohol). <b>Leve-moderada</b>: psicoterapia "
+     "&plusmn; <b>ISRS</b> (1a linea). <b>Grave/riesgo/refractaria</b>: ISRS + referir. Reevaluo en 2-4 semanas; "
+     "continuo &ge;6 meses tras la remision.",
+     "Es una depresion; no es 'falta de voluntad', es tratable. Combinamos psicoterapia y, si hace falta, un "
+     "antidepresivo que tarda 2-4 semanas en hacer efecto; lo acompano de cerca.",
+     "<b>Evalua SIEMPRE riesgo suicida</b> (plan/intencion = urgencia). Vigila viraje a mania (bipolar). El ISRS no "
+     "actua de inmediato: avisa y vigila las primeras semanas.", C + ["depresion"])
 
-# ===================== MENOS COMUNES (37) =====================
+core(deck_c, "Ansiedad / trastorno de ansiedad generalizada (TAG)",
+     "Cribo (<b>GAD-7</b>) + descarto organico (tiroides, cafeina, farmacos). <b>Psicoterapia (TCC)</b> 1a linea "
+     "&plusmn; <b>ISRS/IRSN</b>. Higiene de sueno y reduccion de estimulantes.",
+     "Es ansiedad: preocupacion excesiva que cuesta controlar, con sintomas fisicos. Mejora con terapia y, si es "
+     "necesario, un antidepresivo; las benzodiacepinas solo a muy corto plazo.",
+     "<b>Evita benzodiacepinas cronicas</b> (dependencia); solo puente breve. Descarta hipertiroidismo, arritmia y "
+     "consumo de estimulantes que imitan ansiedad.", C + ["ansiedad"])
+
+core(deck_c, "Enfermedad renal cronica (ERC)",
+     "<b>Estadifico por TFG + albuminuria (KDIGO)</b>. Nefroproteccion: <b>IECA/ARA-II</b> + <b>iSGLT2</b>, control "
+     "de TA (&lt;130/80) y glucosa, evitar nefrotoxicos (AINE), ajustar farmacos. Trato complicaciones (anemia, "
+     "mineral-oseo, acidosis).",
+     "Los rinones funcionan por debajo de lo normal de forma cronica. El objetivo es frenar el deterioro: controlar "
+     "presion y azucar, usar medicamentos que protegen el rinon y evitar lo que lo dana.",
+     "Referir a nefro: TFG &lt;30, albuminuria importante, progresion rapida, causa no clara. Vigila K con IECA/ARA-II. "
+     "El AINE es nefrotoxico: evitalo.", C + ["erc"])
+
+core(deck_c, "Osteoartritis (artrosis)",
+     "<b>Ejercicio + control de peso + educacion</b> (pilar) + <b>paracetamol/AINE topico</b>; AINE oral a la minima "
+     "dosis/tiempo. Apoyos (baston, ortesis). Infiltracion o protesis en avanzada.",
+     "Es el desgaste de la articulacion; duele al usarla y mejora con reposo. Lo que mas ayuda es fortalecer el "
+     "musculo, bajar de peso y moverse; los analgesicos son de apoyo.",
+     "Dolor <b>mecanico</b> (mejora en reposo) + rigidez &lt;30 min + crepito; sin datos inflamatorios. Cuidado con "
+     "AINE oral cronico (gastrico, renal, CV) en el adulto mayor.", C + ["osteoartritis"])
+
+core(deck_c, "Gota (ataque agudo)",
+     "<b>Agudo</b>: <b>AINE</b> o <b>colchicina</b> o <b>esteroide</b> lo antes posible. <b>NO inicies ni suspendas "
+     "alopurinol durante el ataque</b>. Urato-bajante (<b>alopurinol</b>) <b>despues</b>, con profilaxis con "
+     "colchicina al iniciarlo.",
+     "Es un ataque de gota por cristales de acido urico. Primero quito la inflamacion y el dolor; despues, en calma, "
+     "inicio el medicamento que baja el acido urico de forma permanente.",
+     "Iniciar alopurinol en pleno ataque lo prolonga. Ajusta en ERC. Confirma con cristales de urato (negativos, en "
+     "aguja) si hay duda con septica.", C + ["gota"])
+
+core(deck_c, "Obesidad",
+     "Trato como <b>enfermedad cronica</b>: <b>dieta + actividad + conductual</b> (base); <b>farmacos</b> "
+     "(GLP-1/GLP-GIP, etc.) si IMC &ge;30 o &ge;27 con comorbilidad; cirugia bariatrica si IMC &ge;40 o &ge;35 con "
+     "comorbilidad. Trato comorbilidades.",
+     "La obesidad es una enfermedad, no falta de voluntad. El plan combina alimentacion, actividad y habitos; hoy "
+     "hay medicamentos efectivos y, en casos seleccionados, cirugia. Vamos por metas realistas.",
+     "Una perdida del <b>5-10%</b> ya mejora TA, glucosa e higado graso. Tamiza comorbilidades (DM, SAOS, MASLD, "
+     "dislipidemia). Evita el juicio: la consejeria respetuosa mejora la adherencia.", C + ["obesidad"])
+
+core(deck_c, "Dermatitis (atopica / contacto / seborreica)",
+     "<b>Emolientes</b> (base) + <b>corticoide topico</b> en brote + <b>evitar el desencadenante/irritante</b>. "
+     "Antihistaminico para el prurito; antimicotico/azolico en la seborreica.",
+     "Es una inflamacion de la piel que da comezon y resequedad. La base es hidratar mucho la piel y usar una crema "
+     "con cortisona en los brotes, evitando lo que la irrita.",
+     "Sobreinfeccion (impetiginizacion: costra melicerica, exudado) &rarr; antibiotico. Evita corticoides potentes "
+     "en cara/pliegues de forma cronica.", C + ["dermatitis"])
+
+core(deck_c, "Acne",
+     "Escalono segun gravedad: <b>retinoide topico</b> &plusmn; <b>peroxido de benzoilo/antibiotico topico</b>; "
+     "moderado-grave: + antibiotico oral (ciclo limitado) u hormonal; <b>isotretinoina</b> (referir) en grave/"
+     "cicatrizal.",
+     "El acne se trata segun su intensidad con cremas y, si es necesario, pastillas. Tarda semanas en mejorar y hay "
+     "que ser constante; no exprimir las lesiones.",
+     "Isotretinoina es <b>teratogenica</b> (anticoncepcion estricta + control). Evita antibiotico topico en "
+     "monoterapia prolongada (resistencia).", C + ["acne"])
+
+
+# ===================== MENOS COMUNES (44) =====================
 menos(deck_m, "Bronquitis aguda",
       "<b>Sintomatico</b> (analgesico, hidratacion, antitusivo si molesta). <b>NO antibiotico</b> de rutina (es "
       "viral), aunque la tos dure 2-3 semanas.",
@@ -677,6 +757,62 @@ menos(deck_m, "VIH (tamizaje y abordaje inicial)",
       "efectivo que permite vivir sano; lo enlazo de inmediato con atencion especializada.",
       "Tamizaje universal al menos una vez (no solo 'grupos de riesgo'). PrEP previene en personas de alto riesgo. "
       "Cribar ITS y tuberculosis al diagnostico.", ["vih"])
+
+menos(deck_m, "Insomnio cronico",
+      "<b>Higiene del sueno + terapia cognitivo-conductual (TCC-I, 1a linea)</b>. Trato causa (ansiedad, depresion, "
+      "dolor, SAOS, cafeina/alcohol). Hipnotico solo a corto plazo y seleccionado.",
+      "Dormir mal de forma cronica se trata sobre todo cambiando habitos y con una terapia especifica del sueno, mas "
+      "efectiva y duradera que las pastillas. Buscamos si hay algo de fondo que lo cause.",
+      "Evita hipnoticos cronicos (dependencia, caidas en el adulto mayor). Descarta <b>SAOS</b> (ronquido + "
+      "somnolencia diurna) y depresion/ansiedad.", ["insomnio"])
+
+menos(deck_m, "Osteoporosis",
+      "<b>Calcio + vitamina D + ejercicio + dejar tabaco/alcohol</b> + prevencion de caidas. <b>Bifosfonato</b> "
+      "(1a linea) si alto riesgo (T-score &le;-2.5, fractura por fragilidad, FRAX alto). Tamizo con <b>DEXA</b>.",
+      "Es hueso fragil que se fractura facil. Reponemos calcio y vitamina D, hacemos ejercicio y prevenimos caidas; "
+      "si el riesgo es alto, un medicamento que fortalece el hueso.",
+      "Una <b>fractura por fragilidad</b> (cadera, vertebra, muneca con trauma minimo) define osteoporosis aunque la "
+      "DEXA no llegue a -2.5. Calcula riesgo con FRAX.", ["osteoporosis"])
+
+menos(deck_m, "Tina / dermatofitosis",
+      "<b>Antimicotico topico</b> (azol/terbinafina) en placas limitadas; <b>oral</b> si extensa, unas "
+      "(onicomicosis) o cuero cabelludo (tina capitis). Medidas de higiene/secado.",
+      "Es un hongo de la piel. Se trata con una crema antimicotica; si es muy extenso, en las unas o el cuero "
+      "cabelludo, se necesita tratamiento por boca, que es mas prolongado.",
+      "Placa <b>anular, borde activo descamativo, centro claro</b>, pruriginosa. NO uses corticoide solo (tina "
+      "incognito). Confirma con KOH si dudas.", ["tina"])
+
+menos(deck_m, "Cancer de piel / lesion pigmentada sospechosa (melanoma)",
+      "Aplico <b>ABCDE</b> (Asimetria, Bordes, Color, Diametro &gt;6 mm, Evolucion) + signo del 'patito feo'. "
+      "Lesion sospechosa &rarr; <b>referir para biopsia</b> (no la quemes/raspes). Fotoproteccion y educacion.",
+      "Reviso un lunar con datos de alarma. Si parece sospechoso, lo envio para tomar una biopsia y estudiarlo; "
+      "nunca lo destruyo sin diagnostico. La proteccion solar previene.",
+      "<b>Cambio</b> de un lunar (color, tamano, sangrado, prurito) o lesion que no cura = referir. No biopsies por "
+      "raspado/cauterio una lesion pigmentada (pierdes el estudio).", ["melanoma"])
+
+menos(deck_m, "Apnea obstructiva del sueno (SAOS)",
+      "<b>Cribo con STOP-BANG</b> + <b>polisomnografia</b> (referir). Tratamiento: <b>CPAP</b> + perdida de peso + "
+      "evitar alcohol/sedantes nocturnos + higiene postural. Trato comorbilidad CV.",
+      "Durante el sueno se cierra la via aerea y deja de respirar a ratos; por eso ronca y amanece cansado. El "
+      "tratamiento mas efectivo es un aparato (CPAP) que mantiene la via abierta, mas bajar de peso.",
+      "Triada: <b>ronquido + apneas presenciadas + somnolencia diurna</b>. Asociado a HTA resistente, FA, "
+      "accidentes. Pregunta por somnolencia al conducir.", ["saos"])
+
+menos(deck_m, "Insuficiencia venosa cronica / varices",
+      "<b>Medias de compresion</b> (pilar) + elevacion de piernas + ejercicio + cuidado de la piel. Referir para "
+      "procedimiento (ablacion/escleroterapia) si sintomatica o complicaciones (ulcera venosa).",
+      "Las venas de las piernas no devuelven bien la sangre: pesadez, hinchazon al final del dia y varices. Mejora "
+      "con medias de compresion, caminar y elevar las piernas.",
+      "<b>Ulcera venosa</b> (maleolo interno, bordes irregulares, dermatitis ocre) &rarr; compresion (tras descartar "
+      "arterial con ITB). Edema unilateral agudo + dolor = descarta TVP.", ["insuf_venosa"])
+
+menos(deck_m, "Enfermedad arterial periferica (EAP)",
+      "<b>Dejar de fumar</b> (clave) + <b>estatina + antiagregante</b> + control de TA/DM + <b>ejercicio supervisado</b>. "
+      "Cilostazol para la claudicacion. Referir si isquemia critica (dolor de reposo, ulcera, gangrena).",
+      "Las arterias de las piernas estan estrechas y por eso duele al caminar (claudicacion). Lo que mas ayuda es "
+      "dejar de fumar, caminar de forma programada y proteger las arterias con medicamento.",
+      "<b>ITB &le;0.9</b> confirma. Es marcador de riesgo CV global (trata como ECV establecida). Dolor de reposo/"
+      "ulcera/gangrena = <b>isquemia critica</b> (urgencia vascular).", ["eap"])
 
 
 def build():

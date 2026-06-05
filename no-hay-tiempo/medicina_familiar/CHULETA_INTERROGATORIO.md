@@ -26,6 +26,10 @@
 
 **8. Crónico / control y prevención** → **apego** · control de cifras · síntomas de daño de órgano · hábitos (tabaco/alcohol/dieta) · **tamizaje y vacunas al día** · ánimo · red de apoyo.
 
+**9. Ánimo / sueño / emocional** → **ánimo y anhedonia (PHQ-9)** · **ansiedad/preocupación (GAD-7)** · sueño · apetito/peso · energía · **ideación suicida (SIEMPRE)** · alcohol/sustancias · estresores · orgánico (tiroides, anemia).
+
+**10. Dolor / inflamación articular** → patrón (mono/poli) · **mecánico vs inflamatorio** (rigidez matutina) · agudo vs crónico · **signos inflamatorios** (rubor/calor) · fiebre · trauma · dieta/alcohol/diuréticos.
+
 ---
 
 ## LLAVES COMUNES (core) — la pregunta que fija el dx
@@ -54,6 +58,11 @@
 | Fatiga + frío + ↑peso + estreñimiento | **¿Piel seca, bradipsiquia? ¿antecedente tiroideo?** | Hipotiroidismo |
 | Poliuria + polidipsia + ↓peso | **¿Sed/orina/visión borrosa crónicas?** | Diabetes tipo 2 |
 | Astenia + palidez | **¿Melena? ¿menstruación abundante? ¿dieta?** | Anemia (ferropénica) |
+| Ánimo bajo + anhedonia ≥2 sem | **¿Sueño/apetito/energía/culpa? ¿ideación suicida?** | Depresión |
+| Preocupación excesiva incontrolable ≥6 m | **¿Inquietud/tensión/insomnio? ¿cafeína/tiroides?** | Ansiedad (TAG) |
+| Dolor articular mecánico + rigidez <30 min | **¿Peor al usar, mejor en reposo? ¿crepito?** | Osteoartritis |
+| Articulación roja nocturna (1er dedo pie) | **¿Inicio agudo? ¿alcohol/carnes/diuréticos?** | Gota |
+| Placas pruriginosas + piel seca recurrentes | **¿Pliegues (atópica)/contacto/grasa cara (seborreica)?** | Dermatitis |
 
 ---
 
@@ -64,12 +73,15 @@
 **Cardio:** Pericarditis (mejora inclinado adelante + frote) · Estenosis aórtica (**síncope/angina de esfuerzo** + soplo eyectivo) · TVP (pierna unilateral hinchada/caliente) · Síncope (vasovagal con pródromos vs **rojo**: esfuerzo/supino/palpitaciones).
 **Digestivo (crónico):** Celíaca (diarrea crónica + ↓peso + anemia que no responde a hierro; mejora sin gluten) · EII (**diarrea crónica CON sangre** + ↓peso + extraintestinal) · Estreñimiento con banderas (de novo >50 a + sangrado/↓peso → colonoscopia) · Diarrea crónica (>4 sem; calprotectina separa SII de EII) · Disfagia con banderas (progresiva a sólidos en mayor/fumador → Ca eso-gástrico). *(Abdomen agudo quirúrgico → deck de Cirugía.)*
 **Neuro:** EVC (**déficit focal súbito**, hora de inicio) · Cefalea red flag (**trueno / fiebre+rigidez / >50 de novo / focal / papiledema**).
-**MSK/GU:** Cauda equina (**retención + anestesia en silla + déficit bilateral**) · Ciática (irradia bajo la rodilla + Lasegue) · HPB (LUTS de vaciado en varón mayor).
+**MSK/óseo/GU:** Cauda equina (**retención + anestesia en silla + déficit bilateral**) · Ciática (irradia bajo la rodilla + Lasegue) · Osteoporosis (**fractura por fragilidad** con trauma mínimo) · HPB (LUTS de vaciado en varón mayor).
+**Salud mental/sueño:** Insomnio crónico (≥3 noches/sem + repercusión diurna; descartar SAOS) · SAOS (**ronquido + apneas presenciadas + somnolencia diurna**, STOP-BANG).
+**Dermatología:** Tiña (**placa anular, borde activo, centro claro**) · Melanoma (lunar que cambia, **ABCDE** / "patito feo").
+**Vascular/renal:** EAP (**claudicación** que cede al detenerse; pulsos ↓, ITB ≤0.9) · Insuficiencia venosa (pesadez/edema vespertino + varices) · ERC (creatinina↑/albuminuria en control, asintomática).
 
 ---
 
 ### Plan <3 días
-1. **Hoy:** los **8 troncos** en voz alta + el reflejo "signos vitales / ¿banderas rojas? / ¿prevención al día?".
-2. **Hoy:** la tabla de **llaves core** (19). Reconocimiento, no memoria bruta.
+1. **Hoy:** los **10 troncos** en voz alta + el reflejo "signos vitales / ¿banderas rojas? / ¿prevención al día?".
+2. **Hoy:** la tabla de **llaves core** (27). Reconocimiento, no memoria bruta.
 3. **Mañana:** simula 5-6 casos: tronco → llave → dx → engancha el manejo (verbalizo/conducta/red flag) y la decisión **ambulatorio vs referir**.
 4. **Día 3:** las **menos preguntadas** (sobre todo las urgencias y banderas: EVC, cauda equina, cefalea red flag, neumotórax a tensión).
