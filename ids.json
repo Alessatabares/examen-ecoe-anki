@@ -1,1046 +1,1136 @@
 {
-  "models": {
-    "cloze_estandar": 1607392319,
-    "qa_estandar": 1607392320,
-    "_comentario": "MODEL_IDs reusables. cloze_estandar para Capas cloze; qa_estandar para Capas 5+, Patrones Madre y otros Q&A. No cambiar."
-  },
-  "decks": [
-    {
-      "tema": "RCP",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1379129479,
-      "deck_name": "RCP Adulto::Capa 1 - Flujo Macro",
-      "guia": "AHA 2025",
-      "output": "rcp/output/RCP_Adulto_Capa1.apkg",
-      "notas": 22
-    },
-    {
-      "tema": "RCP",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1184050405,
-      "deck_name": "RCP Adulto::Capa 2 - Componentes",
-      "guia": "AHA 2025",
-      "output": "rcp/output/RCP_Adulto_Capa2.apkg",
-      "notas": 26
-    },
-    {
-      "tema": "RCP",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1824168378,
-      "deck_name": "RCP Adulto::Capa 3 - Ejes",
-      "guia": "AHA 2025",
-      "output": "rcp/output/RCP_Adulto_Capa3.apkg",
-      "notas": 26
-    },
-    {
-      "tema": "RCP",
-      "audiencia": "Adulto",
-      "capa": "verbalizacion",
-      "deck_id": 1502938476,
-      "deck_name": "RCP Adulto::Verbalización ECOE",
-      "guia": "AHA 2025",
-      "output": "rcp/output/RCP_Adulto_VerbalizacionECOE.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Otoscopia",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1567432891,
-      "deck_name": "Otoscopia Adulto::Capa 1 - Flujo Macro",
-      "guia": "AAO-HNS / AAP",
-      "output": "otoscopia/output/Otoscopia_Adulto_Capa1.apkg",
-      "notas": 22
-    },
-    {
-      "tema": "Otoscopia",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1729384650,
-      "deck_name": "Otoscopia Adulto::Capa 2 - Componentes",
-      "guia": "AAO-HNS / AAP",
-      "output": "otoscopia/output/Otoscopia_Adulto_Capa2.apkg",
-      "notas": 14
-    },
-    {
-      "tema": "Otoscopia",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1456789123,
-      "deck_name": "Otoscopia Adulto::Capa 3 - Ejes",
-      "guia": "AAO-HNS / AAP",
-      "output": "otoscopia/output/Otoscopia_Adulto_Capa3.apkg",
-      "notas": 25
-    },
-    {
-      "tema": "Otoscopia",
-      "audiencia": "Adulto",
-      "capa": "verbalizacion",
-      "deck_id": 1389254671,
-      "deck_name": "Otoscopia Adulto::Verbalización ECOE",
-      "guia": "AAO-HNS / AAP",
-      "output": "otoscopia/output/Otoscopia_Adulto_VerbalizacionECOE.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Pediátrico",
-      "capa": 1,
-      "deck_id": 1404571352,
-      "deck_name": "Ruidos Cardiacos Pediátrico::Capa 1 - Flujo Macro",
-      "guia": "AHA",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa1.apkg",
-      "notas": 27
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1813889052,
-      "deck_name": "Ruidos Cardiacos Adulto::Capa 1 - Flujo Macro",
-      "guia": "AHA/ACC 2020",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa1.apkg",
-      "notas": 28
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Pediátrico",
-      "capa": 2,
-      "deck_id": 1577267608,
-      "deck_name": "Ruidos Cardiacos Pediátrico::Capa 2 - Componentes",
-      "guia": "AHA (Jones 2015, screening neonatal)",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa2.apkg",
-      "notas": 20
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1695400845,
-      "deck_name": "Ruidos Cardiacos Adulto::Capa 2 - Componentes",
-      "guia": "AHA/ACC 2020 + Duke modificados + AHA endocarditis prophylaxis",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa2.apkg",
-      "notas": 21
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Pediátrico",
-      "capa": 3,
-      "deck_id": 1406304186,
-      "deck_name": "Ruidos Cardiacos Pediátrico::Capa 3 - Ejes",
-      "guia": "AHA scientific statements (cardiopatías congénitas, Jones 2015)",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa3.apkg",
-      "notas": 23
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1179866901,
-      "deck_name": "Ruidos Cardiacos Adulto::Capa 3 - Ejes",
-      "guia": "AHA/ACC 2020 + AHA endocarditis",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa3.apkg",
-      "notas": 20
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Adulto",
-      "capa": "verbalizacion",
-      "deck_id": 1623891054,
-      "deck_name": "Ruidos Cardiacos Adulto::Verbalización ECOE",
-      "guia": "AHA/ACC 2020 + Duke modificados",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_VerbalizacionECOE.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Ruidos Cardiacos",
-      "audiencia": "Pediátrico",
-      "capa": "verbalizacion",
-      "deck_id": 1746203185,
-      "deck_name": "Ruidos Cardiacos Pediátrico::Verbalización ECOE",
-      "guia": "AHA Jones 2015 + screening neonatal pulsioximetría + cardiopatías congénitas",
-      "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_VerbalizacionECOE.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1794603832,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 1 - Reconocimiento de Patron",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa1.apkg",
-      "notas": 40
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1117503696,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 2 - Exploracion Verbalizada",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa2.apkg",
-      "notas": 35
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 2128563382,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 3 - Interpretacion de Estudios",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa3.apkg",
-      "notas": 40
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1409388293,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 4 - Manejo",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa4.apkg",
-      "notas": 46
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 5,
-      "deck_id": 2079099594,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 5 - Integrador de Discriminador Clinico",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa5_Integrador.apkg",
-      "notas": 46
-    },
-    {
-      "tema": "Gineco-Obstetricia",
-      "audiencia": "Adulto",
-      "capa": 6,
-      "deck_id": 1178771173,
-      "deck_name": "Gineco-Obstetricia Adulto::Capa 6 - Eje Clinico",
-      "guia": "GPC mexicanas + ACOG + Williams",
-      "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa6_EjeClinico.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1366039575,
-      "deck_name": "Medicina Familiar Adulto::Capa 1 - Imagen Viva",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa1.apkg",
-      "notas": 25
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1990608935,
-      "deck_name": "Medicina Familiar Adulto::Capa 2 - Exploracion Dirigida",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa2.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1185531197,
-      "deck_name": "Medicina Familiar Adulto::Capa 3 - Estudios e Interpretacion",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa3.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1507672676,
-      "deck_name": "Medicina Familiar Adulto::Capa 4 - Diferenciales Rapidos",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa4.apkg",
-      "notas": 35
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 5,
-      "deck_id": 1095533052,
-      "deck_name": "Medicina Familiar Adulto::Capa 5 - Tratamiento Practico",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa5.apkg",
-      "notas": 39
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 6,
-      "deck_id": 1184046378,
-      "deck_name": "Medicina Familiar Adulto::Capa 6 - Integrador de Discriminador Clinico",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa6_Integrador.apkg",
-      "notas": 59
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": 7,
-      "deck_id": 1897089931,
-      "deck_name": "Medicina Familiar Adulto::Capa 7 - Eje Clinico",
-      "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa7_EjeClinico.apkg",
-      "notas": 29
-    },
-    {
-      "tema": "Cirugia",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1866373995,
-      "deck_name": "Cirugia Adulto::Capa 1 - Reconocimiento de Patron Quirurgico",
-      "guia": "ATLS 10a ed + Tokyo Guidelines 2018/2024 + WSES + ACG 2021/2024 + IDSA/SIS + Surviving Sepsis 2021 + ACOG + SVS 2018 + UpToDate",
-      "output": "cirugia/output/Cirugia_Adulto_Capa1.apkg",
-      "notas": 40
-    },
-    {
-      "tema": "Cirugia",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1481697194,
-      "deck_name": "Cirugia Adulto::Capa 2 - Exploracion y ATLS Verbalizado",
-      "guia": "ATLS 10a ed (ACS) + UpToDate",
-      "output": "cirugia/output/Cirugia_Adulto_Capa2.apkg",
-      "notas": 35
-    },
-    {
-      "tema": "Cirugia",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1796015227,
-      "deck_name": "Cirugia Adulto::Capa 3 - Interpretacion de Estudios",
-      "guia": "ATLS 10a + Atlanta revisada (pancreatitis) + Tokyo 2018/2024 + ACG + UpToDate",
-      "output": "cirugia/output/Cirugia_Adulto_Capa3.apkg",
-      "notas": 35
-    },
-    {
-      "tema": "Cirugia",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1705364983,
-      "deck_name": "Cirugia Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
-      "guia": "ATLS 10a + Tokyo 2018/2024 + WSES + ACG 2021/2024 + IDSA 2010 + SIS 2017 + Surviving Sepsis 2021 + ACOG/ASRM + SVS 2018 + SAGES + UpToDate",
-      "output": "cirugia/output/Cirugia_Adulto_Capa4.apkg",
-      "notas": 50
-    },
-    {
-      "tema": "Medicina Interna",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1465810910,
-      "deck_name": "Medicina Interna Adulto::Capa 1 - Reconocimiento de Patron Internista",
-      "guia": "ACC/AHA 2017 HTA + AHA 2018 lipidos + ACC/AHA 2023 IC + ACC/AHA 2023 ACS + ACC/AHA 2019 FA + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + SSC 2021 + USPSTF + UpToDate",
-      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa1.apkg",
-      "notas": 45
-    },
-    {
-      "tema": "Medicina Interna",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1137569095,
-      "deck_name": "Medicina Interna Adulto::Capa 2 - Exploracion Dirigida y Calculadoras",
-      "guia": "ACC/AHA + ADA 2025 + KDIGO + Duke + Keith-Wagener + ACR + UpToDate",
-      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa2.apkg",
-      "notas": 35
-    },
-    {
-      "tema": "Medicina Interna",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1306015269,
-      "deck_name": "Medicina Interna Adulto::Capa 3 - Interpretacion de Estudios",
-      "guia": "AHA 2018 lipidos + ADA 2025 + KDIGO 2024 + AASLD + Sokolow/Cornell + CKD-EPI + Winter + Sepsis-3 + UpToDate",
-      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa3.apkg",
-      "notas": 40
-    },
-    {
-      "tema": "Medicina Interna",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1710703980,
-      "deck_name": "Medicina Interna Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
-      "guia": "ACC/AHA 2017+2018+2022+2023 + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + Surviving Sepsis 2021 + USPSTF + CDC/ACIP + UpToDate",
-      "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa4.apkg",
-      "notas": 55
-    },
-    {
-      "tema": "Patrones Madre",
-      "audiencia": "Mixto",
-      "capa": "shock_1",
-      "deck_id": 2096096757,
-      "deck_name": "Patrones Madre::Shock 1",
-      "guia": "ATLS 10a + Surviving Sepsis 2021 + Parkland (ABA) + UpToDate + AAP",
-      "output": "patrones_madre/output/Patrones_Madre_Shock_1.apkg",
-      "notas": 13,
-      "subcausas": [
-        "gi",
-        "hemorragico",
-        "quemaduras",
-        "pediatrico"
-      ],
-      "rama_shock": "hipovolemico"
-    },
-    {
-      "tema": "Patrones Madre",
-      "audiencia": "Mixto",
-      "capa": "shock_2",
-      "deck_id": 1135155371,
-      "deck_name": "Patrones Madre::Shock 2",
-      "guia": "Surviving Sepsis 2021 + Tokyo Guidelines 2018/2024 + IDSA + ACOG + AAP/NICE neonatal sepsis + UpToDate",
-      "output": "patrones_madre/output/Patrones_Madre_Shock_2.apkg",
-      "notas": 19,
-      "subcausas": [
-        "neumonia",
-        "pielonefritis",
-        "colangitis",
-        "peritonitis",
-        "endometritis",
-        "sepsis_neonatal"
-      ],
-      "rama_shock": "septico_distributivo"
-    },
-    {
-      "tema": "Patrones Madre",
-      "audiencia": "Mixto",
-      "capa": "shock_3",
-      "deck_id": 1734892056,
-      "deck_name": "Patrones Madre::Shock 3",
-      "guia": "ACC/AHA 2023 SCA + ACC/AHA 2022 IC + ACLS 2020 + ESC 2023 + UpToDate",
-      "output": "patrones_madre/output/Patrones_Madre_Shock_3.apkg",
-      "notas": 10,
-      "subcausas": [
-        "iam",
-        "arritmia",
-        "ic_aguda"
-      ],
-      "rama_shock": "cardiogenico"
-    },
-    {
-      "tema": "Patrones Madre",
-      "audiencia": "Mixto",
-      "capa": "shock_4",
-      "deck_id": 1428675319,
-      "deck_name": "Patrones Madre::Shock 4",
-      "guia": "ESC 2019 TEP + ATLS 10a + AHA/ACC pericardio + ACEP USG + UpToDate",
-      "output": "patrones_madre/output/Patrones_Madre_Shock_4.apkg",
-      "notas": 10,
-      "subcausas": [
-        "tep",
-        "neumotorax_tension",
-        "taponamiento"
-      ],
-      "rama_shock": "obstructivo"
-    },
-    {
-      "tema": "Patrones Madre",
-      "audiencia": "Mixto",
-      "capa": "shock_5",
-      "deck_id": 1593847062,
-      "deck_name": "Patrones Madre::Shock 5 - Mapa por Estacion",
-      "guia": "Surviving Sepsis 2021 + ATLS 10a + ACC/AHA + ACOG + AAP + OMS dengue + UpToDate",
-      "output": "patrones_madre/output/Patrones_Madre_Shock_5.apkg",
-      "notas": 32,
-      "escenarios": 16,
-      "estaciones": [
-        "medicina_interna",
-        "cirugia",
-        "gineco_obstetricia",
-        "pediatria"
-      ],
-      "formato": "dual (clinica->dx + dx->manejo)",
-      "rama_shock": "integrador"
-    },
-    {
-      "tema": "Preparacion Verbalizada",
-      "audiencia": "Mixto",
-      "capa": "deck1_interrogatorio_universal",
-      "deck_id": 1647829513,
-      "deck_name": "Preparación Verbalizada::Deck 1 - Interrogatorio Universal",
-      "guia": "Bates 13a + Calgary-Cambridge + USPSTF 2025 + ACIP 2025 + ACOG + Williams 26a + ATLS 10a + DSM-5-TR + Columbia C-SSRS + AAP Bright Futures 2022 + AUDIT/CAGE + NOM-004-SSA3 + UpToDate",
-      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck1_Interrogatorio_Universal.apkg",
-      "notas": 41
-    },
-    {
-      "tema": "Preparacion Verbalizada",
-      "audiencia": "Mixto",
-      "capa": "deck2_exploracion_basica",
-      "deck_id": 1582740396,
-      "deck_name": "Preparación Verbalizada::Deck 2 - Exploración Física Básica",
-      "guia": "Bates 13a + ATLS 10a + ACC/AHA 2017+2020 + Sepsis-3 + Tokyo Guidelines 2024 + Alvarado + ACOG + Williams 26a + AAP Bright Futures 2022 + Glasgow + GALS (Doherty 1992) + MRC + ADA 2025 + UpToDate",
-      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck2_Exploracion_Basica.apkg",
-      "notas": 25
-    },
-    {
-      "tema": "Preparacion Verbalizada",
-      "audiencia": "Mixto",
-      "capa": "deck4_estudios_basicos",
-      "deck_id": 1736284091,
-      "deck_name": "Preparación Verbalizada::Deck 4 - Estudios Básicos",
-      "guia": "ADA 2025 + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + Atlanta revisada 2012 + Ranson + BISAP + TG24 + Alvarado + ATA 2014-2017 + IADPSG + ACOG + USPSTF 2024-2025 + ACIP 2025 + AAP Bright Futures 2022 + APA Practice Guidelines + ATLS 10a + Surviving Sepsis 2021 + ESC SICA 2023 + Williams 26a + UpToDate",
-      "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck4_Estudios_Basicos.apkg",
-      "notas": 32
-    },
-    {
-      "tema": "Urgencias",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1311472058,
-      "deck_name": "Urgencias Adulto::Capa 1 - Flujo Macro",
-      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
-      "output": "urgencias/output/Urgencias_Adulto_Capa1.apkg",
-      "notas": 37
-    },
-    {
-      "tema": "Urgencias",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1322556677,
-      "deck_name": "Urgencias Adulto::Capa 2 - Componentes",
-      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
-      "output": "urgencias/output/Urgencias_Adulto_Capa2.apkg",
-      "notas": 29
-    },
-    {
-      "tema": "Urgencias",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1433667788,
-      "deck_name": "Urgencias Adulto::Capa 3 - Ejes",
-      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
-      "output": "urgencias/output/Urgencias_Adulto_Capa3.apkg",
-      "notas": 13
-    },
-    {
-      "tema": "Urgencias",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1544778899,
-      "deck_name": "Urgencias Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
-      "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
-      "output": "urgencias/output/Urgencias_Adulto_Capa4.apkg",
-      "notas": 13
-    },
-    {
-      "tema": "Pediatria",
-      "audiencia": "Pediátrico",
-      "capa": 1,
-      "deck_id": 1611472033,
-      "deck_name": "Pediatria Pediátrico::Capa 1 - Flujo Macro",
-      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
-      "output": "pediatria/output/Pediatria_Pediatrico_Capa1.apkg",
-      "notas": 42
-    },
-    {
-      "tema": "Pediatria",
-      "audiencia": "Pediátrico",
-      "capa": 2,
-      "deck_id": 1622556641,
-      "deck_name": "Pediatria Pediátrico::Capa 2 - Componentes",
-      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
-      "output": "pediatria/output/Pediatria_Pediatrico_Capa2.apkg",
-      "notas": 22
-    },
-    {
-      "tema": "Pediatria",
-      "audiencia": "Pediátrico",
-      "capa": 3,
-      "deck_id": 1633667722,
-      "deck_name": "Pediatria Pediátrico::Capa 3 - Ejes",
-      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
-      "output": "pediatria/output/Pediatria_Pediatrico_Capa3.apkg",
-      "notas": 10
-    },
-    {
-      "tema": "Pediatria",
-      "audiencia": "Pediátrico",
-      "capa": 4,
-      "deck_id": 1644778833,
-      "deck_name": "Pediatria Pediátrico::Capa 4 - Manejo y Diagnostico Diferencial",
-      "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
-      "output": "pediatria/output/Pediatria_Pediatrico_Capa4.apkg",
-      "notas": 11
-    },
-    {
-      "tema": "Control del Paciente Cronico",
-      "audiencia": "Adulto",
-      "capa": 1,
-      "deck_id": 1928374650,
-      "deck_name": "Control del Paciente Cronico Adulto::Capa 1 - Estratificacion",
-      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
-      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
-      "notas": 22
-    },
-    {
-      "tema": "Control del Paciente Cronico",
-      "audiencia": "Adulto",
-      "capa": 2,
-      "deck_id": 1837465029,
-      "deck_name": "Control del Paciente Cronico Adulto::Capa 2 - Metas y Monitoreo",
-      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
-      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
-      "notas": 22
-    },
-    {
-      "tema": "Control del Paciente Cronico",
-      "audiencia": "Adulto",
-      "capa": 3,
-      "deck_id": 1746528390,
-      "deck_name": "Control del Paciente Cronico Adulto::Capa 3 - Manejo y Transiciones",
-      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
-      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
-      "notas": 20
-    },
-    {
-      "tema": "Control del Paciente Cronico",
-      "audiencia": "Adulto",
-      "capa": 4,
-      "deck_id": 1659302847,
-      "deck_name": "Control del Paciente Cronico Adulto::Capa 4 - Casos Integradores",
-      "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
-      "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
-      "notas": 6
-    },
-    {
-      "tema": "Medicina Interna",
-      "audiencia": "Adulto",
-      "capa": "integrador",
-      "deck_id": 1573829104,
-      "deck_name": "Medicina Interna Adulto::Integrador - Clasificaciones",
-      "guia": "Derivado de Capa 1 (ACC/AHA SCA/IC/HTA + ADA + KDIGO + Sepsis-3 + CURB-65 + Duke + Anthonisen + Wells + ATA + UpToDate)",
-      "output": "medicina_interna/output/Medicina_Interna_Adulto_Integrador.apkg",
-      "notas": 23
-    },
-    {
-      "tema": "Cirugia",
-      "audiencia": "Adulto",
-      "capa": "integrador",
-      "deck_id": 1490337261,
-      "deck_name": "Cirugia Adulto::Integrador - Clasificaciones",
-      "guia": "Derivado de Capa 1 (ATLS 10a + Tokyo 2018 + Atlanta revisada + Alvarado + Hinchey + Forrest + Stanford + Surviving Sepsis 2021); verificado adversarialmente",
-      "output": "cirugia/output/Cirugia_Adulto_Integrador.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "Medicina Familiar",
-      "audiencia": "Adulto",
-      "capa": "integrador",
-      "deck_id": 1382947561,
-      "deck_name": "Medicina Familiar Adulto::Integrador - Clasificaciones",
-      "guia": "Derivado de Capa 1 (GINA 2025 + GOLD 2025 + CURB-65/IDSA + Centor + sinusitis IDSA + ICHD-3 + red flags lumbalgia + ATA + USPSTF + OMS); verificado adversarialmente",
-      "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Integrador.apkg",
-      "notas": 12
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "01 - Topografico",
-      "deck_id": 1290110011,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 01 - Topografico",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "02 - Vascular",
-      "deck_id": 1290220022,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 02 - Vascular",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "03 - Infeccioso",
-      "deck_id": 1290330033,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 03 - Infeccioso",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "04 - Metabolico-Endocrino",
-      "deck_id": 1290440044,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 04 - Metabolico-Endocrino",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "05 - Degenerativo",
-      "deck_id": 1290550055,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 05 - Degenerativo",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "06 - Congenito",
-      "deck_id": 1290660066,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 06 - Congenito",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "07 - Traumatico",
-      "deck_id": 1290770077,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 07 - Traumatico",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "08 - Autoinmune-Inflamatorio",
-      "deck_id": 1290880088,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 08 - Autoinmune-Inflamatorio",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "09 - Neoplasico",
-      "deck_id": 1290990099,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 09 - Neoplasico",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Ejes Diagnosticos",
-      "audiencia": "Adulto",
-      "capa": "10 - Toxico-Farmacologico",
-      "deck_id": 1291010101,
-      "deck_name": "Ejes Diagnosticos Adulto::Eje 10 - Toxico-Farmacologico",
-      "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
-      "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
-      "notas": 19
-    },
-    {
-      "tema": "Simulaciones",
-      "audiencia": "Gine",
-      "capa": "repaso1",
-      "deck_id": 2059400110,
-      "deck_name": "Simulaciones::Gine - Repaso 1",
-      "guia": "GPC mexicanas + CDC STI 2021 + ACOG",
-      "output": "simulaciones/simulacion-1-gine/simulacion-1-gine.apkg",
-      "notas": 36
-    },
-    {
-      "tema": "Simulaciones",
-      "audiencia": "Familiar-ORL",
-      "capa": "repaso2",
-      "deck_id": 2061700220,
-      "deck_name": "Simulaciones::Familiar ORL - Repaso 2",
-      "guia": "GPC mexicanas medicina familiar (ORL/tiroides)",
-      "output": "simulaciones/simulacion-2-familiar-orl/simulacion-2-familiar-orl.apkg",
-      "notas": 33
-    },
-    {
-      "tema": "Simulaciones",
-      "audiencia": "Trauma-Cirugia",
-      "capa": "repaso3",
-      "deck_id": 2063900330,
-      "deck_name": "Simulaciones::Trauma Cirugía - Repaso 3",
-      "guia": "ATLS 11a ed. (2024) + guia europea de hemorragia mayor 6a ed. (2023)",
-      "output": "simulaciones/simulacion-3-trauma-cirugia/simulacion-3-trauma-cirugia.apkg",
-      "notas": 30
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990001001,
-      "deck_name": "No hay tiempo::Ginecologia::1 - Ejes (madre)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/01_Ejes_madre.apkg",
-      "notas": 7
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990001002,
-      "deck_name": "No hay tiempo::Ginecologia::2 - Manejos trampa (core)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/02_Manejos_trampa_core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990001003,
-      "deck_name": "No hay tiempo::Ginecologia::3 - Menos preguntados",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/03_Menos_preguntados.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990001011,
-      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::1 - Troncos (ejes)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_01_Troncos.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990001012,
-      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::2 - Llaves comunes (core)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_02_Llaves_core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990001013,
-      "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::3 - Llaves menos preguntadas",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_03_Llaves_menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990001021,
-      "deck_name": "No hay tiempo::Ginecologia::Estudios::1 - Discriminadores (herramienta)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Estudios_01_Discriminadores.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990001022,
-      "deck_name": "No hay tiempo::Ginecologia::Estudios::2 - Paneles (por enfermedad)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Estudios_02_Paneles.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Ginecologia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990001023,
-      "deck_name": "No hay tiempo::Ginecologia::Estudios::3 - Menos preguntados",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/ginecologia/output/Estudios_03_Menos_preguntados.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990003001,
-      "deck_name": "No hay tiempo::Obstetricia::1 - Ejes (madre)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Manejo_01_Ejes.apkg",
-      "notas": 7
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990003002,
-      "deck_name": "No hay tiempo::Obstetricia::2 - Manejos trampa (core)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Manejo_02_Core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990003003,
-      "deck_name": "No hay tiempo::Obstetricia::3 - Menos preguntados",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Manejo_03_Menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990003011,
-      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::1 - Troncos (ejes)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_01_Troncos.apkg",
-      "notas": 7
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990003012,
-      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::2 - Llaves comunes (core)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_02_Llaves_core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990003013,
-      "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::3 - Llaves menos preguntadas",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_03_Llaves_menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990003021,
-      "deck_name": "No hay tiempo::Obstetricia::Estudios::1 - Discriminadores (herramienta)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Estudios_01_Discriminadores.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990003022,
-      "deck_name": "No hay tiempo::Obstetricia::Estudios::2 - Paneles (por enfermedad)",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Estudios_02_Paneles.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Obstetricia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990003023,
-      "deck_name": "No hay tiempo::Obstetricia::Estudios::3 - Menos preguntados",
-      "guia": "GPC MX / ACOG / Williams",
-      "output": "no-hay-tiempo/obstetricia/output/Estudios_03_Menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990005001,
-      "deck_name": "No hay tiempo::Cirugia::1 - Ejes / patrones madre",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Manejo_01_Ejes.apkg",
-      "notas": 7
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990005002,
-      "deck_name": "No hay tiempo::Cirugia::2 - Manejos comunes (core)",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Manejo_02_Core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "manejo",
-      "deck_id": 1990005003,
-      "deck_name": "No hay tiempo::Cirugia::3 - Menos comunes",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Manejo_03_Menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990005011,
-      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::1 - Troncos (ejes)",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_01_Troncos.apkg",
-      "notas": 7
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990005012,
-      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::2 - Llaves comunes (core)",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_02_Llaves_core.apkg",
-      "notas": 18
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "interrogatorio",
-      "deck_id": 1990005013,
-      "deck_name": "No hay tiempo::Cirugia::Interrogatorio::3 - Llaves menos comunes",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Interrogatorio_03_Llaves_menos.apkg",
-      "notas": 17
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990005021,
-      "deck_name": "No hay tiempo::Cirugia::Estudios::1 - Discriminadores (herramienta)",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Estudios_01_Discriminadores.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990005022,
-      "deck_name": "No hay tiempo::Cirugia::Estudios::2 - Paneles (por entidad)",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Estudios_02_Paneles.apkg",
-      "notas": 8
-    },
-    {
-      "tema": "No hay tiempo - Cirugia",
-      "audiencia": "Adulto",
-      "capa": "estudios",
-      "deck_id": 1990005023,
-      "deck_name": "No hay tiempo::Cirugia::Estudios::3 - Signos y scores",
-      "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
-      "output": "no-hay-tiempo/cirugia/output/Estudios_03_Signos_scores.apkg",
-      "notas": 17
-    }
-  ]
+    "models": {
+        "cloze_estandar": 1607392319,
+        "qa_estandar": 1607392320,
+        "_comentario": "MODEL_IDs reusables. cloze_estandar para Capas cloze; qa_estandar para Capas 5+, Patrones Madre y otros Q&A. No cambiar."
+    },
+    "decks": [
+        {
+            "tema": "RCP",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1379129479,
+            "deck_name": "RCP Adulto::Capa 1 - Flujo Macro",
+            "guia": "AHA 2025",
+            "output": "rcp/output/RCP_Adulto_Capa1.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "RCP",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1184050405,
+            "deck_name": "RCP Adulto::Capa 2 - Componentes",
+            "guia": "AHA 2025",
+            "output": "rcp/output/RCP_Adulto_Capa2.apkg",
+            "notas": 26
+        },
+        {
+            "tema": "RCP",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1824168378,
+            "deck_name": "RCP Adulto::Capa 3 - Ejes",
+            "guia": "AHA 2025",
+            "output": "rcp/output/RCP_Adulto_Capa3.apkg",
+            "notas": 26
+        },
+        {
+            "tema": "RCP",
+            "audiencia": "Adulto",
+            "capa": "verbalizacion",
+            "deck_id": 1502938476,
+            "deck_name": "RCP Adulto::Verbalización ECOE",
+            "guia": "AHA 2025",
+            "output": "rcp/output/RCP_Adulto_VerbalizacionECOE.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Otoscopia",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1567432891,
+            "deck_name": "Otoscopia Adulto::Capa 1 - Flujo Macro",
+            "guia": "AAO-HNS / AAP",
+            "output": "otoscopia/output/Otoscopia_Adulto_Capa1.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "Otoscopia",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1729384650,
+            "deck_name": "Otoscopia Adulto::Capa 2 - Componentes",
+            "guia": "AAO-HNS / AAP",
+            "output": "otoscopia/output/Otoscopia_Adulto_Capa2.apkg",
+            "notas": 14
+        },
+        {
+            "tema": "Otoscopia",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1456789123,
+            "deck_name": "Otoscopia Adulto::Capa 3 - Ejes",
+            "guia": "AAO-HNS / AAP",
+            "output": "otoscopia/output/Otoscopia_Adulto_Capa3.apkg",
+            "notas": 25
+        },
+        {
+            "tema": "Otoscopia",
+            "audiencia": "Adulto",
+            "capa": "verbalizacion",
+            "deck_id": 1389254671,
+            "deck_name": "Otoscopia Adulto::Verbalización ECOE",
+            "guia": "AAO-HNS / AAP",
+            "output": "otoscopia/output/Otoscopia_Adulto_VerbalizacionECOE.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Pediátrico",
+            "capa": 1,
+            "deck_id": 1404571352,
+            "deck_name": "Ruidos Cardiacos Pediátrico::Capa 1 - Flujo Macro",
+            "guia": "AHA",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa1.apkg",
+            "notas": 27
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1813889052,
+            "deck_name": "Ruidos Cardiacos Adulto::Capa 1 - Flujo Macro",
+            "guia": "AHA/ACC 2020",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa1.apkg",
+            "notas": 28
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Pediátrico",
+            "capa": 2,
+            "deck_id": 1577267608,
+            "deck_name": "Ruidos Cardiacos Pediátrico::Capa 2 - Componentes",
+            "guia": "AHA (Jones 2015, screening neonatal)",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa2.apkg",
+            "notas": 20
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1695400845,
+            "deck_name": "Ruidos Cardiacos Adulto::Capa 2 - Componentes",
+            "guia": "AHA/ACC 2020 + Duke modificados + AHA endocarditis prophylaxis",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa2.apkg",
+            "notas": 21
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Pediátrico",
+            "capa": 3,
+            "deck_id": 1406304186,
+            "deck_name": "Ruidos Cardiacos Pediátrico::Capa 3 - Ejes",
+            "guia": "AHA scientific statements (cardiopatías congénitas, Jones 2015)",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_Capa3.apkg",
+            "notas": 23
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1179866901,
+            "deck_name": "Ruidos Cardiacos Adulto::Capa 3 - Ejes",
+            "guia": "AHA/ACC 2020 + AHA endocarditis",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_Capa3.apkg",
+            "notas": 20
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Adulto",
+            "capa": "verbalizacion",
+            "deck_id": 1623891054,
+            "deck_name": "Ruidos Cardiacos Adulto::Verbalización ECOE",
+            "guia": "AHA/ACC 2020 + Duke modificados",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Adulto_VerbalizacionECOE.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Ruidos Cardiacos",
+            "audiencia": "Pediátrico",
+            "capa": "verbalizacion",
+            "deck_id": 1746203185,
+            "deck_name": "Ruidos Cardiacos Pediátrico::Verbalización ECOE",
+            "guia": "AHA Jones 2015 + screening neonatal pulsioximetría + cardiopatías congénitas",
+            "output": "ruidos_cardiacos/output/Ruidos_Cardiacos_Pediatrico_VerbalizacionECOE.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1794603832,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 1 - Reconocimiento de Patron",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa1.apkg",
+            "notas": 40
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1117503696,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 2 - Exploracion Verbalizada",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa2.apkg",
+            "notas": 35
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 2128563382,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 3 - Interpretacion de Estudios",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa3.apkg",
+            "notas": 40
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1409388293,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 4 - Manejo",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa4.apkg",
+            "notas": 46
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 5,
+            "deck_id": 2079099594,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 5 - Integrador de Discriminador Clinico",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa5_Integrador.apkg",
+            "notas": 46
+        },
+        {
+            "tema": "Gineco-Obstetricia",
+            "audiencia": "Adulto",
+            "capa": 6,
+            "deck_id": 1178771173,
+            "deck_name": "Gineco-Obstetricia Adulto::Capa 6 - Eje Clinico",
+            "guia": "GPC mexicanas + ACOG + Williams",
+            "output": "gineco_obstetricia/output/Gineco_Obstetricia_Adulto_Capa6_EjeClinico.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1366039575,
+            "deck_name": "Medicina Familiar Adulto::Capa 1 - Imagen Viva",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa1.apkg",
+            "notas": 25
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1990608935,
+            "deck_name": "Medicina Familiar Adulto::Capa 2 - Exploracion Dirigida",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa2.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1185531197,
+            "deck_name": "Medicina Familiar Adulto::Capa 3 - Estudios e Interpretacion",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa3.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1507672676,
+            "deck_name": "Medicina Familiar Adulto::Capa 4 - Diferenciales Rapidos",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa4.apkg",
+            "notas": 35
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 5,
+            "deck_id": 1095533052,
+            "deck_name": "Medicina Familiar Adulto::Capa 5 - Tratamiento Practico",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa5.apkg",
+            "notas": 39
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 6,
+            "deck_id": 1184046378,
+            "deck_name": "Medicina Familiar Adulto::Capa 6 - Integrador de Discriminador Clinico",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa6_Integrador.apkg",
+            "notas": 59
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": 7,
+            "deck_id": 1897089931,
+            "deck_name": "Medicina Familiar Adulto::Capa 7 - Eje Clinico",
+            "guia": "USPSTF + ADA 2025 + ACC/AHA + IDSA + GOLD 2024 + GINA 2024",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Capa7_EjeClinico.apkg",
+            "notas": 29
+        },
+        {
+            "tema": "Cirugia",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1866373995,
+            "deck_name": "Cirugia Adulto::Capa 1 - Reconocimiento de Patron Quirurgico",
+            "guia": "ATLS 10a ed + Tokyo Guidelines 2018/2024 + WSES + ACG 2021/2024 + IDSA/SIS + Surviving Sepsis 2021 + ACOG + SVS 2018 + UpToDate",
+            "output": "cirugia/output/Cirugia_Adulto_Capa1.apkg",
+            "notas": 40
+        },
+        {
+            "tema": "Cirugia",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1481697194,
+            "deck_name": "Cirugia Adulto::Capa 2 - Exploracion y ATLS Verbalizado",
+            "guia": "ATLS 10a ed (ACS) + UpToDate",
+            "output": "cirugia/output/Cirugia_Adulto_Capa2.apkg",
+            "notas": 35
+        },
+        {
+            "tema": "Cirugia",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1796015227,
+            "deck_name": "Cirugia Adulto::Capa 3 - Interpretacion de Estudios",
+            "guia": "ATLS 10a + Atlanta revisada (pancreatitis) + Tokyo 2018/2024 + ACG + UpToDate",
+            "output": "cirugia/output/Cirugia_Adulto_Capa3.apkg",
+            "notas": 35
+        },
+        {
+            "tema": "Cirugia",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1705364983,
+            "deck_name": "Cirugia Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
+            "guia": "ATLS 10a + Tokyo 2018/2024 + WSES + ACG 2021/2024 + IDSA 2010 + SIS 2017 + Surviving Sepsis 2021 + ACOG/ASRM + SVS 2018 + SAGES + UpToDate",
+            "output": "cirugia/output/Cirugia_Adulto_Capa4.apkg",
+            "notas": 50
+        },
+        {
+            "tema": "Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1465810910,
+            "deck_name": "Medicina Interna Adulto::Capa 1 - Reconocimiento de Patron Internista",
+            "guia": "ACC/AHA 2017 HTA + AHA 2018 lipidos + ACC/AHA 2023 IC + ACC/AHA 2023 ACS + ACC/AHA 2019 FA + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + SSC 2021 + USPSTF + UpToDate",
+            "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa1.apkg",
+            "notas": 45
+        },
+        {
+            "tema": "Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1137569095,
+            "deck_name": "Medicina Interna Adulto::Capa 2 - Exploracion Dirigida y Calculadoras",
+            "guia": "ACC/AHA + ADA 2025 + KDIGO + Duke + Keith-Wagener + ACR + UpToDate",
+            "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa2.apkg",
+            "notas": 35
+        },
+        {
+            "tema": "Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1306015269,
+            "deck_name": "Medicina Interna Adulto::Capa 3 - Interpretacion de Estudios",
+            "guia": "AHA 2018 lipidos + ADA 2025 + KDIGO 2024 + AASLD + Sokolow/Cornell + CKD-EPI + Winter + Sepsis-3 + UpToDate",
+            "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa3.apkg",
+            "notas": 40
+        },
+        {
+            "tema": "Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1710703980,
+            "deck_name": "Medicina Interna Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
+            "guia": "ACC/AHA 2017+2018+2022+2023 + ADA 2025 + KDIGO 2024 + AASLD + ATS/IDSA 2019 + GOLD 2024 + GINA 2024 + ACR 2020 + Surviving Sepsis 2021 + USPSTF + CDC/ACIP + UpToDate",
+            "output": "medicina_interna/output/Medicina_Interna_Adulto_Capa4.apkg",
+            "notas": 55
+        },
+        {
+            "tema": "Patrones Madre",
+            "audiencia": "Mixto",
+            "capa": "shock_1",
+            "deck_id": 2096096757,
+            "deck_name": "Patrones Madre::Shock 1",
+            "guia": "ATLS 10a + Surviving Sepsis 2021 + Parkland (ABA) + UpToDate + AAP",
+            "output": "patrones_madre/output/Patrones_Madre_Shock_1.apkg",
+            "notas": 13,
+            "subcausas": [
+                "gi",
+                "hemorragico",
+                "quemaduras",
+                "pediatrico"
+            ],
+            "rama_shock": "hipovolemico"
+        },
+        {
+            "tema": "Patrones Madre",
+            "audiencia": "Mixto",
+            "capa": "shock_2",
+            "deck_id": 1135155371,
+            "deck_name": "Patrones Madre::Shock 2",
+            "guia": "Surviving Sepsis 2021 + Tokyo Guidelines 2018/2024 + IDSA + ACOG + AAP/NICE neonatal sepsis + UpToDate",
+            "output": "patrones_madre/output/Patrones_Madre_Shock_2.apkg",
+            "notas": 19,
+            "subcausas": [
+                "neumonia",
+                "pielonefritis",
+                "colangitis",
+                "peritonitis",
+                "endometritis",
+                "sepsis_neonatal"
+            ],
+            "rama_shock": "septico_distributivo"
+        },
+        {
+            "tema": "Patrones Madre",
+            "audiencia": "Mixto",
+            "capa": "shock_3",
+            "deck_id": 1734892056,
+            "deck_name": "Patrones Madre::Shock 3",
+            "guia": "ACC/AHA 2023 SCA + ACC/AHA 2022 IC + ACLS 2020 + ESC 2023 + UpToDate",
+            "output": "patrones_madre/output/Patrones_Madre_Shock_3.apkg",
+            "notas": 10,
+            "subcausas": [
+                "iam",
+                "arritmia",
+                "ic_aguda"
+            ],
+            "rama_shock": "cardiogenico"
+        },
+        {
+            "tema": "Patrones Madre",
+            "audiencia": "Mixto",
+            "capa": "shock_4",
+            "deck_id": 1428675319,
+            "deck_name": "Patrones Madre::Shock 4",
+            "guia": "ESC 2019 TEP + ATLS 10a + AHA/ACC pericardio + ACEP USG + UpToDate",
+            "output": "patrones_madre/output/Patrones_Madre_Shock_4.apkg",
+            "notas": 10,
+            "subcausas": [
+                "tep",
+                "neumotorax_tension",
+                "taponamiento"
+            ],
+            "rama_shock": "obstructivo"
+        },
+        {
+            "tema": "Patrones Madre",
+            "audiencia": "Mixto",
+            "capa": "shock_5",
+            "deck_id": 1593847062,
+            "deck_name": "Patrones Madre::Shock 5 - Mapa por Estacion",
+            "guia": "Surviving Sepsis 2021 + ATLS 10a + ACC/AHA + ACOG + AAP + OMS dengue + UpToDate",
+            "output": "patrones_madre/output/Patrones_Madre_Shock_5.apkg",
+            "notas": 32,
+            "escenarios": 16,
+            "estaciones": [
+                "medicina_interna",
+                "cirugia",
+                "gineco_obstetricia",
+                "pediatria"
+            ],
+            "formato": "dual (clinica->dx + dx->manejo)",
+            "rama_shock": "integrador"
+        },
+        {
+            "tema": "Preparacion Verbalizada",
+            "audiencia": "Mixto",
+            "capa": "deck1_interrogatorio_universal",
+            "deck_id": 1647829513,
+            "deck_name": "Preparación Verbalizada::Deck 1 - Interrogatorio Universal",
+            "guia": "Bates 13a + Calgary-Cambridge + USPSTF 2025 + ACIP 2025 + ACOG + Williams 26a + ATLS 10a + DSM-5-TR + Columbia C-SSRS + AAP Bright Futures 2022 + AUDIT/CAGE + NOM-004-SSA3 + UpToDate",
+            "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck1_Interrogatorio_Universal.apkg",
+            "notas": 41
+        },
+        {
+            "tema": "Preparacion Verbalizada",
+            "audiencia": "Mixto",
+            "capa": "deck2_exploracion_basica",
+            "deck_id": 1582740396,
+            "deck_name": "Preparación Verbalizada::Deck 2 - Exploración Física Básica",
+            "guia": "Bates 13a + ATLS 10a + ACC/AHA 2017+2020 + Sepsis-3 + Tokyo Guidelines 2024 + Alvarado + ACOG + Williams 26a + AAP Bright Futures 2022 + Glasgow + GALS (Doherty 1992) + MRC + ADA 2025 + UpToDate",
+            "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck2_Exploracion_Basica.apkg",
+            "notas": 25
+        },
+        {
+            "tema": "Preparacion Verbalizada",
+            "audiencia": "Mixto",
+            "capa": "deck4_estudios_basicos",
+            "deck_id": 1736284091,
+            "deck_name": "Preparación Verbalizada::Deck 4 - Estudios Básicos",
+            "guia": "ADA 2025 + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + Atlanta revisada 2012 + Ranson + BISAP + TG24 + Alvarado + ATA 2014-2017 + IADPSG + ACOG + USPSTF 2024-2025 + ACIP 2025 + AAP Bright Futures 2022 + APA Practice Guidelines + ATLS 10a + Surviving Sepsis 2021 + ESC SICA 2023 + Williams 26a + UpToDate",
+            "output": "preparacion_verbalizada/output/Preparacion_Verbalizada_Deck4_Estudios_Basicos.apkg",
+            "notas": 32
+        },
+        {
+            "tema": "Urgencias",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1311472058,
+            "deck_name": "Urgencias Adulto::Capa 1 - Flujo Macro",
+            "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+            "output": "urgencias/output/Urgencias_Adulto_Capa1.apkg",
+            "notas": 37
+        },
+        {
+            "tema": "Urgencias",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1322556677,
+            "deck_name": "Urgencias Adulto::Capa 2 - Componentes",
+            "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+            "output": "urgencias/output/Urgencias_Adulto_Capa2.apkg",
+            "notas": 29
+        },
+        {
+            "tema": "Urgencias",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1433667788,
+            "deck_name": "Urgencias Adulto::Capa 3 - Ejes",
+            "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+            "output": "urgencias/output/Urgencias_Adulto_Capa3.apkg",
+            "notas": 13
+        },
+        {
+            "tema": "Urgencias",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1544778899,
+            "deck_name": "Urgencias Adulto::Capa 4 - Manejo y Diagnostico Diferencial",
+            "guia": "ACC/AHA 2025 SCA + AHA/ASA 2026 ictus + Surviving Sepsis 2021 + JTFPP 2023 anafilaxia + ADA/EASD 2024 crisis hiperglucemicas + AHA 2025 ACLS + NCS/AES + ACC/AHA 2025 HTA + GINA/GOLD 2025 + CHEST/ESC TEP + UpToDate",
+            "output": "urgencias/output/Urgencias_Adulto_Capa4.apkg",
+            "notas": 13
+        },
+        {
+            "tema": "Pediatria",
+            "audiencia": "Pediátrico",
+            "capa": 1,
+            "deck_id": 1611472033,
+            "deck_name": "Pediatria Pediátrico::Capa 1 - Flujo Macro",
+            "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+            "output": "pediatria/output/Pediatria_Pediatrico_Capa1.apkg",
+            "notas": 42
+        },
+        {
+            "tema": "Pediatria",
+            "audiencia": "Pediátrico",
+            "capa": 2,
+            "deck_id": 1622556641,
+            "deck_name": "Pediatria Pediátrico::Capa 2 - Componentes",
+            "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+            "output": "pediatria/output/Pediatria_Pediatrico_Capa2.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "Pediatria",
+            "audiencia": "Pediátrico",
+            "capa": 3,
+            "deck_id": 1633667722,
+            "deck_name": "Pediatria Pediátrico::Capa 3 - Ejes",
+            "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+            "output": "pediatria/output/Pediatria_Pediatrico_Capa3.apkg",
+            "notas": 10
+        },
+        {
+            "tema": "Pediatria",
+            "audiencia": "Pediátrico",
+            "capa": 4,
+            "deck_id": 1644778833,
+            "deck_name": "Pediatria Pediátrico::Capa 4 - Manejo y Diagnostico Diferencial",
+            "guia": "AHA/AAP NRP 2025 + AAP hiperbilirrubinemia 2022 + AAP fiebre lactante 2021 + AAP bronquiolitis 2014 + IDSA/PIDS CAP 2011/2026 + AAP OMA 2013 + IDSA faringitis 2012 + AAP ITU 2011/2016 + AAP convulsion febril 2011 + AHA/AAP PALS 2025 + AHA Kawasaki 2017 + GINA 2025 + OMS + CDC/ACIP + Red Book + Bright Futures + UpToDate",
+            "output": "pediatria/output/Pediatria_Pediatrico_Capa4.apkg",
+            "notas": 11
+        },
+        {
+            "tema": "Control del Paciente Cronico",
+            "audiencia": "Adulto",
+            "capa": 1,
+            "deck_id": 1928374650,
+            "deck_name": "Control del Paciente Cronico Adulto::Capa 1 - Estratificacion",
+            "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+            "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "Control del Paciente Cronico",
+            "audiencia": "Adulto",
+            "capa": 2,
+            "deck_id": 1837465029,
+            "deck_name": "Control del Paciente Cronico Adulto::Capa 2 - Metas y Monitoreo",
+            "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+            "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "Control del Paciente Cronico",
+            "audiencia": "Adulto",
+            "capa": 3,
+            "deck_id": 1746528390,
+            "deck_name": "Control del Paciente Cronico Adulto::Capa 3 - Manejo y Transiciones",
+            "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+            "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+            "notas": 20
+        },
+        {
+            "tema": "Control del Paciente Cronico",
+            "audiencia": "Adulto",
+            "capa": 4,
+            "deck_id": 1659302847,
+            "deck_name": "Control del Paciente Cronico Adulto::Capa 4 - Casos Integradores",
+            "guia": "ADA 2026 + AHA/ACC 2025 HTA + AHA/ACC 2018+2022 lipidos + KDIGO 2024 + AASLD 2023 (resmetirom) + ATA 2014/2016 + NCEP-ATP III + WHO + USPSTF",
+            "output": "control_paciente/output/Control_Paciente_Cronico_Adulto.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "integrador",
+            "deck_id": 1573829104,
+            "deck_name": "Medicina Interna Adulto::Integrador - Clasificaciones",
+            "guia": "Derivado de Capa 1 (ACC/AHA SCA/IC/HTA + ADA + KDIGO + Sepsis-3 + CURB-65 + Duke + Anthonisen + Wells + ATA + UpToDate)",
+            "output": "medicina_interna/output/Medicina_Interna_Adulto_Integrador.apkg",
+            "notas": 23
+        },
+        {
+            "tema": "Cirugia",
+            "audiencia": "Adulto",
+            "capa": "integrador",
+            "deck_id": 1490337261,
+            "deck_name": "Cirugia Adulto::Integrador - Clasificaciones",
+            "guia": "Derivado de Capa 1 (ATLS 10a + Tokyo 2018 + Atlanta revisada + Alvarado + Hinchey + Forrest + Stanford + Surviving Sepsis 2021); verificado adversarialmente",
+            "output": "cirugia/output/Cirugia_Adulto_Integrador.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "Medicina Familiar",
+            "audiencia": "Adulto",
+            "capa": "integrador",
+            "deck_id": 1382947561,
+            "deck_name": "Medicina Familiar Adulto::Integrador - Clasificaciones",
+            "guia": "Derivado de Capa 1 (GINA 2025 + GOLD 2025 + CURB-65/IDSA + Centor + sinusitis IDSA + ICHD-3 + red flags lumbalgia + ATA + USPSTF + OMS); verificado adversarialmente",
+            "output": "medicina_familiar/output/Medicina_Familiar_Adulto_Integrador.apkg",
+            "notas": 12
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "01 - Topografico",
+            "deck_id": 1290110011,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 01 - Topografico",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "02 - Vascular",
+            "deck_id": 1290220022,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 02 - Vascular",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "03 - Infeccioso",
+            "deck_id": 1290330033,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 03 - Infeccioso",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "04 - Metabolico-Endocrino",
+            "deck_id": 1290440044,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 04 - Metabolico-Endocrino",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "05 - Degenerativo",
+            "deck_id": 1290550055,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 05 - Degenerativo",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "06 - Congenito",
+            "deck_id": 1290660066,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 06 - Congenito",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "07 - Traumatico",
+            "deck_id": 1290770077,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 07 - Traumatico",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "08 - Autoinmune-Inflamatorio",
+            "deck_id": 1290880088,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 08 - Autoinmune-Inflamatorio",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "09 - Neoplasico",
+            "deck_id": 1290990099,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 09 - Neoplasico",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "10 - Toxico-Farmacologico",
+            "deck_id": 1291010101,
+            "deck_name": "Ejes Diagnosticos Adulto::Eje 10 - Toxico-Farmacologico",
+            "guia": "Matriz sistema x eje etiologico; anclado en contenido ECOE del repo (ATLS/ADA/AHA-ACC/KDIGO/GINA-GOLD/ATA/USPSTF)",
+            "output": "ejes_diagnosticos/output/Ejes_Diagnosticos_Adulto.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Simulaciones",
+            "audiencia": "Gine",
+            "capa": "repaso1",
+            "deck_id": 2059400110,
+            "deck_name": "Simulaciones::Gine - Repaso 1",
+            "guia": "GPC mexicanas + CDC STI 2021 + ACOG",
+            "output": "simulaciones/simulacion-1-gine/simulacion-1-gine.apkg",
+            "notas": 36
+        },
+        {
+            "tema": "Simulaciones",
+            "audiencia": "Familiar-ORL",
+            "capa": "repaso2",
+            "deck_id": 2061700220,
+            "deck_name": "Simulaciones::Familiar ORL - Repaso 2",
+            "guia": "GPC mexicanas medicina familiar (ORL/tiroides)",
+            "output": "simulaciones/simulacion-2-familiar-orl/simulacion-2-familiar-orl.apkg",
+            "notas": 33
+        },
+        {
+            "tema": "Simulaciones",
+            "audiencia": "Trauma-Cirugia",
+            "capa": "repaso3",
+            "deck_id": 2063900330,
+            "deck_name": "Simulaciones::Trauma Cirugía - Repaso 3",
+            "guia": "ATLS 11a ed. (2024) + guia europea de hemorragia mayor 6a ed. (2023)",
+            "output": "simulaciones/simulacion-3-trauma-cirugia/simulacion-3-trauma-cirugia.apkg",
+            "notas": 30
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990001001,
+            "deck_name": "No hay tiempo::Ginecologia::1 - Ejes (madre)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/01_Ejes_madre.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990001002,
+            "deck_name": "No hay tiempo::Ginecologia::2 - Manejos trampa (core)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/02_Manejos_trampa_core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990001003,
+            "deck_name": "No hay tiempo::Ginecologia::3 - Menos preguntados",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/03_Menos_preguntados.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990001011,
+            "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::1 - Troncos (ejes)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_01_Troncos.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990001012,
+            "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::2 - Llaves comunes (core)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_02_Llaves_core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990001013,
+            "deck_name": "No hay tiempo::Ginecologia::Interrogatorio::3 - Llaves menos preguntadas",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Interrogatorio_03_Llaves_menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990001021,
+            "deck_name": "No hay tiempo::Ginecologia::Estudios::1 - Discriminadores (herramienta)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Estudios_01_Discriminadores.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990001022,
+            "deck_name": "No hay tiempo::Ginecologia::Estudios::2 - Paneles (por enfermedad)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Estudios_02_Paneles.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Ginecologia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990001023,
+            "deck_name": "No hay tiempo::Ginecologia::Estudios::3 - Menos preguntados",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/ginecologia/output/Estudios_03_Menos_preguntados.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990003001,
+            "deck_name": "No hay tiempo::Obstetricia::1 - Ejes (madre)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Manejo_01_Ejes.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990003002,
+            "deck_name": "No hay tiempo::Obstetricia::2 - Manejos trampa (core)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Manejo_02_Core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990003003,
+            "deck_name": "No hay tiempo::Obstetricia::3 - Menos preguntados",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Manejo_03_Menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990003011,
+            "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::1 - Troncos (ejes)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_01_Troncos.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990003012,
+            "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::2 - Llaves comunes (core)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_02_Llaves_core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990003013,
+            "deck_name": "No hay tiempo::Obstetricia::Interrogatorio::3 - Llaves menos preguntadas",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Interrogatorio_03_Llaves_menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990003021,
+            "deck_name": "No hay tiempo::Obstetricia::Estudios::1 - Discriminadores (herramienta)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Estudios_01_Discriminadores.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990003022,
+            "deck_name": "No hay tiempo::Obstetricia::Estudios::2 - Paneles (por enfermedad)",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Estudios_02_Paneles.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Obstetricia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990003023,
+            "deck_name": "No hay tiempo::Obstetricia::Estudios::3 - Menos preguntados",
+            "guia": "GPC MX / ACOG / Williams",
+            "output": "no-hay-tiempo/obstetricia/output/Estudios_03_Menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990005001,
+            "deck_name": "No hay tiempo::Cirugia::1 - Ejes / patrones madre",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Manejo_01_Ejes.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990005002,
+            "deck_name": "No hay tiempo::Cirugia::2 - Manejos comunes (core)",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Manejo_02_Core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990005003,
+            "deck_name": "No hay tiempo::Cirugia::3 - Menos comunes",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Manejo_03_Menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990005011,
+            "deck_name": "No hay tiempo::Cirugia::Interrogatorio::1 - Troncos (ejes)",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Interrogatorio_01_Troncos.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990005012,
+            "deck_name": "No hay tiempo::Cirugia::Interrogatorio::2 - Llaves comunes (core)",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Interrogatorio_02_Llaves_core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990005013,
+            "deck_name": "No hay tiempo::Cirugia::Interrogatorio::3 - Llaves menos comunes",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Interrogatorio_03_Llaves_menos.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990005021,
+            "deck_name": "No hay tiempo::Cirugia::Estudios::1 - Discriminadores (herramienta)",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Estudios_01_Discriminadores.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990005022,
+            "deck_name": "No hay tiempo::Cirugia::Estudios::2 - Paneles (por entidad)",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Estudios_02_Paneles.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Cirugia",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990005023,
+            "deck_name": "No hay tiempo::Cirugia::Estudios::3 - Signos y scores",
+            "guia": "ATLS / GPC MX / Sabiston / Surviving Sepsis",
+            "output": "no-hay-tiempo/cirugia/output/Estudios_03_Signos_scores.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990007001,
+            "deck_name": "No hay tiempo::Medicina Interna::1 - Ejes / patrones madre",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Manejo_01_Ejes.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990007002,
+            "deck_name": "No hay tiempo::Medicina Interna::2 - Manejos comunes (core)",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Manejo_02_Core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990007003,
+            "deck_name": "No hay tiempo::Medicina Interna::3 - Menos comunes",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Manejo_03_Menos.apkg",
+            "notas": 24
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990007011,
+            "deck_name": "No hay tiempo::Medicina Interna::Interrogatorio::1 - Troncos (ejes)",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Interrogatorio_01_Troncos.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990007012,
+            "deck_name": "No hay tiempo::Medicina Interna::Interrogatorio::2 - Llaves comunes (core)",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Interrogatorio_02_Llaves_core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990007013,
+            "deck_name": "No hay tiempo::Medicina Interna::Interrogatorio::3 - Llaves menos comunes",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Interrogatorio_03_Llaves_menos.apkg",
+            "notas": 20
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990007021,
+            "deck_name": "No hay tiempo::Medicina Interna::Estudios::1 - Discriminadores (herramienta)",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Estudios_01_Discriminadores.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990007022,
+            "deck_name": "No hay tiempo::Medicina Interna::Estudios::2 - Paneles (por entidad)",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Estudios_02_Paneles.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Medicina Interna",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990007023,
+            "deck_name": "No hay tiempo::Medicina Interna::Estudios::3 - Signos y scores",
+            "guia": "ESC / ADA / KDIGO / GOLD / GINA / AHA-ACC / EASL / GPC MX",
+            "output": "no-hay-tiempo/medicina_interna/output/Estudios_03_Signos_scores.apkg",
+            "notas": 18
+        }
+    ]
 }
