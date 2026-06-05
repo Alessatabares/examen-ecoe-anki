@@ -21,9 +21,9 @@ MANEJO        → eje + bifurcación         (Pilar 2: Manejo)
 
 | Carpeta | Interrog. | Estudios | Manejo | Total | Chuletas |
 |---|--:|--:|--:|--:|---|
-| [Ginecología](ginecologia/) | 43 | 33 | 42 | **118** | [Interrog.](ginecologia/CHULETA_INTERROGATORIO.md) |
-| [Obstetricia](obstetricia/) | 42 | 33 | 42 | **117** | — |
-| [Cirugía](cirugia/) | 42 | 33 | 42 | **117** | — |
+| [Ginecología](ginecologia/) | 43 | 33 | 42 | **118** | [I](ginecologia/CHULETA_INTERROGATORIO.md) · [E](ginecologia/CHULETA_ESTUDIOS.md) · [M](ginecologia/CHULETA_MANEJO.md) |
+| [Obstetricia](obstetricia/) | 42 | 33 | 42 | **117** | [I](obstetricia/CHULETA_INTERROGATORIO.md) · [E](obstetricia/CHULETA_ESTUDIOS.md) · [M](obstetricia/CHULETA_MANEJO.md) |
+| [Cirugía](cirugia/) | 42 | 33 | 42 | **117** | [I](cirugia/CHULETA_INTERROGATORIO.md) · [E](cirugia/CHULETA_ESTUDIOS.md) · [M](cirugia/CHULETA_MANEJO.md) |
 | [Medicina Interna](medicina_interna/) | 45 | 34 | 50 | **129** | [I](medicina_interna/CHULETA_INTERROGATORIO.md) · [E](medicina_interna/CHULETA_ESTUDIOS.md) · [M](medicina_interna/CHULETA_MANEJO.md) |
 | [Medicina Familiar](medicina_familiar/) | 64 | 49 | 88 | **201** | [I](medicina_familiar/CHULETA_INTERROGATORIO.md) · [E](medicina_familiar/CHULETA_ESTUDIOS.md) · [M](medicina_familiar/CHULETA_MANEJO.md) |
 | [Pediatría](pediatria/) | 40 | 34 | 47 | **121** | [I](pediatria/CHULETA_INTERROGATORIO.md) · [E](pediatria/CHULETA_ESTUDIOS.md) · [M](pediatria/CHULETA_MANEJO.md) |
