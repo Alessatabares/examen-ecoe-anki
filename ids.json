@@ -1311,6 +1311,96 @@
             "guia": "AAP / AHA-PALS / GINA / OMS / Nelson / GPC MX",
             "output": "no-hay-tiempo/pediatria/output/Estudios_03_Signos_scores.apkg",
             "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990011001,
+            "deck_name": "No hay tiempo::Urgencias::1 - Ejes / patrones madre",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Manejo_01_Ejes.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990011002,
+            "deck_name": "No hay tiempo::Urgencias::2 - Manejos comunes (core)",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Manejo_02_Core.apkg",
+            "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "manejo",
+            "deck_id": 1990011003,
+            "deck_name": "No hay tiempo::Urgencias::3 - Menos comunes",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Manejo_03_Menos.apkg",
+            "notas": 20
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990011011,
+            "deck_name": "No hay tiempo::Urgencias::Interrogatorio::1 - Troncos (ejes)",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Interrogatorio_01_Troncos.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990011012,
+            "deck_name": "No hay tiempo::Urgencias::Interrogatorio::2 - Llaves comunes (core)",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Interrogatorio_02_Llaves_core.apkg",
+            "notas": 16
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "interrogatorio",
+            "deck_id": 1990011013,
+            "deck_name": "No hay tiempo::Urgencias::Interrogatorio::3 - Llaves menos comunes",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Interrogatorio_03_Llaves_menos.apkg",
+            "notas": 16
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990011021,
+            "deck_name": "No hay tiempo::Urgencias::Estudios::1 - Discriminadores (herramienta)",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Estudios_01_Discriminadores.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990011022,
+            "deck_name": "No hay tiempo::Urgencias::Estudios::2 - Paneles (por entidad)",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Estudios_02_Paneles.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - Urgencias",
+            "audiencia": "Adulto",
+            "capa": "estudios",
+            "deck_id": 1990011023,
+            "deck_name": "No hay tiempo::Urgencias::Estudios::3 - Signos, scores y antidotos",
+            "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
+            "output": "no-hay-tiempo/urgencias/output/Estudios_03_Signos_scores.apkg",
+            "notas": 18
         }
     ]
 }
