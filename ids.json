@@ -1401,6 +1401,16 @@
             "guia": "AHA-ACLS / ESC / Surviving Sepsis / ADA / GINA / GOLD / Toxicologia / GPC MX",
             "output": "no-hay-tiempo/urgencias/output/Estudios_03_Signos_scores.apkg",
             "notas": 18
+        },
+        {
+            "tema": "No hay tiempo - FINAL Matriz ECOE",
+            "audiencia": "Mixto",
+            "capa": "matriz",
+            "deck_id": 1990009500,
+            "deck_name": "No hay tiempo::FINAL - Matriz ECOE",
+            "guia": "AHA/ESC / ADA / KDIGO / GOLD / GINA / ATLS / OMS / GPC MX",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Matriz.apkg",
+            "notas": 27
         }
     ]
 }
