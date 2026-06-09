@@ -1411,6 +1411,106 @@
             "guia": "AHA/ESC / ADA / KDIGO / GOLD / GINA / ATLS / OMS / GPC MX",
             "output": "final/output/No_Hay_Tiempo_FINAL_Matriz.apkg",
             "notas": 27
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009601,
+            "deck_name": "No hay tiempo::FINAL Bloques::1 - Abdomen agudo + ATLS",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 14
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009602,
+            "deck_name": "No hay tiempo::FINAL Bloques::2 - Nutricion en embarazo",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009603,
+            "deck_name": "No hay tiempo::FINAL Bloques::3 - PRONAM 1000 dias",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 10
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009604,
+            "deck_name": "No hay tiempo::FINAL Bloques::4 - Cancer de mama",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009605,
+            "deck_name": "No hay tiempo::FINAL Bloques::5 - Infecciones respiratorias",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 7
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009606,
+            "deck_name": "No hay tiempo::FINAL Bloques::6 - Pediatria",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 9
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009607,
+            "deck_name": "No hay tiempo::FINAL Bloques::7 - DM2 y sindrome metabolico",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009608,
+            "deck_name": "No hay tiempo::FINAL Bloques::8 - Sobrepeso y obesidad",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009609,
+            "deck_name": "No hay tiempo::FINAL Bloques::9 - Hipertension arterial",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "No hay tiempo - FINAL Bloques ECOE",
+            "audiencia": "Mixto",
+            "capa": "bloques",
+            "deck_id": 1990009610,
+            "deck_name": "No hay tiempo::FINAL Bloques::10 - Vacunacion",
+            "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
+            "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
+            "notas": 8
         }
     ]
 }
