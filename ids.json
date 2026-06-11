@@ -1511,6 +1511,26 @@
             "guia": "GPC MX / PRONAM / ATLS / ADA / GINA / GOLD / OMS",
             "output": "final/output/No_Hay_Tiempo_FINAL_Bloques.apkg",
             "notas": 8
+        },
+        {
+            "tema": "Guiones ECOE - Lactancia",
+            "audiencia": "Neonato",
+            "capa": "guion",
+            "deck_id": 1990012001,
+            "deck_name": "Guiones ECOE::Lactancia - Agarre y baja ingesta",
+            "guia": "OMS/AIEPI lactancia",
+            "output": "scripts/output/Guiones_ECOE_Lactancia_Asma.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "Guiones ECOE - Asma",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012002,
+            "deck_name": "Guiones ECOE::Asma - Exacerbacion moderada (adulto)",
+            "guia": "GINA 2025",
+            "output": "scripts/output/Guiones_ECOE_Lactancia_Asma.apkg",
+            "notas": 8
         }
     ]
 }
