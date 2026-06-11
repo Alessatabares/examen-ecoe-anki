@@ -1641,6 +1641,16 @@
             "guia": "Tokyo Guidelines / abdomen agudo",
             "output": "scripts/output/Guiones_ECOE_Cirugia_Abdomen.apkg",
             "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Crisis HTA + sx metabolico",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012014,
+            "deck_name": "Guiones ECOE::Crisis HTA + sindrome metabolico + DM2 + higado graso",
+            "guia": "ACC-AHA HTA / ADA / MASLD",
+            "output": "scripts/output/Guiones_ECOE_HTA_Sindrome_Metabolico.apkg",
+            "notas": 4
         }
     ]
 }
