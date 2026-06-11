@@ -1551,6 +1551,16 @@
             "guia": "Semiologia pediatrica / TEP",
             "output": "scripts/output/Exploracion_Basica_Adulto_Pediatrico.apkg",
             "notas": 6
+        },
+        {
+            "tema": "Conectores Verbalizados",
+            "audiencia": "General",
+            "capa": "verbalizacion",
+            "deck_id": 1990012005,
+            "deck_name": "Conectores Verbalizados ECOE::Frases de transicion por bloque",
+            "guia": "Rubrica ECOE",
+            "output": "scripts/output/Conectores_Verbalizados_ECOE.apkg",
+            "notas": 11
         }
     ]
 }
