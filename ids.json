@@ -1621,6 +1621,26 @@
             "guia": "OMS/AIEPI neumonia",
             "output": "scripts/output/Guiones_ECOE_Neumonia_Pediatrica.apkg",
             "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Apendicitis",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012012,
+            "deck_name": "Guiones ECOE::Apendicitis (perforacion en consulta)",
+            "guia": "Abdomen agudo quirurgico",
+            "output": "scripts/output/Guiones_ECOE_Cirugia_Abdomen.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Colecistitis",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012013,
+            "deck_name": "Guiones ECOE::Colecistitis aguda",
+            "guia": "Tokyo Guidelines / abdomen agudo",
+            "output": "scripts/output/Guiones_ECOE_Cirugia_Abdomen.apkg",
+            "notas": 4
         }
     ]
 }
