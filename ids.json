@@ -1651,6 +1651,16 @@
             "guia": "ACC-AHA HTA / ADA / MASLD",
             "output": "scripts/output/Guiones_ECOE_HTA_Sindrome_Metabolico.apkg",
             "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Causas reversibles 5H5T",
+            "audiencia": "General",
+            "capa": "guion",
+            "deck_id": 1990012015,
+            "deck_name": "Guiones ECOE::Causas reversibles de paro (5H 5T)",
+            "guia": "ACLS / AHA 2025",
+            "output": "scripts/output/Guiones_ECOE_Causas_Reversibles_5H5T.apkg",
+            "notas": 11
         }
     ]
 }
