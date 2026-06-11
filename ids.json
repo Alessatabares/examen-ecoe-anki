@@ -1561,6 +1561,26 @@
             "guia": "Rubrica ECOE",
             "output": "scripts/output/Conectores_Verbalizados_ECOE.apkg",
             "notas": 11
+        },
+        {
+            "tema": "Guiones ECOE - Diarrea pediatrica",
+            "audiencia": "Pediatrico",
+            "capa": "guion",
+            "deck_id": 1990012006,
+            "deck_name": "Guiones ECOE::Diarrea pediatrica - Disenteria bacteriana",
+            "guia": "AIEPI/OMS diarrea",
+            "output": "scripts/output/Guiones_ECOE_Diarrea_Pediatrica.apkg",
+            "notas": 8
+        },
+        {
+            "tema": "Guiones ECOE - Diarrea pediatrica",
+            "audiencia": "Pediatrico",
+            "capa": "guion",
+            "deck_id": 1990012007,
+            "deck_name": "Guiones ECOE::Diarrea pediatrica - Deshidratacion moderada (viral)",
+            "guia": "AIEPI/OMS diarrea",
+            "output": "scripts/output/Guiones_ECOE_Diarrea_Pediatrica.apkg",
+            "notas": 8
         }
     ]
 }
