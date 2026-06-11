@@ -1581,6 +1581,36 @@
             "guia": "AIEPI/OMS diarrea",
             "output": "scripts/output/Guiones_ECOE_Diarrea_Pediatrica.apkg",
             "notas": 3
+        },
+        {
+            "tema": "Guiones ECOE - Control prenatal",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012008,
+            "deck_name": "Guiones ECOE::Control prenatal inicial",
+            "guia": "CDC/OMS prenatal",
+            "output": "scripts/output/Guiones_ECOE_GinecoObstetricia.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Anticoncepcion",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012009,
+            "deck_name": "Guiones ECOE::Consejeria anticonceptiva",
+            "guia": "CDC SPR 2024 / OMS MEC",
+            "output": "scripts/output/Guiones_ECOE_GinecoObstetricia.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Especuloscopia Pap",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012010,
+            "deck_name": "Guiones ECOE::Especuloscopia y Papanicolaou",
+            "guia": "CDC tamizaje / NOM",
+            "output": "scripts/output/Guiones_ECOE_GinecoObstetricia.apkg",
+            "notas": 4
         }
     ]
 }
