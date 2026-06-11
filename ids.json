@@ -1611,6 +1611,16 @@
             "guia": "CDC tamizaje / NOM",
             "output": "scripts/output/Guiones_ECOE_GinecoObstetricia.apkg",
             "notas": 4
+        },
+        {
+            "tema": "Guiones ECOE - Neumonia pediatrica",
+            "audiencia": "Pediatrico",
+            "capa": "guion",
+            "deck_id": 1990012011,
+            "deck_name": "Guiones ECOE::Neumonia pediatrica con hipoxemia",
+            "guia": "OMS/AIEPI neumonia",
+            "output": "scripts/output/Guiones_ECOE_Neumonia_Pediatrica.apkg",
+            "notas": 4
         }
     ]
 }
