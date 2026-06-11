@@ -1661,6 +1661,16 @@
             "guia": "ACLS / AHA 2025",
             "output": "scripts/output/Guiones_ECOE_Causas_Reversibles_5H5T.apkg",
             "notas": 11
+        },
+        {
+            "tema": "Guiones ECOE - Codigo Infarto",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012016,
+            "deck_name": "Guiones ECOE::Codigo Infarto (IAM con elevacion del ST)",
+            "guia": "ACC/AHA STEMI",
+            "output": "scripts/output/Guiones_ECOE_Codigo_Infarto.apkg",
+            "notas": 4
         }
     ]
 }
