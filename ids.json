@@ -1531,6 +1531,26 @@
             "guia": "GINA 2025",
             "output": "scripts/output/Guiones_ECOE_Lactancia_Asma.apkg",
             "notas": 8
+        },
+        {
+            "tema": "Exploracion Basica",
+            "audiencia": "Adulto",
+            "capa": "guion",
+            "deck_id": 1990012003,
+            "deck_name": "Exploracion Basica ECOE::Adulto - Interrogatorio y Exploracion",
+            "guia": "Semiologia general",
+            "output": "scripts/output/Exploracion_Basica_Adulto_Pediatrico.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "Exploracion Basica",
+            "audiencia": "Pediatrico",
+            "capa": "guion",
+            "deck_id": 1990012004,
+            "deck_name": "Exploracion Basica ECOE::Pediatrico - Interrogatorio y Exploracion",
+            "guia": "Semiologia pediatrica / TEP",
+            "output": "scripts/output/Exploracion_Basica_Adulto_Pediatrico.apkg",
+            "notas": 6
         }
     ]
 }
