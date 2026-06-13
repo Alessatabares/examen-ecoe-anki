@@ -40,14 +40,16 @@ model_qa = genanki.Model(
 )
 
 
-def make_note(eje, items, base_tags):
+def make_note(eje, items, base_tags, guid):
     front = (
         f'<div class="eje">EJE: {eje}</div>'
         '<div class="prompt">&iquest;Dx m&aacute;s probable seg&uacute;n presentaci&oacute;n?</div>'
         '<ol class="pres">' + "".join(f"<li>{p}</li>" for p, _ in items) + "</ol>"
     )
     back = '<ol class="dx">' + "".join(f"<li>{d}</li>" for _, d in items) + "</ol>"
-    return genanki.Note(model=model_qa, fields=[front, back], tags=base_tags)
+    # GUID estable por posicion (no por contenido): reimportar tras corregir
+    # texto ACTUALIZA la carta en su sitio, nunca duplica.
+    return genanki.Note(model=model_qa, fields=[front, back], tags=base_tags, guid=guid)
 
 
 def build():
@@ -58,8 +60,9 @@ def build():
             continue
         deck = genanki.Deck(deck_id(idx, 1), f"{PADRE}::{short}::Eje Clinico")
         base_tags = ["ejes_diagnosticos", "topografico", "eje_clinico", "ecoe", tag]
-        for eje, items in sysdata["ejes"]:
-            deck.add_note(make_note(eje, items, base_tags))
+        for ei, (eje, items) in enumerate(sysdata["ejes"]):
+            guid = genanki.guid_for(f"topoclin:ec:{idx}:{ei}")
+            deck.add_note(make_note(eje, items, base_tags, guid))
         out = os.path.join(OUTPUT_DIR, f"Topografico_{slug}_EjeClinico.apkg")
         genanki.Package(deck).write_to_file(out)
         print(f"OK: {os.path.basename(out)}  ({len(deck.notes)} notas)")

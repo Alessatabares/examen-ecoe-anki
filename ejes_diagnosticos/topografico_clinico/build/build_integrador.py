@@ -40,14 +40,16 @@ model_qa = genanki.Model(
 )
 
 
-def make_note(loc, d1, d2, d3, dx, ecoe, base_tags):
+def make_note(loc, d1, d2, d3, dx, ecoe, base_tags, guid):
     front = (
         f'<div class="loc">{loc}</div>'
         f'<ul class="disc"><li>{d1}</li><li>{d2}</li><li>{d3}</li></ul>'
         '<div class="prompt">&iquest;Diagn&oacute;stico?</div>'
     )
     back = f'<div class="dx">{dx}</div><span class="ecoe">ECOE: &laquo;{ecoe}&raquo;</span>'
-    return genanki.Note(model=model_qa, fields=[front, back], tags=base_tags)
+    # GUID estable por posicion (no por contenido): reimportar tras corregir
+    # texto ACTUALIZA la carta en su sitio, nunca duplica.
+    return genanki.Note(model=model_qa, fields=[front, back], tags=base_tags, guid=guid)
 
 
 def build():
@@ -58,9 +60,10 @@ def build():
             continue
         deck = genanki.Deck(deck_id(idx, 2), f"{PADRE}::{short}::Integrador")
         base_tags = ["ejes_diagnosticos", "topografico", "integrador", "ecoe", tag]
-        for loc, rows in sysdata["estaciones"]:
-            for (d1, d2, d3, dx, ecoe) in rows:
-                deck.add_note(make_note(loc, d1, d2, d3, dx, ecoe, base_tags))
+        for si, (loc, rows) in enumerate(sysdata["estaciones"]):
+            for ri, (d1, d2, d3, dx, ecoe) in enumerate(rows):
+                guid = genanki.guid_for(f"topoclin:int:{idx}:{si}:{ri}")
+                deck.add_note(make_note(loc, d1, d2, d3, dx, ecoe, base_tags, guid))
         out = os.path.join(OUTPUT_DIR, f"Topografico_{slug}_Integrador.apkg")
         genanki.Package(deck).write_to_file(out)
         print(f"OK: {os.path.basename(out)}  ({len(deck.notes)} notas)")
