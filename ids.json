@@ -1671,6 +1671,386 @@
             "guia": "ACC/AHA STEMI",
             "output": "scripts/output/Guiones_ECOE_Codigo_Infarto.apkg",
             "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300001001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Pulmon::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Pulmon_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300001002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Pulmon::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Pulmon_Integrador.apkg",
+            "notas": 15
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300002001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Corazon::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Corazon_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300002002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Corazon::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Corazon_Integrador.apkg",
+            "notas": 23
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300003001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Higado-Biliar::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Higado_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300003002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Higado-Biliar::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Higado_Integrador.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300004001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Intestino::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Intestino_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300004002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Intestino::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Intestino_Integrador.apkg",
+            "notas": 21
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300005001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Rinon-Urinario::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Rinon_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300005002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Rinon-Urinario::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Rinon_Integrador.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300006001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::SNC::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_SNC_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300006002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::SNC::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_SNC_Integrador.apkg",
+            "notas": 23
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300007001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Ojo::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Ojo_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300007002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Ojo::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Ojo_Integrador.apkg",
+            "notas": 22
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300008001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Oido::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Oido_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300008002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Oido::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Oido_Integrador.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300009001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Endocrino::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Endocrino_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300009002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Endocrino::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Endocrino_Integrador.apkg",
+            "notas": 24
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300010001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Reproductor Fem::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ReproFem_EjeClinico.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300010002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Reproductor Fem::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ReproFem_Integrador.apkg",
+            "notas": 25
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300011001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Reproductor Masc::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ReproMasc_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300011002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Reproductor Masc::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ReproMasc_Integrador.apkg",
+            "notas": 16
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300012001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Cabeza::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Cabeza_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300012002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Cabeza::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Cabeza_Integrador.apkg",
+            "notas": 17
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300013001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Musculoesqueletico::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Musculoesqueletico_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300013002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Musculoesqueletico::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Musculoesqueletico_Integrador.apkg",
+            "notas": 24
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300014001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Piel::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Piel_EjeClinico.apkg",
+            "notas": 5
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300014002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Piel::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Piel_Integrador.apkg",
+            "notas": 19
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300015001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Sangre::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Sangre_EjeClinico.apkg",
+            "notas": 6
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300015002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Sangre::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Sangre_Integrador.apkg",
+            "notas": 21
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300016001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::ORL / Cuello::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ORL_Cuello_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300016002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::ORL / Cuello::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_ORL_Cuello_Integrador.apkg",
+            "notas": 16
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300017001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Boca::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Boca_EjeClinico.apkg",
+            "notas": 3
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300017002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Boca::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Boca_Integrador.apkg",
+            "notas": 10
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300018001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Vascular Perif::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_VascularPerif_EjeClinico.apkg",
+            "notas": 4
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300018002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Vascular Perif::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_VascularPerif_Integrador.apkg",
+            "notas": 16
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300019001,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Inmune::Eje Clinico",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Inmune_EjeClinico.apkg",
+            "notas": 3
+        },
+        {
+            "tema": "Ejes Diagnosticos",
+            "audiencia": "Adulto",
+            "capa": "Topografico-Clinico",
+            "deck_id": 1300019002,
+            "deck_name": "Ejes Diagnosticos Adulto::Topografico::Inmune::Integrador",
+            "guia": "GPC/ATLS/ADA/AHA/KDIGO/GINA-GOLD",
+            "output": "ejes_diagnosticos/topografico_clinico/output/Topografico_Inmune_Integrador.apkg",
+            "notas": 12
         }
     ]
 }
